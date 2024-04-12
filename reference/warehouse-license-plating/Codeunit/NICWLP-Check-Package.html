@@ -35,7 +35,7 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../public/NIC Systems_48px.png" alt="Documentation">
+            <img id="logo" class="svg" src="../../../public/NIC Systems_48px 1.png" alt="Documentation">
             Documentation
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,17 +103,13 @@
   			</tr>
   		</tbody>
   	</table>
-  	<h2 id="methods">Methods</h2>
-   <h3 class="memberNameHolder">BuildPackageContents</h3>
+  	<h2 id="events">Events</h2>
+   <h3 class="memberNameHolder">OnBeforeIgnoreBinStrictPosting</h3>
    <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by BuildPackageContent().</p>
-    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by BuildPackageContent().,23.4)]
-procedure BuildPackageContents(var TempPackageContentsBuffer: Record &quot;NICWLP Package Contents Buffer&quot; temporary, InludeDefaultPackages: Boolean, InludeBlankPackages: Boolean)</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeIgnoreBinStrictPosting(BinCode: Code[20], var Result: Boolean, var IsHandled: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -125,6 +121,79 @@ procedure BuildPackageContents(var TempPackageContentsBuffer: Record &quot;NICWL
    					</tr>
    				</thead>
    				<tbody>
+   						<tr>
+   							<td>
+								BinCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Result
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeItemPWTOpenBuildLocBinManWE</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeItemPWTOpenBuildLocBinManWE(var BuildLocBinManWE: Query &quot;NICWLP Build LocBinMan WE&quot;, PackageNoFilter: Text, var TempPackageContentsBuffer: Record &quot;NICWLP Package Contents Buffer&quot; temporary, IncludeDefaultPackageNo: Boolean, IncludeBlankPackageNo: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BuildLocBinManWE
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Query/NICWLP-Build-LocBinMan-WE.html">&quot;NICWLP Build LocBinMan WE&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PackageNoFilter
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
    						<tr>
    							<td>
 								TempPackageContentsBuffer
@@ -137,7 +206,7 @@ Record &quot;NICWLP Package Contents Buffer&quot; temporary                 </td
    						</tr>
    						<tr>
    							<td>
-								InludeDefaultPackages
+								IncludeDefaultPackageNo
    							</td>
    							<td class="font-style-italic">
 Boolean                 </td>
@@ -147,7 +216,7 @@ Boolean                 </td>
    						</tr>
    						<tr>
    							<td>
-								InludeBlankPackages
+								IncludeBlankPackageNo
    							</td>
    							<td class="font-style-italic">
 Boolean                 </td>
@@ -161,16 +230,12 @@ Boolean                 </td>
 
 
    </div>
-   <h3 class="memberNameHolder">GetPackageContent</h3>
+   <h3 class="memberNameHolder">OnBeforeItemNotPWTOpenBuildLocBinManILE</h3>
    <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by GetPackageContent() in codeunit &quot;NICWLP Get Package Content&quot;.</p>
-    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by GetPackageContent() in codeunit &quot;NICWLP Get Package Content&quot;.,23.4)]
-procedure GetPackageContent(var TempPackageContentsBuffer: Record &quot;NICWLP Package Contents Buffer&quot; temporary)</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeItemNotPWTOpenBuildLocBinManILE(BuildLocBinManILE: Query &quot;NICWLP Build LocBinMan ILE&quot;, PackageNoFilter: Text, var TempPackageContentsBuffer: Record &quot;NICWLP Package Contents Buffer&quot; temporary, IncludeDefaultPackageNo: Boolean, IncludeBlankPackageNo: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -182,6 +247,26 @@ procedure GetPackageContent(var TempPackageContentsBuffer: Record &quot;NICWLP P
    					</tr>
    				</thead>
    				<tbody>
+   						<tr>
+   							<td>
+								BuildLocBinManILE
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Query/NICWLP-Build-LocBinMan-ILE.html">&quot;NICWLP Build LocBinMan ILE&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PackageNoFilter
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
    						<tr>
    							<td>
 								TempPackageContentsBuffer
@@ -192,22 +277,38 @@ Record &quot;NICWLP Package Contents Buffer&quot; temporary                 </td
 								
    							</td>
    						</tr>
+   						<tr>
+   							<td>
+								IncludeDefaultPackageNo
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IncludeBlankPackageNo
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
    				</tbody>
    			</table>
 
 
 
    </div>
-   <h3 class="memberNameHolder">BuildPackageContentsConflicts</h3>
+   <h3 class="memberNameHolder">OnBeforeItemNotTrackedOpenBuildLocBinManWE</h3>
    <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by CheckPackageContentsConflicts().</p>
-    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by CheckPackageContentsConflicts().,23.4)]
-procedure BuildPackageContentsConflicts(var TempPackageContentsBuffer: Record &quot;NICWLP Package Contents Buffer&quot; temporary)</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeItemNotTrackedOpenBuildLocBinManWE(BuildLocBinManWE: Query &quot;NICWLP Build LocBinMan WE&quot;, PackageNoFilter: Text, var TempPackageContentsBuffer: Record &quot;NICWLP Package Contents Buffer&quot; temporary, IncludeDefaultPackageNo: Boolean, IncludeBlankPackageNo: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -219,6 +320,26 @@ procedure BuildPackageContentsConflicts(var TempPackageContentsBuffer: Record &q
    					</tr>
    				</thead>
    				<tbody>
+   						<tr>
+   							<td>
+								BuildLocBinManWE
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Query/NICWLP-Build-LocBinMan-WE.html">&quot;NICWLP Build LocBinMan WE&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PackageNoFilter
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
    						<tr>
    							<td>
 								TempPackageContentsBuffer
@@ -229,51 +350,9 @@ Record &quot;NICWLP Package Contents Buffer&quot; temporary                 </td
 								
    							</td>
    						</tr>
-   				</tbody>
-   			</table>
-
-
-
-   </div>
-   <h3 class="memberNameHolder">CheckDefaultPackageNo</h3>
-   <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by TestNoDefaultPackageEntriesExists().</p>
-    	</div>
-
-
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by TestNoDefaultPackageEntriesExists().,23.4)]
-procedure CheckDefaultPackageNo()</code></pre>
-
-
-
-
-   </div>
-   <h3 class="memberNameHolder">CheckPackage</h3>
-   <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by CheckPackages().</p>
-    	</div>
-
-
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by CheckPackages().,23.4)]
-procedure CheckPackage(CheckILE: Boolean, CheckWHE: Boolean)</code></pre>
-
-   			<h4>Parameters</h4>
-   			<table class="table">
-   				<thead>
-   					<tr>
-   						<th>Name</th>
-   						<th>Type</th>
-   						<th>Description</th>
-   					</tr>
-   				</thead>
-   				<tbody>
    						<tr>
    							<td>
-								CheckILE
+								IncludeDefaultPackageNo
    							</td>
    							<td class="font-style-italic">
 Boolean                 </td>
@@ -283,7 +362,7 @@ Boolean                 </td>
    						</tr>
    						<tr>
    							<td>
-								CheckWHE
+								IncludeBlankPackageNo
    							</td>
    							<td class="font-style-italic">
 Boolean                 </td>
@@ -297,16 +376,12 @@ Boolean                 </td>
 
 
    </div>
-   <h3 class="memberNameHolder">CheckPackage</h3>
+   <h3 class="memberNameHolder">OnBeforeOpenBuildLocNotBinManILE</h3>
    <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by CheckPackages().</p>
-    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by CheckPackages().,23.4)]
-procedure CheckPackage(ItemRegNo: Integer, WhseRegNo: Integer)</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeOpenBuildLocNotBinManILE(BuildLocNotBinManILE: Query &quot;NICWLP Build Loc NotBinMan ILE&quot;, PackageNoFilter: Text, var TempPackageContentsBuffer: Record &quot;NICWLP Package Contents Buffer&quot; temporary, IncludeDefaultPackageNo: Boolean, IncludeBlankPackageNo: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -320,20 +395,50 @@ procedure CheckPackage(ItemRegNo: Integer, WhseRegNo: Integer)</code></pre>
    				<tbody>
    						<tr>
    							<td>
-								ItemRegNo
+								BuildLocNotBinManILE
    							</td>
    							<td class="font-style-italic">
-Integer                 </td>
+<a class="xref" href="../Query/NICWLP-Build-Loc-NotBinMan-ILE.html">&quot;NICWLP Build Loc NotBinMan ILE&quot;</a>                 </td>
    							<td>
 								
    							</td>
    						</tr>
    						<tr>
    							<td>
-								WhseRegNo
+								PackageNoFilter
    							</td>
    							<td class="font-style-italic">
-Integer                 </td>
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempPackageContentsBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICWLP Package Contents Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IncludeDefaultPackageNo
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IncludeBlankPackageNo
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
    							<td>
 								
    							</td>
@@ -344,82 +449,12 @@ Integer                 </td>
 
 
    </div>
-   <h3 class="memberNameHolder">CheckPackageContents</h3>
+   <h3 class="memberNameHolder">OnBeforeOpenBuildLocBlankILE</h3>
    <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced CheckPackageContent().</p>
-    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced CheckPackageContent().,23.4)]
-procedure CheckPackageContents(): Boolean</code></pre>
-
-
-   			<h4>Returns</h4>
-   			<table class="table">
-   				<thead>
-   					<tr>
-   						<th>Type</th>
-   						<th>Description</th>
-   					</tr>
-   				</thead>
-   				<tbody>
-   					<tr>
-   						<td>
-Boolean               </td>
-   						<td>
-							
-   						</td>
-   					</tr>
-   				</tbody>
-   			</table>
-
-
-   </div>
-   <h3 class="memberNameHolder">DefaultPackageNoExist</h3>
-   <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by CheckDefaultPackageExists().</p>
-    	</div>
-
-
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by CheckDefaultPackageExists().,23.4)]
-procedure DefaultPackageNoExist(): Boolean</code></pre>
-
-
-   			<h4>Returns</h4>
-   			<table class="table">
-   				<thead>
-   					<tr>
-   						<th>Type</th>
-   						<th>Description</th>
-   					</tr>
-   				</thead>
-   				<tbody>
-   					<tr>
-   						<td>
-Boolean               </td>
-   						<td>
-							
-   						</td>
-   					</tr>
-   				</tbody>
-   			</table>
-
-
-   </div>
-   <h3 class="memberNameHolder">GetDefaultPackageNo</h3>
-   <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by GetDefaultPackageNumber().</p>
-    	</div>
-
-
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by GetDefaultPackageNumber().,23.4)]
-procedure GetDefaultPackageNo(var DefaultPackNo: Code[50]): Boolean</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeOpenBuildLocBlankILE(BuildLocBlankILE: Query &quot;NICWLP Build Loc Blank ILE&quot;, PackageNoFilter: Text, var TempPackageContentsBuffer: Record &quot;NICWLP Package Contents Buffer&quot; temporary, IncludeDefaultPackageNo: Boolean, IncludeBlankPackageNo: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -433,119 +468,56 @@ procedure GetDefaultPackageNo(var DefaultPackNo: Code[50]): Boolean</code></pre>
    				<tbody>
    						<tr>
    							<td>
-								DefaultPackNo
+								BuildLocBlankILE
    							</td>
    							<td class="font-style-italic">
-Code[50]                 </td>
+<a class="xref" href="../Query/NICWLP-Build-Loc-Blank-ILE.html">&quot;NICWLP Build Loc Blank ILE&quot;</a>                 </td>
    							<td>
 								
    							</td>
    						</tr>
-   				</tbody>
-   			</table>
-
-   			<h4>Returns</h4>
-   			<table class="table">
-   				<thead>
-   					<tr>
-   						<th>Type</th>
-   						<th>Description</th>
-   					</tr>
-   				</thead>
-   				<tbody>
-   					<tr>
-   						<td>
-Boolean               </td>
-   						<td>
-							
-   						</td>
-   					</tr>
-   				</tbody>
-   			</table>
-
-
-   </div>
-   <h3 class="memberNameHolder">IsStrictPackagePosting</h3>
-   <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by CheckIsStrictPackagePosting().</p>
-    	</div>
-
-
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by CheckIsStrictPackagePosting().,23.4)]
-procedure IsStrictPackagePosting(): Boolean</code></pre>
-
-
-   			<h4>Returns</h4>
-   			<table class="table">
-   				<thead>
-   					<tr>
-   						<th>Type</th>
-   						<th>Description</th>
-   					</tr>
-   				</thead>
-   				<tbody>
-   					<tr>
-   						<td>
-Boolean               </td>
-   						<td>
-							
-   						</td>
-   					</tr>
-   				</tbody>
-   			</table>
-
-
-   </div>
-   <h3 class="memberNameHolder">PackageContentsConflictsNotification</h3>
-   <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by PackageContentConflictNotification().</p>
-    	</div>
-
-
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by PackageContentConflictNotification().,23.4)]
-procedure PackageContentsConflictsNotification(NoOfConflicts: Integer)</code></pre>
-
-   			<h4>Parameters</h4>
-   			<table class="table">
-   				<thead>
-   					<tr>
-   						<th>Name</th>
-   						<th>Type</th>
-   						<th>Description</th>
-   					</tr>
-   				</thead>
-   				<tbody>
    						<tr>
    							<td>
-								NoOfConflicts
+								PackageNoFilter
    							</td>
    							<td class="font-style-italic">
-Integer                 </td>
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempPackageContentsBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICWLP Package Contents Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IncludeDefaultPackageNo
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IncludeBlankPackageNo
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
    							<td>
 								
    							</td>
    						</tr>
    				</tbody>
    			</table>
-
-
-
-   </div>
-   <h3 class="memberNameHolder">PackageContentsNotStrictPostingNotification</h3>
-   <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by PackageContentNotStrictPostingNotification().</p>
-    	</div>
-
-
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by PackageContentNotStrictPostingNotification().,23.4)]
-procedure PackageContentsNotStrictPostingNotification()</code></pre>
-
 
 
 

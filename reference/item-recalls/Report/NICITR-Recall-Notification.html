@@ -35,7 +35,7 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../public/NIC Systems_48px.png" alt="Documentation">
+            <img id="logo" class="svg" src="../../../public/NIC Systems_48px 1.png" alt="Documentation">
             Documentation
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -167,6 +167,222 @@
   			</tr>
   		</tbody>
   	</table>
+  	<h2 id="events">Events</h2>
+   <h3 class="memberNameHolder">OnAfterGetFromEmailAccount</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterGetFromEmailAccount(var TempFromEmailAccount: Record &quot;Email Account&quot; temporary)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TempFromEmailAccount
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Email Account&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeGetItemRecallDetails</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeGetItemRecallDetails(var ItemRecall: Record &quot;NICITR Item Recall&quot;, var _NotificationDetail: Record &quot;NICITR Notification Detail&quot; temporary, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								_NotificationDetail
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Notification Detail&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnGetItemRecallDetailsOnBeforeItemRecallLineFindSet</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnGetItemRecallDetailsOnBeforeItemRecallLineFindSet(ItemRecall: Record &quot;NICITR Item Recall&quot;, var ItemRecallLine: Record &quot;NICITR Item Recall Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnGetItemRecallDetailsOnBeforeNotificationDetailFindFirst</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnGetItemRecallDetailsOnBeforeNotificationDetailFindFirst(var _NotificationDetail: Record &quot;NICITR Notification Detail&quot; temporary, ItemRecallLine: Record &quot;NICITR Item Recall Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								_NotificationDetail
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Notification Detail&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnGetItemRecallDetailsOnBeforeNotificationDetailInsert</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnGetItemRecallDetailsOnBeforeNotificationDetailInsert(ItemRecallLine: Record &quot;NICITR Item Recall Line&quot;, var NotificationDetail: Record &quot;NICITR Notification Detail&quot; temporary)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NotificationDetail
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Notification Detail&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
 
   	<h2 id="see-also">See also</h2>
   	<ul>

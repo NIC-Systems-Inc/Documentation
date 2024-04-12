@@ -35,7 +35,7 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../public/NIC Systems_48px.png" alt="Documentation">
+            <img id="logo" class="svg" src="../../../public/NIC Systems_48px 1.png" alt="Documentation">
             Documentation
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -104,17 +104,13 @@
   			</tr>
   		</tbody>
   	</table>
-  	<h2 id="methods">Methods</h2>
-   <h3 class="memberNameHolder">CreateSSCCEntry</h3>
+  	<h2 id="events">Events</h2>
+   <h3 class="memberNameHolder">OnBeforeCreateSSCCEntry</h3>
    <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.5. Replaced by CreateSSCCEntryRegWhsePick().</p>
-    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by CreateSSCCEntryRegWhsePick().,23.5)]
-procedure CreateSSCCEntry(WarehouseActivityLine: Record &quot;Warehouse Activity Line&quot;, RegisteredWhseActivityLine: Record &quot;Registered Whse. Activity Line&quot;)</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeCreateSSCCEntry(WarehouseActivityLine: Record &quot;Warehouse Activity Line&quot;, RegisteredWhseActivityLine: Record &quot;Registered Whse. Activity Line&quot;)</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -152,16 +148,310 @@ Record &quot;Registered Whse. Activity Line&quot;                 </td>
 
 
    </div>
-   <h3 class="memberNameHolder">CreateSSCCEntry</h3>
+   <h3 class="memberNameHolder">OnBeforeCreateSSCCEntryOnBeforeInsert</h3>
    <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.5. Replaced by CreateSSCCEntryPostedInvtPick() in codeunit &quot;NICSHC Guided Exp Assist Setup&quot;.</p>
-    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by CreateSSCCEntryPostedInvtPick() in codeunit &quot;NICSHC Guided Exp Assist Setup&quot;.,23.5)]
-procedure CreateSSCCEntry(WarehouseActivityLine: Record &quot;Warehouse Activity Line&quot;, PostedInvtPickLine: Record &quot;Posted Invt. Pick Line&quot;)</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeCreateSSCCEntryOnBeforeInsert(WarehouseActivityLine: Record &quot;Warehouse Activity Line&quot;, RegisteredWhseActivityLine: Record &quot;Registered Whse. Activity Line&quot;, SSCCEntry: Record &quot;NICSHC SSCC Entry&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								WarehouseActivityLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Activity Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RegisteredWhseActivityLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Registered Whse. Activity Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SSCCEntry
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICSHC SSCC Entry&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCreateSSCCEntryOnAfterInsert</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCreateSSCCEntryOnAfterInsert(WarehouseActivityLine: Record &quot;Warehouse Activity Line&quot;, RegisteredWhseActivityLine: Record &quot;Registered Whse. Activity Line&quot;, SSCCEntry: Record &quot;NICSHC SSCC Entry&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								WarehouseActivityLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Activity Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RegisteredWhseActivityLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Registered Whse. Activity Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SSCCEntry
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICSHC SSCC Entry&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCreateSSCCEntry</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCreateSSCCEntry(WarehouseActivityLine: Record &quot;Warehouse Activity Line&quot;, RegisteredWhseActivityLine: Record &quot;Registered Whse. Activity Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								WarehouseActivityLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Activity Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RegisteredWhseActivityLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Registered Whse. Activity Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeCreateSSCCEntryInvtPick</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeCreateSSCCEntryInvtPick(WarehouseActivityLine: Record &quot;Warehouse Activity Line&quot;, PostedInvtPickLine: Record &quot;Posted Invt. Pick Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								WarehouseActivityLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Activity Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PostedInvtPickLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Posted Invt. Pick Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeCreateSSCCEntryOnBeforeInsertInvtPick</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeCreateSSCCEntryOnBeforeInsertInvtPick(WarehouseActivityLine: Record &quot;Warehouse Activity Line&quot;, PostedInvtPickLine: Record &quot;Posted Invt. Pick Line&quot;, SSCCEntry: Record &quot;NICSHC SSCC Entry&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								WarehouseActivityLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Activity Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PostedInvtPickLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Posted Invt. Pick Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SSCCEntry
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICSHC SSCC Entry&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCreateSSCCEntryOnAfterInsertInvtPick</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCreateSSCCEntryOnAfterInsertInvtPick(WarehouseActivityLine: Record &quot;Warehouse Activity Line&quot;, PostedInvtPickLine: Record &quot;Posted Invt. Pick Line&quot;, SSCCEntry: Record &quot;NICSHC SSCC Entry&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								WarehouseActivityLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Warehouse Activity Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PostedInvtPickLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Posted Invt. Pick Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SSCCEntry
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICSHC SSCC Entry&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCreateSSCCEntryInvtPick</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCreateSSCCEntryInvtPick(WarehouseActivityLine: Record &quot;Warehouse Activity Line&quot;, PostedInvtPickLine: Record &quot;Posted Invt. Pick Line&quot;)</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">

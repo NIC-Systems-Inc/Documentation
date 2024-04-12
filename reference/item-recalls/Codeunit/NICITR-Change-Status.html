@@ -35,7 +35,7 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../public/NIC Systems_48px.png" alt="Documentation">
+            <img id="logo" class="svg" src="../../../public/NIC Systems_48px 1.png" alt="Documentation">
             Documentation
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,6 +101,2288 @@
   			</tr>
   		</tbody>
   	</table>
+  	<h2 id="events">Events</h2>
+   <h3 class="memberNameHolder">OnAfterChangeItemRecallStatus</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterChangeItemRecallStatus(FromItemRecall: Record &quot;NICITR Item Recall&quot;, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterChangeItemRecallStatusOnBeforeCommit</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterChangeItemRecallStatusOnBeforeCommit(ItemRecall: Record &quot;NICITR Item Recall&quot;, ToItemRecall: Record &quot;NICITR Item Recall&quot;, NewStatus: Enum &quot;NICITR Item Recall Status&quot;, SuppressCommit: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewStatus
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SuppressCommit
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCheckBeforeChangeStatus</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCheckBeforeChangeStatus(FromItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCheckBeforeFinishItemRecall</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCheckBeforeFinishItemRecall(ItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterInsertItemRecallCommentLines</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterInsertItemRecallCommentLines(var ToItemRecallCommentLine: Record &quot;NICITR Item Recall Cmt Line&quot;, FromItemRecallCommentLine: Record &quot;NICITR Item Recall Cmt Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallCommentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Cmt Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallCommentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Cmt Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterInsertItemRecallCommTask</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterInsertItemRecallCommTask(ToItemRecallCommTask: Record &quot;NICITR Item Recall Comm Task&quot;, FromItemRecallCommTask: Record &quot;NICITR Item Recall Comm Task&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallCommTask
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Comm Task&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallCommTask
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Comm Task&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterInsertItemRecallContact</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterInsertItemRecallContact(var ToItemRecallContact: Record &quot;NICITR Item Recall Contact&quot;, FromItemRecallContact: Record &quot;NICITR Item Recall Contact&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallContact
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Contact&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallContact
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Contact&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterInsertItemRecallLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterInsertItemRecallLine(var ToItemRecallLine: Record &quot;NICITR Item Recall Line&quot;, FromItemRecallLine: Record &quot;NICITR Item Recall Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterInsertItemRecallTraceLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterInsertItemRecallTraceLine(var ToItemRecallTraceLine: Record &quot;NICITR Item Recall Trace Line&quot;, FromItemRecallTraceLine: Record &quot;NICITR Item Recall Trace Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallTraceLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Trace Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallTraceLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Trace Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterTransferItemRecall</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterTransferItemRecall(FromItemRecall: Record &quot;NICITR Item Recall&quot;, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterTransferItemRecallCommentLines</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterTransferItemRecallCommentLines(FromItemRecall: Record &quot;NICITR Item Recall&quot;, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterTransferItemRecallCommTasks</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterTransferItemRecallCommTasks(var FromItemRecall: Record &quot;NICITR Item Recall&quot;, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterTransferItemRecallContact</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterTransferItemRecallContact(FromItemRecall: Record &quot;NICITR Item Recall&quot;, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterTransferItemRecallDocumentAttachment</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterTransferItemRecallDocumentAttachment(var FromItemRecall: Record &quot;NICITR Item Recall&quot;, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterTransferItemRecallLines</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterTransferItemRecallLines(FromItemRecall: Record &quot;NICITR Item Recall&quot;, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterTransferItemRecallTraceLines</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterTransferItemRecallTraceLines(FromItemRecall: Record &quot;NICITR Item Recall&quot;, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeChangeItemRecallStatus</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeChangeItemRecallStatus(FromItemRecall: Record &quot;NICITR Item Recall&quot;, NewStatus: Enum &quot;NICITR Item Recall Status&quot;, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewStatus
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeCheckBeforeChangeStatus</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeCheckBeforeChangeStatus(FromItemRecall: Record &quot;NICITR Item Recall&quot;, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeCheckBeforeFinishItemRecall</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeCheckBeforeFinishItemRecall(FromItemRecall: Record &quot;NICITR Item Recall&quot;, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeInsertItemRecallCommentLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeInsertItemRecallCommentLine(var ToItemRecallCommentLine: Record &quot;NICITR Item Recall Cmt Line&quot;, FromItemRecallCommentLine: Record &quot;NICITR Item Recall Cmt Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallCommentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Cmt Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallCommentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Cmt Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeInsertItemRecallCommTask</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeInsertItemRecallCommTask(ToItemRecallCommTask: Record &quot;NICITR Item Recall Comm Task&quot;, FromItemRecallCommTask: Record &quot;NICITR Item Recall Comm Task&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallCommTask
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Comm Task&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallCommTask
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Comm Task&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeInsertItemRecallContact</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeInsertItemRecallContact(var ToItemRecallContact: Record &quot;NICITR Item Recall Contact&quot;, FromItemRecallContact: Record &quot;NICITR Item Recall Contact&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallContact
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Contact&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallContact
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Contact&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeInsertItemRecallLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeInsertItemRecallLine(var ToItemRecallLine: Record &quot;NICITR Item Recall Line&quot;, FromItemRecallLine: Record &quot;NICITR Item Recall Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeInsertItemRecallTraceLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeInsertItemRecallTraceLine(var ToItemRecallTraceLine: Record &quot;NICITR Item Recall Trace Line&quot;, FromItemRecallTraceLine: Record &quot;NICITR Item Recall Trace Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallTraceLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Trace Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallTraceLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Trace Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeOnRun</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeOnRun(var ChangeStatusPage: Page &quot;NICITR Change Status&quot;, Rec: Record &quot;NICITR Item Recall&quot;, var IsHandled: Boolean, NewStatus: Enum &quot;NICITR Item Recall Status&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ChangeStatusPage
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Page/NICITR-Change-Status.html">&quot;NICITR Change Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Rec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewStatus
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeShowStatusMessage</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeShowStatusMessage(ItemRecall: Record &quot;NICITR Item Recall&quot;, ToItemRecall: Record &quot;NICITR Item Recall&quot;, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeTransferItemRecall</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeTransferItemRecall(var FromItemRecall: Record &quot;NICITR Item Recall&quot;, NewStatus: Enum &quot;NICITR Item Recall Status&quot;, NewFinishedDate: Date, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewStatus
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewFinishedDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeTransferItemRecallDocumentAttachments</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeTransferItemRecallDocumentAttachments(var FromItemRecall: Record &quot;NICITR Item Recall&quot;, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnChangeItemRecallStatusOnBeforeTransferItemRecall</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnChangeItemRecallStatusOnBeforeTransferItemRecall(ItemRecall: Record &quot;NICITR Item Recall&quot;, NewStatus: Enum &quot;NICITR Item Recall Status&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewStatus
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnCopyFromItemRecallCommentLineBeforeModify</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnCopyFromItemRecallCommentLineBeforeModify(var ToItemRecallCommentLine: Record &quot;NICITR Item Recall Cmt Line&quot;, FromItemRecallCommentLine: Record &quot;NICITR Item Recall Cmt Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallCommentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Cmt Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallCommentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Cmt Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnCopyFromItemRecallCommTaskBeforeModify</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnCopyFromItemRecallCommTaskBeforeModify(ToItemRecallCommTask: Record &quot;NICITR Item Recall Comm Task&quot;, FromItemRecallCommTask: Record &quot;NICITR Item Recall Comm Task&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallCommTask
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Comm Task&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallCommTask
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Comm Task&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnCopyFromItemRecallContactBeforeModify</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnCopyFromItemRecallContactBeforeModify(var ToItemRecallContact: Record &quot;NICITR Item Recall Contact&quot;, FromItemRecallContact: Record &quot;NICITR Item Recall Contact&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallContact
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Contact&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallContact
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Contact&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnCopyFromItemRecallLineBeforeModify</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnCopyFromItemRecallLineBeforeModify(var ToItemRecallLine: Record &quot;NICITR Item Recall Line&quot;, FromItemRecallLine: Record &quot;NICITR Item Recall Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnCopyFromItemRecallOnBeforeModify</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnCopyFromItemRecallOnBeforeModify(var ToItemRecall: Record &quot;NICITR Item Recall&quot;, FromItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnCopyFromItemRecallTraceLineBeforeModify</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnCopyFromItemRecallTraceLineBeforeModify(var ToItemRecallTraceLine: Record &quot;NICITR Item Recall Trace Line&quot;, FromItemRecallTraceLine: Record &quot;NICITR Item Recall Trace Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecallTraceLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Trace Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecallTraceLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Trace Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnRunOnAfterChangeStatusPageRun</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnRunOnAfterChangeStatusPageRun(FromItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallCommentLineOnAfterFromItemRecallCommentLineFindSet</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallCommentLineOnAfterFromItemRecallCommentLineFindSet(var FromItemRecallCommentLine: Record &quot;NICITR Item Recall Cmt Line&quot;, ToItemRecallCommentLine: Record &quot;NICITR Item Recall Cmt Line&quot;, Status: Enum &quot;NICITR Item Recall Status&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecallCommentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Cmt Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecallCommentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Cmt Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Status
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallCommentLineOnBeforeFromItemRecallCommentLineLoop</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallCommentLineOnBeforeFromItemRecallCommentLineLoop(var FromItemRecallCommentLine: Record &quot;NICITR Item Recall Cmt Line&quot;, ToItemRecallCommentLine: Record &quot;NICITR Item Recall Cmt Line&quot;, Status: Enum &quot;NICITR Item Recall Status&quot;, var IsHandled: Boolean, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecallCommentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Cmt Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecallCommentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Cmt Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Status
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallContactOnAfterFromItemRecallContactFindSet</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallContactOnAfterFromItemRecallContactFindSet(var FromItemRecallContact: Record &quot;NICITR Item Recall Contact&quot;, ToItemRecallContact: Record &quot;NICITR Item Recall Contact&quot;, Status: Enum &quot;NICITR Item Recall Status&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecallContact
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Contact&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecallContact
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Contact&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Status
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallContactOnBeforeFromItemRecallContactLoop</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallContactOnBeforeFromItemRecallContactLoop(var FromItemRecallContact: Record &quot;NICITR Item Recall Contact&quot;, ToItemRecallContact: Record &quot;NICITR Item Recall Contact&quot;, Status: Enum &quot;NICITR Item Recall Status&quot;, var IsHandled: Boolean, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecallContact
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Contact&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecallContact
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Contact&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Status
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallLineOnAfterFromItemRecallLineFindSet</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallLineOnAfterFromItemRecallLineFindSet(var FromItemRecallLine: Record &quot;NICITR Item Recall Line&quot;, ToItemRecallLine: Record &quot;NICITR Item Recall Line&quot;, Status: Enum &quot;NICITR Item Recall Status&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Status
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallLineOnBeforeFromItemRecallLineLoop</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallLineOnBeforeFromItemRecallLineLoop(var FromItemRecallLine: Record &quot;NICITR Item Recall Line&quot;, ToItemRecallLine: Record &quot;NICITR Item Recall Line&quot;, Status: Enum &quot;NICITR Item Recall Status&quot;, var IsHandled: Boolean, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecallLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Status
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallOnBeforeToItemRecallInsert</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallOnBeforeToItemRecallInsert(var ToItemRecall: Record &quot;NICITR Item Recall&quot;, FromItemRecall: Record &quot;NICITR Item Recall&quot;, NewFinishedDate: Date)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FromItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewFinishedDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallTraceLineOnAfterFromItemRecallCommTaskFindSet</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallTraceLineOnAfterFromItemRecallCommTaskFindSet(FromItemRecallCommTask: Record &quot;NICITR Item Recall Comm Task&quot;, ToItemRecallCommTask: Record &quot;NICITR Item Recall Comm Task&quot;, Status: Enum &quot;NICITR Item Recall Status&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecallCommTask
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Comm Task&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecallCommTask
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Comm Task&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Status
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallTraceLineOnAfterFromItemRecallTraceLineFindSet</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallTraceLineOnAfterFromItemRecallTraceLineFindSet(var FromItemRecallTraceLine: Record &quot;NICITR Item Recall Trace Line&quot;, ToItemRecallTraceLine: Record &quot;NICITR Item Recall Trace Line&quot;, Status: Enum &quot;NICITR Item Recall Status&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecallTraceLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Trace Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecallTraceLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Trace Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Status
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallTraceLineOnBeforeFromItemRecallCommTaskLoop</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallTraceLineOnBeforeFromItemRecallCommTaskLoop(FromItemRecallCommTask: Record &quot;NICITR Item Recall Comm Task&quot;, ToItemRecallCommTask: Record &quot;NICITR Item Recall Comm Task&quot;, Status: Enum &quot;NICITR Item Recall Status&quot;, var IsHandled: Boolean, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecallCommTask
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Comm Task&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecallCommTask
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Comm Task&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Status
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnTransferItemRecallTraceLineOnBeforeFromItemRecallTraceLineLoop</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnTransferItemRecallTraceLineOnBeforeFromItemRecallTraceLineLoop(var FromItemRecallTraceLine: Record &quot;NICITR Item Recall Trace Line&quot;, ToItemRecallTraceLine: Record &quot;NICITR Item Recall Trace Line&quot;, Status: Enum &quot;NICITR Item Recall Status&quot;, var IsHandled: Boolean, ToItemRecall: Record &quot;NICITR Item Recall&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FromItemRecallTraceLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Trace Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecallTraceLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall Trace Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Status
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToItemRecall
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICITR Item Recall&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
 
   	<h2 id="see-also">See also</h2>
   	<ul>

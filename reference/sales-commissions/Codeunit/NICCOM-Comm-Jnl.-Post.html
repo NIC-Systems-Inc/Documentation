@@ -35,7 +35,7 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../public/NIC Systems_48px.png" alt="Documentation">
+            <img id="logo" class="svg" src="../../../public/NIC Systems_48px 1.png" alt="Documentation">
             Documentation
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -107,17 +107,13 @@
   			</tr>
   		</tbody>
   	</table>
-  	<h2 id="methods">Methods</h2>
-   <h3 class="memberNameHolder">Preview</h3>
+  	<h2 id="events">Events</h2>
+   <h3 class="memberNameHolder">OnBeforeCode</h3>
    <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by PreviewPost().</p>
-    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by PreviewPost().,23.4)]
-procedure Preview(var CommissionJnlLine: Record &quot;NICCOM Comm Journal Line&quot;)</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeCode(var CommissionJournalLine: Record &quot;NICCOM Comm Journal Line&quot;, var HideDialog: Boolean, var SuppressCommit: Boolean, var IsHandled: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -131,10 +127,40 @@ procedure Preview(var CommissionJnlLine: Record &quot;NICCOM Comm Journal Line&q
    				<tbody>
    						<tr>
    							<td>
-								CommissionJnlLine
+								CommissionJournalLine
    							</td>
    							<td class="font-style-italic">
 Record &quot;NICCOM Comm Journal Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HideDialog
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SuppressCommit
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
    							<td>
 								
    							</td>
@@ -145,16 +171,12 @@ Record &quot;NICCOM Comm Journal Line&quot;                 </td>
 
 
    </div>
-   <h3 class="memberNameHolder">SetPreviewMode</h3>
+   <h3 class="memberNameHolder">OnCodeOnAfterCommissionJnlPostBatchRun</h3>
    <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 23.4. Replaced by SetPreviewPostMode().</p>
-    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by SetPreviewPostMode().,23.4)]
-procedure SetPreviewMode(NewPreviewMode: Boolean)</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnCodeOnAfterCommissionJnlPostBatchRun(var CommissionJournalLine: Record &quot;NICCOM Comm Journal Line&quot;, var HideDialog: Boolean, SuppressCommit: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -168,10 +190,63 @@ procedure SetPreviewMode(NewPreviewMode: Boolean)</code></pre>
    				<tbody>
    						<tr>
    							<td>
-								NewPreviewMode
+								CommissionJournalLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICCOM Comm Journal Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HideDialog
    							</td>
    							<td class="font-style-italic">
 Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SuppressCommit
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnCodeOnBeforeCommissionJnlPostBatchRun</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnCodeOnBeforeCommissionJnlPostBatchRun(var CommissionJournalLine: Record &quot;NICCOM Comm Journal Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								CommissionJournalLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICCOM Comm Journal Line&quot;                 </td>
    							<td>
 								
    							</td>
