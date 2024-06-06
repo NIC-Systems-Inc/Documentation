@@ -4453,6 +4453,78 @@ references:
 - uid: F:Table::NICPBA_RESTStripeConfig.SystemRowVersion
   name: SystemRowVersion
   href: reference/production-batching/Table/NICPBA-RESTStripeConfig.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.Description[100]
+  name: Description
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.Details
+  name: Details
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.Line_No#
+  name: "\"Line No.\""
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.Production_BOM_No#[20]
+  name: "\"Production BOM No.\""
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.SystemId
+  name: SystemId
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod#_BOM_Instruction.Version_Code[20]
+  name: "\"Version Code\""
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.Completed
+  name: Completed
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.Description[100]
+  name: Description
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.Line_No#
+  name: "\"Line No.\""
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.Production_BOM_No#[20]
+  name: "\"Production BOM No.\""
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.Production_Order_No#[20]
+  name: "\"Production Order No.\""
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.Status
+  name: Status
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.SystemId
+  name: SystemId
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPIN_Prod_Order_Instruction.Version_Code[20]
+  name: "\"Version Code\""
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
 - uid: F:Table::NICSHC_RESTStripeConfig.IsMockConfig
   name: IsMockConfig
   href: reference/serial-shipping-container-codes/Table/NICSHC-RESTStripeConfig.html
@@ -8365,7 +8437,7 @@ references:
 - uid: M:Codeunit::NICINF_InvFreshnessSalesCheck.OnCalcRequiredDate(NICINF_InvFreshnessSetup,NICINF_InvFreshnessCode,Item_Journal_Line,Date@)
   name: OnCalcRequiredDate
   href: reference/inventory-freshness/Codeunit/NICINF-InvFreshnessSalesCheck.html
-- uid: M:Codeunit::NICIRA_Apply_Bin_Restriction.OnAfterGetBinRestrictions(Warehouse_Entry@,List[Code]@)
+- uid: M:Codeunit::NICIRA_Apply_Bin_Restriction.OnAfterGetBinRestrictions(Warehouse_Entry@,List_of_[Code]@)
   name: OnAfterGetBinRestrictions
   href: reference/inventory-restrictions/Codeunit/NICIRA-Apply-Bin-Restriction.html
 - uid: M:Codeunit::NICIRA_Apply_Bin_Restriction.OnAfterGetPreferredTrackingType(Warehouse_Entry@,Boolean@,Boolean@,Boolean@)
@@ -8374,7 +8446,7 @@ references:
 - uid: M:Codeunit::NICIRA_Apply_Bin_Restriction.OnAfterGetTrackingInformation(Warehouse_Entry@,Variant@)
   name: OnAfterGetTrackingInformation
   href: reference/inventory-restrictions/Codeunit/NICIRA-Apply-Bin-Restriction.html
-- uid: M:Codeunit::NICIRA_Apply_Bin_Restriction.OnBeforeDoApplyBinRestrictions(Warehouse_Entry@,List[Code]@,Boolean@)
+- uid: M:Codeunit::NICIRA_Apply_Bin_Restriction.OnBeforeDoApplyBinRestrictions(Warehouse_Entry@,List_of_[Code]@,Boolean@)
   name: OnBeforeDoApplyBinRestrictions
   href: reference/inventory-restrictions/Codeunit/NICIRA-Apply-Bin-Restriction.html
 - uid: M:Codeunit::NICIRA_Bin_Restriction_Ctrl.OnBeforeVerifyBinHasInventory(NICIRA_Bin_Restriction@,Boolean@)
@@ -8401,7 +8473,7 @@ references:
 - uid: M:Codeunit::NICIRA_Inventory_Restrictions.AddInventoryRestriction(RecordId,Code[20])
   name: AddInventoryRestriction
   href: reference/inventory-restrictions/Codeunit/NICIRA-Inventory-Restrictions.html
-- uid: M:Codeunit::NICIRA_Inventory_Restrictions.GetInventoryRestrictions(RecordId):List[Code]
+- uid: M:Codeunit::NICIRA_Inventory_Restrictions.GetInventoryRestrictions(RecordId):List_of_[Code]
   name: GetInventoryRestrictions
   href: reference/inventory-restrictions/Codeunit/NICIRA-Inventory-Restrictions.html
 - uid: M:Codeunit::NICIRA_Inventory_Restrictions.RemoveInventoryRestriction(RecordId,Code[20])
@@ -8473,7 +8545,7 @@ references:
 - uid: M:Codeunit::NICIRA_InvtRestriction.OnAfterCheckInvtRestrictionCodeIsUsed(Code[20],Boolean@)
   name: OnAfterCheckInvtRestrictionCodeIsUsed
   href: reference/inventory-restrictions/Codeunit/NICIRA-InvtRestriction.html
-- uid: M:Codeunit::NICIRA_InvtRestriction.RemoveInventoryRestrictions(Variant,List[Code])
+- uid: M:Codeunit::NICIRA_InvtRestriction.RemoveInventoryRestrictions(Variant,List_of_[Code])
   name: RemoveInventoryRestrictions
   href: reference/inventory-restrictions/Codeunit/NICIRA-InvtRestriction.html
 - uid: M:Codeunit::NICIRA_SubLotPost.OnAfterCreatNewSubLot(Code[20],Code[10]@,Code[50],Code[50])
@@ -9037,7 +9109,7 @@ references:
 - uid: M:Codeunit::NICITR_Send_Email.OnAfterSendEmailSuccessfully(Codeunit::System#Email#Email@,Codeunit::System#Email#Email_Message@,Enum::System#Email#Email_Scenario)
   name: OnAfterSendEmailSuccessfully
   href: reference/item-recalls/Codeunit/NICITR-Send-Email.html
-- uid: M:Codeunit::NICITR_Send_Email.OnAfterSetEmailRecipient(NICITR_Item_Recall_Comm_Task@,List[Text]@)
+- uid: M:Codeunit::NICITR_Send_Email.OnAfterSetEmailRecipient(NICITR_Item_Recall_Comm_Task@,List_of_[Text]@)
   name: OnAfterSetEmailRecipient
   href: reference/item-recalls/Codeunit/NICITR-Send-Email.html
 - uid: M:Codeunit::NICITR_Send_Email.OnBeforeAddEmailRelations(Codeunit::System#Email#Email@,Codeunit::System#Email#Email_Message@,NICITR_Item_Recall@,NICITR_Item_Recall_Comm_Task@,Boolean@)
@@ -9055,7 +9127,7 @@ references:
 - uid: M:Codeunit::NICITR_Send_Email.OnBeforeSetEmailBody(NICITR_Item_Recall_Comm_Task@,NICITR_Item_Recall@,Text@,Boolean@)
   name: OnBeforeSetEmailBody
   href: reference/item-recalls/Codeunit/NICITR-Send-Email.html
-- uid: M:Codeunit::NICITR_Send_Email.OnBeforeSetEmailRecipient(NICITR_Item_Recall_Comm_Task@,List[Text]@,Boolean@)
+- uid: M:Codeunit::NICITR_Send_Email.OnBeforeSetEmailRecipient(NICITR_Item_Recall_Comm_Task@,List_of_[Text]@,Boolean@)
   name: OnBeforeSetEmailRecipient
   href: reference/item-recalls/Codeunit/NICITR-Send-Email.html
 - uid: M:Codeunit::NICITR_Send_Email.OnBeforeSetEmailSalutation(NICITR_Item_Recall_Comm_Task@,Text@,Boolean@)
@@ -9412,10 +9484,43 @@ references:
 - uid: M:Codeunit::NICPBA_Verify_Production_BOM.OnBeforeCheckComponentRatioLinkLines(Production_BOM_Header@,Code[20],Boolean@)
   name: OnBeforeCheckComponentRatioLinkLines
   href: reference/production-batching/Codeunit/NICPBA-Verify-Production-BOM.html
+- uid: M:Codeunit::NICPIN_Prod#_BOM_Inst#_Mng#.OnAfterCopyBOMInstructions(Code[20],Code[20],Code[20],Code[20])
+  name: OnAfterCopyBOMInstructions
+  href: reference/production-instructions/Codeunit/NICPIN-Prod.-BOM-Inst.-Mng..html
+- uid: M:Codeunit::NICPIN_Prod#_BOM_Inst#_Mng#.OnAfterInsertBOMInstructions(NICPIN_Prod#_BOM_Instruction@,NICPIN_Prod#_BOM_Instruction@)
+  name: OnAfterInsertBOMInstructions
+  href: reference/production-instructions/Codeunit/NICPIN-Prod.-BOM-Inst.-Mng..html
+- uid: M:Codeunit::NICPIN_Prod#_BOM_Inst#_Mng#.OnBeforeCopyBOMInstructions(Code[20],Code[20],Code[20],Code[20],Boolean@)
+  name: OnBeforeCopyBOMInstructions
+  href: reference/production-instructions/Codeunit/NICPIN-Prod.-BOM-Inst.-Mng..html
+- uid: M:Codeunit::NICPIN_Prod#_BOM_Inst#_Mng#.OnBeforeInsertBOMInstructions(NICPIN_Prod#_BOM_Instruction@,NICPIN_Prod#_BOM_Instruction@)
+  name: OnBeforeInsertBOMInstructions
+  href: reference/production-instructions/Codeunit/NICPIN-Prod.-BOM-Inst.-Mng..html
+- uid: M:Codeunit::NICPIN_Prod_Order_Inst#_Mng#.OnAfterCreateProductionOrderInstructions(NICPIN_Prod_Order_Instruction@,Production_Order@)
+  name: OnAfterCreateProductionOrderInstructions
+  href: reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html
+- uid: M:Codeunit::NICPIN_Prod_Order_Inst#_Mng#.OnAfterInsertProductionOrderInstructions(NICPIN_Prod_Order_Instruction@)
+  name: OnAfterInsertProductionOrderInstructions
+  href: reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html
+- uid: M:Codeunit::NICPIN_Prod_Order_Inst#_Mng#.OnAfterTransProductionOrderInstructions(NICPIN_Prod_Order_Instruction@,NICPIN_Prod_Order_Instruction@)
+  name: OnAfterTransProductionOrderInstructions
+  href: reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html
+- uid: M:Codeunit::NICPIN_Prod_Order_Inst#_Mng#.OnBeforeCreateProductionOrderInstructions(Production_Order@,Boolean@)
+  name: OnBeforeCreateProductionOrderInstructions
+  href: reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html
+- uid: M:Codeunit::NICPIN_Prod_Order_Inst#_Mng#.OnBeforeInsertProductionOrderInstructions(NICPIN_Prod_Order_Instruction@)
+  name: OnBeforeInsertProductionOrderInstructions
+  href: reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html
+- uid: M:Codeunit::NICPIN_Prod_Order_Inst#_Mng#.OnTransProductionOrderInstructions_OnAfterInsert(NICPIN_Prod_Order_Instruction@,NICPIN_Prod_Order_Instruction@)
+  name: OnTransProductionOrderInstructions_OnAfterInsert
+  href: reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html
+- uid: M:Codeunit::NICPIN_Prod_Order_Inst#_Mng#.OnTransProductionOrderInstructions_OnBeforeInsert(NICPIN_Prod_Order_Instruction@,NICPIN_Prod_Order_Instruction@)
+  name: OnTransProductionOrderInstructions_OnBeforeInsert
+  href: reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html
 - uid: M:Codeunit::NICSHC_Barcode_Management.GetBarcode_Code128(Text):Text
   name: GetBarcode_Code128
   href: reference/serial-shipping-container-codes/Codeunit/NICSHC-Barcode-Management.html
-- uid: M:Codeunit::NICSHC_Create_SSCC.OnAfterCreateMultipleSSCC(List[Code],BigInteger)
+- uid: M:Codeunit::NICSHC_Create_SSCC.OnAfterCreateMultipleSSCC(List_of_[Code],BigInteger)
   name: OnAfterCreateMultipleSSCC
   href: reference/serial-shipping-container-codes/Codeunit/NICSHC-Create-SSCC.html
 - uid: M:Codeunit::NICSHC_Create_SSCC.OnAfterCreateSSCC(NICSHC_SSCC_Header@)
@@ -9481,7 +9586,7 @@ references:
 - uid: M:Codeunit::NICSHC_Print_SSCC_Label.OnBeforeGetNoOfCopiesFromCustomer(NICSHC_SSCC_Header@,Integer@,Boolean@)
   name: OnBeforeGetNoOfCopiesFromCustomer
   href: reference/serial-shipping-container-codes/Codeunit/NICSHC-Print-SSCC-Label.html
-- uid: M:Codeunit::NICSHC_Print_SSCC_Label.OnBeforePrintSSCCBarcodeLabel(List[Code],Boolean@)
+- uid: M:Codeunit::NICSHC_Print_SSCC_Label.OnBeforePrintSSCCBarcodeLabel(List_of_[Code],Boolean@)
   name: OnBeforePrintSSCCBarcodeLabel
   href: reference/serial-shipping-container-codes/Codeunit/NICSHC-Print-SSCC-Label.html
 - uid: M:Codeunit::NICSHC_Print_SSCC_Label.OnBeforePrintSSCCLabels(NICSHC_SSCC_Header@,Boolean@)
@@ -11903,6 +12008,12 @@ references:
   href: reference/production-batching/Obsoletion/obsolete_by_22.2.html
 - uid: N:Module::Production_Batching_obsolete_by_22.2#22.2
   href: reference/production-batching/Obsoletion/obsolete_by_22.2.html
+- uid: N:Module::Production_Instructions
+  name: Production Instructions
+  summary: >
+    <p sourcefile="reference/production-instructions/Module/Production-Instructions.yml" sourcestartlinenumber="1" jsonPath="/summary">Production Instructions</p>
+  fqName: Production Instructions by NIC Systems Inc. (24.0.10320.0)
+  href: reference/production-instructions/Module/Production-Instructions.html
 - uid: N:Module::Production_Yield_Metrics
   name: Production Yield Metrics
   summary: >
@@ -12845,6 +12956,22 @@ references:
   name: "\"NICPBA Verify Production BOM\""
   fqName: "\"NICPBA Verify Production BOM\""
   href: reference/production-batching/Codeunit/NICPBA-Verify-Production-BOM.html
+- uid: O:Codeunit::NICPIN_Page_Control
+  name: "\"NICPIN Page Control\""
+  fqName: "\"NICPIN Page Control\""
+  href: reference/production-instructions/Codeunit/NICPIN-Page-Control.html
+- uid: O:Codeunit::NICPIN_Prod#_BOM_Inst#_Mng#
+  name: "\"NICPIN Prod. BOM Inst. Mng.\""
+  fqName: "\"NICPIN Prod. BOM Inst. Mng.\""
+  href: reference/production-instructions/Codeunit/NICPIN-Prod.-BOM-Inst.-Mng..html
+- uid: O:Codeunit::NICPIN_Prod_Order_Inst#_Mng#
+  name: "\"NICPIN Prod Order Inst. Mng.\""
+  fqName: "\"NICPIN Prod Order Inst. Mng.\""
+  href: reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html
+- uid: O:Codeunit::NICPIN_Subscribers
+  name: "\"NICPIN Subscribers\""
+  fqName: "\"NICPIN Subscribers\""
+  href: reference/production-instructions/Codeunit/NICPIN-Subscribers.html
 - uid: O:Codeunit::NICSHC_Barcode_Management
   name: "\"NICSHC Barcode Management\""
   fqName: "\"NICSHC Barcode Management\""
@@ -14073,6 +14200,22 @@ references:
   name: "\"NICPBA ProductionOrderBatches\""
   fqName: "\"NICPBA ProductionOrderBatches\""
   href: reference/production-batching/Page/NICPBA-ProductionOrderBatches.html
+- uid: O:Page::NICPIN_Prod#_BOM_Inst#_Details
+  name: "\"NICPIN Prod. BOM Inst. Details\""
+  fqName: "\"NICPIN Prod. BOM Inst. Details\""
+  href: reference/production-instructions/Page/NICPIN-Prod.-BOM-Inst.-Details.html
+- uid: O:Page::NICPIN_Prod#_BOM_Instructions
+  name: "\"NICPIN Prod. BOM Instructions\""
+  fqName: "\"NICPIN Prod. BOM Instructions\""
+  href: reference/production-instructions/Page/NICPIN-Prod.-BOM-Instructions.html
+- uid: O:Page::NICPIN_Prod#_BOM_Version_Inst#
+  name: "\"NICPIN Prod. BOM Version Inst.\""
+  fqName: "\"NICPIN Prod. BOM Version Inst.\""
+  href: reference/production-instructions/Page/NICPIN-Prod.-BOM-Version-Inst..html
+- uid: O:Page::NICPIN_Prod_Order_Instructions
+  name: "\"NICPIN Prod Order Instructions\""
+  fqName: "\"NICPIN Prod Order Instructions\""
+  href: reference/production-instructions/Page/NICPIN-Prod-Order-Instructions.html
 - uid: O:Page::NICSHC_SSCC_API_Methods
   name: "\"NICSHC SSCC API Methods\""
   fqName: "\"NICSHC SSCC API Methods\""
@@ -15105,6 +15248,58 @@ references:
   name: "\"NICPBA WorkCenterList\""
   fqName: "\"NICPBA WorkCenterList\""
   href: reference/production-batching/PageExtension/NICPBA-WorkCenterList.html
+- uid: O:PageExtension::NICPIN_Finish_Prod_Ord_List
+  name: "\"NICPIN Finish Prod Ord List\""
+  fqName: "\"NICPIN Finish Prod Ord List\""
+  href: reference/production-instructions/PageExtension/NICPIN-Finish-Prod-Ord-List.html
+- uid: O:PageExtension::NICPIN_Finished_Prod_Ord_Ext#
+  name: "\"NICPIN Finished Prod Ord Ext.\""
+  fqName: "\"NICPIN Finished Prod Ord Ext.\""
+  href: reference/production-instructions/PageExtension/NICPIN-Finished-Prod-Ord-Ext..html
+- uid: O:PageExtension::NICPIN_Firm_Plnd_Prod_Ord_Ext#
+  name: "\"NICPIN Firm Plnd Prod Ord Ext.\""
+  fqName: "\"NICPIN Firm Plnd Prod Ord Ext.\""
+  href: reference/production-instructions/PageExtension/NICPIN-Firm-Plnd-Prod-Ord-Ext..html
+- uid: O:PageExtension::NICPIN_Firm_Plnd_Prod_Ord_List
+  name: "\"NICPIN Firm Plnd Prod Ord List\""
+  fqName: "\"NICPIN Firm Plnd Prod Ord List\""
+  href: reference/production-instructions/PageExtension/NICPIN-Firm-Plnd-Prod-Ord-List.html
+- uid: O:PageExtension::NICPIN_Planned_Prod#_Ord#_List
+  name: "\"NICPIN Planned Prod. Ord. List\""
+  fqName: "\"NICPIN Planned Prod. Ord. List\""
+  href: reference/production-instructions/PageExtension/NICPIN-Planned-Prod.-Ord.-List.html
+- uid: O:PageExtension::NICPIN_Planned_Prod#_Order_Ext
+  name: "\"NICPIN Planned Prod. Order Ext\""
+  fqName: "\"NICPIN Planned Prod. Order Ext\""
+  href: reference/production-instructions/PageExtension/NICPIN-Planned-Prod.-Order-Ext.html
+- uid: O:PageExtension::NICPIN_Prod#_BOM_Version_Ext#
+  name: "\"NICPIN Prod. BOM Version Ext.\""
+  fqName: "\"NICPIN Prod. BOM Version Ext.\""
+  href: reference/production-instructions/PageExtension/NICPIN-Prod.-BOM-Version-Ext..html
+- uid: O:PageExtension::NICPIN_Prod#_Order_List_Ext#
+  name: "\"NICPIN Prod. Order List Ext.\""
+  fqName: "\"NICPIN Prod. Order List Ext.\""
+  href: reference/production-instructions/PageExtension/NICPIN-Prod.-Order-List-Ext..html
+- uid: O:PageExtension::NICPIN_Production_BOM_Ext#
+  name: "\"NICPIN Production BOM Ext.\""
+  fqName: "\"NICPIN Production BOM Ext.\""
+  href: reference/production-instructions/PageExtension/NICPIN-Production-BOM-Ext..html
+- uid: O:PageExtension::NICPIN_Released_Prod#_Ord_Ext#
+  name: "\"NICPIN Released Prod. Ord Ext.\""
+  fqName: "\"NICPIN Released Prod. Ord Ext.\""
+  href: reference/production-instructions/PageExtension/NICPIN-Released-Prod.-Ord-Ext..html
+- uid: O:PageExtension::NICPIN_Released_Prod_Ord#_List
+  name: "\"NICPIN Released Prod Ord. List\""
+  fqName: "\"NICPIN Released Prod Ord. List\""
+  href: reference/production-instructions/PageExtension/NICPIN-Released-Prod-Ord.-List.html
+- uid: O:PageExtension::NICPIN_Simul#_Prod#_Order_Ext#
+  name: "\"NICPIN Simul. Prod. Order Ext.\""
+  fqName: "\"NICPIN Simul. Prod. Order Ext.\""
+  href: reference/production-instructions/PageExtension/NICPIN-Simul.-Prod.-Order-Ext..html
+- uid: O:PageExtension::NICPIN_Simul#_Prod_Ords_List
+  name: "\"NICPIN Simul. Prod Ords List\""
+  fqName: "\"NICPIN Simul. Prod Ords List\""
+  href: reference/production-instructions/PageExtension/NICPIN-Simul.-Prod-Ords-List.html
 - uid: O:PageExtension::NICSHC_Customer_Card
   name: "\"NICSHC Customer Card\""
   fqName: "\"NICSHC Customer Card\""
@@ -15409,6 +15604,18 @@ references:
   name: "\"NICPBA ProdBatchRead\""
   fqName: "\"NICPBA ProdBatchRead\""
   href: reference/production-batching/PermissionSet/NICPBA-ProdBatchRead.html
+- uid: O:PermissionSet::NICPIN_Edit
+  name: "\"NICPIN Edit\""
+  fqName: "\"NICPIN Edit\""
+  href: reference/production-instructions/PermissionSet/NICPIN-Edit.html
+- uid: O:PermissionSet::NICPIN_Objects
+  name: "\"NICPIN Objects\""
+  fqName: "\"NICPIN Objects\""
+  href: reference/production-instructions/PermissionSet/NICPIN-Objects.html
+- uid: O:PermissionSet::NICPIN_Read
+  name: "\"NICPIN Read\""
+  fqName: "\"NICPIN Read\""
+  href: reference/production-instructions/PermissionSet/NICPIN-Read.html
 - uid: O:PermissionSet::NICSHC_SSCCAdm
   name: "\"NICSHC SSCCAdm\""
   fqName: "\"NICSHC SSCCAdm\""
@@ -16109,6 +16316,14 @@ references:
   name: "\"NICPBA RESTStripeConfig\""
   fqName: "\"NICPBA RESTStripeConfig\""
   href: reference/production-batching/Table/NICPBA-RESTStripeConfig.html
+- uid: O:Table::NICPIN_Prod#_BOM_Instruction
+  name: "\"NICPIN Prod. BOM Instruction\""
+  fqName: "\"NICPIN Prod. BOM Instruction\""
+  href: reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html
+- uid: O:Table::NICPIN_Prod_Order_Instruction
+  name: "\"NICPIN Prod Order Instruction\""
+  fqName: "\"NICPIN Prod Order Instruction\""
+  href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
 - uid: O:Table::NICSHC_RESTStripeConfig
   name: "\"NICSHC RESTStripeConfig\""
   fqName: "\"NICSHC RESTStripeConfig\""
@@ -16621,6 +16836,18 @@ references:
   name: "\"NICPBA Production BOM Line\""
   fqName: "\"NICPBA Production BOM Line\""
   href: reference/production-batching/TableExtension/NICPBA-Production-BOM-Line.html
+- uid: O:TableExtension::NICPIN_Prod#_BOM_Instruction
+  name: "\"NICPIN Prod. BOM Instruction\""
+  fqName: "\"NICPIN Prod. BOM Instruction\""
+  href: reference/production-instructions/TableExtension/NICPIN-Prod.-BOM-Instruction.html
+- uid: O:TableExtension::NICPIN_Prod_BOM_Header
+  name: "\"NICPIN Prod BOM Header\""
+  fqName: "\"NICPIN Prod BOM Header\""
+  href: reference/production-instructions/TableExtension/NICPIN-Prod-BOM-Header.html
+- uid: O:TableExtension::NICPIN_Production_Order
+  name: "\"NICPIN Production Order\""
+  fqName: "\"NICPIN Production Order\""
+  href: reference/production-instructions/TableExtension/NICPIN-Production-Order.html
 - uid: O:TableExtension::NICSHC_Customer
   name: "\"NICSHC Customer\""
   fqName: "\"NICSHC Customer\""

@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/srideout/.vscode/extensions/ms-dynamics-smb.al-14.0.983287/bin/win32/_mypath",
+  "source_base_path": "C:/Users/srideout/.vscode/extensions/ms-dynamics-smb.al-14.0.1037708/bin/win32/_mypath",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -7599,6 +7599,306 @@
       "output": {
         ".html": {
           "relative_path": "reference/production-batching/TableExtension/NICPBA-ProductionOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Codeunit/NICPIN-Page-Control.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Codeunit/NICPIN-Page-Control.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Codeunit/NICPIN-Prod.-BOM-Inst.-Mng..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Codeunit/NICPIN-Prod.-BOM-Inst.-Mng..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Codeunit/NICPIN-Subscribers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Codeunit/NICPIN-Subscribers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Module/Production-Instructions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Module/Production-Instructions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Page/NICPIN-Prod-Order-Instructions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Page/NICPIN-Prod-Order-Instructions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Page/NICPIN-Prod.-BOM-Inst.-Details.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Page/NICPIN-Prod.-BOM-Inst.-Details.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Page/NICPIN-Prod.-BOM-Instructions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Page/NICPIN-Prod.-BOM-Instructions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Page/NICPIN-Prod.-BOM-Version-Inst..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Page/NICPIN-Prod.-BOM-Version-Inst..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Finish-Prod-Ord-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Finish-Prod-Ord-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Finished-Prod-Ord-Ext..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Finished-Prod-Ord-Ext..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Firm-Plnd-Prod-Ord-Ext..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Firm-Plnd-Prod-Ord-Ext..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Firm-Plnd-Prod-Ord-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Firm-Plnd-Prod-Ord-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Planned-Prod.-Ord.-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Planned-Prod.-Ord.-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Planned-Prod.-Order-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Planned-Prod.-Order-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Prod.-BOM-Version-Ext..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Prod.-BOM-Version-Ext..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Prod.-Order-List-Ext..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Prod.-Order-List-Ext..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Production-BOM-Ext..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Production-BOM-Ext..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Released-Prod-Ord.-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Released-Prod-Ord.-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Released-Prod.-Ord-Ext..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Released-Prod.-Ord-Ext..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Simul.-Prod-Ords-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Simul.-Prod-Ords-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PageExtension/NICPIN-Simul.-Prod.-Order-Ext..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PageExtension/NICPIN-Simul.-Prod.-Order-Ext..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PermissionSet/NICPIN-Edit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PermissionSet/NICPIN-Edit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PermissionSet/NICPIN-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PermissionSet/NICPIN-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/PermissionSet/NICPIN-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/PermissionSet/NICPIN-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Table/NICPIN-Prod.-BOM-Instruction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/TableExtension/NICPIN-Prod-BOM-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/TableExtension/NICPIN-Prod-BOM-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/TableExtension/NICPIN-Prod.-BOM-Instruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/TableExtension/NICPIN-Prod.-BOM-Instruction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/TableExtension/NICPIN-Production-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/TableExtension/NICPIN-Production-Order.html"
         }
       },
       "version": ""
