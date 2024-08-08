@@ -84,30 +84,17 @@
 
 
 
-  	<h2 id="properties">Properties</h2>
-
-  	<table class="table">
-  		<thead>
-  			<tr>
-  				<th>Name</th>
-  				<th>Value</th>
-  			</tr>
-  		</thead>
-  		<tbody>
-  			<tr>
-  					<td>Permissions</td>
-  					<td class="font-style-italic">
-							tabledata "User Setup" = r
-  					</td>
-  			</tr>
-  		</tbody>
-  	</table>
   	<h2 id="methods">Methods</h2>
    <h3 class="memberNameHolder">RemoveInventoryRestrictions</h3>
    <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 24.4. This function is obsolete and wil be removed in a future update. Use RemoveInventoryRestriction in codeunit NICIRA Inventory Restrictions instead.</p>
+    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">procedure RemoveInventoryRestrictions(RecVar: Variant, InvtRestrictionCodes: List of [Code[20]])</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(This function is obsolete and wil be removed in a future update. Use RemoveInventoryRestriction in codeunit NICIRA Inventory Restrictions instead.,24.4)]
+procedure RemoveInventoryRestrictions(RecVar: Variant, InvtRestrictionCodes: List of [Code[20]])</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -146,6 +133,112 @@ List of [Code[20]]                 </td>
 
    </div>
   	<h2 id="events">Events</h2>
+   <h3 class="memberNameHolder">OnAddRestrictionOnBeforePost</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAddRestrictionOnBeforePost(var InvtRestJnlLine: Record &quot;NICIRA Invt Rest Jnl Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InvtRestJnlLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICIRA Invt Rest Jnl Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterAddRestriction</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterAddRestriction(InvtRestJnlLine: Record &quot;NICIRA Invt Rest Jnl Line&quot;, SourceRecordId: RecordId, InvtRestrictionCode: Code[20], DocumentNo: Code[20], ReasonCode: Code[10])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InvtRestJnlLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICIRA Invt Rest Jnl Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceRecordId
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InvtRestrictionCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DocumentNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReasonCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
    <h3 class="memberNameHolder">OnAfterCheckInvtRestrictionCodeIsUsed</h3>
    <div class="memberInfo">
 
@@ -179,6 +272,347 @@ Code[20]                 </td>
    							</td>
    							<td class="font-style-italic">
 Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterGetRestrictionControlStyle</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterGetRestrictionControlStyle(SourceRecordId: RecordId, var StyleTxt: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SourceRecordId
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								StyleTxt
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterGetRestrictionList</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterGetRestrictionList(var RestrictedInvtRecord: Record &quot;NICIRA RestrictedInvtRecord&quot;, var InvtRestrictionsList: List of [Code[20]])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RestrictedInvtRecord
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICIRA RestrictedInvtRecord&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InvtRestrictionsList
+   							</td>
+   							<td class="font-style-italic">
+List of [Code[20]]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterGetRestrictionsForRecord</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterGetRestrictionsForRecord(SourceRecordId: RecordId, var InvtRestrictionsList: List of [Code[20]])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SourceRecordId
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InvtRestrictionsList
+   							</td>
+   							<td class="font-style-italic">
+List of [Code[20]]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterHasRestrictions</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterHasRestrictions(SourceRecordId: RecordId, InvtRestCode: Code[20], var Result: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SourceRecordId
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InvtRestCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Result
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterRemoveRestriction</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterRemoveRestriction(InvtRestJnlLine: Record &quot;NICIRA Invt Rest Jnl Line&quot;, SourceRecordId: RecordId, InvtRestrictionCode: Code[20], DocumentNo: Code[20], ReasonCode: Code[10])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InvtRestJnlLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICIRA Invt Rest Jnl Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceRecordId
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InvtRestrictionCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DocumentNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReasonCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeCheckRestrictionCodeIsUsed</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeCheckRestrictionCodeIsUsed(InvtRestrictionCode: Code[20], var IsUsed: Boolean, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InvtRestrictionCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsUsed
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnRemoveRestrictionOnBeforePost</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnRemoveRestrictionOnBeforePost(var InvtRestJnlLine: Record &quot;NICIRA Invt Rest Jnl Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InvtRestJnlLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICIRA Invt Rest Jnl Line&quot;                 </td>
    							<td>
 								
    							</td>

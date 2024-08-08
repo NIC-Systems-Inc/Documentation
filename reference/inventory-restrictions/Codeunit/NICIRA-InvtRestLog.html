@@ -80,6 +80,10 @@
 
 
 
+  	<div class="CAUTION alert alert-danger alert-is-danger">
+  		<h5 class="alert-title">Obsolete</h5>
+  			<p>This element will become obsolete from version 24.4. Log entry creation now happens in codeunit NICIRA Invt Rest Jnl-Post Line</p>
+  	</div>
 
 
 
@@ -95,9 +99,21 @@
   		</thead>
   		<tbody>
   			<tr>
-  					<td>Permissions</td>
+  					<td>ObsoleteState</td>
   					<td class="font-style-italic">
-							tabledata "Item Journal Line" = r
+							Pending
+  					</td>
+  			</tr>
+  			<tr>
+  					<td>ObsoleteReason</td>
+  					<td class="font-style-italic">
+							Log entry creation now happens in codeunit NICIRA Invt Rest Jnl-Post Line
+  					</td>
+  			</tr>
+  			<tr>
+  					<td>ObsoleteTag</td>
+  					<td class="font-style-italic">
+							24.4
   					</td>
   			</tr>
   		</tbody>
@@ -105,9 +121,14 @@
   	<h2 id="events">Events</h2>
    <h3 class="memberNameHolder">OnAfterCreateEntry</h3>
    <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 24.4. Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line</p>
+    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line,24.4)]
+[IntegrationEvent(False,False)]
 local procedure OnAfterCreateEntry(InvtRestrictionCode: Code[20], LogEntryType: Enum &quot;NICIRA InvRestEntryType&quot;, SourceRecordId: RecordId, InvtRestGroupEntryType: Enum &quot;NICIRA InvtRestGroupEntryType&quot;, ItemJournalLine: Record &quot;Item Journal Line&quot;)</code></pre>
 
    			<h4>Parameters</h4>
@@ -178,9 +199,14 @@ Record &quot;Item Journal Line&quot;                 </td>
    </div>
    <h3 class="memberNameHolder">OnAfterGetTrackingNoFromSourceRecord</h3>
    <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 24.4. Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line</p>
+    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line,24.4)]
+[IntegrationEvent(False,False)]
 local procedure OnAfterGetTrackingNoFromSourceRecord(var InvtRestLogEntry: Record &quot;NICIRA InvtRest Log Entry&quot;, SourceRecordId: RecordId)</code></pre>
 
    			<h4>Parameters</h4>
@@ -221,9 +247,14 @@ RecordId                 </td>
    </div>
    <h3 class="memberNameHolder">OnAfterSetSourceDocumentInfo</h3>
    <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 24.4. Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line</p>
+    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line,24.4)]
+[IntegrationEvent(False,False)]
 local procedure OnAfterSetSourceDocumentInfo(var InvtRestLog: Record &quot;NICIRA InvtRest Log Entry&quot;, InvtRestGroupEntryType: Enum &quot;NICIRA InvtRestGroupEntryType&quot;, ItemJournalLine: Record &quot;Item Journal Line&quot;)</code></pre>
 
    			<h4>Parameters</h4>
@@ -274,9 +305,14 @@ Record &quot;Item Journal Line&quot;                 </td>
    </div>
    <h3 class="memberNameHolder">OnBeforeCreateEntry</h3>
    <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 24.4. Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line</p>
+    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line,24.4)]
+[IntegrationEvent(False,False)]
 local procedure OnBeforeCreateEntry(InvtRestrictionCode: Code[20], LogEntryType: Enum &quot;NICIRA InvRestEntryType&quot;, SourceRecordId: RecordId, InvtRestGroupEntryType: Enum &quot;NICIRA InvtRestGroupEntryType&quot;, ItemJournalLine: Record &quot;Item Journal Line&quot;, var IsHandled: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
@@ -357,9 +393,14 @@ Boolean                 </td>
    </div>
    <h3 class="memberNameHolder">OnBeforeSetSourceDocumentInfo</h3>
    <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 24.4. Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line</p>
+    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line,24.4)]
+[IntegrationEvent(False,False)]
 local procedure OnBeforeSetSourceDocumentInfo(var InvtRestLog: Record &quot;NICIRA InvtRest Log Entry&quot;, InvtRestGroupEntryType: Enum &quot;NICIRA InvtRestGroupEntryType&quot;, ItemJournalLine: Record &quot;Item Journal Line&quot;, var IsHandled: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
@@ -420,9 +461,14 @@ Boolean                 </td>
    </div>
    <h3 class="memberNameHolder">OnBeforeSetSourceRecordInfo</h3>
    <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 24.4. Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line</p>
+    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line,24.4)]
+[IntegrationEvent(False,False)]
 local procedure OnBeforeSetSourceRecordInfo(var InvtRestLogEntry: Record &quot;NICIRA InvtRest Log Entry&quot;, SourceRecordId: RecordId, var IsHandled: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
@@ -473,9 +519,14 @@ Boolean                 </td>
    </div>
    <h3 class="memberNameHolder">OnCreateEntryOnBeforeInsert</h3>
    <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 24.4. Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line</p>
+    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by new events in codeunit NICIRA Invt Rest Jnl-Post Line,24.4)]
+[IntegrationEvent(False,False)]
 local procedure OnCreateEntryOnBeforeInsert(InvtRestLog: Record &quot;NICIRA InvtRest Log Entry&quot;, InvtRestrictionCode: Code[20], LogEntryType: Enum &quot;NICIRA InvRestEntryType&quot;, SourceRecordId: RecordId, InvtRestGroupEntryType: Enum &quot;NICIRA InvtRestGroupEntryType&quot;, var ItemJournalLine: Record &quot;Item Journal Line&quot;)</code></pre>
 
    			<h4>Parameters</h4>
