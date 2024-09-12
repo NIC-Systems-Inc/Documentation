@@ -1,0 +1,1447 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../public/logo.png" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="O:Codeunit::NICQIN_Create_Inspection">
+  <h1>Codeunit &quot;NICQIN Create Inspection&quot;</h1>
+
+
+<div class="font-style-italic">ID 23079716</div>
+
+
+
+
+
+
+
+
+  	<h2 id="properties">Properties</h2>
+
+  	<table class="table">
+  		<thead>
+  			<tr>
+  				<th>Name</th>
+  				<th>Value</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  			<tr>
+  					<td>Permissions</td>
+  					<td class="font-style-italic">
+							tabledata AllObjWithCaption = r,
+        tabledata Customer = r,
+        tabledata Item = r,
+        tabledata "Prod. Order Component" = r,
+        tabledata "Prod. Order Line" = r,
+        tabledata "Prod. Order Routing Line" = r,
+        tabledata "Purchase Header" = r,
+        tabledata "Purchase Line" = r,
+        tabledata "Sales Header" = r,
+        tabledata "Sales Line" = r,
+        tabledata "Shipping Agent" = r,
+        tabledata Vendor = r,
+        tabledata "Warehouse Receipt Header" = r,
+        tabledata "Warehouse Shipment Header" = r
+  					</td>
+  			</tr>
+  		</tbody>
+  	</table>
+  	<h2 id="events">Events</h2>
+   <h3 class="memberNameHolder">OnAfterCheckCustomerIsValid</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCheckCustomerIsValid(var ChildInspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, SellToCustomerNo: Code[20], var IsValid: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ChildInspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SellToCustomerNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsValid
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCheckItemIsValid</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCheckItemIsValid(var ChildInspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, ItemNo: Code[20], var IsValid: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ChildInspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsValid
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCheckShippingAgentIsValid</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCheckShippingAgentIsValid(var ChildInspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, ShippingAgentCode: Code[10], var IsValid: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ChildInspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ShippingAgentCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsValid
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCheckVendorIsValid</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCheckVendorIsValid(var ChildInspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, BuyFromVendorNo: Code[20], var IsValid: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ChildInspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BuyFromVendorNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsValid
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCreateInspectionHeaderOnBeforeModify</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCreateInspectionHeaderOnBeforeModify(InspectTemplateCode: Code[20], var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, var InspectionHeader: Record &quot;NICQIN Inspection Header&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectTemplateCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InspectionHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspection Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterCreateInspectionLineOnBeforeModify</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterCreateInspectionLineOnBeforeModify(var InspectionLine: Record &quot;NICQIN Inspection Line&quot;, var TempInspectTemplTestBuffer: Record &quot;NICQIN InspectTemplTest Buffer&quot; temporary, var TempInboundReceiptLineBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspection Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectTemplTestBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN InspectTemplTest Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInboundReceiptLineBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterSetProdOrderLineItem</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterSetProdOrderLineItem(ProdOrderLine: Record &quot;Prod. Order Line&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ProdOrderLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Prod. Order Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidProdOrderCompLines</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeValidProdOrderCompLines(var InspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, QIStartDate: Date, QIEndDate: Date, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIStartDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIEndDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidProdOrderLines</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeValidProdOrderLines(var InspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, QIStartDate: Date, QIEndDate: Date, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIStartDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIEndDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidProdOrderRoutingLines</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeValidProdOrderRoutingLines(var InspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, QIStartDate: Date, QIEndDate: Date, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIStartDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIEndDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidPurchaseHeaders</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeValidPurchaseHeaders(var InspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, QIStartDate: Date, QIEndDate: Date, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIStartDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIEndDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidPurchaseLines</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeValidPurchaseLines(var InspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, QIStartDate: Date, QIEndDate: Date, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIStartDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIEndDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidSalesHeaders</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeValidSalesHeaders(var InspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, QIStartDate: Date, QIEndDate: Date, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIStartDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIEndDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidSalesLines</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeValidSalesLines(var InspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, QIStartDate: Date, QIEndDate: Date, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIStartDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIEndDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidWarehouseReceiptHeaders</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeValidWarehouseReceiptHeaders(var InspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, QIStartDate: Date, QIEndDate: Date, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIStartDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIEndDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidWarehouseShipmentHeaders</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeValidWarehouseShipmentHeaders(var InspectionTemplFilter: Record &quot;NICQIN Inspect Templ Source&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, QIStartDate: Date, QIEndDate: Date, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionTemplFilter
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIStartDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIEndDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnGetInspectionSourceLines</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnGetInspectionSourceLines(InspectionTemplSource: Record &quot;NICQIN Inspect Templ Source&quot;, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary, QIStartDate: Date, QIEndDate: Date)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionTemplSource
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Templ Source&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIStartDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QIEndDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnGetSourceSubTypeDesc</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnGetSourceSubTypeDesc(SourceType: Integer, SourceSubType: Integer, var Description: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SourceType
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceSubType
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Description
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnPresetInspectionSourceLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnPresetInspectionSourceLine(SourceRecordId: RecordId, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SourceRecordId
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnProcessInspectionTests</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnProcessInspectionTests(InspectionLine: Record &quot;NICQIN Inspection Line&quot;, CurrOperationNo: Code[10], CurrDocumentNo: Code[20], CurrInspectionNo: Code[20], CurrInspectionTemplateCode: Code[20], CurrRoutingNo: Code[20], CurrDocLineNo: Integer, CurrProdOrderLineNo: Integer, var TempInspectTemplTestBuffer: Record &quot;NICQIN InspectTemplTest Buffer&quot; temporary, var TempInspectSourceBuffer: Record &quot;NICQIN Inspect Source Buffer&quot; temporary)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InspectionLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspection Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrOperationNo
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrDocumentNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrInspectionNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrInspectionTemplateCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrRoutingNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrDocLineNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrProdOrderLineNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectTemplTestBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN InspectTemplTest Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempInspectSourceBuffer
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;NICQIN Inspect Source Buffer&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object">Codeunit</a></p>
+</li>
+  	</ul>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2024 NIC Systems Inc. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

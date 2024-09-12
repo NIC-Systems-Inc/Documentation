@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content=" ">
       
-      <link rel="icon" href="../../../public/favicon.ico">
+      <link rel="icon" href="../../../favicon.ico">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
       <link rel="stylesheet" href="../../../public/main.css">
       <meta name="docfx:navrel" content="../../../toc.html">
@@ -35,8 +35,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../public/logo.png" alt="Developer Documentation">
-            Developer Documentation
+            <img id="logo" class="svg" src="../../../public/logo.png" alt="Documentation">
+            Documentation
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -233,7 +233,7 @@ Text               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicPrintLabelBinContent(pItemNo: Code[20], pLocationCode: Code[10], pBinCode: Code[20], pLotNo: Code[20], pExpiryDate: Text, pQuantity: Decimal): Text</code></pre>
+procedure nicPrintLabelBinContent(pItemNo: Code[20], pLocationCode: Code[10], pBinCode: Code[20], pLotNo: Code[50], pExpiryDate: Text, pQuantity: Decimal): Text</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -280,7 +280,7 @@ Code[20]                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -455,7 +455,7 @@ Text               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicPrintLabelProdJnl(ItemJournalLine: Record &quot;Item Journal Line&quot;, pLotNo: Code[20], pExpiryDate: Date): Text</code></pre>
+procedure nicPrintLabelProdJnl(ItemJournalLine: Record &quot;Item Journal Line&quot;, pLotNo: Code[50], pExpiryDate: Date): Text</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -482,7 +482,7 @@ Record &quot;Item Journal Line&quot;                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -840,7 +840,7 @@ Text               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicPrintLabelWhseShipment(pWarehouseShipmentLine: Record &quot;Warehouse Shipment Line&quot;, pLotNo: Code[20], pExpiryDate: Date): Text</code></pre>
+procedure nicPrintLabelWhseShipment(pWarehouseShipmentLine: Record &quot;Warehouse Shipment Line&quot;, pLotNo: Code[50], pExpiryDate: Date): Text</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -867,7 +867,7 @@ Record &quot;Warehouse Shipment Line&quot;                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>

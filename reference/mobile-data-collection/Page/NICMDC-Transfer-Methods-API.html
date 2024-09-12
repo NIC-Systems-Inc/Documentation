@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content=" ">
       
-      <link rel="icon" href="../../../public/favicon.ico">
+      <link rel="icon" href="../../../favicon.ico">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
       <link rel="stylesheet" href="../../../public/main.css">
       <meta name="docfx:navrel" content="../../../toc.html">
@@ -35,8 +35,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../public/logo.png" alt="Developer Documentation">
-            Developer Documentation
+            <img id="logo" class="svg" src="../../../public/logo.png" alt="Documentation">
+            Documentation
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -172,7 +172,7 @@
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicPostDirectTransferLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[20], pBinCode: Code[10]): Boolean</code></pre>
+procedure nicPostDirectTransferLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[50], pBinCode: Code[20]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -219,7 +219,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -229,7 +229,7 @@ Code[20]                 </td>
 								pBinCode
    							</td>
    							<td class="font-style-italic">
-Code[10]                 </td>
+Code[20]                 </td>
    							<td>
 								
    							</td>
@@ -263,7 +263,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicPostDirectTransferLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[20], pBinCode: Code[10], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicPostDirectTransferLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[50], pBinCode: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -310,7 +310,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -320,7 +320,7 @@ Code[20]                 </td>
 								pBinCode
    							</td>
    							<td class="font-style-italic">
-Code[10]                 </td>
+Code[20]                 </td>
    							<td>
 								
    							</td>
@@ -415,7 +415,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicPostReceiptTransferOrder(pDocumentNo: Code[20], pLineNo: Integer, pQtyToReceive: Decimal, pLotNo: Code[20], pBinCode: Code[10]): Boolean</code></pre>
+procedure nicPostReceiptTransferOrder(pDocumentNo: Code[20], pLineNo: Integer, pQtyToReceive: Decimal, pLotNo: Code[50], pBinCode: Code[20]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -462,7 +462,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -472,7 +472,7 @@ Code[20]                 </td>
 								pBinCode
    							</td>
    							<td class="font-style-italic">
-Code[10]                 </td>
+Code[20]                 </td>
    							<td>
 								
    							</td>
@@ -557,7 +557,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicPostShipmentTransferOrder(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[20], pBinCode: Code[10]): Boolean</code></pre>
+procedure nicPostShipmentTransferOrder(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[50], pBinCode: Code[20]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -604,7 +604,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -614,7 +614,7 @@ Code[20]                 </td>
 								pBinCode
    							</td>
    							<td class="font-style-italic">
-Code[10]                 </td>
+Code[20]                 </td>
    							<td>
 								
    							</td>
@@ -648,7 +648,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicPostShipmentTransferOrder_(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[20], pBinCode: Code[10], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicPostShipmentTransferOrder_(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[50], pBinCode: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -695,7 +695,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -705,7 +705,7 @@ Code[20]                 </td>
 								pBinCode
    							</td>
    							<td class="font-style-italic">
-Code[10]                 </td>
+Code[20]                 </td>
    							<td>
 								
    							</td>
@@ -800,7 +800,7 @@ Text               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateDirectTransferLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[20], pBinCode: Code[10]): Boolean</code></pre>
+procedure nicUpdateDirectTransferLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[50], pBinCode: Code[20]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -847,7 +847,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -857,7 +857,7 @@ Code[20]                 </td>
 								pBinCode
    							</td>
    							<td class="font-style-italic">
-Code[10]                 </td>
+Code[20]                 </td>
    							<td>
 								
    							</td>
@@ -891,7 +891,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateReceiptTransferOrder(pDocumentNo: Code[20], pLineNo: Integer, pQtyToReceive: Decimal, pLotNo: Code[20], pBinCode: Code[10]): Boolean</code></pre>
+procedure nicUpdateReceiptTransferOrder(pDocumentNo: Code[20], pLineNo: Integer, pQtyToReceive: Decimal, pLotNo: Code[50], pBinCode: Code[20]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -938,7 +938,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -948,7 +948,7 @@ Code[20]                 </td>
 								pBinCode
    							</td>
    							<td class="font-style-italic">
-Code[10]                 </td>
+Code[20]                 </td>
    							<td>
 								
    							</td>
@@ -982,7 +982,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateShipmentTransferOrder(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[20], pBinCode: Code[10]): Boolean</code></pre>
+procedure nicUpdateShipmentTransferOrder(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[50], pBinCode: Code[20]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1029,7 +1029,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1039,7 +1039,7 @@ Code[20]                 </td>
 								pBinCode
    							</td>
    							<td class="font-style-italic">
-Code[10]                 </td>
+Code[20]                 </td>
    							<td>
 								
    							</td>
@@ -1073,7 +1073,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateShipmentTransferOrder_(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[20], pBinCode: Code[10], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicUpdateShipmentTransferOrder_(pDocumentNo: Code[20], pLineNo: Integer, pQtyToShip: Decimal, pLotNo: Code[50], pBinCode: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1120,7 +1120,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1130,7 +1130,7 @@ Code[20]                 </td>
 								pBinCode
    							</td>
    							<td class="font-style-italic">
-Code[10]                 </td>
+Code[20]                 </td>
    							<td>
 								
    							</td>

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content=" ">
       
-      <link rel="icon" href="../../../public/favicon.ico">
+      <link rel="icon" href="../../../favicon.ico">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
       <link rel="stylesheet" href="../../../public/main.css">
       <meta name="docfx:navrel" content="../../../toc.html">
@@ -35,8 +35,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../public/logo.png" alt="Developer Documentation">
-            Developer Documentation
+            <img id="logo" class="svg" src="../../../public/logo.png" alt="Documentation">
+            Documentation
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -949,7 +949,7 @@ Boolean               </td>
    <div class="memberInfo">
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">procedure UpdatePhysInvJnlLineQtyLot(pLineNo: Integer, pBatchName: Text, pTemplateName: Text, pQuantity: Decimal, pLotNo: Code[20], pExpirationDate: Text): Boolean</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">procedure UpdatePhysInvJnlLineQtyLot(pLineNo: Integer, pBatchName: Text, pTemplateName: Text, pQuantity: Decimal, pLotNo: Code[50], pExpirationDate: Text): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1006,7 +1006,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1049,7 +1049,7 @@ Boolean               </td>
    <div class="memberInfo">
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">procedure UpdatePhysInvJnlLineQtyLot_(pLineNo: Integer, pBatchName: Text, pTemplateName: Text, pQuantity: Decimal, pLotNo: Code[20], pExpirationDate: Text, pPackageNo: Code[50]): Boolean</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">procedure UpdatePhysInvJnlLineQtyLot_(pLineNo: Integer, pBatchName: Text, pTemplateName: Text, pQuantity: Decimal, pLotNo: Code[50], pExpirationDate: Text, pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1106,7 +1106,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1509,7 +1509,7 @@ Boolean               </td>
    <div class="memberInfo">
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">procedure UpdateReclassJnlLineLotExpDate(pLineNo: Integer, pBatchName: Text, pTemplateName: Text, pFromLot: Code[20], pToLot: Code[20], pExpirationdate: Text): Boolean</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">procedure UpdateReclassJnlLineLotExpDate(pLineNo: Integer, pBatchName: Text, pTemplateName: Text, pFromLot: Code[50], pToLot: Code[50], pExpirationdate: Text): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1556,7 +1556,7 @@ Text                 </td>
 								pFromLot
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1566,7 +1566,7 @@ Code[20]                 </td>
 								pToLot
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -2139,7 +2139,7 @@ Boolean               </td>
    <div class="memberInfo">
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">procedure UpdateWhseReclassJnlLineLotExpDate(pLineNo: Integer, pBatchName: Text, pTemplateName: Text, pFromLot: Code[20], pToLot: Code[20], pExpirationdate: Text): Boolean</code></pre>
+   		<pre><code dir="ltr" class="hljs lang-al">procedure UpdateWhseReclassJnlLineLotExpDate(pLineNo: Integer, pBatchName: Text, pTemplateName: Text, pFromLot: Code[50], pToLot: Code[50], pExpirationdate: Text): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -2186,7 +2186,7 @@ Text                 </td>
 								pFromLot
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -2196,7 +2196,7 @@ Code[20]                 </td>
 								pToLot
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>

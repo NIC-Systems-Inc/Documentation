@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/srideout/.vscode/extensions/ms-dynamics-smb.al-14.0.1070882/bin/win32/_mypath",
+  "source_base_path": "C:/Users/srideout/.vscode/extensions/ms-dynamics-smb.al-15.0.1129943/bin/win32/_GeneratedSite",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -4405,6 +4405,46 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-Handle-Int-Move-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-Handle-Int-Move-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-Handle-WhseIntPickLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-Handle-WhseIntPickLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-Handle-WhseIntPutAway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-Handle-WhseIntPutAway.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-Handle-WhseWSLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-Handle-WhseWSLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-HandleAssemblyDocuments.yml",
       "output": {
         ".html": {
@@ -4529,6 +4569,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-HandleTransferLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-HandleWhseJnlLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-HandleWhseJnlLine.html"
         }
       },
       "version": ""
@@ -4695,6 +4745,26 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Int-Move-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Int-Move-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Int-Put-away-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Int-Put-away-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-InvtDocumentLines.yml",
       "output": {
         ".html": {
@@ -4775,6 +4845,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Movement-Worksheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Movement-Worksheet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-OutputJournal.yml",
       "output": {
         ".html": {
@@ -4789,6 +4869,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-PhysInventoryJournal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Pick-Worksheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Pick-Worksheet.html"
         }
       },
       "version": ""
@@ -4939,6 +5029,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-PurchaseLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Put-away-Worksheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Put-away-Worksheet.html"
         }
       },
       "version": ""
@@ -5169,6 +5269,36 @@
       "output": {
         ".html": {
           "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Transfer-Order-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Whse-Int-Pick-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Whse-Int-Pick-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Whse-Item-Journal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Whse-Item-Journal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Whse-Reclass-Journal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracking-status-indicator/PageExtension/NICITI-Whse-Reclass-Journal.html"
         }
       },
       "version": ""
@@ -5985,6 +6115,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Codeunit/NICMDC-SingleInstanceSubs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Codeunit/NICMDC-SingleInstanceSubs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/mobile-data-collection/Codeunit/NICMDC-Upgrade.yml",
       "output": {
         ".html": {
@@ -6745,6 +6885,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/mobile-data-collection/Query/NICMDC-Package-Whse.-Entries.yml",
       "output": {
         ".html": {
@@ -6759,6 +6909,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/mobile-data-collection/Query/NICMDC-Warehouse-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Query/NICMDC-WarehouseEntriesAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Query/NICMDC-WarehouseEntriesAPI.html"
         }
       },
       "version": ""
@@ -8919,6 +9079,1296 @@
       "output": {
         ".html": {
           "relative_path": "reference/production-yield-metrics/PermissionSetExtension/NICYLD-D365PREM-MFG-VIEW.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Checklist-Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Checklist-Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Copy-Inspect-Templ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Copy-Inspect-Templ.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Copy-Inspection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Copy-Inspection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-DoTestFailActionDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-DoTestFailActionDialog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-DoTestFailActionTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-DoTestFailActionTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Find-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Find-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Guided-Exp-App-Feature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Guided-Exp-App-Feature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Guided-Exp-Assist-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Guided-Exp-Assist-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Guided-Exp-Learn-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Guided-Exp-Learn-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Guided-Exp-Manual-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Guided-Exp-Manual-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Guided-Exp-Tour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Guided-Exp-Tour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Init-Default-No-Series.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Init-Default-No-Series.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Initialize-Company.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Initialize-Company.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Initialize-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Initialize-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Insp-Line-Page-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Insp-Line-Page-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-InspSourceAllowedTables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-InspSourceAllowedTables.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-InspTempl-Change-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-InspTempl-Change-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-InspTemplLineTestHndlr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-InspTemplLineTestHndlr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspect-Line-Complete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspect-Line-Complete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspect-Templ-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspect-Templ-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-InspectTemplSourceSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-InspectTemplSourceSetup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspection-Comment-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspection-Comment-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspection-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspection-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspection-Line-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspection-Line-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspection-Verify.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Inspection-Verify.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-LookupItemTrackSum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-LookupItemTrackSum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Picture-Gallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Picture-Gallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Picture-Line-Gallery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Picture-Line-Gallery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-PrintInspection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-PrintInspection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Result-Value-Mgmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Result-Value-Mgmt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Setup-Wizard-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Setup-Wizard-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-SingleInstanceSubs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-SingleInstanceSubs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Subscribers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Subscribers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Test-Control.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Test-Control.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Transfer-Test-Values.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Transfer-Test-Values.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Enum/NICQIN-Inspection-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Enum/NICQIN-Inspection-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Enum/NICQIN-Inspection-Templ-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Enum/NICQIN-Inspection-Templ-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Enum/NICQIN-Test-Fail-Action-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Enum/NICQIN-Test-Fail-Action-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Enum/NICQIN-Test-Result-Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Enum/NICQIN-Test-Result-Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Enum/NICQIN-Test-Result-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Enum/NICQIN-Test-Result-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Enum/NICQIN-User-Task-Receipient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Enum/NICQIN-User-Task-Receipient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Module/Quality-Inspections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Module/Quality-Inspections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-InsLine-Pic-Gallery-FB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-InsLine-Pic-Gallery-FB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-InspTemplLineAccValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-InspTemplLineAccValues.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspec-Pic-Gallery-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspec-Pic-Gallery-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspec-Pic-Gallery-FB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspec-Pic-Gallery-FB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspect-Templ-Sources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspect-Templ-Sources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-InspectSetup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-InspectSetup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-InspectSourceDateFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-InspectSourceDateFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Cat-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Cat-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Cmt-Sheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Cmt-Sheet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Template.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Templates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspection-Templates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-InspectionTempl-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-InspectionTempl-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Inspections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Inspections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Quality-Inspect-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Quality-Inspect-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Quality-Unit-Of-Measure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Quality-Unit-Of-Measure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-RC-Activities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-RC-Activities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-RC-Headline-Inspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-RC-Headline-Inspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-RC-Inspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-RC-Inspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Test-Actions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Test-Actions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Test-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Test-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Test-FailActTask-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Test-FailActTask-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Test-Failure-Act-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Test-Failure-Act-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Test-Failure-Act-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Test-Failure-Act-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Test-Failure-Action-Dlg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Test-Failure-Action-Dlg.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Test-Instruction-FB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Test-Instruction-FB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Test-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Test-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-Test-Values.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-Test-Values.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Page/NICQIN-UpdTrackingFromInspLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Page/NICQIN-UpdTrackingFromInspLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-ApprovalUserSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-ApprovalUserSetup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Item-Tracking-Summary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Item-Tracking-Summary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Prod.-Order-Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Prod.-Order-Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Prod.-Order-Routing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Prod.-Order-Routing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Purchase-Order-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Purchase-Order-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Purchase-Order-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Purchase-Order-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Purchase-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Purchase-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Released-ProdOrderLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Released-ProdOrderLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Sales-Order-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Sales-Order-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Sales-Order-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Sales-Order-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Sales-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Sales-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Warehouse-Receipt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Warehouse-Receipt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Warehouse-Receipts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Warehouse-Receipts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Warehouse-Shipment-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Warehouse-Shipment-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Warehouse-Shipment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Warehouse-Shipment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PermissionSet/NICQIN-Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PermissionSet/NICQIN-Admin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PermissionSet/NICQIN-Edit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PermissionSet/NICQIN-Edit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PermissionSet/NICQIN-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PermissionSet/NICQIN-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PermissionSet/NICQIN-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PermissionSet/NICQIN-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PermissionSetExtension/NICQIN-D365-Basic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PermissionSetExtension/NICQIN-D365-Basic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Profile/NICQIN-Quality-Inspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Profile/NICQIN-Quality-Inspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Query/NICQIN-InspTemplLine-Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Query/NICQIN-InspTemplLine-Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Report/NICQIN-CopyInspectTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Report/NICQIN-CopyInspectTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Report/NICQIN-CopyInspection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Report/NICQIN-CopyInspection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Report/NICQIN-Create-Inspection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Report/NICQIN-Create-Inspection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Report/NICQIN-Inspection-Form.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Report/NICQIN-Inspection-Form.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Report/NICQIN-Inspection-Recap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Report/NICQIN-Inspection-Recap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Copy-Inspect-Templ-Arg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Copy-Inspect-Templ-Arg.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Copy-Inspection-Arg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Copy-Inspection-Arg.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-InspTemplLine-Acc-Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-InspTemplLine-Acc-Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Inspect-Templ-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Inspect-Templ-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Inspect-Templ-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Inspect-Templ-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Inspect-Templ-Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Inspect-Templ-Source.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-InspectTemplTest-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-InspectTemplTest-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Category.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Comment-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Comment-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Line-Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Line-Result.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Inspection-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-InspectionAllowedTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-InspectionAllowedTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Picture-Gallery-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Picture-Gallery-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Quality-Unit-Of-Measure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Quality-Unit-Of-Measure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-RC-Inspection-Cue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-RC-Inspection-Cue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Test-Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Test-Action.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Test-Fail-Action-Task.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Test-Fail-Action-Task.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Test-Failure-Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Test-Failure-Action.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Test-Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Test-Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/TableExtension/NICQIN-Entry-Summary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/TableExtension/NICQIN-Entry-Summary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/TableExtension/NICQIN-User-Task.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/TableExtension/NICQIN-User-Task.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/TableExtension/NICQIN-UserSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/TableExtension/NICQIN-UserSetup.html"
         }
       },
       "version": ""
@@ -11519,6 +12969,316 @@
       "output": {
         ".html": {
           "relative_path": "reference/sales-offers/TableExtension/NICSOF-Sales-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Check-Sales-Restr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Check-Sales-Restr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Guided-Exp-Assist-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Guided-Exp-Assist-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Guided-Exp-Manual-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Guided-Exp-Manual-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-InitDefaultNoSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-InitDefaultNoSeries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Initialize-Company.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Initialize-Company.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Initialize-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Initialize-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Restriction-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Restriction-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Setup-Wizard-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Setup-Wizard-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-SingleInstanceSubs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-SingleInstanceSubs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Enum/NICSLR-Restriction-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Enum/NICSLR-Restriction-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/EnumExtension/NICSLR-AttachmentDocumentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/EnumExtension/NICSLR-AttachmentDocumentType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Module/Sales-Restrictions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Module/Sales-Restrictions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restr-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restr-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restr.-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restr.-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restr.-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restr.-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restrictions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restrictions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Page/NICSLR-Setup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Page/NICSLR-Setup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Customer-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Customer-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Ship-to-Address.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Ship-to-Address.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/PermissionSet/NICSLR-Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/PermissionSet/NICSLR-Admin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/PermissionSet/NICSLR-Edit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/PermissionSet/NICSLR-Edit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/PermissionSet/NICSLR-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/PermissionSet/NICSLR-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/PermissionSet/NICSLR-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/PermissionSet/NICSLR-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Customer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Sales-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Sales-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Sales-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Sales-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Ship-to-Address.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Ship-to-Address.html"
         }
       },
       "version": ""

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content=" ">
       
-      <link rel="icon" href="../../../public/favicon.ico">
+      <link rel="icon" href="../../../favicon.ico">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
       <link rel="stylesheet" href="../../../public/main.css">
       <meta name="docfx:navrel" content="../../../toc.html">
@@ -35,8 +35,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../public/logo.png" alt="Developer Documentation">
-            Developer Documentation
+            <img id="logo" class="svg" src="../../../public/logo.png" alt="Documentation">
+            Documentation
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -376,7 +376,7 @@ Text               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicSplitInvMovActivLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20]): Boolean</code></pre>
+procedure nicSplitInvMovActivLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -423,7 +423,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -457,7 +457,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicSplitInvMovActivLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicSplitInvMovActivLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -504,7 +504,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -548,7 +548,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicSplitInvWhseActivLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20]): Boolean</code></pre>
+procedure nicSplitInvWhseActivLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -595,7 +595,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -629,7 +629,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicSplitInvWhseActivLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicSplitInvWhseActivLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -676,7 +676,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -720,7 +720,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicSplitWhseActivLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20]): Boolean</code></pre>
+procedure nicSplitWhseActivLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -767,7 +767,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -801,7 +801,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicSplitWhseActivLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicSplitWhseActivLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -848,7 +848,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -892,7 +892,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicSplitWhseMovActivLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20]): Boolean</code></pre>
+procedure nicSplitWhseMovActivLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -939,7 +939,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -973,7 +973,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicSplitWhseMovActivLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicSplitWhseMovActivLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1020,7 +1020,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1277,7 +1277,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateInvMovQtyPickedLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20]): Boolean</code></pre>
+procedure nicUpdateInvMovQtyPickedLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1324,7 +1324,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1358,7 +1358,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateInvMovQtyPickedLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicUpdateInvMovQtyPickedLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1405,7 +1405,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1449,7 +1449,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateInvQtyPickedLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20]): Boolean</code></pre>
+procedure nicUpdateInvQtyPickedLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1496,7 +1496,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1530,7 +1530,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateInvQtyPickedLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicUpdateInvQtyPickedLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1577,7 +1577,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1621,7 +1621,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateLotNoLine(pDocumentNo: Code[20], pLineNo: Integer, pLotNo: Code[20]): Boolean</code></pre>
+procedure nicUpdateLotNoLine(pDocumentNo: Code[20], pLineNo: Integer, pLotNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1658,7 +1658,7 @@ Integer                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1692,7 +1692,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateLotNoLine_(pDocumentNo: Code[20], pLineNo: Integer, pLotNo: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicUpdateLotNoLine_(pDocumentNo: Code[20], pLineNo: Integer, pLotNo: Code[50], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1729,7 +1729,7 @@ Integer                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1773,7 +1773,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateQtyPickedLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20]): Boolean</code></pre>
+procedure nicUpdateQtyPickedLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1820,7 +1820,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -1854,7 +1854,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateQtyPickedLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicUpdateQtyPickedLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -1901,7 +1901,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -2107,7 +2107,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateWhseMovQtyPickedLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20]): Boolean</code></pre>
+procedure nicUpdateWhseMovQtyPickedLine(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -2154,7 +2154,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -2188,7 +2188,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdateWhseMovQtyPickedLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicUpdateWhseMovQtyPickedLine_(pDocumentNo: Code[20], pLineNo: Integer, pQtyPicked: Decimal, pLotNo: Code[50], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -2235,7 +2235,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
@@ -2279,7 +2279,7 @@ Boolean               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
-procedure nicUpdatePlaceLine(pNo: Code[20], pItemNo: Code[20], pQuantity: Decimal, pLotNo: Code[20], pPackageNo: Code[50]): Boolean</code></pre>
+procedure nicUpdatePlaceLine(pNo: Code[20], pItemNo: Code[20], pQuantity: Decimal, pLotNo: Code[50], pPackageNo: Code[50]): Boolean</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -2326,7 +2326,7 @@ Decimal                 </td>
 								pLotNo
    							</td>
    							<td class="font-style-italic">
-Code[20]                 </td>
+Code[50]                 </td>
    							<td>
 								
    							</td>
