@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/srideout/.vscode/extensions/ms-dynamics-smb.al-15.0.1129943/bin/win32/_GeneratedSite",
+  "source_base_path": "C:/Users/srideout/.vscode/extensions/ms-dynamics-smb.al-15.0.1177813/bin/win32/_GeneratedSite",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -555,6 +555,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/inventory-freshness/Codeunit/NICINF-Inv-Freshness-Loc-Check.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/inventory-freshness/Codeunit/NICINF-Inv-Freshness-Loc-Check.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/inventory-freshness/Codeunit/NICINF-InvFreshnessConsump.yml",
       "output": {
         ".html": {
@@ -659,6 +669,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/inventory-freshness/Enum/NICINF-Default-Output-ProdDate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/inventory-freshness/Enum/NICINF-Loc-Fresh-Switch-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/inventory-freshness/Enum/NICINF-Loc-Fresh-Switch-Type.html"
         }
       },
       "version": ""
@@ -859,6 +879,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/inventory-freshness/PageExtension/NICINF-ItemList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/inventory-freshness/PageExtension/NICINF-Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/inventory-freshness/PageExtension/NICINF-Location.html"
         }
       },
       "version": ""
@@ -1189,6 +1219,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/inventory-freshness/TableExtension/NICINF-Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/inventory-freshness/TableExtension/NICINF-Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/inventory-freshness/TableExtension/NICINF-Location.html"
         }
       },
       "version": ""
@@ -2975,6 +3015,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/inventory-shelf-life/Codeunit/NICISL-Shelf-Life-Loc-Check.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/inventory-shelf-life/Codeunit/NICISL-Shelf-Life-Loc-Check.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/inventory-shelf-life/Codeunit/NICISL-ShelfLife.yml",
       "output": {
         ".html": {
@@ -3039,6 +3089,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/inventory-shelf-life/Codeunit/NICISL-Upgrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/inventory-shelf-life/Enum/NICISL-LocShelfLifeSwitchType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/inventory-shelf-life/Enum/NICISL-LocShelfLifeSwitchType.html"
         }
       },
       "version": ""
@@ -3189,6 +3249,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/inventory-shelf-life/PageExtension/NICISL-ItemList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/inventory-shelf-life/PageExtension/NICISL-Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/inventory-shelf-life/PageExtension/NICISL-Location.html"
         }
       },
       "version": ""
@@ -3419,6 +3489,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/inventory-shelf-life/TableExtension/NICISL-ItemJournalLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/inventory-shelf-life/TableExtension/NICISL-Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/inventory-shelf-life/TableExtension/NICISL-Location.html"
         }
       },
       "version": ""
@@ -9085,6 +9165,336 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Check-Purchasing-Restr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Check-Purchasing-Restr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-DocAttachmentHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-DocAttachmentHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Guided-Exp-Assist-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Guided-Exp-Assist-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Guided-Exp-Manual-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Guided-Exp-Manual-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-InitDefaultNoSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-InitDefaultNoSeries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Initialize-Company.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Initialize-Company.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Initialize-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Initialize-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Restriction-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Restriction-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Setup-Wizard-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Setup-Wizard-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-SingleInstanceSubs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-SingleInstanceSubs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Subscribers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Subscribers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Enum/NICPRR-Restriction-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Enum/NICPRR-Restriction-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/EnumExtension/NICPRR-AttachmentDocumentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/EnumExtension/NICPRR-AttachmentDocumentType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Module/Purchasing-Restrictions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Module/Purchasing-Restrictions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Page/NICPRR-Purchasing-Restr-Subfrm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Page/NICPRR-Purchasing-Restr-Subfrm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Page/NICPRR-Purchasing-Restr.-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Page/NICPRR-Purchasing-Restr.-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Page/NICPRR-Purchasing-Restr.-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Page/NICPRR-Purchasing-Restr.-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Page/NICPRR-Purchasing-Restrictions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Page/NICPRR-Purchasing-Restrictions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Page/NICPRR-Setup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Page/NICPRR-Setup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Order-Address.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Order-Address.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Vendor-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Vendor-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/PermissionSet/NICPRR-Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/PermissionSet/NICPRR-Admin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/PermissionSet/NICPRR-Edit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/PermissionSet/NICPRR-Edit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/PermissionSet/NICPRR-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/PermissionSet/NICPRR-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/PermissionSet/NICPRR-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/PermissionSet/NICPRR-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/TableExtension/NICPRR-Order-Address.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/TableExtension/NICPRR-Order-Address.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/TableExtension/NICPRR-Purchase-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/TableExtension/NICPRR-Purchase-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/TableExtension/NICPRR-Purchase-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/TableExtension/NICPRR-Purchase-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/TableExtension/NICPRR-Vendor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/TableExtension/NICPRR-Vendor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Checklist-Item.yml",
       "output": {
         ".html": {
@@ -11815,1160 +12225,1170 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-ApplyRebatesToCustomer.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-ApplyRebatesToCustomer.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-ApplyRebatesToCustomer.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-ApplyRebatesToCustomer.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Attachment-Handler.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Attachment-Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Attachment-Handler.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Attachment-Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Calculate-Rebate.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Calculate-Rebate.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Calculate-Rebate.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Calculate-Rebate.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Change-Rebate-Status.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Change-Rebate-Status.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Change-Rebate-Status.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Change-Rebate-Status.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Copy-Rebate.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Copy-Rebate.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Copy-Rebate.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Copy-Rebate.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Customer-Rebate-Groups.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Customer-Rebate-Groups.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Customer-Rebate-Groups.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Customer-Rebate-Groups.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Find-Entries.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Find-Entries.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Find-Entries.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Find-Entries.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Guided-Exp-Assist-Setup.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Guided-Exp-Assist-Setup.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Guided-Exp-Assist-Setup.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Guided-Exp-Assist-Setup.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Guided-Exp-Manual-Setup.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Guided-Exp-Manual-Setup.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Guided-Exp-Manual-Setup.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Guided-Exp-Manual-Setup.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Handle-Pay-To-Customer.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Handle-Pay-To-Customer.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Handle-Pay-To-Customer.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Handle-Pay-To-Customer.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Init-Default-No-Series.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Init-Default-No-Series.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Init-Default-No-Series.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Init-Default-No-Series.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Initialize-Company.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Initialize-Company.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Initialize-Company.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Initialize-Company.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Initialize-Data.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Initialize-Data.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Initialize-Data.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Initialize-Data.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Install.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Install.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Install.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Install.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Item-Rebate-Groups.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Item-Rebate-Groups.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Item-Rebate-Groups.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Item-Rebate-Groups.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Post-Rebates-To-G-L.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Post-Rebates-To-G-L.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Post-Rebates-To-G-L.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Post-Rebates-To-G-L.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Preview-Post-Events.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Preview-Post-Events.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Preview-Post-Events.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Preview-Post-Events.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Categories.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Categories.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Categories.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Categories.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Comment-Ctrl.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Comment-Ctrl.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Comment-Ctrl.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Comment-Ctrl.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Ctrl.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Ctrl.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Ctrl.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Ctrl.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Entry-Edit.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Entry-Edit.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Entry-Edit.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Entry-Edit.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Entry-Handler.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Entry-Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Entry-Handler.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Entry-Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Entry-SetApplId.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Entry-SetApplId.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Entry-SetApplId.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Entry-SetApplId.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl-Batch-Ctrl.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl-Batch-Ctrl.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl-Batch-Ctrl.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl-Batch-Ctrl.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl-Line-Ctrl.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl-Line-Ctrl.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl-Line-Ctrl.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl-Line-Ctrl.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl-Templ-Ctrl.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl-Templ-Ctrl.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl-Templ-Ctrl.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl-Templ-Ctrl.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl.-B.Post.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-B.Post.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl.-B.Post.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-B.Post.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl.-Check-Line.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Check-Line.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl.-Check-Line.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Check-Line.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl.-Post-Line.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Line.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl.-Post-Line.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Line.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl.-Post.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Jnl.-Post.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Journal-Handler.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Journal-Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Journal-Handler.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Journal-Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Posting-Groups.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Posting-Groups.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Posting-Groups.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Posting-Groups.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Posting-Helper.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Posting-Helper.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Posting-Helper.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Posting-Helper.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Tiers.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Tiers.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Rebate-Tiers.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Rebate-Tiers.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Run-Calculate-Rebates.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Run-Calculate-Rebates.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Run-Calculate-Rebates.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Run-Calculate-Rebates.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Run-Post-Rebates-To-G-L.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Run-Post-Rebates-To-G-L.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Run-Post-Rebates-To-G-L.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Run-Post-Rebates-To-G-L.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Setup-Wizard-Handler.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Setup-Wizard-Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Setup-Wizard-Handler.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Setup-Wizard-Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-SingleInstanceSubs.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-SingleInstanceSubs.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-SingleInstanceSubs.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-SingleInstanceSubs.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Subscribers.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Subscribers.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Subscribers.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Subscribers.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Upgrade.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Upgrade.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Upgrade.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Upgrade.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Validate-Rebate-Handler.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Validate-Rebate-Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Validate-Rebate-Handler.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Validate-Rebate-Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Codeunit/NICSOF-Validate-Rebate.yml",
+      "source_relative_path": "reference/sales-rebates/Codeunit/NICSOF-Validate-Rebate.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Codeunit/NICSOF-Validate-Rebate.html"
+          "relative_path": "reference/sales-rebates/Codeunit/NICSOF-Validate-Rebate.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Enum/NICSOF-Det-Rebate-Entry-Type.yml",
+      "source_relative_path": "reference/sales-rebates/Enum/NICSOF-Det-Rebate-Entry-Type.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Enum/NICSOF-Det-Rebate-Entry-Type.html"
+          "relative_path": "reference/sales-rebates/Enum/NICSOF-Det-Rebate-Entry-Type.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Calc-Type.yml",
+      "source_relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Calc-Type.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Calc-Type.html"
+          "relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Calc-Type.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Customer-Type.yml",
+      "source_relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Customer-Type.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Customer-Type.html"
+          "relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Customer-Type.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Item-Type.yml",
+      "source_relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Item-Type.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Item-Type.html"
+          "relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Item-Type.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Jnl-Doc.-Type.yml",
+      "source_relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Jnl-Doc.-Type.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Jnl-Doc.-Type.html"
+          "relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Jnl-Doc.-Type.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Status.yml",
+      "source_relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Status.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Status.html"
+          "relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Status.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Value-Type.yml",
+      "source_relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Value-Type.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Enum/NICSOF-Rebate-Value-Type.html"
+          "relative_path": "reference/sales-rebates/Enum/NICSOF-Rebate-Value-Type.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/EnumExtension/NICSOF-AttachmentDocumentType.yml",
+      "source_relative_path": "reference/sales-rebates/EnumExtension/NICSOF-AttachmentDocumentType.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/EnumExtension/NICSOF-AttachmentDocumentType.html"
+          "relative_path": "reference/sales-rebates/EnumExtension/NICSOF-AttachmentDocumentType.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Module/Sales-Offers.yml",
+      "source_relative_path": "reference/sales-rebates/Module/Sales-Rebates.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Module/Sales-Offers.html"
+          "relative_path": "reference/sales-rebates/Module/Sales-Rebates.html"
         }
       },
       "version": ""
     },
     {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/sales-rebates/Obsoletion/obsolete_by_24.5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-rebates/Obsoletion/obsolete_by_24.5.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Apply-Rebates-To-Cust..yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Apply-Rebates-To-Cust..yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Apply-Rebates-To-Cust..html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Apply-Rebates-To-Cust..html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Customer-Rebate-Groups.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Customer-Rebate-Groups.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Customer-Rebate-Groups.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Customer-Rebate-Groups.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-DetRebateEntriesPreview.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-DetRebateEntriesPreview.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-DetRebateEntriesPreview.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-DetRebateEntriesPreview.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Detailed-Rebate-Entries.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Detailed-Rebate-Entries.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Detailed-Rebate-Entries.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Detailed-Rebate-Entries.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Item-Rebate-Groups.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Item-Rebate-Groups.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Item-Rebate-Groups.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Item-Rebate-Groups.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Post-Rebate-Application.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Post-Rebate-Application.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Post-Rebate-Application.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Post-Rebate-Application.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Card.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Card.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Card.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Card.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Categories.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Categories.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Categories.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Categories.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Comment-List.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Comment-List.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Comment-List.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Comment-List.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Comment-Sheet.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Comment-Sheet.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Comment-Sheet.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Comment-Sheet.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Customer-FactBox.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Customer-FactBox.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Customer-FactBox.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Customer-FactBox.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Customers.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Customers.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Customers.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Customers.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Entries-Preview.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Entries-Preview.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Entries-Preview.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Entries-Preview.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Entries.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Entries.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Entries.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Entries.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Item-FactBox.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Item-FactBox.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Item-FactBox.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Item-FactBox.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Items.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Items.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Items.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Items.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Jnl-Templ-List.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Jnl-Templ-List.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Jnl-Templ-List.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Jnl-Templ-List.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Jnl-Templates.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Jnl-Templates.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Jnl-Templates.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Jnl-Templates.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Journal-Batches.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Journal-Batches.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Journal-Batches.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Journal-Batches.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Journal.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Journal.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Journal.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Journal.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Pay-Exceptions.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Pay-Exceptions.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Pay-Exceptions.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Pay-Exceptions.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Posting-Groups.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Posting-Groups.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Posting-Groups.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Posting-Groups.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Tier-FactBox.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Tier-FactBox.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Tier-FactBox.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Tier-FactBox.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Tiers.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Tiers.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebate-Tiers.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebate-Tiers.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Rebates.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Rebates.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Rebates.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Rebates.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-SOF-Setup-Wizard.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-SOF-Setup-Wizard.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-SOF-Setup-Wizard.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-SOF-Setup-Wizard.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Page/NICSOF-Sales-Offer-Setup.yml",
+      "source_relative_path": "reference/sales-rebates/Page/NICSOF-Sales-Offer-Setup.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Page/NICSOF-Sales-Offer-Setup.html"
+          "relative_path": "reference/sales-rebates/Page/NICSOF-Sales-Offer-Setup.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PageExtension/NICSOF-Customer-Card.yml",
+      "source_relative_path": "reference/sales-rebates/PageExtension/NICSOF-Customer-Card.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PageExtension/NICSOF-Customer-Card.html"
+          "relative_path": "reference/sales-rebates/PageExtension/NICSOF-Customer-Card.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PageExtension/NICSOF-Item-Card.yml",
+      "source_relative_path": "reference/sales-rebates/PageExtension/NICSOF-Item-Card.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PageExtension/NICSOF-Item-Card.html"
+          "relative_path": "reference/sales-rebates/PageExtension/NICSOF-Item-Card.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PageExtension/NICSOF-PostedSalesCrMemoSub.yml",
+      "source_relative_path": "reference/sales-rebates/PageExtension/NICSOF-PostedSalesCrMemoSub.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PageExtension/NICSOF-PostedSalesCrMemoSub.html"
+          "relative_path": "reference/sales-rebates/PageExtension/NICSOF-PostedSalesCrMemoSub.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PageExtension/NICSOF-PostedSalesInvoiceSub.yml",
+      "source_relative_path": "reference/sales-rebates/PageExtension/NICSOF-PostedSalesInvoiceSub.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PageExtension/NICSOF-PostedSalesInvoiceSub.html"
+          "relative_path": "reference/sales-rebates/PageExtension/NICSOF-PostedSalesInvoiceSub.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PageExtension/NICSOF-SalesCrMemoSubform.yml",
+      "source_relative_path": "reference/sales-rebates/PageExtension/NICSOF-SalesCrMemoSubform.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PageExtension/NICSOF-SalesCrMemoSubform.html"
+          "relative_path": "reference/sales-rebates/PageExtension/NICSOF-SalesCrMemoSubform.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PageExtension/NICSOF-SalesInvoiceSubform.yml",
+      "source_relative_path": "reference/sales-rebates/PageExtension/NICSOF-SalesInvoiceSubform.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PageExtension/NICSOF-SalesInvoiceSubform.html"
+          "relative_path": "reference/sales-rebates/PageExtension/NICSOF-SalesInvoiceSubform.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PageExtension/NICSOF-SalesOrderSubform.yml",
+      "source_relative_path": "reference/sales-rebates/PageExtension/NICSOF-SalesOrderSubform.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PageExtension/NICSOF-SalesOrderSubform.html"
+          "relative_path": "reference/sales-rebates/PageExtension/NICSOF-SalesOrderSubform.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PermissionSet/NICSOF-Admin.yml",
+      "source_relative_path": "reference/sales-rebates/PermissionSet/NICSOF-Admin.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PermissionSet/NICSOF-Admin.html"
+          "relative_path": "reference/sales-rebates/PermissionSet/NICSOF-Admin.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PermissionSet/NICSOF-Edit.yml",
+      "source_relative_path": "reference/sales-rebates/PermissionSet/NICSOF-Edit.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PermissionSet/NICSOF-Edit.html"
+          "relative_path": "reference/sales-rebates/PermissionSet/NICSOF-Edit.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PermissionSet/NICSOF-Objects.yml",
+      "source_relative_path": "reference/sales-rebates/PermissionSet/NICSOF-Objects.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PermissionSet/NICSOF-Objects.html"
+          "relative_path": "reference/sales-rebates/PermissionSet/NICSOF-Objects.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/PermissionSet/NICSOF-Read.yml",
+      "source_relative_path": "reference/sales-rebates/PermissionSet/NICSOF-Read.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/PermissionSet/NICSOF-Read.html"
+          "relative_path": "reference/sales-rebates/PermissionSet/NICSOF-Read.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Report/NICSOF-Calculate-Rebates.yml",
+      "source_relative_path": "reference/sales-rebates/Report/NICSOF-Calculate-Rebates.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Report/NICSOF-Calculate-Rebates.html"
+          "relative_path": "reference/sales-rebates/Report/NICSOF-Calculate-Rebates.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Report/NICSOF-Copy-Rebate.yml",
+      "source_relative_path": "reference/sales-rebates/Report/NICSOF-Copy-Rebate.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Report/NICSOF-Copy-Rebate.html"
+          "relative_path": "reference/sales-rebates/Report/NICSOF-Copy-Rebate.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Report/NICSOF-Post-Rebates-to-G-L.yml",
+      "source_relative_path": "reference/sales-rebates/Report/NICSOF-Post-Rebates-to-G-L.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Report/NICSOF-Post-Rebates-to-G-L.html"
+          "relative_path": "reference/sales-rebates/Report/NICSOF-Post-Rebates-to-G-L.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Apply-Parameters.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Apply-Parameters.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Apply-Parameters.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Apply-Parameters.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Copy-Rebate-Parameters.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Copy-Rebate-Parameters.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Copy-Rebate-Parameters.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Copy-Rebate-Parameters.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Customer-Rebate-Group.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Customer-Rebate-Group.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Customer-Rebate-Group.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Customer-Rebate-Group.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Detailed-Rebate-Entry.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Detailed-Rebate-Entry.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Detailed-Rebate-Entry.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Detailed-Rebate-Entry.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Item-Rebate-Group.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Item-Rebate-Group.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Item-Rebate-Group.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Item-Rebate-Group.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Category.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Category.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Category.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Category.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Comment-Line.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Comment-Line.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Comment-Line.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Comment-Line.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Customer.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Customer.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Customer.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Customer.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Entry.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Entry.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Entry.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Entry.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Item.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Item.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Item.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Item.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Journal-Batch.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Journal-Batch.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Journal-Batch.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Journal-Batch.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Journal-Line.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Journal-Line.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Journal-Line.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Journal-Line.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Journal-Template.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Journal-Template.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Journal-Template.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Journal-Template.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Pay-Exception.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Pay-Exception.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Pay-Exception.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Pay-Exception.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Posting-Group.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Posting-Group.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Posting-Group.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Posting-Group.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Tier.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Tier.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate-Tier.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Tier.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Rebate.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Rebate.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Rebate.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/Table/NICSOF-Sales-Offer-Setup.yml",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Sales-Offer-Setup.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/Table/NICSOF-Sales-Offer-Setup.html"
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Sales-Offer-Setup.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/TableExtension/NICSOF-Customer.yml",
+      "source_relative_path": "reference/sales-rebates/TableExtension/NICSOF-Customer.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/TableExtension/NICSOF-Customer.html"
+          "relative_path": "reference/sales-rebates/TableExtension/NICSOF-Customer.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/TableExtension/NICSOF-Item.yml",
+      "source_relative_path": "reference/sales-rebates/TableExtension/NICSOF-Item.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/TableExtension/NICSOF-Item.html"
+          "relative_path": "reference/sales-rebates/TableExtension/NICSOF-Item.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/TableExtension/NICSOF-Sales-Cr.Memo-Line.yml",
+      "source_relative_path": "reference/sales-rebates/TableExtension/NICSOF-Sales-Cr.Memo-Line.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/TableExtension/NICSOF-Sales-Cr.Memo-Line.html"
+          "relative_path": "reference/sales-rebates/TableExtension/NICSOF-Sales-Cr.Memo-Line.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/TableExtension/NICSOF-Sales-Invoice-Line.yml",
+      "source_relative_path": "reference/sales-rebates/TableExtension/NICSOF-Sales-Invoice-Line.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/TableExtension/NICSOF-Sales-Invoice-Line.html"
+          "relative_path": "reference/sales-rebates/TableExtension/NICSOF-Sales-Invoice-Line.html"
         }
       },
       "version": ""
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/sales-offers/TableExtension/NICSOF-Sales-Line.yml",
+      "source_relative_path": "reference/sales-rebates/TableExtension/NICSOF-Sales-Line.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/sales-offers/TableExtension/NICSOF-Sales-Line.html"
+          "relative_path": "reference/sales-rebates/TableExtension/NICSOF-Sales-Line.html"
         }
       },
       "version": ""
@@ -12979,6 +13399,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Check-Sales-Restr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-DocAttachmentHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-DocAttachmentHandler.html"
         }
       },
       "version": ""
@@ -13069,6 +13499,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-SingleInstanceSubs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Subscribers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Subscribers.html"
         }
       },
       "version": ""
@@ -13695,6 +14135,46 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Purch-Return-Order-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Purch-Return-Order-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Purchase-Return-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Purchase-Return-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Sales-Order-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Sales-Order-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Sales-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Sales-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Ship-to-Address-List.yml",
       "output": {
         ".html": {
@@ -13709,6 +14189,26 @@
       "output": {
         ".html": {
           "relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Ship-to-Address.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Transfer-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Transfer-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Transfer-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/PageExtension/NICSHC-Transfer-Orders.html"
         }
       },
       "version": ""
@@ -14535,6 +15035,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/vendor-insights/Codeunit/NICVIN-Calc.-Vendor-Insights.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/vendor-insights/Codeunit/NICVIN-Calc.-Vendor-Insights.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/vendor-insights/Codeunit/NICVIN-Calculate-Scores.yml",
       "output": {
         ".html": {
@@ -14675,6 +15185,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/vendor-insights/Codeunit/NICVIN-Upgrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/vendor-insights/Codeunit/NICVIN-Upgrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/vendor-insights/Enum/NICVIN-Vendor-Score.yml",
       "output": {
         ".html": {
@@ -14689,6 +15209,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/vendor-insights/Module/Vendor-Insights.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/vendor-insights/Obsoletion/obsolete_by_25.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/vendor-insights/Obsoletion/obsolete_by_25.0.html"
         }
       },
       "version": ""
