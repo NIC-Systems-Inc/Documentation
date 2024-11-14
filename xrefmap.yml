@@ -361,6 +361,9 @@ references:
 - uid: C:Query::NICPBA_ConsumptionByBatch.NICPBA_ProductionOrderBatch.SortOrder
   name: SortOrder
   href: reference/production-batching/Query/NICPBA-ConsumptionByBatch.html
+- uid: C:Query::NICQIN_InspTemplLine_Tests.InspectTemplLine.Description
+  name: Description
+  href: reference/quality-inspections/Query/NICQIN-InspTemplLine-Tests.html
 - uid: C:Query::NICQIN_InspTemplLine_Tests.InspectTemplLine.Inspection_Line_No
   name: Inspection_Line_No
   href: reference/quality-inspections/Query/NICQIN-InspTemplLine-Tests.html
@@ -727,6 +730,18 @@ references:
 - uid: E:Enum::NICBOM_Qty#_To_Handle_Option.Remainder
   name: Remainder
   href: reference/backorder-management/Enum/NICBOM-Qty.-To-Handle-Option.html
+- uid: E:Enum::NICCIN_Customer_Score.
+  name: ''
+  href: reference/customer-insights/Enum/NICCIN-Customer-Score.html
+- uid: E:Enum::NICCIN_Customer_Score.Average
+  name: Average
+  href: reference/customer-insights/Enum/NICCIN-Customer-Score.html
+- uid: E:Enum::NICCIN_Customer_Score.Good
+  name: Good
+  href: reference/customer-insights/Enum/NICCIN-Customer-Score.html
+- uid: E:Enum::NICCIN_Customer_Score.Poor
+  name: Poor
+  href: reference/customer-insights/Enum/NICCIN-Customer-Score.html
 - uid: E:Enum::NICCOM_Agent_Type.Salesperson/Purchaser
   name: "\"Salesperson/Purchaser\""
   href: reference/sales-commissions/Enum/NICCOM-Agent-Type.html
@@ -1102,6 +1117,9 @@ references:
 - uid: E:Enum::NICQIN_Inspection_Status.Closed
   name: Closed
   href: reference/quality-inspections/Enum/NICQIN-Inspection-Status.html
+- uid: E:Enum::NICQIN_Inspection_Status.Finished
+  name: Finished
+  href: reference/quality-inspections/Enum/NICQIN-Inspection-Status.html
 - uid: E:Enum::NICQIN_Inspection_Status.New
   name: New
   href: reference/quality-inspections/Enum/NICQIN-Inspection-Status.html
@@ -1117,6 +1135,60 @@ references:
 - uid: E:Enum::NICQIN_Inspection_Templ_Status.Inactive
   name: Inactive
   href: reference/quality-inspections/Enum/NICQIN-Inspection-Templ-Status.html
+- uid: E:Enum::NICQIN_ProdOrdRoutLine_Date.Ending_Date
+  name: "\"Ending Date\""
+  href: reference/quality-inspections/Enum/NICQIN-ProdOrdRoutLine-Date.html
+- uid: E:Enum::NICQIN_ProdOrdRoutLine_Date.Starting_Date
+  name: "\"Starting Date\""
+  href: reference/quality-inspections/Enum/NICQIN-ProdOrdRoutLine-Date.html
+- uid: E:Enum::NICQIN_ProdOrderComp_Date.Due_Date
+  name: "\"Due Date\""
+  href: reference/quality-inspections/Enum/NICQIN-ProdOrderComp-Date.html
+- uid: E:Enum::NICQIN_ProdOrderLine_Date.Due_Date
+  name: "\"Due Date\""
+  href: reference/quality-inspections/Enum/NICQIN-ProdOrderLine-Date.html
+- uid: E:Enum::NICQIN_ProdOrderLine_Date.Ending_Date
+  name: "\"Ending Date\""
+  href: reference/quality-inspections/Enum/NICQIN-ProdOrderLine-Date.html
+- uid: E:Enum::NICQIN_ProdOrderLine_Date.Starting_Date
+  name: "\"Starting Date\""
+  href: reference/quality-inspections/Enum/NICQIN-ProdOrderLine-Date.html
+- uid: E:Enum::NICQIN_PurchHeader_Date.Expected_Receipt_Date
+  name: "\"Expected Receipt Date\""
+  href: reference/quality-inspections/Enum/NICQIN-PurchHeader-Date.html
+- uid: E:Enum::NICQIN_PurchHeader_Date.Promised_Receipt_Date
+  name: "\"Promised Receipt Date\""
+  href: reference/quality-inspections/Enum/NICQIN-PurchHeader-Date.html
+- uid: E:Enum::NICQIN_PurchLine_Date.Expected_Receipt_Date
+  name: "\"Expected Receipt Date\""
+  href: reference/quality-inspections/Enum/NICQIN-PurchLine-Date.html
+- uid: E:Enum::NICQIN_PurchLine_Date.Planned_Receipt_Date
+  name: "\"Planned Receipt Date\""
+  href: reference/quality-inspections/Enum/NICQIN-PurchLine-Date.html
+- uid: E:Enum::NICQIN_PurchLine_Date.Promised_Receipt_Date
+  name: "\"Promised Receipt Date\""
+  href: reference/quality-inspections/Enum/NICQIN-PurchLine-Date.html
+- uid: E:Enum::NICQIN_SalesHeader_Date.Promised_Delivery_Date
+  name: "\"Promised Delivery Date\""
+  href: reference/quality-inspections/Enum/NICQIN-SalesHeader-Date.html
+- uid: E:Enum::NICQIN_SalesHeader_Date.Requested_Delivery_Date
+  name: "\"Requested Delivery Date\""
+  href: reference/quality-inspections/Enum/NICQIN-SalesHeader-Date.html
+- uid: E:Enum::NICQIN_SalesHeader_Date.Shipment_Date
+  name: "\"Shipment Date\""
+  href: reference/quality-inspections/Enum/NICQIN-SalesHeader-Date.html
+- uid: E:Enum::NICQIN_SalesLine_Date.Planned_Shipment_Date
+  name: "\"Planned Shipment Date\""
+  href: reference/quality-inspections/Enum/NICQIN-SalesLine-Date.html
+- uid: E:Enum::NICQIN_SalesLine_Date.Promised_Delivery_Date
+  name: "\"Promised Delivery Date\""
+  href: reference/quality-inspections/Enum/NICQIN-SalesLine-Date.html
+- uid: E:Enum::NICQIN_SalesLine_Date.Requested_Delivery_Date
+  name: "\"Requested Delivery Date\""
+  href: reference/quality-inspections/Enum/NICQIN-SalesLine-Date.html
+- uid: E:Enum::NICQIN_SalesLine_Date.Shipment_Date
+  name: "\"Shipment Date\""
+  href: reference/quality-inspections/Enum/NICQIN-SalesLine-Date.html
 - uid: E:Enum::NICQIN_Test_Fail_Action_Type.Create_User_Task
   name: "\"Create User Task\""
   href: reference/quality-inspections/Enum/NICQIN-Test-Fail-Action-Type.html
@@ -1150,6 +1222,15 @@ references:
 - uid: E:Enum::NICQIN_User_Task_Receipient._
   name: "\" \""
   href: reference/quality-inspections/Enum/NICQIN-User-Task-Receipient.html
+- uid: E:Enum::NICQIN_WHRecHeader_Date.Posting_Date
+  name: "\"Posting Date\""
+  href: reference/quality-inspections/Enum/NICQIN-WHRecHeader-Date.html
+- uid: E:Enum::NICQIN_WHShipHeader_Date.Posting_Date
+  name: "\"Posting Date\""
+  href: reference/quality-inspections/Enum/NICQIN-WHShipHeader-Date.html
+- uid: E:Enum::NICQIN_WHShipHeader_Date.Shipment_Date
+  name: "\"Shipment Date\""
+  href: reference/quality-inspections/Enum/NICQIN-WHShipHeader-Date.html
 - uid: E:Enum::NICSHC_Filter_Document_Type.Purchase_Return_Order
   name: "\"Purchase Return Order\""
   href: reference/serial-shipping-container-codes/Enum/NICSHC-Filter-Document-Type.html
@@ -1357,6 +1438,33 @@ references:
 - uid: E:EnumExtension::NICPRR_AttachmentDocumentType.NICPRR_Purchasing_Restr_Header
   name: "\"NICPRR Purchasing Restr Header\""
   href: reference/purchasing-restrictions/EnumExtension/NICPRR-AttachmentDocumentType.html
+- uid: E:EnumExtension::NICQIN_Option_Lookup_Type.NICQIN_ProdOrdRoutLine_QI
+  name: "\"NICQIN ProdOrdRoutLine QI\""
+  href: reference/quality-inspections/EnumExtension/NICQIN-Option-Lookup-Type.html
+- uid: E:EnumExtension::NICQIN_Option_Lookup_Type.NICQIN_ProdOrderComp_QI
+  name: "\"NICQIN ProdOrderComp QI\""
+  href: reference/quality-inspections/EnumExtension/NICQIN-Option-Lookup-Type.html
+- uid: E:EnumExtension::NICQIN_Option_Lookup_Type.NICQIN_ProdOrderLine_QI
+  name: "\"NICQIN ProdOrderLine QI\""
+  href: reference/quality-inspections/EnumExtension/NICQIN-Option-Lookup-Type.html
+- uid: E:EnumExtension::NICQIN_Option_Lookup_Type.NICQIN_PurchHeader_QI
+  name: "\"NICQIN PurchHeader QI\""
+  href: reference/quality-inspections/EnumExtension/NICQIN-Option-Lookup-Type.html
+- uid: E:EnumExtension::NICQIN_Option_Lookup_Type.NICQIN_PurchLine_QI
+  name: "\"NICQIN PurchLine QI\""
+  href: reference/quality-inspections/EnumExtension/NICQIN-Option-Lookup-Type.html
+- uid: E:EnumExtension::NICQIN_Option_Lookup_Type.NICQIN_SalesHeader_QI
+  name: "\"NICQIN SalesHeader QI\""
+  href: reference/quality-inspections/EnumExtension/NICQIN-Option-Lookup-Type.html
+- uid: E:EnumExtension::NICQIN_Option_Lookup_Type.NICQIN_SalesLine_QI
+  name: "\"NICQIN SalesLine QI\""
+  href: reference/quality-inspections/EnumExtension/NICQIN-Option-Lookup-Type.html
+- uid: E:EnumExtension::NICQIN_Option_Lookup_Type.NICQIN_WarehouseRecHeader_QI
+  name: "\"NICQIN WarehouseRecHeader QI\""
+  href: reference/quality-inspections/EnumExtension/NICQIN-Option-Lookup-Type.html
+- uid: E:EnumExtension::NICQIN_Option_Lookup_Type.NICQIN_WarehouseShipHeader_QI
+  name: "\"NICQIN WarehouseShipHeader QI\""
+  href: reference/quality-inspections/EnumExtension/NICQIN-Option-Lookup-Type.html
 - uid: E:EnumExtension::NICSLR_AttachmentDocumentType.NICSLR_Sales_Restr_Header
   name: "\"NICSLR Sales Restr Header\""
   href: reference/sales-restrictions/EnumExtension/NICSLR-AttachmentDocumentType.html
@@ -1684,6 +1792,246 @@ references:
 - uid: F:Table::NICBOM_UnderShptCode.Tolerance_Pct#
   name: "\"Tolerance Pct.\""
   href: reference/backorder-management/Table/NICBOM-UnderShptCode.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.Credit_Sales_Target
+  name: "\"Credit Sales Target\""
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.Customer_No#[20]
+  name: "\"Customer No.\""
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.Discount_Target
+  name: "\"Discount Target\""
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.Invoice_Sales_Target
+  name: "\"Invoice Sales Target\""
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.Profit_Margin_Pct#_Target
+  name: "\"Profit Margin Pct. Target\""
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.Profit_Target
+  name: "\"Profit Target\""
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.Rebate_Target
+  name: "\"Rebate Target\""
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.Refund_Target
+  name: "\"Refund Target\""
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.SystemId
+  name: SystemId
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Cust#_Insights_Target.Total_Sales_Target
+  name: "\"Total Sales Target\""
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: F:Table::NICCIN_Customer_Insight.Amount
+  name: Amount
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.Customer_No#[20]
+  name: "\"Customer No.\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.Date_Filter
+  name: "\"Date Filter\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.Metric_Code[20]
+  name: "\"Metric Code\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.SystemId
+  name: SystemId
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.Total
+  name: Total
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.Total_Occurrences
+  name: "\"Total Occurrences\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.Total_Percentage
+  name: "\"Total Percentage\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insight.Total_Score
+  name: "\"Total Score\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Amount
+  name: Amount
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Customer_No#[20]
+  name: "\"Customer No.\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Documents[2048]
+  name: Documents
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Entry_No#
+  name: "\"Entry No.\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Ledger_Entries[2048]
+  name: "\"Ledger Entries\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Metric_Code[20]
+  name: "\"Metric Code\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Occurrences
+  name: Occurrences
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Percentage
+  name: Percentage
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Score
+  name: Score
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Start_Date
+  name: "\"Start Date\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.SystemId
+  name: SystemId
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Entry.Total
+  name: Total
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Date_Range[1024]
+  name: "\"Date Range\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.DefaultProfitMarginPctTarget
+  name: DefaultProfitMarginPctTarget
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Default_Credit_Sales_Target
+  name: "\"Default Credit Sales Target\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Default_Discount_Target
+  name: "\"Default Discount Target\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Default_Invoice_Sales_Target
+  name: "\"Default Invoice Sales Target\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Default_Profit_Target
+  name: "\"Default Profit Target\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Default_Rebate_Target
+  name: "\"Default Rebate Target\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Default_Refund_Target
+  name: "\"Default Refund Target\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Default_Total_Sales_Target
+  name: "\"Default Total Sales Target\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Duration
+  name: Duration
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Early_Payments_Formula
+  name: "\"Early Payments Formula\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Last_Run_Completed
+  name: "\"Last Run Completed\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.Primary_Key[10]
+  name: "\"Primary Key\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.SystemId
+  name: SystemId
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Insights_Setup.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: F:Table::NICCIN_Customer_Metric.Average_Max#
+  name: "\"Average Max.\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.Average_Min#
+  name: "\"Average Min.\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.Enabled
+  name: Enabled
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.Good_Max#
+  name: "\"Good Max.\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.Good_Min#
+  name: "\"Good Min.\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.Metric_Code[20]
+  name: "\"Metric Code\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.Poor_Max#
+  name: "\"Poor Max.\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.Poor_Min#
+  name: "\"Poor Min.\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.Ranges_Verified
+  name: "\"Ranges Verified\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.SystemId
+  name: SystemId
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
+- uid: F:Table::NICCIN_Customer_Metric.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
 - uid: F:Table::NICCOM_Agent.Agent_Comm_Group[20]
   name: "\"Agent Comm Group\""
   href: reference/sales-commissions/Table/NICCOM-Agent.html
@@ -2251,6 +2599,36 @@ references:
 - uid: F:Table::NICCOM_Commission_Item.Variant_Code[10]
   name: "\"Variant Code\""
   href: reference/sales-commissions/Table/NICCOM-Commission-Item.html
+- uid: F:Table::NICCOM_Commission_Register.From_Entry_No#
+  name: "\"From Entry No.\""
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
+- uid: F:Table::NICCOM_Commission_Register.Journal_Batch_Name[10]
+  name: "\"Journal Batch Name\""
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
+- uid: F:Table::NICCOM_Commission_Register.No#
+  name: "\"No.\""
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
+- uid: F:Table::NICCOM_Commission_Register.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
+- uid: F:Table::NICCOM_Commission_Register.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
+- uid: F:Table::NICCOM_Commission_Register.SystemId
+  name: SystemId
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
+- uid: F:Table::NICCOM_Commission_Register.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
+- uid: F:Table::NICCOM_Commission_Register.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
+- uid: F:Table::NICCOM_Commission_Register.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
+- uid: F:Table::NICCOM_Commission_Register.To_Entry_No#
+  name: "\"To Entry No.\""
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
 - uid: F:Table::NICCOM_Commission_Tier.Commission_No#[20]
   name: "\"Commission No.\""
   href: reference/sales-commissions/Table/NICCOM-Commission-Tier.html
@@ -5575,6 +5953,9 @@ references:
 - uid: F:Table::NICQIN_Copy_Inspection_Arg.Copy_Package_No#
   name: "\"Copy Package No.\""
   href: reference/quality-inspections/Table/NICQIN-Copy-Inspection-Arg.html
+- uid: F:Table::NICQIN_Copy_Inspection_Arg.Copy_Serial_No#
+  name: "\"Copy Serial No.\""
+  href: reference/quality-inspections/Table/NICQIN-Copy-Inspection-Arg.html
 - uid: F:Table::NICQIN_Copy_Inspection_Arg.Create_To_Header
   name: "\"Create To Header\""
   href: reference/quality-inspections/Table/NICQIN-Copy-Inspection-Arg.html
@@ -5656,6 +6037,9 @@ references:
 - uid: F:Table::NICQIN_InspTemplLine_Acc_Value.Value[250]
   name: Value
   href: reference/quality-inspections/Table/NICQIN-InspTemplLine-Acc-Value.html
+- uid: F:Table::NICQIN_InspectTemplTest_Buffer.Description[50]
+  name: Description
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplTest-Buffer.html
 - uid: F:Table::NICQIN_InspectTemplTest_Buffer.Inspection_Template_Code[20]
   name: "\"Inspection Template Code\""
   href: reference/quality-inspections/Table/NICQIN-InspectTemplTest-Buffer.html
@@ -5686,6 +6070,33 @@ references:
 - uid: F:Table::NICQIN_InspectTemplTest_Buffer.Test_Code[20]
   name: "\"Test Code\""
   href: reference/quality-inspections/Table/NICQIN-InspectTemplTest-Buffer.html
+- uid: F:Table::NICQIN_InspectTemplate_InvRest.Description[80]
+  name: Description
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplate-InvRest.html
+- uid: F:Table::NICQIN_InspectTemplate_InvRest.Inspection_Template_Code[20]
+  name: "\"Inspection Template Code\""
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplate-InvRest.html
+- uid: F:Table::NICQIN_InspectTemplate_InvRest.Inventory_Restriction_Code[20]
+  name: "\"Inventory Restriction Code\""
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplate-InvRest.html
+- uid: F:Table::NICQIN_InspectTemplate_InvRest.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplate-InvRest.html
+- uid: F:Table::NICQIN_InspectTemplate_InvRest.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplate-InvRest.html
+- uid: F:Table::NICQIN_InspectTemplate_InvRest.SystemId
+  name: SystemId
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplate-InvRest.html
+- uid: F:Table::NICQIN_InspectTemplate_InvRest.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplate-InvRest.html
+- uid: F:Table::NICQIN_InspectTemplate_InvRest.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplate-InvRest.html
+- uid: F:Table::NICQIN_InspectTemplate_InvRest.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplate-InvRest.html
 - uid: F:Table::NICQIN_Inspect_Source_Buffer.Entry_No#
   name: "\"Entry No.\""
   href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
@@ -5694,6 +6105,15 @@ references:
   href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
 - uid: F:Table::NICQIN_Inspect_Source_Buffer.Location_Code[10]
   name: "\"Location Code\""
+  href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
+- uid: F:Table::NICQIN_Inspect_Source_Buffer.Lot_No#[50]
+  name: "\"Lot No.\""
+  href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
+- uid: F:Table::NICQIN_Inspect_Source_Buffer.Package_No#[50]
+  name: "\"Package No.\""
+  href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
+- uid: F:Table::NICQIN_Inspect_Source_Buffer.Serial_No#[50]
+  name: "\"Serial No.\""
   href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
 - uid: F:Table::NICQIN_Inspect_Source_Buffer.Source_Date
   name: "\"Source Date\""
@@ -5739,6 +6159,9 @@ references:
   href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
 - uid: F:Table::NICQIN_Inspect_Source_Buffer.SystemRowVersion
   name: SystemRowVersion
+  href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
+- uid: F:Table::NICQIN_Inspect_Source_Buffer.Test_Date
+  name: "\"Test Date\""
   href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
 - uid: F:Table::NICQIN_Inspect_Source_Buffer.Variant_Code[10]
   name: "\"Variant Code\""
@@ -5842,6 +6265,9 @@ references:
 - uid: F:Table::NICQIN_Inspect_Templ_Source.Parent_Entry_No#
   name: "\"Parent Entry No.\""
   href: reference/quality-inspections/Table/NICQIN-Inspect-Templ-Source.html
+- uid: F:Table::NICQIN_Inspect_Templ_Source.Source_Date_Filter
+  name: "\"Source Date Filter\""
+  href: reference/quality-inspections/Table/NICQIN-Inspect-Templ-Source.html
 - uid: F:Table::NICQIN_Inspect_Templ_Source.Source_Table_Id
   name: "\"Source Table Id\""
   href: reference/quality-inspections/Table/NICQIN-Inspect-Templ-Source.html
@@ -5865,6 +6291,9 @@ references:
   href: reference/quality-inspections/Table/NICQIN-Inspect-Templ-Source.html
 - uid: F:Table::NICQIN_Inspect_Templ_Source.SystemRowVersion
   name: SystemRowVersion
+  href: reference/quality-inspections/Table/NICQIN-Inspect-Templ-Source.html
+- uid: F:Table::NICQIN_Inspect_Templ_Source.Test_Date
+  name: "\"Test Date\""
   href: reference/quality-inspections/Table/NICQIN-Inspect-Templ-Source.html
 - uid: F:Table::NICQIN_InspectionAllowedTable.Parent_Table_Id
   name: "\"Parent Table Id\""
@@ -6016,6 +6445,9 @@ references:
 - uid: F:Table::NICQIN_Inspection_Header.Serial_Tracked
   name: "\"Serial Tracked\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
+- uid: F:Table::NICQIN_Inspection_Header.Source_Date
+  name: "\"Source Date\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
 - uid: F:Table::NICQIN_Inspection_Header.Source_ID[20]
   name: "\"Source ID\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
@@ -6070,6 +6502,36 @@ references:
 - uid: F:Table::NICQIN_Inspection_Header.Verified_Date_Time
   name: "\"Verified Date Time\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
+- uid: F:Table::NICQIN_Inspection_InvRest.Description[80]
+  name: Description
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
+- uid: F:Table::NICQIN_Inspection_InvRest.Inspection_No#[20]
+  name: "\"Inspection No.\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
+- uid: F:Table::NICQIN_Inspection_InvRest.Inventory_Restriction_Code[20]
+  name: "\"Inventory Restriction Code\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
+- uid: F:Table::NICQIN_Inspection_InvRest.Reinspection_No#
+  name: "\"Reinspection No.\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
+- uid: F:Table::NICQIN_Inspection_InvRest.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
+- uid: F:Table::NICQIN_Inspection_InvRest.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
+- uid: F:Table::NICQIN_Inspection_InvRest.SystemId
+  name: SystemId
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
+- uid: F:Table::NICQIN_Inspection_InvRest.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
+- uid: F:Table::NICQIN_Inspection_InvRest.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
+- uid: F:Table::NICQIN_Inspection_InvRest.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
 - uid: F:Table::NICQIN_Inspection_Line.Assigned_User_ID[50]
   name: "\"Assigned User ID\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Line.html
@@ -6120,6 +6582,9 @@ references:
   href: reference/quality-inspections/Table/NICQIN-Inspection-Line.html
 - uid: F:Table::NICQIN_Inspection_Line.Serial_No#[50]
   name: "\"Serial No.\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Line.html
+- uid: F:Table::NICQIN_Inspection_Line.Source_Date
+  name: "\"Source Date\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Line.html
 - uid: F:Table::NICQIN_Inspection_Line.Source_ID[20]
   name: "\"Source ID\""
@@ -6241,6 +6706,27 @@ references:
 - uid: F:Table::NICQIN_Inspection_Setup.Primary_Key[10]
   name: "\"Primary Key\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: F:Table::NICQIN_Inspection_Setup.Prod#_Ord_Rout_Line_Date
+  name: "\"Prod. Ord Rout Line Date\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: F:Table::NICQIN_Inspection_Setup.Prod#_Order_Comp_Date
+  name: "\"Prod. Order Comp Date\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: F:Table::NICQIN_Inspection_Setup.Prod#_Order_Line_Date
+  name: "\"Prod. Order Line Date\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: F:Table::NICQIN_Inspection_Setup.Purchase_Header_Date
+  name: "\"Purchase Header Date\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: F:Table::NICQIN_Inspection_Setup.Purchase_Line_Date
+  name: "\"Purchase Line Date\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: F:Table::NICQIN_Inspection_Setup.Sales_Header_Date
+  name: "\"Sales Header Date\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: F:Table::NICQIN_Inspection_Setup.Sales_Line_Date
+  name: "\"Sales Line Date\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
 - uid: F:Table::NICQIN_Inspection_Setup.SystemCreatedAt
   name: SystemCreatedAt
   href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
@@ -6259,6 +6745,36 @@ references:
 - uid: F:Table::NICQIN_Inspection_Setup.SystemRowVersion
   name: SystemRowVersion
   href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: F:Table::NICQIN_Inspection_Setup.WarehouseRec_Header_Date
+  name: "\"WarehouseRec Header Date\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: F:Table::NICQIN_Inspection_Setup.WarehouseShip_Header_Date
+  name: "\"WarehouseShip Header Date\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: F:Table::NICQIN_InvtRestrictionCode.Code[20]
+  name: Code
+  href: reference/quality-inspections/Table/NICQIN-InvtRestrictionCode.html
+- uid: F:Table::NICQIN_InvtRestrictionCode.Description[80]
+  name: Description
+  href: reference/quality-inspections/Table/NICQIN-InvtRestrictionCode.html
+- uid: F:Table::NICQIN_InvtRestrictionCode.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/quality-inspections/Table/NICQIN-InvtRestrictionCode.html
+- uid: F:Table::NICQIN_InvtRestrictionCode.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/quality-inspections/Table/NICQIN-InvtRestrictionCode.html
+- uid: F:Table::NICQIN_InvtRestrictionCode.SystemId
+  name: SystemId
+  href: reference/quality-inspections/Table/NICQIN-InvtRestrictionCode.html
+- uid: F:Table::NICQIN_InvtRestrictionCode.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/quality-inspections/Table/NICQIN-InvtRestrictionCode.html
+- uid: F:Table::NICQIN_InvtRestrictionCode.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/quality-inspections/Table/NICQIN-InvtRestrictionCode.html
+- uid: F:Table::NICQIN_InvtRestrictionCode.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/quality-inspections/Table/NICQIN-InvtRestrictionCode.html
 - uid: F:Table::NICQIN_Picture_Gallery_Buffer.Inspection_No#[20]
   name: "\"Inspection No.\""
   href: reference/quality-inspections/Table/NICQIN-Picture-Gallery-Buffer.html
@@ -7567,6 +8083,9 @@ references:
 - uid: F:Table::NICSOF_Rebate_Journal_Template.Description[80]
   name: Description
   href: reference/sales-rebates/Table/NICSOF-Rebate-Journal-Template.html
+- uid: F:Table::NICSOF_Rebate_Journal_Template.Increment_Batch_Name
+  name: "\"Increment Batch Name\""
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Journal-Template.html
 - uid: F:Table::NICSOF_Rebate_Journal_Template.Name[10]
   name: Name
   href: reference/sales-rebates/Table/NICSOF-Rebate-Journal-Template.html
@@ -7654,6 +8173,36 @@ references:
 - uid: F:Table::NICSOF_Rebate_Posting_Group.SystemRowVersion
   name: SystemRowVersion
   href: reference/sales-rebates/Table/NICSOF-Rebate-Posting-Group.html
+- uid: F:Table::NICSOF_Rebate_Register.From_Entry_No#
+  name: "\"From Entry No.\""
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
+- uid: F:Table::NICSOF_Rebate_Register.Journal_Batch_Name[10]
+  name: "\"Journal Batch Name\""
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
+- uid: F:Table::NICSOF_Rebate_Register.No#
+  name: "\"No.\""
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
+- uid: F:Table::NICSOF_Rebate_Register.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
+- uid: F:Table::NICSOF_Rebate_Register.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
+- uid: F:Table::NICSOF_Rebate_Register.SystemId
+  name: SystemId
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
+- uid: F:Table::NICSOF_Rebate_Register.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
+- uid: F:Table::NICSOF_Rebate_Register.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
+- uid: F:Table::NICSOF_Rebate_Register.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
+- uid: F:Table::NICSOF_Rebate_Register.To_Entry_No#
+  name: "\"To Entry No.\""
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
 - uid: F:Table::NICSOF_Rebate_Tier.Minimum
   name: Minimum
   href: reference/sales-rebates/Table/NICSOF-Rebate-Tier.html
@@ -9811,6 +10360,9 @@ references:
 - uid: M:Codeunit::NICALG_GetNewLotNo.OnBeforeGetNewLotNoOnAssignLot(Code[20],Tracking_Specification@,Tracking_Specification,Boolean@)
   name: OnBeforeGetNewLotNoOnAssignLot
   href: reference/lot-algorithms/Codeunit/NICALG-GetNewLotNo.html
+- uid: M:Codeunit::NICALG_GetNewLotNo.OnBeforeGetProdOrderBatchNoValueForLotNo(Tracking_Specification,Code[20]@,Boolean@)
+  name: OnBeforeGetProdOrderBatchNoValueForLotNo
+  href: reference/lot-algorithms/Codeunit/NICALG-GetNewLotNo.html
 - uid: M:Codeunit::NICALG_GetNewLotNo.OnBeforeGetSourceDocumentNo(Tracking_Specification,Code[20]@,Boolean@)
   name: OnBeforeGetSourceDocumentNo
   href: reference/lot-algorithms/Codeunit/NICALG-GetNewLotNo.html
@@ -9883,6 +10435,9 @@ references:
 - uid: M:Codeunit::NICALG_LotAlgorithmAPI.GetLotAlgorithmComponentNoSeriesCode:Code[20]
   name: GetLotAlgorithmComponentNoSeriesCode
   href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmAPI.html
+- uid: M:Codeunit::NICALG_LotAlgorithmAPI.GetLotAlgorithmComponentProdBatchNoCode:Code[20]
+  name: GetLotAlgorithmComponentProdBatchNoCode
+  href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmAPI.html
 - uid: M:Codeunit::NICALG_LotAlgorithmAPI.GetLotAlgorithmComponentProductionDateCode:Code[20]
   name: GetLotAlgorithmComponentProductionDateCode
   href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmAPI.html
@@ -9943,6 +10498,45 @@ references:
 - uid: M:Codeunit::NICBOM_UnderShipmentMgt.OnIsUnderShipAllowed(Boolean@)
   name: OnIsUnderShipAllowed
   href: reference/backorder-management/Codeunit/NICBOM-UnderShipmentMgt.html
+- uid: M:Codeunit::NICCIN_Calculate_Scores.OnAfterCalcAndUpdateShipmentMetricsFromPostedSalesShipmentPerMonth(NICCIN_Customer_Insights_Entry@,Integer,Code[20],Date,Date)
+  name: OnAfterCalcAndUpdateShipmentMetricsFromPostedSalesShipmentPerMonth
+  href: reference/customer-insights/Codeunit/NICCIN-Calculate-Scores.html
+- uid: M:Codeunit::NICCIN_Calculate_Scores.OnAfterInsertCustomerInsight(Code[20])
+  name: OnAfterInsertCustomerInsight
+  href: reference/customer-insights/Codeunit/NICCIN-Calculate-Scores.html
+- uid: M:Codeunit::NICCIN_Calculate_Scores.OnAfterInsertCustomerInsightsEntry(NICCIN_Customer_Insights_Entry@)
+  name: OnAfterInsertCustomerInsightsEntry
+  href: reference/customer-insights/Codeunit/NICCIN-Calculate-Scores.html
+- uid: M:Codeunit::NICCIN_Calculate_Scores.OnAfterModifyCustomerInsightsEntry(NICCIN_Customer_Insights_Entry@)
+  name: OnAfterModifyCustomerInsightsEntry
+  href: reference/customer-insights/Codeunit/NICCIN-Calculate-Scores.html
+- uid: M:Codeunit::NICCIN_Calculate_Scores.OnBeforeInsertCustomerInsightsEntry(NICCIN_Customer_Insights_Entry@)
+  name: OnBeforeInsertCustomerInsightsEntry
+  href: reference/customer-insights/Codeunit/NICCIN-Calculate-Scores.html
+- uid: M:Codeunit::NICCIN_Calculate_Scores.OnBeforeModifyCustomerInsightsEntry(NICCIN_Customer_Insights_Entry@)
+  name: OnBeforeModifyCustomerInsightsEntry
+  href: reference/customer-insights/Codeunit/NICCIN-Calculate-Scores.html
+- uid: M:Codeunit::NICCIN_Guided_Exp_Assist_Setup.OnAfterCheckFeatureEnabled(Boolean@)
+  name: OnAfterCheckFeatureEnabled
+  href: reference/customer-insights/Codeunit/NICCIN-Guided-Exp-Assist-Setup.html
+- uid: M:Codeunit::NICCIN_InitCustomerMetrics.OnAfterInitCustomerMetrics(NICCIN_Customer_Metric@)
+  name: OnAfterInitCustomerMetrics
+  href: reference/customer-insights/Codeunit/NICCIN-InitCustomerMetrics.html
+- uid: M:Codeunit::NICCIN_InitCustomerMetrics.OnBeforeDeleteCustomerMetric(NICCIN_Customer_Metric@,Boolean@)
+  name: OnBeforeDeleteCustomerMetric
+  href: reference/customer-insights/Codeunit/NICCIN-InitCustomerMetrics.html
+- uid: M:Codeunit::NICCIN_Insights_Scheduler.RemoveScheduledTaskIfUserInactive
+  name: RemoveScheduledTaskIfUserInactive
+  href: reference/customer-insights/Codeunit/NICCIN-Insights-Scheduler.html
+- uid: M:Codeunit::NICCIN_Insights_Scheduler.SetupScheduledTracking(Notification)
+  name: SetupScheduledTracking
+  href: reference/customer-insights/Codeunit/NICCIN-Insights-Scheduler.html
+- uid: M:Codeunit::NICCIN_Setup_Notification.DeactivateNotification(Notification)
+  name: DeactivateNotification
+  href: reference/customer-insights/Codeunit/NICCIN-Setup-Notification.html
+- uid: M:Codeunit::NICCIN_Setup_Notification.GetSetupNotificationID:Guid
+  name: GetSetupNotificationID
+  href: reference/customer-insights/Codeunit/NICCIN-Setup-Notification.html
 - uid: M:Codeunit::NICCOM_Agent_Comm_Groups.OnAfterCheckIfCommissionAgentGroupUsed(Code[20],Boolean@)
   name: OnAfterCheckIfCommissionAgentGroupUsed
   href: reference/sales-commissions/Codeunit/NICCOM-Agent-Comm-Groups.html
@@ -10099,6 +10693,9 @@ references:
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post.OnBeforeCode(NICCOM_Comm_Journal_Line@,Boolean@,Boolean@,Boolean@)
   name: OnBeforeCode
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post.html
+- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post.OnBeforeShowPostResultMessage(NICCOM_Comm_Journal_Line@,Code[10],Boolean@)
+  name: OnBeforeShowPostResultMessage
+  href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post.html
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post.OnCodeOnAfterCommissionJnlPostBatchRun(NICCOM_Comm_Journal_Line@,Boolean@,Boolean)
   name: OnCodeOnAfterCommissionJnlPostBatchRun
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post.html
@@ -10108,11 +10705,17 @@ references:
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnAfterCheckJnlLine(NICCOM_Comm_Journal_Line@,Boolean)
   name: OnAfterCheckJnlLine
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Batch.html
-- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnAfterCode(NICCOM_Comm_Journal_Line@,NICCOM_Comm_Journal_Batch)
+- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnAfterCode(NICCOM_Comm_Journal_Line@,NICCOM_Comm_Journal_Batch,Integer)
   name: OnAfterCode
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Batch.html
-- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnAfterPostJnlLines(NICCOM_Comm_Journal_Batch@,NICCOM_Comm_Journal_Line@,Boolean@)
+- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnAfterCopyRegisterNo(NICCOM_Comm_Journal_Line@,Integer@)
+  name: OnAfterCopyRegisterNo
+  href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Batch.html
+- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnAfterPostJnlLines(NICCOM_Comm_Journal_Batch@,NICCOM_Comm_Journal_Line@,Boolean@,Integer)
   name: OnAfterPostJnlLines
+  href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Batch.html
+- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnAfterPostLines(NICCOM_Comm_Journal_Line@,Integer)
+  name: OnAfterPostLines
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Batch.html
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnBeforeCheckJnlLine(NICCOM_Comm_Journal_Line@,Boolean,Boolean@)
   name: OnBeforeCheckJnlLine
@@ -10126,10 +10729,13 @@ references:
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnBeforeOpenProgressDialog(NICCOM_Comm_Journal_Line@,Dialog@,Boolean@,Boolean@)
   name: OnBeforeOpenProgressDialog
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Batch.html
+- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnBeforePostLines(NICCOM_Comm_Journal_Line@,Integer)
+  name: OnBeforePostLines
+  href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Batch.html
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnBeforeRaiseExceedLengthError(NICCOM_Comm_Journal_Batch@,Boolean@)
   name: OnBeforeRaiseExceedLengthError
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Batch.html
-- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnBeforeUpdateDeleteLines(NICCOM_Comm_Journal_Line@)
+- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnBeforeUpdateDeleteLines(NICCOM_Comm_Journal_Line@,Integer)
   name: OnBeforeUpdateDeleteLines
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Batch.html
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnCodeOnBeforePostLines(NICCOM_Comm_Journal_Line@,Integer@)
@@ -10138,7 +10744,7 @@ references:
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Batch.OnHandleLineOnAfterCopyCommissionJnlLine3(NICCOM_Comm_Journal_Line@,NICCOM_Comm_Journal_Line@)
   name: OnHandleLineOnAfterCopyCommissionJnlLine3
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Batch.html
-- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Line.OnAfterCode(NICCOM_Comm_Journal_Line@)
+- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Line.OnAfterCode(NICCOM_Comm_Journal_Line@,NICCOM_Commission_Register@)
   name: OnAfterCode
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Line.html
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Line.OnAfterCopyFromCommissionJournalLine(NICCOM_Comm_Journal_Line@,NICCOM_Detailed_Comm_Entry@)
@@ -10147,7 +10753,7 @@ references:
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Line.OnAfterInsertDetailedCommissionEntry(NICCOM_Detailed_Comm_Entry@,NICCOM_Comm_Journal_Line)
   name: OnAfterInsertDetailedCommissionEntry
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Line.html
-- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Line.OnBeforeCode(NICCOM_Comm_Journal_Line@)
+- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Line.OnBeforeCode(NICCOM_Comm_Journal_Line@,NICCOM_Commission_Register@)
   name: OnBeforeCode
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Line.html
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Line.OnBeforeGetCommissionEntryNo(NICCOM_Comm_Journal_Line,Integer@,Boolean@)
@@ -10164,6 +10770,9 @@ references:
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Line.html
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Line.OnCreateCommissionEntryOnBeforeInsert(NICCOM_Comm_Journal_Line@,NICCOM_Commission_Entry@)
   name: OnCreateCommissionEntryOnBeforeInsert
+  href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Line.html
+- uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Line.OnInsertCommissionRegisterOnBeforeCommissionRegisterInsert(NICCOM_Commission_Register@,NICCOM_Comm_Journal_Line@)
+  name: OnInsertCommissionRegisterOnBeforeCommissionRegisterInsert
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl.-Post-Line.html
 - uid: M:Codeunit::NICCOM_Comm_Jnl#-Post_Line.OnUpdateCommissionEntryAfterPostOnBeforeModify(NICCOM_Commission_Entry@)
   name: OnUpdateCommissionEntryAfterPostOnBeforeModify
@@ -10276,6 +10885,12 @@ references:
 - uid: M:Codeunit::NICCOM_Comm_Jnl_Templ_Ctrl.OnBeforeDeleteJournalLines(NICCOM_Comm_Journal_Template)
   name: OnBeforeDeleteJournalLines
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl-Templ-Ctrl.html
+- uid: M:Codeunit::NICCOM_Comm_Journal_Handler.OnAfterUpdateUserDisplayName(Guid,Text@)
+  name: OnAfterUpdateUserDisplayName
+  href: reference/sales-commissions/Codeunit/NICCOM-Comm-Journal-Handler.html
+- uid: M:Codeunit::NICCOM_Comm_Journal_Handler.OnBeforeUpdateUserDisplayName(Guid,Text@,Boolean@)
+  name: OnBeforeUpdateUserDisplayName
+  href: reference/sales-commissions/Codeunit/NICCOM-Comm-Journal-Handler.html
 - uid: M:Codeunit::NICCOM_Comm_Posting_Groups.OnAfterCheckGlAccount(Code[20])
   name: OnAfterCheckGlAccount
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Posting-Groups.html
@@ -12589,6 +13204,12 @@ references:
 - uid: M:Codeunit::NICPSQ_Sequence_Ctrl.OnBeforeSetStartDateTime(Prod#_Order_Routing_Line@,Boolean@)
   name: OnBeforeSetStartDateTime
   href: reference/production-sequencing/Codeunit/NICPSQ-Sequence-Ctrl.html
+- uid: M:Codeunit::NICQIN_AppIntegration.OnBeforeAppliedInventoryRestrictionsExist(Code[20],Integer,Code[20],Boolean@,Boolean@)
+  name: OnBeforeAppliedInventoryRestrictionsExist
+  href: reference/quality-inspections/Codeunit/NICQIN-AppIntegration.html
+- uid: M:Codeunit::NICQIN_Apply_Invt_Restrictions.OnBeforeOnRun(NICQIN_Inspection_Header,Boolean@)
+  name: OnBeforeOnRun
+  href: reference/quality-inspections/Codeunit/NICQIN-Apply-Invt-Restrictions.html
 - uid: M:Codeunit::NICQIN_Copy_Inspect_Templ.OnAfterCopyFieldsFromInspectionTemplateHeader(NICQIN_Inspect_Templ_Header@,NICQIN_Inspect_Templ_Header)
   name: OnAfterCopyFieldsFromInspectionTemplateHeader
   href: reference/quality-inspections/Codeunit/NICQIN-Copy-Inspect-Templ.html
@@ -12691,6 +13312,114 @@ references:
 - uid: M:Codeunit::NICQIN_Create_Inspection.OnProcessInspectionTests(NICQIN_Inspection_Line,Code[10],Code[20],Code[20],Code[20],Code[20],Integer,Integer,NICQIN_InspectTemplTest_Buffer@,NICQIN_Inspect_Source_Buffer@)
   name: OnProcessInspectionTests
   href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetProdOrderComponentDateFilter(Enum::NICQIN_ProdOrderComp_Date,NICQIN_Inspect_Templ_Source,Prod#_Order_Component@,Date,Date,Boolean@)
+  name: OnSetProdOrderComponentDateFilter
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetProdOrderComponentSourceDate(Enum::NICQIN_ProdOrderComp_Date,NICQIN_Inspect_Templ_Source,Prod#_Order_Component@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetProdOrderComponentSourceDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetProdOrderComponentTestDate(Enum::NICQIN_ProdOrderComp_Date,NICQIN_Inspect_Templ_Source,Prod#_Order_Component@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetProdOrderComponentTestDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetProdOrderLineDateFilter(Enum::NICQIN_ProdOrderLine_Date,NICQIN_Inspect_Templ_Source,Prod#_Order_Line@,Date,Date,Boolean@)
+  name: OnSetProdOrderLineDateFilter
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetProdOrderLineSourceDate(Enum::NICQIN_ProdOrderLine_Date,NICQIN_Inspect_Templ_Source,Prod#_Order_Line@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetProdOrderLineSourceDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetProdOrderLineTestDate(Enum::NICQIN_ProdOrderLine_Date,NICQIN_Inspect_Templ_Source,Prod#_Order_Line@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetProdOrderLineTestDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetProdOrderRoutingLineDateFilter(Enum::NICQIN_ProdOrdRoutLine_Date,NICQIN_Inspect_Templ_Source,Prod#_Order_Routing_Line@,Date,Date,Boolean@)
+  name: OnSetProdOrderRoutingLineDateFilter
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetProdOrderRoutingLineSourceDate(Enum::NICQIN_ProdOrdRoutLine_Date,NICQIN_Inspect_Templ_Source,Prod#_Order_Routing_Line@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetProdOrderRoutingLineSourceDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetProdOrderRoutingLineTestDate(Enum::NICQIN_ProdOrdRoutLine_Date,NICQIN_Inspect_Templ_Source,Prod#_Order_Routing_Line@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetProdOrderRoutingLineTestDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetPurchaseHeaderDateFilter(Enum::NICQIN_PurchHeader_Date,NICQIN_Inspect_Templ_Source,Purchase_Header@,Date,Date,Boolean@)
+  name: OnSetPurchaseHeaderDateFilter
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetPurchaseHeaderSourceDate(Enum::NICQIN_PurchHeader_Date,NICQIN_Inspect_Templ_Source,Purchase_Header@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetPurchaseHeaderSourceDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetPurchaseHeaderTestDate(Enum::NICQIN_PurchHeader_Date,NICQIN_Inspect_Templ_Source,Purchase_Header@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetPurchaseHeaderTestDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetPurchaseLineDateFilter(Enum::NICQIN_PurchLine_Date,NICQIN_Inspect_Templ_Source,Purchase_Line@,Date,Date,Boolean@)
+  name: OnSetPurchaseLineDateFilter
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetPurchaseLineSourceDate(Enum::NICQIN_PurchLine_Date,NICQIN_Inspect_Templ_Source,Purchase_Line@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetPurchaseLineSourceDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetPurchaseLineTestDate(Enum::NICQIN_PurchLine_Date,NICQIN_Inspect_Templ_Source,Purchase_Line@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetPurchaseLineTestDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSalesHeaderDateFilter(Enum::NICQIN_SalesHeader_Date,NICQIN_Inspect_Templ_Source,Sales_Header@,Date,Date,Boolean@)
+  name: OnSetSalesHeaderDateFilter
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSalesHeaderSourceDate(Enum::NICQIN_SalesHeader_Date,NICQIN_Inspect_Templ_Source,Sales_Header@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetSalesHeaderSourceDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSalesHeaderTestDate(Enum::NICQIN_SalesHeader_Date,NICQIN_Inspect_Templ_Source,Sales_Header@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetSalesHeaderTestDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSalesLineDateFilter(Enum::NICQIN_SalesLine_Date,NICQIN_Inspect_Templ_Source,Sales_Line@,Date,Date,Boolean@)
+  name: OnSetSalesLineDateFilter
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSalesLineSourceDate(Enum::NICQIN_SalesLine_Date,NICQIN_Inspect_Templ_Source,Sales_Line@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetSalesLineSourceDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSalesLineTestDate(Enum::NICQIN_SalesLine_Date,NICQIN_Inspect_Templ_Source,Sales_Line@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetSalesLineTestDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSourceDateProdOrderComponent(NICQIN_Inspection_Setup,Integer)
+  name: OnSetSourceDateProdOrderComponent
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSourceDateProdOrderLine(NICQIN_Inspection_Setup,Integer)
+  name: OnSetSourceDateProdOrderLine
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSourceDateProdOrderRoutingLine(NICQIN_Inspection_Setup,Integer)
+  name: OnSetSourceDateProdOrderRoutingLine
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSourceDatePurchHeader(NICQIN_Inspection_Setup,Integer)
+  name: OnSetSourceDatePurchHeader
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSourceDatePurchLine(NICQIN_Inspection_Setup,Integer)
+  name: OnSetSourceDatePurchLine
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSourceDateSalesHeader(NICQIN_Inspection_Setup,Integer)
+  name: OnSetSourceDateSalesHeader
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSourceDateSalesLine(NICQIN_Inspection_Setup,Integer)
+  name: OnSetSourceDateSalesLine
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSourceDateWarehouseReceiptHeader(NICQIN_Inspection_Setup,Integer)
+  name: OnSetSourceDateWarehouseReceiptHeader
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetSourceDateWarehouseShipmentHeader(NICQIN_Inspection_Setup,Integer)
+  name: OnSetSourceDateWarehouseShipmentHeader
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetWarehouseReceiptHeaderDateFilter(Enum::NICQIN_WHRecHeader_Date,NICQIN_Inspect_Templ_Source,Warehouse_Receipt_Header@,Date,Date,Boolean@)
+  name: OnSetWarehouseReceiptHeaderDateFilter
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetWarehouseReceiptHeaderSourceDate(Enum::NICQIN_WHRecHeader_Date,NICQIN_Inspect_Templ_Source,Warehouse_Receipt_Header@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetWarehouseReceiptHeaderSourceDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetWarehouseReceiptHeaderTestDate(Enum::NICQIN_WHRecHeader_Date,NICQIN_Inspect_Templ_Source,Warehouse_Receipt_Header@,NICQIN_Inspect_Source_Buffer,Boolean@)
+  name: OnSetWarehouseReceiptHeaderTestDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetWarehouseShipmentHeaderDateFilter(Enum::NICQIN_WHShipHeader_Date,NICQIN_Inspect_Templ_Source,Warehouse_Shipment_Header@,Date,Date,Boolean@)
+  name: OnSetWarehouseShipmentHeaderDateFilter
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetWarehouseShipmentHeaderSourceDate(Enum::NICQIN_WHShipHeader_Date,NICQIN_Inspect_Templ_Source,Warehouse_Shipment_Header@,NICQIN_Inspect_Source_Buffer@,Boolean@)
+  name: OnSetWarehouseShipmentHeaderSourceDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnSetWarehouseShipmentHeaderTestDate(Enum::NICQIN_WHShipHeader_Date,NICQIN_Inspect_Templ_Source,Warehouse_Shipment_Header@,NICQIN_Inspect_Source_Buffer@,Boolean@)
+  name: OnSetWarehouseShipmentHeaderTestDate
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
 - uid: M:Codeunit::NICQIN_DoTestFailActionDialog.OnAfterGetOnscreenDialogText(NICQIN_Test_Failure_Action,Text@)
   name: OnAfterGetOnscreenDialogText
   href: reference/quality-inspections/Codeunit/NICQIN-DoTestFailActionDialog.html
@@ -12736,6 +13465,9 @@ references:
 - uid: M:Codeunit::NICQIN_Insp_Line_Page_Handler.OnAfterSetDateFilter(NICQIN_Inspection_Line@,Option)
   name: OnAfterSetDateFilter
   href: reference/quality-inspections/Codeunit/NICQIN-Insp-Line-Page-Handler.html
+- uid: M:Codeunit::NICQIN_Insp_Line_Page_Handler.OnAfterSetStatusFilter(NICQIN_Inspection_Line@,Option)
+  name: OnAfterSetStatusFilter
+  href: reference/quality-inspections/Codeunit/NICQIN-Insp-Line-Page-Handler.html
 - uid: M:Codeunit::NICQIN_Insp_Line_Page_Handler.OnAfterSetStyleFormat(NICQIN_Inspection_Line@,Text@)
   name: OnAfterSetStyleFormat
   href: reference/quality-inspections/Codeunit/NICQIN-Insp-Line-Page-Handler.html
@@ -12751,11 +13483,32 @@ references:
 - uid: M:Codeunit::NICQIN_Insp_Line_Page_Handler.OnBeforeUpdateTrackingFromInspectionLine(NICQIN_Inspection_Line,Code[50],Code[50],Code[50],Boolean@,Boolean@)
   name: OnBeforeUpdateTrackingFromInspectionLine
   href: reference/quality-inspections/Codeunit/NICQIN-Insp-Line-Page-Handler.html
+- uid: M:Codeunit::NICQIN_Inspect_Change_Status.OnAfterCheckInspectionLinesTestResults(Code[20],Integer)
+  name: OnAfterCheckInspectionLinesTestResults
+  href: reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.html
+- uid: M:Codeunit::NICQIN_Inspect_Change_Status.OnAfterUpdateInspectionAssignedUserId(NICQIN_Inspection_Header@)
+  name: OnAfterUpdateInspectionAssignedUserId
+  href: reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.html
+- uid: M:Codeunit::NICQIN_Inspect_Change_Status.OnBeforeCheckInspectionLinesTestResults(Code[20],Integer,Boolean@)
+  name: OnBeforeCheckInspectionLinesTestResults
+  href: reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.html
+- uid: M:Codeunit::NICQIN_Inspect_Change_Status.OnBeforeOnRun(Page::NICQIN_Change_Status_on_QI@,NICQIN_Inspection_Header@,Boolean@,Enum::NICQIN_Inspection_Status,Boolean,Boolean)
+  name: OnBeforeOnRun
+  href: reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.html
+- uid: M:Codeunit::NICQIN_Inspect_Change_Status.OnBeforeShowStatusMessage(NICQIN_Inspection_Header,Enum::NICQIN_Inspection_Status,Enum::NICQIN_Inspection_Status,Boolean@)
+  name: OnBeforeShowStatusMessage
+  href: reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.html
 - uid: M:Codeunit::NICQIN_Inspect_Change_Status.OnBeforeUpdateAssignedUserId(NICQIN_Inspection_Header@,NICQIN_Inspection_Header@,Boolean@)
   name: OnBeforeUpdateAssignedUserId
   href: reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.html
+- uid: M:Codeunit::NICQIN_Inspect_Change_Status.OnBeforeUpdateInspectionAssignedUserId(NICQIN_Inspection_Line,NICQIN_Inspection_Header@,Boolean@)
+  name: OnBeforeUpdateInspectionAssignedUserId
+  href: reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.html
 - uid: M:Codeunit::NICQIN_Inspect_Change_Status.OnBeforeVerifyInspectionLinesResults(Code[20],Integer,Boolean@)
   name: OnBeforeVerifyInspectionLinesResults
+  href: reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.html
+- uid: M:Codeunit::NICQIN_Inspect_Change_Status.OnRunOnAfterChangeStatusFormRun(NICQIN_Inspection_Header@)
+  name: OnRunOnAfterChangeStatusFormRun
   href: reference/quality-inspections/Codeunit/NICQIN-Inspect-Change-Status.html
 - uid: M:Codeunit::NICQIN_Inspect_Line_Complete.OnAfterCallDoTestFailureAction(NICQIN_Inspection_Line@)
   name: OnAfterCallDoTestFailureAction
@@ -12822,6 +13575,9 @@ references:
   href: reference/quality-inspections/Codeunit/NICQIN-Inspection-Ctrl.html
 - uid: M:Codeunit::NICQIN_Inspection_Ctrl.OnBeforeDeleteInspectionRelations(NICQIN_Inspection_Header@)
   name: OnBeforeDeleteInspectionRelations
+  href: reference/quality-inspections/Codeunit/NICQIN-Inspection-Ctrl.html
+- uid: M:Codeunit::NICQIN_Inspection_Ctrl.OnBeforeDeleteInspectionRestrictions(NICQIN_Inspection_Header@)
+  name: OnBeforeDeleteInspectionRestrictions
   href: reference/quality-inspections/Codeunit/NICQIN-Inspection-Ctrl.html
 - uid: M:Codeunit::NICQIN_Inspection_Ctrl.OnCheckPendingInspectionsExist(NICQIN_Inspect_Source_Buffer,Variant)
   name: OnCheckPendingInspectionsExist
@@ -13122,6 +13878,12 @@ references:
   href: reference/sales-rebates/Codeunit/NICSOF-Calculate-Rebate.html
 - uid: M:Codeunit::NICSOF_Calculate_Rebate.OnAfterCalculateRebateSalesInvoice(Sales_Invoice_Header@)
   name: OnAfterCalculateRebateSalesInvoice
+  href: reference/sales-rebates/Codeunit/NICSOF-Calculate-Rebate.html
+- uid: M:Codeunit::NICSOF_Calculate_Rebate.OnAfterGetItemBaseUom(Item,Code[10]@)
+  name: OnAfterGetItemBaseUom
+  href: reference/sales-rebates/Codeunit/NICSOF-Calculate-Rebate.html
+- uid: M:Codeunit::NICSOF_Calculate_Rebate.OnAfterSetJournalUnitOfMeasure(NICSOF_Rebate_Journal_Line@,NICSOF_Rebate,Variant)
+  name: OnAfterSetJournalUnitOfMeasure
   href: reference/sales-rebates/Codeunit/NICSOF-Calculate-Rebate.html
 - uid: M:Codeunit::NICSOF_Calculate_Rebate.OnBeforeCalculateJournalAmountFromSalesCrMemoLine(NICSOF_Rebate_Journal_Line@,Sales_Cr#Memo_Line@,Boolean@)
   name: OnBeforeCalculateJournalAmountFromSalesCrMemoLine
@@ -13447,6 +14209,9 @@ references:
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post.OnBeforeCode(NICSOF_Rebate_Journal_Line@,Boolean@,Boolean@,Boolean@)
   name: OnBeforeCode
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post.html
+- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post.OnBeforeShowPostResultMessage(NICSOF_Rebate_Journal_Line@,Code[10],Boolean@)
+  name: OnBeforeShowPostResultMessage
+  href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post.html
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post.OnCodeOnAfterRebateJnlPostBatchRun(NICSOF_Rebate_Journal_Line@,Boolean@,Boolean)
   name: OnCodeOnAfterRebateJnlPostBatchRun
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post.html
@@ -13456,11 +14221,17 @@ references:
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnAfterCheckJnlLine(NICSOF_Rebate_Journal_Line@,Boolean)
   name: OnAfterCheckJnlLine
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html
-- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnAfterCode(NICSOF_Rebate_Journal_Line@,NICSOF_Rebate_Journal_Batch)
+- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnAfterCode(NICSOF_Rebate_Journal_Line@,NICSOF_Rebate_Journal_Batch,Integer)
   name: OnAfterCode
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html
-- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnAfterPostJnlLines(NICSOF_Rebate_Journal_Batch@,NICSOF_Rebate_Journal_Line@,Boolean@)
+- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnAfterCopyRegisterNo(NICSOF_Rebate_Journal_Line@,Integer@)
+  name: OnAfterCopyRegisterNo
+  href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html
+- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnAfterPostJnlLines(NICSOF_Rebate_Journal_Batch@,NICSOF_Rebate_Journal_Line@,Boolean@,Integer)
   name: OnAfterPostJnlLines
+  href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html
+- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnAfterPostLines(NICSOF_Rebate_Journal_Line@,Integer)
+  name: OnAfterPostLines
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnBeforeCheckJnlLine(NICSOF_Rebate_Journal_Line@,Boolean,Boolean@)
   name: OnBeforeCheckJnlLine
@@ -13474,10 +14245,13 @@ references:
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnBeforeOpenProgressDialog(NICSOF_Rebate_Journal_Line@,Dialog@,Boolean@,Boolean@)
   name: OnBeforeOpenProgressDialog
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html
+- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnBeforePostLines(NICSOF_Rebate_Journal_Line@,Integer)
+  name: OnBeforePostLines
+  href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnBeforeRaiseExceedLengthError(NICSOF_Rebate_Journal_Batch@,Boolean@)
   name: OnBeforeRaiseExceedLengthError
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html
-- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnBeforeUpdateDeleteLines(NICSOF_Rebate_Journal_Line@)
+- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnBeforeUpdateDeleteLines(NICSOF_Rebate_Journal_Line@,Integer)
   name: OnBeforeUpdateDeleteLines
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnCodeOnBeforePostLines(NICSOF_Rebate_Journal_Line@,Integer@)
@@ -13486,7 +14260,7 @@ references:
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Batch.OnHandleLineOnAfterCopyRebateJnlLine3(NICSOF_Rebate_Journal_Line@,NICSOF_Rebate_Journal_Line@)
   name: OnHandleLineOnAfterCopyRebateJnlLine3
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Batch.html
-- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Line.OnAfterCode(NICSOF_Rebate_Journal_Line@)
+- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Line.OnAfterCode(NICSOF_Rebate_Journal_Line@,NICSOF_Rebate_Register@)
   name: OnAfterCode
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Line.html
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Line.OnAfterCopyFromRebateJournalLine(NICSOF_Rebate_Journal_Line@,NICSOF_Detailed_Rebate_Entry@)
@@ -13495,7 +14269,7 @@ references:
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Line.OnAfterInsertDetailedRebateEntry(NICSOF_Detailed_Rebate_Entry@,NICSOF_Rebate_Journal_Line)
   name: OnAfterInsertDetailedRebateEntry
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Line.html
-- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Line.OnBeforeCode(NICSOF_Rebate_Journal_Line@)
+- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Line.OnBeforeCode(NICSOF_Rebate_Journal_Line@,NICSOF_Rebate_Register@)
   name: OnBeforeCode
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Line.html
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Line.OnBeforeGetRebateEntryNo(NICSOF_Rebate_Journal_Line,Integer@,Boolean@)
@@ -13512,6 +14286,9 @@ references:
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Line.html
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Line.OnCreateRebateEntryOnBeforeInsert(NICSOF_Rebate_Journal_Line@,NICSOF_Rebate_Entry@)
   name: OnCreateRebateEntryOnBeforeInsert
+  href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Line.html
+- uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Line.OnInsertRebateRegisterOnBeforeRebateRegisterInsert(NICSOF_Rebate_Register@,NICSOF_Rebate_Journal_Line@)
+  name: OnInsertRebateRegisterOnBeforeRebateRegisterInsert
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Jnl.-Post-Line.html
 - uid: M:Codeunit::NICSOF_Rebate_Jnl#-Post_Line.OnUpdateRebateEntryAfterPostOnBeforeModify(NICSOF_Rebate_Entry@)
   name: OnUpdateRebateEntryAfterPostOnBeforeModify
@@ -13597,6 +14374,9 @@ references:
 - uid: M:Codeunit::NICSOF_Rebate_Journal_Handler.OnAfterTemplateSelection(NICSOF_Rebate_Journal_Template@,NICSOF_Rebate_Journal_Line@,Boolean@,Boolean@)
   name: OnAfterTemplateSelection
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Journal-Handler.html
+- uid: M:Codeunit::NICSOF_Rebate_Journal_Handler.OnAfterUpdateUserDisplayName(Guid,Text@)
+  name: OnAfterUpdateUserDisplayName
+  href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Journal-Handler.html
 - uid: M:Codeunit::NICSOF_Rebate_Journal_Handler.OnBeforeGetJournalSimplePageModePreference(Integer)
   name: OnBeforeGetJournalSimplePageModePreference
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Journal-Handler.html
@@ -13617,6 +14397,9 @@ references:
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Journal-Handler.html
 - uid: M:Codeunit::NICSOF_Rebate_Journal_Handler.OnBeforeSetJournalSimplePageModePreference(Boolean@,Integer,Boolean@)
   name: OnBeforeSetJournalSimplePageModePreference
+  href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Journal-Handler.html
+- uid: M:Codeunit::NICSOF_Rebate_Journal_Handler.OnBeforeUpdateUserDisplayName(Guid,Text@,Boolean@)
+  name: OnBeforeUpdateUserDisplayName
   href: reference/sales-rebates/Codeunit/NICSOF-Rebate-Journal-Handler.html
 - uid: M:Codeunit::NICSOF_Rebate_Journal_Handler.OnFindTemplateFromSelectionOnBeforeRebateJnlTemplateInsert(NICSOF_Rebate_Journal_Template@)
   name: OnFindTemplateFromSelectionOnBeforeRebateJnlTemplateInsert
@@ -14404,7 +15187,7 @@ references:
 - uid: M:Codeunit::nictrmDashboardManagement.GetLcyCurrencyCode(Text):Code[10]
   name: GetLcyCurrencyCode
   href: reference/treasury-management-suite/Codeunit/nictrmDashboardManagement.html
-- uid: M:Codeunit::nictrmDashboardManagement.GetSelectionFilterForCompany(Company@):Text
+- uid: M:Codeunit::nictrmDashboardManagement.GetSelectionFilterForCompany(__MissingSymbol__@):Text
   name: GetSelectionFilterForCompany
   href: reference/treasury-management-suite/Codeunit/nictrmDashboardManagement.html
 - uid: M:Codeunit::nictrmDashboardManagement.GetSelectionFilterForCurrency(Currency@):Text
@@ -14473,6 +15256,9 @@ references:
 - uid: M:Page::NICALG_LotAlgAPIMethods.nicshcGetNewLotNoMDC(Code[20],Integer,Integer,Date,Date,Date):Text
   name: nicshcGetNewLotNoMDC
   href: reference/lot-algorithms/Page/NICALG-LotAlgAPIMethods.html
+- uid: M:Page::NICCIN_Setup_Wizard.IsSetupFinished:Boolean
+  name: IsSetupFinished
+  href: reference/customer-insights/Page/NICCIN-Setup-Wizard.html
 - uid: M:Page::NICCOM_Commission_Items.OnAfterSetEditableFields
   name: OnAfterSetEditableFields
   href: reference/sales-commissions/Page/NICCOM-Commission-Items.html
@@ -14652,6 +15438,9 @@ references:
   href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
 - uid: M:Page::NICMDC_Inventory_Methods_API.nicValidateLocationforItemNo(Code[20],Code[10],Boolean):Boolean
   name: nicValidateLocationforItemNo
+  href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
+- uid: M:Page::NICMDC_Inventory_Methods_API.nicgetBaseUoM(Code[20]):Code[10]
+  name: nicgetBaseUoM
   href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
 - uid: M:Page::NICMDC_Item_Tracking_Lines_API.CallItemTracking(Transfer_Line@,Enum::Microsoft#Foundation#Enums#Transfer_Direction,Boolean)
   name: CallItemTracking
@@ -15100,6 +15889,9 @@ references:
 - uid: M:Page::NICPRR_Setup_Wizard.IsSetupFinished:Boolean
   name: IsSetupFinished
   href: reference/purchasing-restrictions/Page/NICPRR-Setup-Wizard.html
+- uid: M:Page::NICQIN_Change_Inspect_Status.OnBeforeChangeInspectionStatus(NICQIN_Inspection_Header,Enum::NICQIN_Inspection_Status,Boolean,Boolean,Boolean@)
+  name: OnBeforeChangeInspectionStatus
+  href: reference/quality-inspections/Page/NICQIN-Change-Inspect-Status.html
 - uid: M:Page::NICQIN_InspTemplLineAccValues.SetPageVariables(Code[20],Integer,Code[20])
   name: SetPageVariables
   href: reference/quality-inspections/Page/NICQIN-InspTemplLineAccValues.html
@@ -15319,6 +16111,21 @@ references:
 - uid: M:Report::NICSOF_Post_Rebates_to_G/L.OnBeforePostRebates(NICSOF_Rebate_Entry@,Boolean@)
   name: OnBeforePostRebates
   href: reference/sales-rebates/Report/NICSOF-Post-Rebates-to-G-L.html
+- uid: M:Report::NICSOF_SaleRebateAnalysisExcel.OnAfterGetRecord_DetailedRebateEntry(NICSOF_Detailed_Rebate_Entry)
+  name: OnAfterGetRecord_DetailedRebateEntry
+  href: reference/sales-rebates/Report/NICSOF-SaleRebateAnalysisExcel.html
+- uid: M:Report::NICSOF_SaleRebateAnalysisExcel.OnAfterGetRecord_RebateEntry(NICSOF_Rebate_Entry)
+  name: OnAfterGetRecord_RebateEntry
+  href: reference/sales-rebates/Report/NICSOF-SaleRebateAnalysisExcel.html
+- uid: M:Report::NICSOF_SaleRebateAnalysisExcel.OnGetItemOnBeforeGet(Item@)
+  name: OnGetItemOnBeforeGet
+  href: reference/sales-rebates/Report/NICSOF-SaleRebateAnalysisExcel.html
+- uid: M:Report::NICSOF_SaleRebateAnalysisExcel.OnPreDataItem_DetailedRebateEntry(NICSOF_Detailed_Rebate_Entry@)
+  name: OnPreDataItem_DetailedRebateEntry
+  href: reference/sales-rebates/Report/NICSOF-SaleRebateAnalysisExcel.html
+- uid: M:Report::NICSOF_SaleRebateAnalysisExcel.OnPreDataItem_RebateEntry(NICSOF_Rebate_Entry@)
+  name: OnPreDataItem_RebateEntry
+  href: reference/sales-rebates/Report/NICSOF-SaleRebateAnalysisExcel.html
 - uid: M:Report::nictrmBankRectoGenJnl.InitializeRequest(Code[10],Code[10])
   name: InitializeRequest
   href: reference/treasury-management-suite/Report/nictrmBankRectoGenJnl.html
@@ -15343,6 +16150,12 @@ references:
 - uid: M:Table::NICBOM_UnderShptCode.OnBeforeCheckMinMaxValue(NICBOM_UnderShptCode@,Boolean@)
   name: OnBeforeCheckMinMaxValue
   href: reference/backorder-management/Table/NICBOM-UnderShptCode.html
+- uid: M:Table::NICCIN_Customer_Insights_Setup.GetRecordOnce
+  name: GetRecordOnce
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: M:Table::NICCIN_Customer_Insights_Setup.InsertIfNotExists
+  name: InsertIfNotExists
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
 - uid: M:Table::NICITR_Item_Recall_Cmt_Line.OnAfterSetUpNewLine(NICITR_Item_Recall_Cmt_Line@,NICITR_Item_Recall_Cmt_Line@)
   name: OnAfterSetUpNewLine
   href: reference/item-recalls/Table/NICITR-Item-Recall-Cmt-Line.html
@@ -15501,6 +16314,12 @@ references:
   href: reference/backorder-management/Obsoletion/obsolete_by_22.2.html
 - uid: N:Module::Backorder_Management_obsolete_by_22.2#22.2
   href: reference/backorder-management/Obsoletion/obsolete_by_22.2.html
+- uid: N:Module::Customer_Insights
+  name: Customer Insights
+  summary: >
+    <p sourcefile="reference/customer-insights/Module/Customer-Insights.yml" sourcestartlinenumber="1" jsonPath="/summary">Evaluate how well your customers meet performance goals.</p>
+  fqName: Customer Insights by NIC Systems Inc. (25.1.12730.0)
+  href: reference/customer-insights/Module/Customer-Insights.html
 - uid: N:Module::Inventory_Freshness
   name: Inventory Freshness
   summary: >
@@ -15555,7 +16374,7 @@ references:
   name: Lot Algorithms
   summary: >
     <p sourcefile="reference/lot-algorithms/Module/Lot-Algorithms.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to create tailor-made lot numbers to keep track of inventory item more effectively.</p>
-  fqName: Lot Algorithms by NIC Systems Inc. (25.0.12203.0)
+  fqName: Lot Algorithms by NIC Systems Inc. (25.1.12679.0)
   href: reference/lot-algorithms/Module/Lot-Algorithms.html
 - uid: N:Module::Lot_Algorithms_obsolete_by_22.2
   tag: "22.2"
@@ -15566,7 +16385,7 @@ references:
   name: Mobile Data Collection
   summary: >
     <p sourcefile="reference/mobile-data-collection/Module/Mobile-Data-Collection.yml" sourcestartlinenumber="1" jsonPath="/summary">Mobile Data Collection</p>
-  fqName: Mobile Data Collection by NIC Systems Inc. (25.0.12245.0)
+  fqName: Mobile Data Collection by NIC Systems Inc. (25.1.12736.0)
   href: reference/mobile-data-collection/Module/Mobile-Data-Collection.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_23.0
   tag: "23.0"
@@ -15611,7 +16430,7 @@ references:
   name: Production Yield Metrics
   summary: >
     <p sourcefile="reference/production-yield-metrics/Module/Production-Yield-Metrics.yml" sourcestartlinenumber="1" jsonPath="/summary">View production order and component statistics based on what you have actually produced.</p>
-  fqName: Production Yield Metrics by NIC Systems Inc. (25.0.12213.0)
+  fqName: Production Yield Metrics by NIC Systems Inc. (25.1.12719.0)
   href: reference/production-yield-metrics/Module/Production-Yield-Metrics.html
 - uid: N:Module::Purchasing_Restrictions
   name: Purchasing Restrictions
@@ -15623,19 +16442,29 @@ references:
   name: Quality Inspections
   summary: >
     <p sourcefile="reference/quality-inspections/Module/Quality-Inspections.yml" sourcestartlinenumber="1" jsonPath="/summary">Quality Inspections</p>
-  fqName: Quality Inspections by NIC Systems Inc. (25.0.12215.0)
+  fqName: Quality Inspections by NIC Systems Inc. (25.1.12723.0)
   href: reference/quality-inspections/Module/Quality-Inspections.html
+- uid: N:Module::Quality_Inspections_obsolete_by_25.1
+  tag: "25.1"
+  href: reference/quality-inspections/Obsoletion/obsolete_by_25.1.html
+- uid: N:Module::Quality_Inspections_obsolete_by_25.1#25.1
+  href: reference/quality-inspections/Obsoletion/obsolete_by_25.1.html
+- uid: N:Module::Quality_Inspections_obsolete_by_[Untagged]
+  tag: '[Untagged]'
+  href: reference/quality-inspections/Obsoletion/obsolete_by_%5BUntagged%5D.html
+- uid: N:Module::Quality_Inspections_obsolete_by_[Untagged]#
+  href: reference/quality-inspections/Obsoletion/obsolete_by_%5BUntagged%5D.html
 - uid: N:Module::Sales_Commissions
   name: Sales Commissions
   summary: >
     <p sourcefile="reference/sales-commissions/Module/Sales-Commissions.yml" sourcestartlinenumber="1" jsonPath="/summary">Manage and track sales commissions</p>
-  fqName: Sales Commissions by NIC Systems Inc. (25.0.12216.0)
+  fqName: Sales Commissions by NIC Systems Inc. (25.1.12598.0)
   href: reference/sales-commissions/Module/Sales-Commissions.html
 - uid: N:Module::Sales_Rebates
   name: Sales Rebates
   summary: >
     <p sourcefile="reference/sales-rebates/Module/Sales-Rebates.yml" sourcestartlinenumber="1" jsonPath="/summary">A comprehensive solution to process sales rebate initiatives and boost your sales.</p>
-  fqName: Sales Rebates by NIC Systems Inc. (25.0.12217.0)
+  fqName: Sales Rebates by NIC Systems Inc. (25.1.12599.0)
   href: reference/sales-rebates/Module/Sales-Rebates.html
 - uid: N:Module::Sales_Rebates_obsolete_by_24.5
   tag: "24.5"
@@ -15832,6 +16661,74 @@ references:
   name: "\"NICBOM UnderShipmentNotify\""
   fqName: "\"NICBOM UnderShipmentNotify\""
   href: reference/backorder-management/Codeunit/NICBOM-UnderShipmentNotify.html
+- uid: O:Codeunit::NICCIN_AppIntegration
+  name: "\"NICCIN AppIntegration\""
+  fqName: "\"NICCIN AppIntegration\""
+  href: reference/customer-insights/Codeunit/NICCIN-AppIntegration.html
+- uid: O:Codeunit::NICCIN_Calc#_Customer_Insights
+  name: "\"NICCIN Calc. Customer Insights\""
+  fqName: "\"NICCIN Calc. Customer Insights\""
+  href: reference/customer-insights/Codeunit/NICCIN-Calc.-Customer-Insights.html
+- uid: O:Codeunit::NICCIN_Calculate_Scores
+  name: "\"NICCIN Calculate Scores\""
+  fqName: "\"NICCIN Calculate Scores\""
+  href: reference/customer-insights/Codeunit/NICCIN-Calculate-Scores.html
+- uid: O:Codeunit::NICCIN_Cust#_Insights_Target
+  name: "\"NICCIN Cust. Insights Target\""
+  fqName: "\"NICCIN Cust. Insights Target\""
+  href: reference/customer-insights/Codeunit/NICCIN-Cust.-Insights-Target.html
+- uid: O:Codeunit::NICCIN_Factbox_Management
+  name: "\"NICCIN Factbox Management\""
+  fqName: "\"NICCIN Factbox Management\""
+  href: reference/customer-insights/Codeunit/NICCIN-Factbox-Management.html
+- uid: O:Codeunit::NICCIN_Guided_Exp_Assist_Setup
+  name: "\"NICCIN Guided Exp Assist Setup\""
+  fqName: "\"NICCIN Guided Exp Assist Setup\""
+  href: reference/customer-insights/Codeunit/NICCIN-Guided-Exp-Assist-Setup.html
+- uid: O:Codeunit::NICCIN_Guided_Exp_Manual_Setup
+  name: "\"NICCIN Guided Exp Manual Setup\""
+  fqName: "\"NICCIN Guided Exp Manual Setup\""
+  href: reference/customer-insights/Codeunit/NICCIN-Guided-Exp-Manual-Setup.html
+- uid: O:Codeunit::NICCIN_InitCustomerMetrics
+  name: "\"NICCIN InitCustomerMetrics\""
+  fqName: "\"NICCIN InitCustomerMetrics\""
+  href: reference/customer-insights/Codeunit/NICCIN-InitCustomerMetrics.html
+- uid: O:Codeunit::NICCIN_Initialize_Company
+  name: "\"NICCIN Initialize Company\""
+  fqName: "\"NICCIN Initialize Company\""
+  href: reference/customer-insights/Codeunit/NICCIN-Initialize-Company.html
+- uid: O:Codeunit::NICCIN_Initialize_Data
+  name: "\"NICCIN Initialize Data\""
+  fqName: "\"NICCIN Initialize Data\""
+  href: reference/customer-insights/Codeunit/NICCIN-Initialize-Data.html
+- uid: O:Codeunit::NICCIN_Insights_Scheduler
+  name: "\"NICCIN Insights Scheduler\""
+  fqName: "\"NICCIN Insights Scheduler\""
+  href: reference/customer-insights/Codeunit/NICCIN-Insights-Scheduler.html
+- uid: O:Codeunit::NICCIN_Install
+  name: "\"NICCIN Install\""
+  fqName: "\"NICCIN Install\""
+  href: reference/customer-insights/Codeunit/NICCIN-Install.html
+- uid: O:Codeunit::NICCIN_Page_Control
+  name: "\"NICCIN Page Control\""
+  fqName: "\"NICCIN Page Control\""
+  href: reference/customer-insights/Codeunit/NICCIN-Page-Control.html
+- uid: O:Codeunit::NICCIN_Setup_Notification
+  name: "\"NICCIN Setup Notification\""
+  fqName: "\"NICCIN Setup Notification\""
+  href: reference/customer-insights/Codeunit/NICCIN-Setup-Notification.html
+- uid: O:Codeunit::NICCIN_Setup_Wizard_Handler
+  name: "\"NICCIN Setup Wizard Handler\""
+  fqName: "\"NICCIN Setup Wizard Handler\""
+  href: reference/customer-insights/Codeunit/NICCIN-Setup-Wizard-Handler.html
+- uid: O:Codeunit::NICCIN_Subscribers
+  name: "\"NICCIN Subscribers\""
+  fqName: "\"NICCIN Subscribers\""
+  href: reference/customer-insights/Codeunit/NICCIN-Subscribers.html
+- uid: O:Codeunit::NICCIN_Update_Score_Entries
+  name: "\"NICCIN Update Score Entries\""
+  fqName: "\"NICCIN Update Score Entries\""
+  href: reference/customer-insights/Codeunit/NICCIN-Update-Score-Entries.html
 - uid: O:Codeunit::NICCOM_Agent_Comm_Groups
   name: "\"NICCOM Agent Comm Groups\""
   fqName: "\"NICCOM Agent Comm Groups\""
@@ -15852,6 +16749,10 @@ references:
   name: "\"NICCOM Change Comm Status\""
   fqName: "\"NICCOM Change Comm Status\""
   href: reference/sales-commissions/Codeunit/NICCOM-Change-Comm-Status.html
+- uid: O:Codeunit::NICCOM_CommReg-ShowEntries
+  name: "\"NICCOM CommReg-ShowEntries\""
+  fqName: "\"NICCOM CommReg-ShowEntries\""
+  href: reference/sales-commissions/Codeunit/NICCOM-CommReg-ShowEntries.html
 - uid: O:Codeunit::NICCOM_Comm_Entry_Handler
   name: "\"NICCOM Comm Entry Handler\""
   fqName: "\"NICCOM Comm Entry Handler\""
@@ -15892,6 +16793,10 @@ references:
   name: "\"NICCOM Comm Jnl Templ Ctrl\""
   fqName: "\"NICCOM Comm Jnl Templ Ctrl\""
   href: reference/sales-commissions/Codeunit/NICCOM-Comm-Jnl-Templ-Ctrl.html
+- uid: O:Codeunit::NICCOM_Comm_Journal_Handler
+  name: "\"NICCOM Comm Journal Handler\""
+  fqName: "\"NICCOM Comm Journal Handler\""
+  href: reference/sales-commissions/Codeunit/NICCOM-Comm-Journal-Handler.html
 - uid: O:Codeunit::NICCOM_Comm_Posting_Groups
   name: "\"NICCOM Comm Posting Groups\""
   fqName: "\"NICCOM Comm Posting Groups\""
@@ -16796,6 +17701,14 @@ references:
   name: "\"NICPSQ Subscribers\""
   fqName: "\"NICPSQ Subscribers\""
   href: reference/production-sequencing/Codeunit/NICPSQ-Subscribers.html
+- uid: O:Codeunit::NICQIN_AppIntegration
+  name: "\"NICQIN AppIntegration\""
+  fqName: "\"NICQIN AppIntegration\""
+  href: reference/quality-inspections/Codeunit/NICQIN-AppIntegration.html
+- uid: O:Codeunit::NICQIN_Apply_Invt_Restrictions
+  name: "\"NICQIN Apply Invt Restrictions\""
+  fqName: "\"NICQIN Apply Invt Restrictions\""
+  href: reference/quality-inspections/Codeunit/NICQIN-Apply-Invt-Restrictions.html
 - uid: O:Codeunit::NICQIN_Checklist_Item
   name: "\"NICQIN Checklist Item\""
   fqName: "\"NICQIN Checklist Item\""
@@ -16928,6 +17841,18 @@ references:
   name: "\"NICQIN Result Value Mgmt\""
   fqName: "\"NICQIN Result Value Mgmt\""
   href: reference/quality-inspections/Codeunit/NICQIN-Result-Value-Mgmt.html
+- uid: O:Codeunit::NICQIN_Run_Fnshd_Itm_Rcls_Page
+  name: "\"NICQIN Run Fnshd Itm Rcls Page\""
+  fqName: "\"NICQIN Run Fnshd Itm Rcls Page\""
+  href: reference/quality-inspections/Codeunit/NICQIN-Run-Fnshd-Itm-Rcls-Page.html
+- uid: O:Codeunit::NICQIN_Run_Invt_Restr_Jnl_Page
+  name: "\"NICQIN Run Invt Restr Jnl Page\""
+  fqName: "\"NICQIN Run Invt Restr Jnl Page\""
+  href: reference/quality-inspections/Codeunit/NICQIN-Run-Invt-Restr-Jnl-Page.html
+- uid: O:Codeunit::NICQIN_Run_RlsdItemRecallsPage
+  name: "\"NICQIN Run RlsdItemRecallsPage\""
+  fqName: "\"NICQIN Run RlsdItemRecallsPage\""
+  href: reference/quality-inspections/Codeunit/NICQIN-Run-RlsdItemRecallsPage.html
 - uid: O:Codeunit::NICQIN_Setup_Wizard_Handler
   name: "\"NICQIN Setup Wizard Handler\""
   fqName: "\"NICQIN Setup Wizard Handler\""
@@ -16948,6 +17873,10 @@ references:
   name: "\"NICQIN Transfer Test Values\""
   fqName: "\"NICQIN Transfer Test Values\""
   href: reference/quality-inspections/Codeunit/NICQIN-Transfer-Test-Values.html
+- uid: O:Codeunit::NICQIN_Upgrade
+  name: "\"NICQIN Upgrade\""
+  fqName: "\"NICQIN Upgrade\""
+  href: reference/quality-inspections/Codeunit/NICQIN-Upgrade.html
 - uid: O:Codeunit::NICSHC_Barcode_Management
   name: "\"NICSHC Barcode Management\""
   fqName: "\"NICSHC Barcode Management\""
@@ -17144,6 +18073,10 @@ references:
   name: "\"NICSOF Preview Post Events\""
   fqName: "\"NICSOF Preview Post Events\""
   href: reference/sales-rebates/Codeunit/NICSOF-Preview-Post-Events.html
+- uid: O:Codeunit::NICSOF_RebateReg-ShowEntries
+  name: "\"NICSOF RebateReg-ShowEntries\""
+  fqName: "\"NICSOF RebateReg-ShowEntries\""
+  href: reference/sales-rebates/Codeunit/NICSOF-RebateReg-ShowEntries.html
 - uid: O:Codeunit::NICSOF_Rebate_Categories
   name: "\"NICSOF Rebate Categories\""
   fqName: "\"NICSOF Rebate Categories\""
@@ -17476,6 +18409,10 @@ references:
   name: "\"NICBOM Qty. To Handle Option\""
   fqName: "\"NICBOM Qty. To Handle Option\""
   href: reference/backorder-management/Enum/NICBOM-Qty.-To-Handle-Option.html
+- uid: O:Enum::NICCIN_Customer_Score
+  name: "\"NICCIN Customer Score\""
+  fqName: "\"NICCIN Customer Score\""
+  href: reference/customer-insights/Enum/NICCIN-Customer-Score.html
 - uid: O:Enum::NICCOM_Agent_Type
   name: "\"NICCOM Agent Type\""
   fqName: "\"NICCOM Agent Type\""
@@ -17632,6 +18569,34 @@ references:
   name: "\"NICQIN Inspection Templ Status\""
   fqName: "\"NICQIN Inspection Templ Status\""
   href: reference/quality-inspections/Enum/NICQIN-Inspection-Templ-Status.html
+- uid: O:Enum::NICQIN_ProdOrdRoutLine_Date
+  name: "\"NICQIN ProdOrdRoutLine Date\""
+  fqName: "\"NICQIN ProdOrdRoutLine Date\""
+  href: reference/quality-inspections/Enum/NICQIN-ProdOrdRoutLine-Date.html
+- uid: O:Enum::NICQIN_ProdOrderComp_Date
+  name: "\"NICQIN ProdOrderComp Date\""
+  fqName: "\"NICQIN ProdOrderComp Date\""
+  href: reference/quality-inspections/Enum/NICQIN-ProdOrderComp-Date.html
+- uid: O:Enum::NICQIN_ProdOrderLine_Date
+  name: "\"NICQIN ProdOrderLine Date\""
+  fqName: "\"NICQIN ProdOrderLine Date\""
+  href: reference/quality-inspections/Enum/NICQIN-ProdOrderLine-Date.html
+- uid: O:Enum::NICQIN_PurchHeader_Date
+  name: "\"NICQIN PurchHeader Date\""
+  fqName: "\"NICQIN PurchHeader Date\""
+  href: reference/quality-inspections/Enum/NICQIN-PurchHeader-Date.html
+- uid: O:Enum::NICQIN_PurchLine_Date
+  name: "\"NICQIN PurchLine Date\""
+  fqName: "\"NICQIN PurchLine Date\""
+  href: reference/quality-inspections/Enum/NICQIN-PurchLine-Date.html
+- uid: O:Enum::NICQIN_SalesHeader_Date
+  name: "\"NICQIN SalesHeader Date\""
+  fqName: "\"NICQIN SalesHeader Date\""
+  href: reference/quality-inspections/Enum/NICQIN-SalesHeader-Date.html
+- uid: O:Enum::NICQIN_SalesLine_Date
+  name: "\"NICQIN SalesLine Date\""
+  fqName: "\"NICQIN SalesLine Date\""
+  href: reference/quality-inspections/Enum/NICQIN-SalesLine-Date.html
 - uid: O:Enum::NICQIN_Test_Fail_Action_Type
   name: "\"NICQIN Test Fail Action Type\""
   fqName: "\"NICQIN Test Fail Action Type\""
@@ -17648,6 +18613,14 @@ references:
   name: "\"NICQIN User Task Receipient\""
   fqName: "\"NICQIN User Task Receipient\""
   href: reference/quality-inspections/Enum/NICQIN-User-Task-Receipient.html
+- uid: O:Enum::NICQIN_WHRecHeader_Date
+  name: "\"NICQIN WHRecHeader Date\""
+  fqName: "\"NICQIN WHRecHeader Date\""
+  href: reference/quality-inspections/Enum/NICQIN-WHRecHeader-Date.html
+- uid: O:Enum::NICQIN_WHShipHeader_Date
+  name: "\"NICQIN WHShipHeader Date\""
+  fqName: "\"NICQIN WHShipHeader Date\""
+  href: reference/quality-inspections/Enum/NICQIN-WHShipHeader-Date.html
 - uid: O:Enum::NICSHC_Filter_Document_Type
   name: "\"NICSHC Filter Document Type\""
   fqName: "\"NICSHC Filter Document Type\""
@@ -17736,6 +18709,10 @@ references:
   name: "\"NICPRR AttachmentDocumentType\""
   fqName: "\"NICPRR AttachmentDocumentType\""
   href: reference/purchasing-restrictions/EnumExtension/NICPRR-AttachmentDocumentType.html
+- uid: O:EnumExtension::NICQIN_Option_Lookup_Type
+  name: "\"NICQIN Option Lookup Type\""
+  fqName: "\"NICQIN Option Lookup Type\""
+  href: reference/quality-inspections/EnumExtension/NICQIN-Option-Lookup-Type.html
 - uid: O:EnumExtension::NICSLR_AttachmentDocumentType
   name: "\"NICSLR AttachmentDocumentType\""
   fqName: "\"NICSLR AttachmentDocumentType\""
@@ -17804,6 +18781,62 @@ references:
   name: "\"NICBOM VendItemUnderRcptCodes\""
   fqName: "\"NICBOM VendItemUnderRcptCodes\""
   href: reference/backorder-management/Page/NICBOM-VendItemUnderRcptCodes.html
+- uid: O:Page::NICCIN_Change_Customer_Metric
+  name: "\"NICCIN Change Customer Metric\""
+  fqName: "\"NICCIN Change Customer Metric\""
+  href: reference/customer-insights/Page/NICCIN-Change-Customer-Metric.html
+- uid: O:Page::NICCIN_Change_Customer_Targets
+  name: "\"NICCIN Change Customer Targets\""
+  fqName: "\"NICCIN Change Customer Targets\""
+  href: reference/customer-insights/Page/NICCIN-Change-Customer-Targets.html
+- uid: O:Page::NICCIN_Change_Default_Targets
+  name: "\"NICCIN Change Default Targets\""
+  fqName: "\"NICCIN Change Default Targets\""
+  href: reference/customer-insights/Page/NICCIN-Change-Default-Targets.html
+- uid: O:Page::NICCIN_Cust#_Insights_Entries
+  name: "\"NICCIN Cust. Insights Entries\""
+  fqName: "\"NICCIN Cust. Insights Entries\""
+  href: reference/customer-insights/Page/NICCIN-Cust.-Insights-Entries.html
+- uid: O:Page::NICCIN_Cust#_Insights_FactBox
+  name: "\"NICCIN Cust. Insights FactBox\""
+  fqName: "\"NICCIN Cust. Insights FactBox\""
+  href: reference/customer-insights/Page/NICCIN-Cust.-Insights-FactBox.html
+- uid: O:Page::NICCIN_Cust#_Insights_Targets
+  name: "\"NICCIN Cust. Insights Targets\""
+  fqName: "\"NICCIN Cust. Insights Targets\""
+  href: reference/customer-insights/Page/NICCIN-Cust.-Insights-Targets.html
+- uid: O:Page::NICCIN_Cust#_Metrics_Factbox
+  name: "\"NICCIN Cust. Metrics Factbox\""
+  fqName: "\"NICCIN Cust. Metrics Factbox\""
+  href: reference/customer-insights/Page/NICCIN-Cust.-Metrics-Factbox.html
+- uid: O:Page::NICCIN_CustInsghtsSetupFactbox
+  name: "\"NICCIN CustInsghtsSetupFactbox\""
+  fqName: "\"NICCIN CustInsghtsSetupFactbox\""
+  href: reference/customer-insights/Page/NICCIN-CustInsghtsSetupFactbox.html
+- uid: O:Page::NICCIN_CustInstsEntriesFactbox
+  name: "\"NICCIN CustInstsEntriesFactbox\""
+  fqName: "\"NICCIN CustInstsEntriesFactbox\""
+  href: reference/customer-insights/Page/NICCIN-CustInstsEntriesFactbox.html
+- uid: O:Page::NICCIN_Customer_Insights
+  name: "\"NICCIN Customer Insights\""
+  fqName: "\"NICCIN Customer Insights\""
+  href: reference/customer-insights/Page/NICCIN-Customer-Insights.html
+- uid: O:Page::NICCIN_Customer_Insights_Setup
+  name: "\"NICCIN Customer Insights Setup\""
+  fqName: "\"NICCIN Customer Insights Setup\""
+  href: reference/customer-insights/Page/NICCIN-Customer-Insights-Setup.html
+- uid: O:Page::NICCIN_Customer_Metrics
+  name: "\"NICCIN Customer Metrics\""
+  fqName: "\"NICCIN Customer Metrics\""
+  href: reference/customer-insights/Page/NICCIN-Customer-Metrics.html
+- uid: O:Page::NICCIN_Metric_Card
+  name: "\"NICCIN Metric Card\""
+  fqName: "\"NICCIN Metric Card\""
+  href: reference/customer-insights/Page/NICCIN-Metric-Card.html
+- uid: O:Page::NICCIN_Setup_Wizard
+  name: "\"NICCIN Setup Wizard\""
+  fqName: "\"NICCIN Setup Wizard\""
+  href: reference/customer-insights/Page/NICCIN-Setup-Wizard.html
 - uid: O:Page::NICCOM_Agent_Card
   name: "\"NICCOM Agent Card\""
   fqName: "\"NICCOM Agent Card\""
@@ -17888,6 +18921,10 @@ references:
   name: "\"NICCOM Commission Journal\""
   fqName: "\"NICCOM Commission Journal\""
   href: reference/sales-commissions/Page/NICCOM-Commission-Journal.html
+- uid: O:Page::NICCOM_Commission_Registers
+  name: "\"NICCOM Commission Registers\""
+  fqName: "\"NICCOM Commission Registers\""
+  href: reference/sales-commissions/Page/NICCOM-Commission-Registers.html
 - uid: O:Page::NICCOM_Commission_Tier_FactBox
   name: "\"NICCOM Commission Tier FactBox\""
   fqName: "\"NICCOM Commission Tier FactBox\""
@@ -18472,6 +19509,38 @@ references:
   name: "\"NICPSQ Sequence Codes\""
   fqName: "\"NICPSQ Sequence Codes\""
   href: reference/production-sequencing/Page/NICPSQ-Sequence-Codes.html
+- uid: O:Page::NICQIN_Active_Inspect_Subform
+  name: "\"NICQIN Active Inspect Subform\""
+  fqName: "\"NICQIN Active Inspect Subform\""
+  href: reference/quality-inspections/Page/NICQIN-Active-Inspect-Subform.html
+- uid: O:Page::NICQIN_Active_Inspection
+  name: "\"NICQIN Active Inspection\""
+  fqName: "\"NICQIN Active Inspection\""
+  href: reference/quality-inspections/Page/NICQIN-Active-Inspection.html
+- uid: O:Page::NICQIN_Active_Inspections
+  name: "\"NICQIN Active Inspections\""
+  fqName: "\"NICQIN Active Inspections\""
+  href: reference/quality-inspections/Page/NICQIN-Active-Inspections.html
+- uid: O:Page::NICQIN_Change_Inspect_Status
+  name: "\"NICQIN Change Inspect Status\""
+  fqName: "\"NICQIN Change Inspect Status\""
+  href: reference/quality-inspections/Page/NICQIN-Change-Inspect-Status.html
+- uid: O:Page::NICQIN_Change_Status_on_QI
+  name: "\"NICQIN Change Status on QI\""
+  fqName: "\"NICQIN Change Status on QI\""
+  href: reference/quality-inspections/Page/NICQIN-Change-Status-on-QI.html
+- uid: O:Page::NICQIN_FinishedInspect_Subform
+  name: "\"NICQIN FinishedInspect Subform\""
+  fqName: "\"NICQIN FinishedInspect Subform\""
+  href: reference/quality-inspections/Page/NICQIN-FinishedInspect-Subform.html
+- uid: O:Page::NICQIN_Finished_Inspection
+  name: "\"NICQIN Finished Inspection\""
+  fqName: "\"NICQIN Finished Inspection\""
+  href: reference/quality-inspections/Page/NICQIN-Finished-Inspection.html
+- uid: O:Page::NICQIN_Finished_Inspections
+  name: "\"NICQIN Finished Inspections\""
+  fqName: "\"NICQIN Finished Inspections\""
+  href: reference/quality-inspections/Page/NICQIN-Finished-Inspections.html
 - uid: O:Page::NICQIN_InsLine_Pic_Gallery_FB
   name: "\"NICQIN InsLine Pic Gallery FB\""
   fqName: "\"NICQIN InsLine Pic Gallery FB\""
@@ -18504,6 +19573,10 @@ references:
   name: "\"NICQIN Inspection\""
   fqName: "\"NICQIN Inspection\""
   href: reference/quality-inspections/Page/NICQIN-Inspection.html
+- uid: O:Page::NICQIN_InspectionTempl_InvRest
+  name: "\"NICQIN InspectionTempl InvRest\""
+  fqName: "\"NICQIN InspectionTempl InvRest\""
+  href: reference/quality-inspections/Page/NICQIN-InspectionTempl-InvRest.html
 - uid: O:Page::NICQIN_InspectionTempl_Subform
   name: "\"NICQIN InspectionTempl Subform\""
   fqName: "\"NICQIN InspectionTempl Subform\""
@@ -18516,6 +19589,10 @@ references:
   name: "\"NICQIN Inspection Cmt Sheet\""
   fqName: "\"NICQIN Inspection Cmt Sheet\""
   href: reference/quality-inspections/Page/NICQIN-Inspection-Cmt-Sheet.html
+- uid: O:Page::NICQIN_Inspection_InvRest
+  name: "\"NICQIN Inspection InvRest\""
+  fqName: "\"NICQIN Inspection InvRest\""
+  href: reference/quality-inspections/Page/NICQIN-Inspection-InvRest.html
 - uid: O:Page::NICQIN_Inspection_Lines
   name: "\"NICQIN Inspection Lines\""
   fqName: "\"NICQIN Inspection Lines\""
@@ -18536,6 +19613,22 @@ references:
   name: "\"NICQIN Inspections\""
   fqName: "\"NICQIN Inspections\""
   href: reference/quality-inspections/Page/NICQIN-Inspections.html
+- uid: O:Page::NICQIN_InvtRestrictionCodes
+  name: "\"NICQIN InvtRestrictionCodes\""
+  fqName: "\"NICQIN InvtRestrictionCodes\""
+  href: reference/quality-inspections/Page/NICQIN-InvtRestrictionCodes.html
+- uid: O:Page::NICQIN_New_Inspect_Subform
+  name: "\"NICQIN New Inspect Subform\""
+  fqName: "\"NICQIN New Inspect Subform\""
+  href: reference/quality-inspections/Page/NICQIN-New-Inspect-Subform.html
+- uid: O:Page::NICQIN_New_Inspection
+  name: "\"NICQIN New Inspection\""
+  fqName: "\"NICQIN New Inspection\""
+  href: reference/quality-inspections/Page/NICQIN-New-Inspection.html
+- uid: O:Page::NICQIN_New_Inspections
+  name: "\"NICQIN New Inspections\""
+  fqName: "\"NICQIN New Inspections\""
+  href: reference/quality-inspections/Page/NICQIN-New-Inspections.html
 - uid: O:Page::NICQIN_Quality_Inspect_Setup
   name: "\"NICQIN Quality Inspect Setup\""
   fqName: "\"NICQIN Quality Inspect Setup\""
@@ -18752,6 +19845,10 @@ references:
   name: "\"NICSOF Rebate Posting Groups\""
   fqName: "\"NICSOF Rebate Posting Groups\""
   href: reference/sales-rebates/Page/NICSOF-Rebate-Posting-Groups.html
+- uid: O:Page::NICSOF_Rebate_Registers
+  name: "\"NICSOF Rebate Registers\""
+  fqName: "\"NICSOF Rebate Registers\""
+  href: reference/sales-rebates/Page/NICSOF-Rebate-Registers.html
 - uid: O:Page::NICSOF_Rebate_Tier_FactBox
   name: "\"NICSOF Rebate Tier FactBox\""
   fqName: "\"NICSOF Rebate Tier FactBox\""
@@ -19020,6 +20117,14 @@ references:
   name: "\"NICBOM Warehouse Setup\""
   fqName: "\"NICBOM Warehouse Setup\""
   href: reference/backorder-management/PageExtension/NICBOM-Warehouse-Setup.html
+- uid: O:PageExtension::NICCIN_Cust#_List
+  name: "\"NICCIN Cust. List\""
+  fqName: "\"NICCIN Cust. List\""
+  href: reference/customer-insights/PageExtension/NICCIN-Cust.-List.html
+- uid: O:PageExtension::NICCIN_Customer_Card
+  name: "\"NICCIN Customer Card\""
+  fqName: "\"NICCIN Customer Card\""
+  href: reference/customer-insights/PageExtension/NICCIN-Customer-Card.html
 - uid: O:PageExtension::NICCOM_Customer_Card
   name: "\"NICCOM Customer Card\""
   fqName: "\"NICCOM Customer Card\""
@@ -19832,10 +20937,30 @@ references:
   name: "\"NICQIN ApprovalUserSetup\""
   fqName: "\"NICQIN ApprovalUserSetup\""
   href: reference/quality-inspections/PageExtension/NICQIN-ApprovalUserSetup.html
+- uid: O:PageExtension::NICQIN_Item_Ledger_Entries
+  name: "\"NICQIN Item Ledger Entries\""
+  fqName: "\"NICQIN Item Ledger Entries\""
+  href: reference/quality-inspections/PageExtension/NICQIN-Item-Ledger-Entries.html
 - uid: O:PageExtension::NICQIN_Item_Tracking_Summary
   name: "\"NICQIN Item Tracking Summary\""
   fqName: "\"NICQIN Item Tracking Summary\""
   href: reference/quality-inspections/PageExtension/NICQIN-Item-Tracking-Summary.html
+- uid: O:PageExtension::NICQIN_Lot_No#_Info_Card
+  name: "\"NICQIN Lot No. Info Card\""
+  fqName: "\"NICQIN Lot No. Info Card\""
+  href: reference/quality-inspections/PageExtension/NICQIN-Lot-No.-Info-Card.html
+- uid: O:PageExtension::NICQIN_Lot_No#_Info_List
+  name: "\"NICQIN Lot No. Info List\""
+  fqName: "\"NICQIN Lot No. Info List\""
+  href: reference/quality-inspections/PageExtension/NICQIN-Lot-No.-Info-List.html
+- uid: O:PageExtension::NICQIN_Package_No#_Info_Card
+  name: "\"NICQIN Package No. Info Card\""
+  fqName: "\"NICQIN Package No. Info Card\""
+  href: reference/quality-inspections/PageExtension/NICQIN-Package-No.-Info-Card.html
+- uid: O:PageExtension::NICQIN_Package_No#_Info_List
+  name: "\"NICQIN Package No. Info List\""
+  fqName: "\"NICQIN Package No. Info List\""
+  href: reference/quality-inspections/PageExtension/NICQIN-Package-No.-Info-List.html
 - uid: O:PageExtension::NICQIN_Prod#_Order_Components
   name: "\"NICQIN Prod. Order Components\""
   fqName: "\"NICQIN Prod. Order Components\""
@@ -19872,6 +20997,14 @@ references:
   name: "\"NICQIN Sales Order Subform\""
   fqName: "\"NICQIN Sales Order Subform\""
   href: reference/quality-inspections/PageExtension/NICQIN-Sales-Order-Subform.html
+- uid: O:PageExtension::NICQIN_Serial_No#_Info_Card
+  name: "\"NICQIN Serial No. Info Card\""
+  fqName: "\"NICQIN Serial No. Info Card\""
+  href: reference/quality-inspections/PageExtension/NICQIN-Serial-No.-Info-Card.html
+- uid: O:PageExtension::NICQIN_Serial_No#_Info_List
+  name: "\"NICQIN Serial No. Info List\""
+  fqName: "\"NICQIN Serial No. Info List\""
+  href: reference/quality-inspections/PageExtension/NICQIN-Serial-No.-Info-List.html
 - uid: O:PageExtension::NICQIN_Warehouse_Receipt
   name: "\"NICQIN Warehouse Receipt\""
   fqName: "\"NICQIN Warehouse Receipt\""
@@ -20104,6 +21237,22 @@ references:
   name: "\"NICBOM Objects\""
   fqName: "\"NICBOM Objects\""
   href: reference/backorder-management/PermissionSet/NICBOM-Objects.html
+- uid: O:PermissionSet::NICCIN_Admin
+  name: "\"NICCIN Admin\""
+  fqName: "\"NICCIN Admin\""
+  href: reference/customer-insights/PermissionSet/NICCIN-Admin.html
+- uid: O:PermissionSet::NICCIN_Edit
+  name: "\"NICCIN Edit\""
+  fqName: "\"NICCIN Edit\""
+  href: reference/customer-insights/PermissionSet/NICCIN-Edit.html
+- uid: O:PermissionSet::NICCIN_Objects
+  name: "\"NICCIN Objects\""
+  fqName: "\"NICCIN Objects\""
+  href: reference/customer-insights/PermissionSet/NICCIN-Objects.html
+- uid: O:PermissionSet::NICCIN_Read
+  name: "\"NICCIN Read\""
+  fqName: "\"NICCIN Read\""
+  href: reference/customer-insights/PermissionSet/NICCIN-Read.html
 - uid: O:PermissionSet::NICCOM_Admin
   name: "\"NICCOM Admin\""
   fqName: "\"NICCOM Admin\""
@@ -20708,6 +21857,10 @@ references:
   name: "\"NICSOF Post Rebates to G/L\""
   fqName: "\"NICSOF Post Rebates to G/L\""
   href: reference/sales-rebates/Report/NICSOF-Post-Rebates-to-G-L.html
+- uid: O:Report::NICSOF_SaleRebateAnalysisExcel
+  name: "\"NICSOF SaleRebateAnalysisExcel\""
+  fqName: "\"NICSOF SaleRebateAnalysisExcel\""
+  href: reference/sales-rebates/Report/NICSOF-SaleRebateAnalysisExcel.html
 - uid: O:Report::NICWLP_Package_Label
   name: "\"NICWLP Package Label\""
   fqName: "\"NICWLP Package Label\""
@@ -20792,6 +21945,26 @@ references:
   name: "\"NICBOM UnderShptCode\""
   fqName: "\"NICBOM UnderShptCode\""
   href: reference/backorder-management/Table/NICBOM-UnderShptCode.html
+- uid: O:Table::NICCIN_Cust#_Insights_Target
+  name: "\"NICCIN Cust. Insights Target\""
+  fqName: "\"NICCIN Cust. Insights Target\""
+  href: reference/customer-insights/Table/NICCIN-Cust.-Insights-Target.html
+- uid: O:Table::NICCIN_Customer_Insight
+  name: "\"NICCIN Customer Insight\""
+  fqName: "\"NICCIN Customer Insight\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insight.html
+- uid: O:Table::NICCIN_Customer_Insights_Entry
+  name: "\"NICCIN Customer Insights Entry\""
+  fqName: "\"NICCIN Customer Insights Entry\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Entry.html
+- uid: O:Table::NICCIN_Customer_Insights_Setup
+  name: "\"NICCIN Customer Insights Setup\""
+  fqName: "\"NICCIN Customer Insights Setup\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Insights-Setup.html
+- uid: O:Table::NICCIN_Customer_Metric
+  name: "\"NICCIN Customer Metric\""
+  fqName: "\"NICCIN Customer Metric\""
+  href: reference/customer-insights/Table/NICCIN-Customer-Metric.html
 - uid: O:Table::NICCOM_Agent
   name: "\"NICCOM Agent\""
   fqName: "\"NICCOM Agent\""
@@ -20844,6 +22017,10 @@ references:
   name: "\"NICCOM Commission Item\""
   fqName: "\"NICCOM Commission Item\""
   href: reference/sales-commissions/Table/NICCOM-Commission-Item.html
+- uid: O:Table::NICCOM_Commission_Register
+  name: "\"NICCOM Commission Register\""
+  fqName: "\"NICCOM Commission Register\""
+  href: reference/sales-commissions/Table/NICCOM-Commission-Register.html
 - uid: O:Table::NICCOM_Commission_Tier
   name: "\"NICCOM Commission Tier\""
   fqName: "\"NICCOM Commission Tier\""
@@ -21184,6 +22361,10 @@ references:
   name: "\"NICQIN InspectTemplTest Buffer\""
   fqName: "\"NICQIN InspectTemplTest Buffer\""
   href: reference/quality-inspections/Table/NICQIN-InspectTemplTest-Buffer.html
+- uid: O:Table::NICQIN_InspectTemplate_InvRest
+  name: "\"NICQIN InspectTemplate InvRest\""
+  fqName: "\"NICQIN InspectTemplate InvRest\""
+  href: reference/quality-inspections/Table/NICQIN-InspectTemplate-InvRest.html
 - uid: O:Table::NICQIN_Inspect_Source_Buffer
   name: "\"NICQIN Inspect Source Buffer\""
   fqName: "\"NICQIN Inspect Source Buffer\""
@@ -21216,6 +22397,10 @@ references:
   name: "\"NICQIN Inspection Header\""
   fqName: "\"NICQIN Inspection Header\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
+- uid: O:Table::NICQIN_Inspection_InvRest
+  name: "\"NICQIN Inspection InvRest\""
+  fqName: "\"NICQIN Inspection InvRest\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-InvRest.html
 - uid: O:Table::NICQIN_Inspection_Line
   name: "\"NICQIN Inspection Line\""
   fqName: "\"NICQIN Inspection Line\""
@@ -21228,6 +22413,10 @@ references:
   name: "\"NICQIN Inspection Setup\""
   fqName: "\"NICQIN Inspection Setup\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
+- uid: O:Table::NICQIN_InvtRestrictionCode
+  name: "\"NICQIN InvtRestrictionCode\""
+  fqName: "\"NICQIN InvtRestrictionCode\""
+  href: reference/quality-inspections/Table/NICQIN-InvtRestrictionCode.html
 - uid: O:Table::NICQIN_Picture_Gallery_Buffer
   name: "\"NICQIN Picture Gallery Buffer\""
   fqName: "\"NICQIN Picture Gallery Buffer\""
@@ -21368,6 +22557,10 @@ references:
   name: "\"NICSOF Rebate Posting Group\""
   fqName: "\"NICSOF Rebate Posting Group\""
   href: reference/sales-rebates/Table/NICSOF-Rebate-Posting-Group.html
+- uid: O:Table::NICSOF_Rebate_Register
+  name: "\"NICSOF Rebate Register\""
+  fqName: "\"NICSOF Rebate Register\""
+  href: reference/sales-rebates/Table/NICSOF-Rebate-Register.html
 - uid: O:Table::NICSOF_Rebate_Tier
   name: "\"NICSOF Rebate Tier\""
   fqName: "\"NICSOF Rebate Tier\""
