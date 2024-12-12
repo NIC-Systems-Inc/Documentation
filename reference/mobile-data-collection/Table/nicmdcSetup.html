@@ -29,6 +29,13 @@
     document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
   </script>
 
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-56M7LXMFCW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-56M7LXMFCW');
+  </script>
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -336,6 +343,13 @@ Boolean
   				</tr>
   				<tr>
   					<td>&quot;Validate Bin in Whse. Pick&quot;</td>
+  					<td class="font-style-italic">
+Boolean						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Show Capacity Cost Factor&quot;</td>
   					<td class="font-style-italic">
 Boolean						
   					</td>

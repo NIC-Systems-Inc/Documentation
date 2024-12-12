@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-56M7LXMFCW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-56M7LXMFCW');
+  </script>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../public/logo.png" alt="NIC Systems Developer Documentation">
+            NIC Systems Developer Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="O:Codeunit::NICPAS_Payment_Signatures">
+  <h1>Codeunit &quot;NICPAS Payment Signatures&quot;</h1>
+
+
+<div class="font-style-italic">ID 23094611</div>
+
+
+
+
+
+
+
+
+  	<h2 id="methods">Methods</h2>
+   <h3 class="memberNameHolder">DeleteBankSignature</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Delete a signature for a <strong>Bank Account</strong> record.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure DeleteBankSignature(BankAccount: Record &quot;Bank Account&quot;, SignatureNo: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BankAccount
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Bank Account&quot;                 </td>
+   							<td>
+								<p>The bank account where the signature exists.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SignatureNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>The number of the signature to delete.</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ExportBankSignature</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Export a signature from a <strong>Bank Account</strong> record.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure ExportBankSignature(BankAccount: Record &quot;Bank Account&quot;, SignatureNo: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BankAccount
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Bank Account&quot;                 </td>
+   							<td>
+								<p>The bank account where the signature exists.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SignatureNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>The number of the signature to export.</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetBankSignature</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Get a signature from a <strong>Bank Account</strong> record. The signature is returned only if the amount is within the limit for the signature.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetBankSignature(BankAccountNo: Code[20], Amount: Decimal, SignatureNo: Integer): Record &quot;Tenant Media&quot;</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BankAccountNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								<p>The bank account number where the signature exists.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Amount
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>The document or transaction amount.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SignatureNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>The number of the signature to return.</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Record &quot;Tenant Media&quot;               </td>
+   						<td>
+							<p>The signature. The signature is returned only if the amount is within the limit for the signature, otherwise an empty record is returned.</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">ImportBankSignature</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Import a signature to a <strong>Bank Account</strong> record.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure ImportBankSignature(SignatureFile: List of [FileUpload], BankAccount: Record &quot;Bank Account&quot;, SignatureNo: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SignatureFile
+   							</td>
+   							<td class="font-style-italic">
+List of [FileUpload]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BankAccount
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Bank Account&quot;                 </td>
+   							<td>
+								<p>The bank account where the signature will be imported.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SignatureNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>The number of the signature to import.</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object">Codeunit</a></p>
+</li>
+  	</ul>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          ©2024 NIC Systems Inc. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1213,6 +1213,18 @@ references:
 - uid: E:Enum::NICQIN_Test_Result_Status.Unknown
   name: Unknown
   href: reference/quality-inspections/Enum/NICQIN-Test-Result-Status.html
+- uid: E:Enum::NICQIN_Unit_Type.
+  name: ''
+  href: reference/quality-inspections/Enum/NICQIN-Unit-Type.html
+- uid: E:Enum::NICQIN_Unit_Type.Fixed_Asset
+  name: "\"Fixed Asset\""
+  href: reference/quality-inspections/Enum/NICQIN-Unit-Type.html
+- uid: E:Enum::NICQIN_Unit_Type.Item
+  name: Item
+  href: reference/quality-inspections/Enum/NICQIN-Unit-Type.html
+- uid: E:Enum::NICQIN_Unit_Type.Resource
+  name: Resource
+  href: reference/quality-inspections/Enum/NICQIN-Unit-Type.html
 - uid: E:Enum::NICQIN_User_Task_Receipient.Specific_User
   name: "\"Specific User\""
   href: reference/quality-inspections/Enum/NICQIN-User-Task-Receipient.html
@@ -6163,6 +6175,12 @@ references:
 - uid: F:Table::NICQIN_Inspect_Source_Buffer.Test_Date
   name: "\"Test Date\""
   href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
+- uid: F:Table::NICQIN_Inspect_Source_Buffer.Unit_No#[20]
+  name: "\"Unit No.\""
+  href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
+- uid: F:Table::NICQIN_Inspect_Source_Buffer.Unit_Type
+  name: "\"Unit Type\""
+  href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
 - uid: F:Table::NICQIN_Inspect_Source_Buffer.Variant_Code[10]
   name: "\"Variant Code\""
   href: reference/quality-inspections/Table/NICQIN-Inspect-Source-Buffer.html
@@ -6490,6 +6508,18 @@ references:
 - uid: F:Table::NICQIN_Inspection_Header.SystemRowVersion
   name: SystemRowVersion
   href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
+- uid: F:Table::NICQIN_Inspection_Header.Unit_Description[100]
+  name: "\"Unit Description\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
+- uid: F:Table::NICQIN_Inspection_Header.Unit_Description_2[50]
+  name: "\"Unit Description 2\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
+- uid: F:Table::NICQIN_Inspection_Header.Unit_No#[20]
+  name: "\"Unit No.\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
+- uid: F:Table::NICQIN_Inspection_Header.Unit_Type
+  name: "\"Unit Type\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
 - uid: F:Table::NICQIN_Inspection_Header.Variant_Code[10]
   name: "\"Variant Code\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Header.html
@@ -6657,6 +6687,18 @@ references:
   href: reference/quality-inspections/Table/NICQIN-Inspection-Line.html
 - uid: F:Table::NICQIN_Inspection_Line.Test_Time
   name: "\"Test Time\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Line.html
+- uid: F:Table::NICQIN_Inspection_Line.Unit_Description[100]
+  name: "\"Unit Description\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Line.html
+- uid: F:Table::NICQIN_Inspection_Line.Unit_Description_2[50]
+  name: "\"Unit Description 2\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Line.html
+- uid: F:Table::NICQIN_Inspection_Line.Unit_No#[20]
+  name: "\"Unit No.\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Line.html
+- uid: F:Table::NICQIN_Inspection_Line.Unit_Type
+  name: "\"Unit Type\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Line.html
 - uid: F:Table::NICQIN_Inspection_Line.Unit_of_Measure_Code[10]
   name: "\"Unit of Measure Code\""
@@ -8320,6 +8362,63 @@ references:
 - uid: F:Table::NICTRM_BankAccountLookupBuffer.SystemRowVersion
   name: SystemRowVersion
   href: reference/treasury-management-suite/Table/NICTRM-BankAccountLookupBuffer.html
+- uid: F:Table::NICVCC_Capacity_Cost_APIs.API_Key[50]
+  name: "\"API Key\""
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: F:Table::NICVCC_Capacity_Cost_APIs.API_Method_Name[100]
+  name: "\"API Method Name\""
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: F:Table::NICVCC_Capacity_Cost_APIs.Last_Modified_Date_Time
+  name: "\"Last Modified Date Time\""
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: F:Table::NICVCC_Capacity_Cost_APIs.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: F:Table::NICVCC_Capacity_Cost_APIs.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: F:Table::NICVCC_Capacity_Cost_APIs.SystemId
+  name: SystemId
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: F:Table::NICVCC_Capacity_Cost_APIs.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: F:Table::NICVCC_Capacity_Cost_APIs.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: F:Table::NICVCC_Capacity_Cost_APIs.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: F:Table::NICVCC_Capacity_Cost_APIs.User_ID[50]
+  name: "\"User ID\""
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: F:Table::NICVCC_Setup.Capacity_Cost_Factor_Caption[30]
+  name: "\"Capacity Cost Factor Caption\""
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
+- uid: F:Table::NICVCC_Setup.Cost_Incl_Cap_Cost_Fctr
+  name: "\"Cost Incl Cap Cost Fctr\""
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
+- uid: F:Table::NICVCC_Setup.Primary_Key[10]
+  name: "\"Primary Key\""
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
+- uid: F:Table::NICVCC_Setup.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
+- uid: F:Table::NICVCC_Setup.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
+- uid: F:Table::NICVCC_Setup.SystemId
+  name: SystemId
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
+- uid: F:Table::NICVCC_Setup.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
+- uid: F:Table::NICVCC_Setup.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
+- uid: F:Table::NICVCC_Setup.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
 - uid: F:Table::NICVIN_Vendor_Insight.Date_Filter
   name: "\"Date Filter\""
   href: reference/vendor-insights/Table/NICVIN-Vendor-Insight.html
@@ -8656,6 +8755,36 @@ references:
 - uid: F:Table::NICWLP_RESTStripeConfig.SystemRowVersion
   name: SystemRowVersion
   href: reference/warehouse-license-plating/Table/NICWLP-RESTStripeConfig.html
+- uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.API_Key[50]
+  name: "\"API Key\""
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
+- uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.API_Method_Name[100]
+  name: "\"API Method Name\""
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
+- uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.Last_Modified_Date_Time
+  name: "\"Last Modified Date Time\""
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
+- uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
+- uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
+- uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.SystemId
+  name: SystemId
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
+- uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
+- uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
+- uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
+- uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.User_ID[50]
+  name: "\"User ID\""
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
 - uid: F:Table::nicmdcLabels.BinBarCode[250]
   name: BinBarCode
   href: reference/mobile-data-collection/Table/nicmdcLabels.html
@@ -9063,6 +9192,9 @@ references:
   href: reference/mobile-data-collection/Table/nicmdcSetup.html
 - uid: F:Table::nicmdcSetup.SSCC_of_Copies
   name: "\"SSCC of Copies\""
+  href: reference/mobile-data-collection/Table/nicmdcSetup.html
+- uid: F:Table::nicmdcSetup.Show_Capacity_Cost_Factor
+  name: "\"Show Capacity Cost Factor\""
   href: reference/mobile-data-collection/Table/nicmdcSetup.html
 - uid: F:Table::nicmdcSetup.SystemCreatedAt
   name: SystemCreatedAt
@@ -10072,6 +10204,18 @@ references:
 - uid: F:TableExtension::NICOVS_WarehouseShipmentLine.NICOVS_Over-Shipment_Quantity
   name: "\"NICOVS Over-Shipment Quantity\""
   href: reference/over-shipping/TableExtension/NICOVS-WarehouseShipmentLine.html
+- uid: F:TableExtension::NICPAS_Bank_Account.NICPAS_Signature_1
+  name: "\"NICPAS Signature 1\""
+  href: reference/payment-signatures/TableExtension/NICPAS-Bank-Account.html
+- uid: F:TableExtension::NICPAS_Bank_Account.NICPAS_Signature_1_Limit
+  name: "\"NICPAS Signature 1 Limit\""
+  href: reference/payment-signatures/TableExtension/NICPAS-Bank-Account.html
+- uid: F:TableExtension::NICPAS_Bank_Account.NICPAS_Signature_2
+  name: "\"NICPAS Signature 2\""
+  href: reference/payment-signatures/TableExtension/NICPAS-Bank-Account.html
+- uid: F:TableExtension::NICPAS_Bank_Account.NICPAS_Signature_2_Limit
+  name: "\"NICPAS Signature 2 Limit\""
+  href: reference/payment-signatures/TableExtension/NICPAS-Bank-Account.html
 - uid: F:TableExtension::NICPBA_Item.NICPBA_Req#_Cons#_Batch_No#
   name: "\"NICPBA Req. Cons. Batch No.\""
   href: reference/production-batching/TableExtension/NICPBA-Item.html
@@ -10201,6 +10345,18 @@ references:
 - uid: F:TableExtension::NICSOF_Sales_Line.NICSOF_Exclude_From_Rebates
   name: "\"NICSOF Exclude From Rebates\""
   href: reference/sales-rebates/TableExtension/NICSOF-Sales-Line.html
+- uid: F:TableExtension::NICVCC_Capacity_Ledger_Entry.NICVCC_Cap_Cost_Factor
+  name: "\"NICVCC Cap Cost Factor\""
+  href: reference/variable-capacity-cost/TableExtension/NICVCC-Capacity-Ledger-Entry.html
+- uid: F:TableExtension::NICVCC_Item_Jnl_Line.NICVCC_Cap_Cost_Factor
+  name: "\"NICVCC Cap Cost Factor\""
+  href: reference/variable-capacity-cost/TableExtension/NICVCC-Item-Jnl-Line.html
+- uid: F:TableExtension::NICVCC_Machine_Center.NICVCC_Require_Cap_Cost_Fctr
+  name: "\"NICVCC Require Cap Cost Fctr\""
+  href: reference/variable-capacity-cost/TableExtension/NICVCC-Machine-Center.html
+- uid: F:TableExtension::NICVCC_Work_Center.NICVCC_Require_Cap_Cost_Fctr
+  name: "\"NICVCC Require Cap Cost Fctr\""
+  href: reference/variable-capacity-cost/TableExtension/NICVCC-Work-Center.html
 - uid: F:TableExtension::NICWLP_Bin.NICWLP_Ignore_Strict_Pkg_Pstng
   name: "\"NICWLP Ignore Strict Pkg Pstng\""
   href: reference/warehouse-license-plating/TableExtension/NICWLP-Bin.html
@@ -12736,6 +12892,42 @@ references:
 - uid: M:Codeunit::NICOVS_OverShipMgt.OnIsOverShipAllowed(Boolean@)
   name: OnIsOverShipAllowed
   href: reference/over-shipping/Codeunit/NICOVS-OverShipMgt.html
+- uid: M:Codeunit::NICPAS_Get_Signatures.OnAfterCheckIfSignaturesEnabled(Bank_Account@,Boolean@)
+  name: OnAfterCheckIfSignaturesEnabled
+  href: reference/payment-signatures/Codeunit/NICPAS-Get-Signatures.html
+- uid: M:Codeunit::NICPAS_Get_Signatures.OnAfterGetPaymentSignature(Code[20],Decimal,Integer,Tenant_Media@)
+  name: OnAfterGetPaymentSignature
+  href: reference/payment-signatures/Codeunit/NICPAS-Get-Signatures.html
+- uid: M:Codeunit::NICPAS_Get_Signatures.OnAfterGetSignature(Decimal,Bank_Account@,Integer,Tenant_Media@)
+  name: OnAfterGetSignature
+  href: reference/payment-signatures/Codeunit/NICPAS-Get-Signatures.html
+- uid: M:Codeunit::NICPAS_Get_Signatures.OnGetBankAccountOnBeforeGetBankAccount(Integer,Code[20],Bank_Account@)
+  name: OnGetBankAccountOnBeforeGetBankAccount
+  href: reference/payment-signatures/Codeunit/NICPAS-Get-Signatures.html
+- uid: M:Codeunit::NICPAS_Payment_Signatures.DeleteBankSignature(Bank_Account,Integer)
+  name: DeleteBankSignature
+  href: reference/payment-signatures/Codeunit/NICPAS-Payment-Signatures.html
+- uid: M:Codeunit::NICPAS_Payment_Signatures.ExportBankSignature(Bank_Account,Integer)
+  name: ExportBankSignature
+  href: reference/payment-signatures/Codeunit/NICPAS-Payment-Signatures.html
+- uid: M:Codeunit::NICPAS_Payment_Signatures.GetBankSignature(Code[20],Decimal,Integer):Tenant_Media
+  name: GetBankSignature
+  href: reference/payment-signatures/Codeunit/NICPAS-Payment-Signatures.html
+- uid: M:Codeunit::NICPAS_Payment_Signatures.ImportBankSignature(List_of_[FileUpload],Bank_Account,Integer)
+  name: ImportBankSignature
+  href: reference/payment-signatures/Codeunit/NICPAS-Payment-Signatures.html
+- uid: M:Codeunit::NICPAS_Signature_Management.OnAfterDeleteSignature(Bank_Account,Integer)
+  name: OnAfterDeleteSignature
+  href: reference/payment-signatures/Codeunit/NICPAS-Signature-Management.html
+- uid: M:Codeunit::NICPAS_Signature_Management.OnAfterExportSignature(Bank_Account,Integer)
+  name: OnAfterExportSignature
+  href: reference/payment-signatures/Codeunit/NICPAS-Signature-Management.html
+- uid: M:Codeunit::NICPAS_Signature_Management.OnAfterTestSignatureExists(Bank_Account,Integer)
+  name: OnAfterTestSignatureExists
+  href: reference/payment-signatures/Codeunit/NICPAS-Signature-Management.html
+- uid: M:Codeunit::NICPAS_Signature_Management.OnImportSignature(Bank_Account,InStream@,Text,Integer)
+  name: OnImportSignature
+  href: reference/payment-signatures/Codeunit/NICPAS-Signature-Management.html
 - uid: M:Codeunit::NICPBA_BatchCapacityEntry-Post.OnAfterCopyFieldsFromCapacityLedger(NICPBA_BatchCapacityEntry@,Capacity_Ledger_Entry)
   name: OnAfterCopyFieldsFromCapacityLedger
   href: reference/production-batching/Codeunit/NICPBA-BatchCapacityEntry-Post.html
@@ -13255,8 +13447,14 @@ references:
 - uid: M:Codeunit::NICQIN_Create_Inspection.OnAfterCheckCustomerIsValid(NICQIN_Inspect_Templ_Source@,Code[20],Boolean@)
   name: OnAfterCheckCustomerIsValid
   href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnAfterCheckFixedAssetIsValid(NICQIN_Inspect_Templ_Source@,Code[20],Boolean@)
+  name: OnAfterCheckFixedAssetIsValid
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
 - uid: M:Codeunit::NICQIN_Create_Inspection.OnAfterCheckItemIsValid(NICQIN_Inspect_Templ_Source@,Code[20],Boolean@)
   name: OnAfterCheckItemIsValid
+  href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
+- uid: M:Codeunit::NICQIN_Create_Inspection.OnAfterCheckResourceIsValid(NICQIN_Inspect_Templ_Source@,Code[20],Boolean@)
+  name: OnAfterCheckResourceIsValid
   href: reference/quality-inspections/Codeunit/NICQIN-Create-Inspection.html
 - uid: M:Codeunit::NICQIN_Create_Inspection.OnAfterCheckShippingAgentIsValid(NICQIN_Inspect_Templ_Source@,Code[10],Boolean@)
   name: OnAfterCheckShippingAgentIsValid
@@ -14557,6 +14755,42 @@ references:
 - uid: M:Codeunit::NICTRM_BAITypeCodes.OnBeforeCheckIfBAITypeCodeUsed(Code[20],Boolean@,Boolean@)
   name: OnBeforeCheckIfBAITypeCodeUsed
   href: reference/treasury-management-suite/Codeunit/NICTRM-BAITypeCodes.html
+- uid: M:Codeunit::NICVCC_Capacity_Cost_Posting.OnAfterCheckCapacityCostFactorRequired(Item_Journal_Line@)
+  name: OnAfterCheckCapacityCostFactorRequired
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html
+- uid: M:Codeunit::NICVCC_Capacity_Cost_Posting.OnAfterCheckCostInclCapacityCostFactorIsEnabled(Boolean@)
+  name: OnAfterCheckCostInclCapacityCostFactorIsEnabled
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html
+- uid: M:Codeunit::NICVCC_Capacity_Cost_Posting.OnAfterGetCenterDirectUnitCost(Work_Center,Machine_Center,Enum::Microsoft#Manufacturing#Capacity#Capacity_Type_Journal,Decimal@)
+  name: OnAfterGetCenterDirectUnitCost
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html
+- uid: M:Codeunit::NICVCC_Capacity_Cost_Posting.OnAfterIsSpecificCostingWorkCenter(Work_Center,Boolean@)
+  name: OnAfterIsSpecificCostingWorkCenter
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html
+- uid: M:Codeunit::NICVCC_Capacity_Cost_Posting.OnAfterIsValidJournalLine(Item_Journal_Line@,Boolean@)
+  name: OnAfterIsValidJournalLine
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html
+- uid: M:Codeunit::NICVCC_Capacity_Cost_Posting.OnAfterPostCapacityCost(Item_Journal_Line@)
+  name: OnAfterPostCapacityCost
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html
+- uid: M:Codeunit::NICVCC_Capacity_Cost_Posting.OnAfterTransferItemJournalLineToCapacityLedgerEntry(Capacity_Ledger_Entry@,Item_Journal_Line)
+  name: OnAfterTransferItemJournalLineToCapacityLedgerEntry
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html
+- uid: M:Codeunit::NICVCC_Capacity_Cost_Posting.OnAfterUpdateItemJournalUnitCost(Item_Journal_Line@)
+  name: OnAfterUpdateItemJournalUnitCost
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html
+- uid: M:Codeunit::NICVCC_Capacity_Cost_Posting.OnBeforeUpdateItemJournalUnitCost(Item_Journal_Line@,Boolean@)
+  name: OnBeforeUpdateItemJournalUnitCost
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html
+- uid: M:Codeunit::NICVCC_Caption_Mgmt#.OnBeforeGetCapacityCostFactorCaption(Text[30]@,Boolean@)
+  name: OnBeforeGetCapacityCostFactorCaption
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Caption-Mgmt..html
+- uid: M:Codeunit::NICVCC_Caption_Mgmt#.OnBeforeGetRequireCapacityCostFactorCaption(Text[30]@,Boolean@)
+  name: OnBeforeGetRequireCapacityCostFactorCaption
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Caption-Mgmt..html
+- uid: M:Codeunit::NICVCC_Guided_Exp_Assist_Setup.OnAfterCheckFeatureEnabled(Boolean@)
+  name: OnAfterCheckFeatureEnabled
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Guided-Exp-Assist-Setup.html
 - uid: M:Codeunit::NICVIN_Calculate_Scores.OnAfterCalcMetricsCountFromPostedPurchaseReceiptPerMonth(NICVIN_Vendor_Insights_Entry@,Integer,Code[20],Date,Date)
   name: OnAfterCalcMetricsCountFromPostedPurchaseReceiptPerMonth
   href: reference/vendor-insights/Codeunit/NICVIN-Calculate-Scores.html
@@ -15187,7 +15421,7 @@ references:
 - uid: M:Codeunit::nictrmDashboardManagement.GetLcyCurrencyCode(Text):Code[10]
   name: GetLcyCurrencyCode
   href: reference/treasury-management-suite/Codeunit/nictrmDashboardManagement.html
-- uid: M:Codeunit::nictrmDashboardManagement.GetSelectionFilterForCompany(__MissingSymbol__@):Text
+- uid: M:Codeunit::nictrmDashboardManagement.GetSelectionFilterForCompany(Company@):Text
   name: GetSelectionFilterForCompany
   href: reference/treasury-management-suite/Codeunit/nictrmDashboardManagement.html
 - uid: M:Codeunit::nictrmDashboardManagement.GetSelectionFilterForCurrency(Currency@):Text
@@ -15505,6 +15739,9 @@ references:
 - uid: M:Page::NICMDC_MDC_Setup_Wizard.IsSetupFinished:Boolean
   name: IsSetupFinished
   href: reference/mobile-data-collection/Page/NICMDC-MDC-Setup-Wizard.html
+- uid: M:Page::NICMDC_Packages_Methods_API.nicConsumeFullPackageByBatchPerProdOrder(Code[50],Code[20],Integer):Text
+  name: nicConsumeFullPackageByBatchPerProdOrder
+  href: reference/mobile-data-collection/Page/NICMDC-Packages-Methods-API.html
 - uid: M:Page::NICMDC_Packages_Methods_API.nicConsumeFullPackagePerProdOrder(Code[50],Code[20],Integer):Boolean
   name: nicConsumeFullPackagePerProdOrder
   href: reference/mobile-data-collection/Page/NICMDC-Packages-Methods-API.html
@@ -15522,6 +15759,9 @@ references:
   href: reference/mobile-data-collection/Page/NICMDC-Packages-Methods-API.html
 - uid: M:Page::NICMDC_Packages_Methods_API.nicMovePackageToNewBin(Code[10],Code[50],Code[20]):Boolean
   name: nicMovePackageToNewBin
+  href: reference/mobile-data-collection/Page/NICMDC-Packages-Methods-API.html
+- uid: M:Page::NICMDC_Packages_Methods_API.nicPostItemJournal(Code[20],Integer,Code[20]):Boolean
+  name: nicPostItemJournal
   href: reference/mobile-data-collection/Page/NICMDC-Packages-Methods-API.html
 - uid: M:Page::NICMDC_Pick_Methods_API.PlaceHolder(WebServiceActionContext@)
   name: PlaceHolder
@@ -15880,6 +16120,9 @@ references:
 - uid: M:Page::NICPBA_Prod#_Batch_API_Methods.nicUpdateBatchNo(Code[10],Code[10],Integer,Code[20]):Boolean
   name: nicUpdateBatchNo
   href: reference/production-batching/Page/NICPBA-Prod.-Batch-API-Methods.html
+- uid: M:Page::NICPBA_Prod#_Batch_API_Methods.nicUpdateBatchNoForPackageConsumption(Code[20],Integer,Code[20],Code[20]):Boolean
+  name: nicUpdateBatchNoForPackageConsumption
+  href: reference/production-batching/Page/NICPBA-Prod.-Batch-API-Methods.html
 - uid: M:Page::NICPBA_Prod#_Batch_API_Methods.nicshcDeleteAll:Boolean
   name: nicshcDeleteAll
   href: reference/production-batching/Page/NICPBA-Prod.-Batch-API-Methods.html
@@ -15997,9 +16240,27 @@ references:
 - uid: M:Page::NICTRM_BankAccountLookup.SetPageContent(NICTRM_BankAccountLookupBuffer@)
   name: SetPageContent
   href: reference/treasury-management-suite/Page/NICTRM-BankAccountLookup.html
+- uid: M:Page::NICVCC_Capacity_Cost_APIs.nicGetCapacityCostCaption:Text[30]
+  name: nicGetCapacityCostCaption
+  href: reference/variable-capacity-cost/Page/NICVCC-Capacity-Cost-APIs.html
+- uid: M:Page::NICVCC_Capacity_Cost_APIs.nicUpdateCapacityCost(Code[10],Code[10],Integer,Decimal):Boolean
+  name: nicUpdateCapacityCost
+  href: reference/variable-capacity-cost/Page/NICVCC-Capacity-Cost-APIs.html
+- uid: M:Page::NICVCC_Capacity_Cost_APIs.nicshcDeleteAll:Boolean
+  name: nicshcDeleteAll
+  href: reference/variable-capacity-cost/Page/NICVCC-Capacity-Cost-APIs.html
+- uid: M:Page::NICVCC_Capacity_Cost_APIs.nicshcGetId:Guid
+  name: nicshcGetId
+  href: reference/variable-capacity-cost/Page/NICVCC-Capacity-Cost-APIs.html
+- uid: M:Page::NICVCC_Setup_Wizard.IsSetupFinished:Boolean
+  name: IsSetupFinished
+  href: reference/variable-capacity-cost/Page/NICVCC-Setup-Wizard.html
 - uid: M:Page::NICVIN_Setup_Wizard.IsSetupFinished:Boolean
   name: IsSetupFinished
   href: reference/vendor-insights/Page/NICVIN-Setup-Wizard.html
+- uid: M:Page::NICWLP_Whse#_Lic#_Plate_APIs.nicGetDefaultPackage:Code[50]
+  name: nicGetDefaultPackage
+  href: reference/warehouse-license-plating/Page/NICWLP-Whse.-Lic.-Plate-APIs.html
 - uid: M:Page::nicmdcbuffer.LoadBinContentData(Code[10],Code[20])
   name: LoadBinContentData
   href: reference/mobile-data-collection/Page/nicmdcbuffer.html
@@ -16216,6 +16477,12 @@ references:
 - uid: M:Table::NICSLR_Sales_Restr_Setup.InsertIfNotExists
   name: InsertIfNotExists
   href: reference/sales-restrictions/Table/NICSLR-Sales-Restr-Setup.html
+- uid: M:Table::NICVCC_Setup.GetRecordOnce
+  name: GetRecordOnce
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
+- uid: M:Table::NICVCC_Setup.InsertIfNotExists
+  name: InsertIfNotExists
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
 - uid: M:Table::NICVIN_Vendor_Insights_Setup.GetRecordOnce
   name: GetRecordOnce
   href: reference/vendor-insights/Table/NICVIN-Vendor-Insights-Setup.html
@@ -16307,7 +16574,7 @@ references:
   name: Backorder Management
   summary: >
     <p sourcefile="reference/backorder-management/Module/Backorder-Management.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to help your organization handle under-receipts and short-shipments.</p>
-  fqName: Backorder Management by NIC Systems Inc. (25.0.12200.0)
+  fqName: Backorder Management by NIC Systems Inc. (25.1.13080.0)
   href: reference/backorder-management/Module/Backorder-Management.html
 - uid: N:Module::Backorder_Management_obsolete_by_22.2
   tag: "22.2"
@@ -16318,19 +16585,19 @@ references:
   name: Customer Insights
   summary: >
     <p sourcefile="reference/customer-insights/Module/Customer-Insights.yml" sourcestartlinenumber="1" jsonPath="/summary">Evaluate how well your customers meet performance goals.</p>
-  fqName: Customer Insights by NIC Systems Inc. (25.1.12730.0)
+  fqName: Customer Insights by NIC Systems Inc. (25.1.13082.0)
   href: reference/customer-insights/Module/Customer-Insights.html
 - uid: N:Module::Inventory_Freshness
   name: Inventory Freshness
   summary: >
     <p sourcefile="reference/inventory-freshness/Module/Inventory-Freshness.yml" sourcestartlinenumber="1" jsonPath="/summary">Apply production date requirements to ensure freshness when receiving and shipping inventory.</p>
-  fqName: Inventory Freshness by NIC Systems Inc. (25.0.12164.0)
+  fqName: Inventory Freshness by NIC Systems Inc. (25.0.13084.0)
   href: reference/inventory-freshness/Module/Inventory-Freshness.html
 - uid: N:Module::Inventory_Restrictions
   name: Inventory Restrictions
   summary: >
     <p sourcefile="reference/inventory-restrictions/Module/Inventory-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to easily add and remove restrictions on item inventory, as well as create sub-lots.</p>
-  fqName: Inventory Restrictions by NIC Systems Inc. (25.0.12165.0)
+  fqName: Inventory Restrictions by NIC Systems Inc. (25.0.13085.0)
   href: reference/inventory-restrictions/Module/Inventory-Restrictions.html
 - uid: N:Module::Inventory_Restrictions_obsolete_by_22.2
   tag: "22.2"
@@ -16351,13 +16618,13 @@ references:
   name: Inventory Shelf Life
   summary: >
     <p sourcefile="reference/inventory-shelf-life/Module/Inventory-Shelf-Life.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to easily create and assign shelf life controls to customers and items.</p>
-  fqName: Inventory Shelf Life by NIC Systems Inc. (25.0.12166.0)
+  fqName: Inventory Shelf Life by NIC Systems Inc. (25.0.13086.0)
   href: reference/inventory-shelf-life/Module/Inventory-Shelf-Life.html
 - uid: N:Module::Item_Recalls
   name: Item Recalls
   summary: >
     <p sourcefile="reference/item-recalls/Module/Item-Recalls.yml" sourcestartlinenumber="1" jsonPath="/summary">Handle recall process for inventory on hand and all inbound/outbound activities, backward and forward</p>
-  fqName: Item Recalls by NIC Systems Inc. (25.0.12177.0)
+  fqName: Item Recalls by NIC Systems Inc. (25.1.13087.0)
   href: reference/item-recalls/Module/Item-Recalls.html
 - uid: N:Module::Item_Recalls_obsolete_by_21.2
   tag: "21.2"
@@ -16374,7 +16641,7 @@ references:
   name: Lot Algorithms
   summary: >
     <p sourcefile="reference/lot-algorithms/Module/Lot-Algorithms.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to create tailor-made lot numbers to keep track of inventory item more effectively.</p>
-  fqName: Lot Algorithms by NIC Systems Inc. (25.1.12679.0)
+  fqName: Lot Algorithms by NIC Systems Inc. (25.1.13088.0)
   href: reference/lot-algorithms/Module/Lot-Algorithms.html
 - uid: N:Module::Lot_Algorithms_obsolete_by_22.2
   tag: "22.2"
@@ -16385,7 +16652,7 @@ references:
   name: Mobile Data Collection
   summary: >
     <p sourcefile="reference/mobile-data-collection/Module/Mobile-Data-Collection.yml" sourcestartlinenumber="1" jsonPath="/summary">Mobile Data Collection</p>
-  fqName: Mobile Data Collection by NIC Systems Inc. (25.1.12736.0)
+  fqName: Mobile Data Collection by NIC Systems Inc. (25.1.13161.0)
   href: reference/mobile-data-collection/Module/Mobile-Data-Collection.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_23.0
   tag: "23.0"
@@ -16401,13 +16668,19 @@ references:
   name: Over Shipping
   summary: >
     <p sourcefile="reference/over-shipping/Module/Over-Shipping.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to help your organization handle over-shipments.</p>
-  fqName: Over Shipping by NIC Systems Inc. (25.0.12208.0)
+  fqName: Over Shipping by NIC Systems Inc. (25.0.13091.0)
   href: reference/over-shipping/Module/Over-Shipping.html
+- uid: N:Module::Payment_Signatures
+  name: Payment Signatures
+  summary: >
+    <p sourcefile="reference/payment-signatures/Module/Payment-Signatures.yml" sourcestartlinenumber="1" jsonPath="/summary">Automatically print signatures based on thresholds.</p>
+  fqName: Payment Signatures by NIC Systems Inc. (25.1.13105.0)
+  href: reference/payment-signatures/Module/Payment-Signatures.html
 - uid: N:Module::Production_Batching
   name: Production Batching
   summary: >
     <p sourcefile="reference/production-batching/Module/Production-Batching.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to accomplish a production order through batches.</p>
-  fqName: Production Batching by NIC Systems Inc. (25.0.12269.0)
+  fqName: Production Batching by NIC Systems Inc. (25.1.13106.0)
   href: reference/production-batching/Module/Production-Batching.html
 - uid: N:Module::Production_Batching_obsolete_by_22.2
   tag: "22.2"
@@ -16424,7 +16697,7 @@ references:
   name: Production Sequencing
   summary: >
     <p sourcefile="reference/production-sequencing/Module/Production-Sequencing.yml" sourcestartlinenumber="1" jsonPath="/summary">Arrange production orders by sequence code, production order number, or start date and time.</p>
-  fqName: Production Sequencing by NIC Systems Inc. (25.0.12212.0)
+  fqName: Production Sequencing by NIC Systems Inc. (25.0.13107.0)
   href: reference/production-sequencing/Module/Production-Sequencing.html
 - uid: N:Module::Production_Yield_Metrics
   name: Production Yield Metrics
@@ -16436,35 +16709,35 @@ references:
   name: Purchasing Restrictions
   summary: >
     <p sourcefile="reference/purchasing-restrictions/Module/Purchasing-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Purchasing Restrictions</p>
-  fqName: Purchasing Restrictions by NIC Systems Inc. (25.0.12214.0)
+  fqName: Purchasing Restrictions by NIC Systems Inc. (25.0.13108.0)
   href: reference/purchasing-restrictions/Module/Purchasing-Restrictions.html
 - uid: N:Module::Quality_Inspections
   name: Quality Inspections
   summary: >
     <p sourcefile="reference/quality-inspections/Module/Quality-Inspections.yml" sourcestartlinenumber="1" jsonPath="/summary">Quality Inspections</p>
-  fqName: Quality Inspections by NIC Systems Inc. (25.1.12723.0)
+  fqName: Quality Inspections by NIC Systems Inc. (25.1.13166.0)
   href: reference/quality-inspections/Module/Quality-Inspections.html
 - uid: N:Module::Quality_Inspections_obsolete_by_25.1
   tag: "25.1"
   href: reference/quality-inspections/Obsoletion/obsolete_by_25.1.html
 - uid: N:Module::Quality_Inspections_obsolete_by_25.1#25.1
   href: reference/quality-inspections/Obsoletion/obsolete_by_25.1.html
-- uid: N:Module::Quality_Inspections_obsolete_by_[Untagged]
-  tag: '[Untagged]'
-  href: reference/quality-inspections/Obsoletion/obsolete_by_%5BUntagged%5D.html
-- uid: N:Module::Quality_Inspections_obsolete_by_[Untagged]#
-  href: reference/quality-inspections/Obsoletion/obsolete_by_%5BUntagged%5D.html
+- uid: N:Module::Quality_Inspections_obsolete_by_25.2
+  tag: "25.2"
+  href: reference/quality-inspections/Obsoletion/obsolete_by_25.2.html
+- uid: N:Module::Quality_Inspections_obsolete_by_25.2#25.2
+  href: reference/quality-inspections/Obsoletion/obsolete_by_25.2.html
 - uid: N:Module::Sales_Commissions
   name: Sales Commissions
   summary: >
     <p sourcefile="reference/sales-commissions/Module/Sales-Commissions.yml" sourcestartlinenumber="1" jsonPath="/summary">Manage and track sales commissions</p>
-  fqName: Sales Commissions by NIC Systems Inc. (25.1.12598.0)
+  fqName: Sales Commissions by NIC Systems Inc. (25.1.13110.0)
   href: reference/sales-commissions/Module/Sales-Commissions.html
 - uid: N:Module::Sales_Rebates
   name: Sales Rebates
   summary: >
     <p sourcefile="reference/sales-rebates/Module/Sales-Rebates.yml" sourcestartlinenumber="1" jsonPath="/summary">A comprehensive solution to process sales rebate initiatives and boost your sales.</p>
-  fqName: Sales Rebates by NIC Systems Inc. (25.1.12599.0)
+  fqName: Sales Rebates by NIC Systems Inc. (25.1.13104.0)
   href: reference/sales-rebates/Module/Sales-Rebates.html
 - uid: N:Module::Sales_Rebates_obsolete_by_24.5
   tag: "24.5"
@@ -16475,13 +16748,13 @@ references:
   name: Sales Restrictions
   summary: >
     <p sourcefile="reference/sales-restrictions/Module/Sales-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Sales Restrictions</p>
-  fqName: Sales Restrictions by NIC Systems Inc. (25.0.12218.0)
+  fqName: Sales Restrictions by NIC Systems Inc. (25.0.13111.0)
   href: reference/sales-restrictions/Module/Sales-Restrictions.html
 - uid: N:Module::Serial_Shipping_Container_Codes
   name: Serial Shipping Container Codes
   summary: >
     <p sourcefile="reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables organizations to generate SSCC numbers adhering to GS1 requirements. The user can assign the SSCC number to a bundle of items, and print a shipping label.</p>
-  fqName: Serial Shipping Container Codes by NIC Systems Inc. (25.0.12219.0)
+  fqName: Serial Shipping Container Codes by NIC Systems Inc. (25.0.13112.0)
   href: reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.html
 - uid: N:Module::Serial_Shipping_Container_Codes_obsolete_by_22.2
   tag: "22.2"
@@ -16497,7 +16770,7 @@ references:
   name: Treasury Management Suite
   summary: >
     <p sourcefile="reference/treasury-management-suite/Module/Treasury-Management-Suite.yml" sourcestartlinenumber="1" jsonPath="/summary">Treasury Management</p>
-  fqName: Treasury Management Suite by NIC Systems Inc. (25.0.12268.0)
+  fqName: Treasury Management Suite by NIC Systems Inc. (25.0.13113.0)
   href: reference/treasury-management-suite/Module/Treasury-Management-Suite.html
 - uid: N:Module::Treasury_Management_Suite_obsolete_by_21.3
   tag: "21.3"
@@ -16514,11 +16787,17 @@ references:
   href: reference/treasury-management-suite/Obsoletion/obsolete_by_24.0.html
 - uid: N:Module::Treasury_Management_Suite_obsolete_by_24.0#24.0
   href: reference/treasury-management-suite/Obsoletion/obsolete_by_24.0.html
+- uid: N:Module::Variable_Capacity_Cost
+  name: Variable Capacity Cost
+  summary: >
+    <p sourcefile="reference/variable-capacity-cost/Module/Variable-Capacity-Cost.yml" sourcestartlinenumber="1" jsonPath="/summary">Use a variable machine and work center cost when posting output capacity.</p>
+  fqName: Variable Capacity Cost by NIC Systems Inc. (25.1.13079.0)
+  href: reference/variable-capacity-cost/Module/Variable-Capacity-Cost.html
 - uid: N:Module::Vendor_Insights
   name: Vendor Insights
   summary: >
     <p sourcefile="reference/vendor-insights/Module/Vendor-Insights.yml" sourcestartlinenumber="1" jsonPath="/summary">Vendor Insights</p>
-  fqName: Vendor Insights by NIC Systems Inc. (25.0.12221.0)
+  fqName: Vendor Insights by NIC Systems Inc. (25.0.13116.0)
   href: reference/vendor-insights/Module/Vendor-Insights.html
 - uid: N:Module::Vendor_Insights_obsolete_by_25.0
   tag: "25.0"
@@ -16529,7 +16808,7 @@ references:
   name: Warehouse License Plating
   summary: >
     <p sourcefile="reference/warehouse-license-plating/Module/Warehouse-License-Plating.yml" sourcestartlinenumber="1" jsonPath="/summary">Warehouse License Plating contains features that allow you to view and control package-tracked inventory.</p>
-  fqName: Warehouse License Plating by NIC Systems Inc. (25.0.12222.0)
+  fqName: Warehouse License Plating by NIC Systems Inc. (25.1.13125.0)
   href: reference/warehouse-license-plating/Module/Warehouse-License-Plating.html
 - uid: N:Module::Warehouse_License_Plating_obsolete_by_22.2
   tag: "22.2"
@@ -17489,6 +17768,18 @@ references:
   name: "\"NICOVS Single Instance Subs\""
   fqName: "\"NICOVS Single Instance Subs\""
   href: reference/over-shipping/Codeunit/NICOVS-Single-Instance-Subs.html
+- uid: O:Codeunit::NICPAS_Get_Signatures
+  name: "\"NICPAS Get Signatures\""
+  fqName: "\"NICPAS Get Signatures\""
+  href: reference/payment-signatures/Codeunit/NICPAS-Get-Signatures.html
+- uid: O:Codeunit::NICPAS_Payment_Signatures
+  name: "\"NICPAS Payment Signatures\""
+  fqName: "\"NICPAS Payment Signatures\""
+  href: reference/payment-signatures/Codeunit/NICPAS-Payment-Signatures.html
+- uid: O:Codeunit::NICPAS_Signature_Management
+  name: "\"NICPAS Signature Management\""
+  fqName: "\"NICPAS Signature Management\""
+  href: reference/payment-signatures/Codeunit/NICPAS-Signature-Management.html
 - uid: O:Codeunit::NICPBA_BatchCapacityEntry-Post
   name: "\"NICPBA BatchCapacityEntry-Post\""
   fqName: "\"NICPBA BatchCapacityEntry-Post\""
@@ -17845,6 +18136,10 @@ references:
   name: "\"NICQIN Run Fnshd Itm Rcls Page\""
   fqName: "\"NICQIN Run Fnshd Itm Rcls Page\""
   href: reference/quality-inspections/Codeunit/NICQIN-Run-Fnshd-Itm-Rcls-Page.html
+- uid: O:Codeunit::NICQIN_Run_InvtRestWksht_Page
+  name: "\"NICQIN Run InvtRestWksht Page\""
+  fqName: "\"NICQIN Run InvtRestWksht Page\""
+  href: reference/quality-inspections/Codeunit/NICQIN-Run-InvtRestWksht-Page.html
 - uid: O:Codeunit::NICQIN_Run_Invt_Restr_Jnl_Page
   name: "\"NICQIN Run Invt Restr Jnl Page\""
   fqName: "\"NICQIN Run Invt Restr Jnl Page\""
@@ -18193,6 +18488,50 @@ references:
   name: "\"NICTRM Install\""
   fqName: "\"NICTRM Install\""
   href: reference/treasury-management-suite/Codeunit/NICTRM-Install.html
+- uid: O:Codeunit::NICVCC_Capacity_Cost_APIs
+  name: "\"NICVCC Capacity Cost APIs\""
+  fqName: "\"NICVCC Capacity Cost APIs\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-APIs.html
+- uid: O:Codeunit::NICVCC_Capacity_Cost_Posting
+  name: "\"NICVCC Capacity Cost Posting\""
+  fqName: "\"NICVCC Capacity Cost Posting\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html
+- uid: O:Codeunit::NICVCC_Caption_Mgmt#
+  name: "\"NICVCC Caption Mgmt.\""
+  fqName: "\"NICVCC Caption Mgmt.\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Caption-Mgmt..html
+- uid: O:Codeunit::NICVCC_Guided_Exp_Assist_Setup
+  name: "\"NICVCC Guided Exp Assist Setup\""
+  fqName: "\"NICVCC Guided Exp Assist Setup\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Guided-Exp-Assist-Setup.html
+- uid: O:Codeunit::NICVCC_Guided_Exp_Manual_Setup
+  name: "\"NICVCC Guided Exp Manual Setup\""
+  fqName: "\"NICVCC Guided Exp Manual Setup\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Guided-Exp-Manual-Setup.html
+- uid: O:Codeunit::NICVCC_Initialize_Company
+  name: "\"NICVCC Initialize Company\""
+  fqName: "\"NICVCC Initialize Company\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Initialize-Company.html
+- uid: O:Codeunit::NICVCC_Initialize_Data
+  name: "\"NICVCC Initialize Data\""
+  fqName: "\"NICVCC Initialize Data\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Initialize-Data.html
+- uid: O:Codeunit::NICVCC_Install
+  name: "\"NICVCC Install\""
+  fqName: "\"NICVCC Install\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Install.html
+- uid: O:Codeunit::NICVCC_Setup_Wizard_Handler
+  name: "\"NICVCC Setup Wizard Handler\""
+  fqName: "\"NICVCC Setup Wizard Handler\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Setup-Wizard-Handler.html
+- uid: O:Codeunit::NICVCC_SingleInstanceSubs
+  name: "\"NICVCC SingleInstanceSubs\""
+  fqName: "\"NICVCC SingleInstanceSubs\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-SingleInstanceSubs.html
+- uid: O:Codeunit::NICVCC_Subscribers
+  name: "\"NICVCC Subscribers\""
+  fqName: "\"NICVCC Subscribers\""
+  href: reference/variable-capacity-cost/Codeunit/NICVCC-Subscribers.html
 - uid: O:Codeunit::NICVIN_AppIntegration
   name: "\"NICVIN AppIntegration\""
   fqName: "\"NICVIN AppIntegration\""
@@ -18609,6 +18948,10 @@ references:
   name: "\"NICQIN Test Result Status\""
   fqName: "\"NICQIN Test Result Status\""
   href: reference/quality-inspections/Enum/NICQIN-Test-Result-Status.html
+- uid: O:Enum::NICQIN_Unit_Type
+  name: "\"NICQIN Unit Type\""
+  fqName: "\"NICQIN Unit Type\""
+  href: reference/quality-inspections/Enum/NICQIN-Unit-Type.html
 - uid: O:Enum::NICQIN_User_Task_Receipient
   name: "\"NICQIN User Task Receipient\""
   fqName: "\"NICQIN User Task Receipient\""
@@ -19417,6 +19760,10 @@ references:
   name: "\"NICOVS Over-Shipment Codes\""
   fqName: "\"NICOVS Over-Shipment Codes\""
   href: reference/over-shipping/Page/NICOVS-Over-Shipment-Codes.html
+- uid: O:Page::NICPAS_Bank_Account_FactBox
+  name: "\"NICPAS Bank Account FactBox\""
+  fqName: "\"NICPAS Bank Account FactBox\""
+  href: reference/payment-signatures/Page/NICPAS-Bank-Account-FactBox.html
 - uid: O:Page::NICPBA_BatchCalcsWizardList
   name: "\"NICPBA BatchCalcsWizardList\""
   fqName: "\"NICPBA BatchCalcsWizardList\""
@@ -19881,6 +20228,18 @@ references:
   name: "\"NICTRM BankAccountLookup\""
   fqName: "\"NICTRM BankAccountLookup\""
   href: reference/treasury-management-suite/Page/NICTRM-BankAccountLookup.html
+- uid: O:Page::NICVCC_Capacity_Cost_APIs
+  name: "\"NICVCC Capacity Cost APIs\""
+  fqName: "\"NICVCC Capacity Cost APIs\""
+  href: reference/variable-capacity-cost/Page/NICVCC-Capacity-Cost-APIs.html
+- uid: O:Page::NICVCC_Setup
+  name: "\"NICVCC Setup\""
+  fqName: "\"NICVCC Setup\""
+  href: reference/variable-capacity-cost/Page/NICVCC-Setup.html
+- uid: O:Page::NICVCC_Setup_Wizard
+  name: "\"NICVCC Setup Wizard\""
+  fqName: "\"NICVCC Setup Wizard\""
+  href: reference/variable-capacity-cost/Page/NICVCC-Setup-Wizard.html
 - uid: O:Page::NICVIN_Change_Vendor_Metric
   name: "\"NICVIN Change Vendor Metric\""
   fqName: "\"NICVIN Change Vendor Metric\""
@@ -19961,6 +20320,10 @@ references:
   name: "\"NICWLP WLP Setup Wizard\""
   fqName: "\"NICWLP WLP Setup Wizard\""
   href: reference/warehouse-license-plating/Page/NICWLP-WLP-Setup-Wizard.html
+- uid: O:Page::NICWLP_Whse#_Lic#_Plate_APIs
+  name: "\"NICWLP Whse. Lic. Plate APIs\""
+  fqName: "\"NICWLP Whse. Lic. Plate APIs\""
+  href: reference/warehouse-license-plating/Page/NICWLP-Whse.-Lic.-Plate-APIs.html
 - uid: O:Page::NICYLD_ComponentAnalysisFctBx
   name: "\"NICYLD ComponentAnalysisFctBx\""
   fqName: "\"NICYLD ComponentAnalysisFctBx\""
@@ -20733,6 +21096,10 @@ references:
   name: "\"NICOVS ItemList\""
   fqName: "\"NICOVS ItemList\""
   href: reference/over-shipping/PageExtension/NICOVS-ItemList.html
+- uid: O:PageExtension::NICPAS_Bank_Account_Card
+  name: "\"NICPAS Bank Account Card\""
+  fqName: "\"NICPAS Bank Account Card\""
+  href: reference/payment-signatures/PageExtension/NICPAS-Bank-Account-Card.html
 - uid: O:PageExtension::NICPBA_CapacityLedgerEntries
   name: "\"NICPBA CapacityLedgerEntries\""
   fqName: "\"NICPBA CapacityLedgerEntries\""
@@ -21113,6 +21480,26 @@ references:
   name: "\"NICTRM Bank Acc Rec\""
   fqName: "\"NICTRM Bank Acc Rec\""
   href: reference/treasury-management-suite/PageExtension/NICTRM-Bank-Acc-Rec.html
+- uid: O:PageExtension::NICVCC_Capacity_Ledger_Entries
+  name: "\"NICVCC Capacity Ledger Entries\""
+  fqName: "\"NICVCC Capacity Ledger Entries\""
+  href: reference/variable-capacity-cost/PageExtension/NICVCC-Capacity-Ledger-Entries.html
+- uid: O:PageExtension::NICVCC_Machine_Center_Card
+  name: "\"NICVCC Machine Center Card\""
+  fqName: "\"NICVCC Machine Center Card\""
+  href: reference/variable-capacity-cost/PageExtension/NICVCC-Machine-Center-Card.html
+- uid: O:PageExtension::NICVCC_Output_Journal
+  name: "\"NICVCC Output Journal\""
+  fqName: "\"NICVCC Output Journal\""
+  href: reference/variable-capacity-cost/PageExtension/NICVCC-Output-Journal.html
+- uid: O:PageExtension::NICVCC_Production_Journal
+  name: "\"NICVCC Production Journal\""
+  fqName: "\"NICVCC Production Journal\""
+  href: reference/variable-capacity-cost/PageExtension/NICVCC-Production-Journal.html
+- uid: O:PageExtension::NICVCC_Work_Center_Card
+  name: "\"NICVCC Work Center Card\""
+  fqName: "\"NICVCC Work Center Card\""
+  href: reference/variable-capacity-cost/PageExtension/NICVCC-Work-Center-Card.html
 - uid: O:PageExtension::NICVIN_Vend#_List
   name: "\"NICVIN Vend. List\""
   fqName: "\"NICVIN Vend. List\""
@@ -21365,6 +21752,10 @@ references:
   name: "\"NICOVS OverShipRead\""
   fqName: "\"NICOVS OverShipRead\""
   href: reference/over-shipping/PermissionSet/NICOVS-OverShipRead.html
+- uid: O:PermissionSet::NICPAS_Objects
+  name: "\"NICPAS Objects\""
+  fqName: "\"NICPAS Objects\""
+  href: reference/payment-signatures/PermissionSet/NICPAS-Objects.html
 - uid: O:PermissionSet::NICPBA_ProdBatchAdm
   name: "\"NICPBA ProdBatchAdm\""
   fqName: "\"NICPBA ProdBatchAdm\""
@@ -21505,6 +21896,22 @@ references:
   name: "\"NICTRM TreasMgmtObj\""
   fqName: "\"NICTRM TreasMgmtObj\""
   href: reference/treasury-management-suite/PermissionSet/NICTRM-TreasMgmtObj.html
+- uid: O:PermissionSet::NICVCC_Admin
+  name: "\"NICVCC Admin\""
+  fqName: "\"NICVCC Admin\""
+  href: reference/variable-capacity-cost/PermissionSet/NICVCC-Admin.html
+- uid: O:PermissionSet::NICVCC_Edit
+  name: "\"NICVCC Edit\""
+  fqName: "\"NICVCC Edit\""
+  href: reference/variable-capacity-cost/PermissionSet/NICVCC-Edit.html
+- uid: O:PermissionSet::NICVCC_Objects
+  name: "\"NICVCC Objects\""
+  fqName: "\"NICVCC Objects\""
+  href: reference/variable-capacity-cost/PermissionSet/NICVCC-Objects.html
+- uid: O:PermissionSet::NICVCC_Read
+  name: "\"NICVCC Read\""
+  fqName: "\"NICVCC Read\""
+  href: reference/variable-capacity-cost/PermissionSet/NICVCC-Read.html
 - uid: O:PermissionSet::NICVIN_Admin
   name: "\"NICVIN Admin\""
   fqName: "\"NICVIN Admin\""
@@ -21601,6 +22008,38 @@ references:
   name: "\"NICITI Intelligent Cloud\""
   fqName: "\"NICITI Intelligent Cloud\""
   href: reference/item-tracking-status-indicator/PermissionSetExtension/NICITI-Intelligent-Cloud.html
+- uid: O:PermissionSetExtension::NICPAS_D365_Basic
+  name: "\"NICPAS D365 Basic\""
+  fqName: "\"NICPAS D365 Basic\""
+  href: reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Basic.html
+- uid: O:PermissionSetExtension::NICPAS_D365_Basic_Isv
+  name: "\"NICPAS D365 Basic Isv\""
+  fqName: "\"NICPAS D365 Basic Isv\""
+  href: reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Basic-Isv.html
+- uid: O:PermissionSetExtension::NICPAS_D365_Bus_Full_Access
+  name: "\"NICPAS D365 Bus Full Access\""
+  fqName: "\"NICPAS D365 Bus Full Access\""
+  href: reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Bus-Full-Access.html
+- uid: O:PermissionSetExtension::NICPAS_D365_Bus_Premium
+  name: "\"NICPAS D365 Bus Premium\""
+  fqName: "\"NICPAS D365 Bus Premium\""
+  href: reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Bus-Premium.html
+- uid: O:PermissionSetExtension::NICPAS_D365_Full_Access
+  name: "\"NICPAS D365 Full Access\""
+  fqName: "\"NICPAS D365 Full Access\""
+  href: reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Full-Access.html
+- uid: O:PermissionSetExtension::NICPAS_D365_Read
+  name: "\"NICPAS D365 Read\""
+  fqName: "\"NICPAS D365 Read\""
+  href: reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Read.html
+- uid: O:PermissionSetExtension::NICPAS_D365_Team_Member
+  name: "\"NICPAS D365 Team Member\""
+  fqName: "\"NICPAS D365 Team Member\""
+  href: reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Team-Member.html
+- uid: O:PermissionSetExtension::NICPAS_Intelligent_Cloud
+  name: "\"NICPAS Intelligent Cloud\""
+  fqName: "\"NICPAS Intelligent Cloud\""
+  href: reference/payment-signatures/PermissionSetExtension/NICPAS-Intelligent-Cloud.html
 - uid: O:PermissionSetExtension::NICQIN_D365_Basic
   name: "\"NICQIN D365 Basic\""
   fqName: "\"NICQIN D365 Basic\""
@@ -21901,6 +22340,26 @@ references:
   name: nictrmMatchBankEntries
   fqName: nictrmMatchBankEntries
   href: reference/treasury-management-suite/Report/nictrmMatchBankEntries.html
+- uid: O:ReportExtension::NICPAS_Check
+  name: "\"NICPAS Check\""
+  fqName: "\"NICPAS Check\""
+  href: reference/payment-signatures/ReportExtension/NICPAS-Check.html
+- uid: O:ReportExtension::NICPAS_Check/Stub/Stub
+  name: "\"NICPAS Check/Stub/Stub\""
+  fqName: "\"NICPAS Check/Stub/Stub\""
+  href: reference/payment-signatures/ReportExtension/NICPAS-Check-Stub-Stub.html
+- uid: O:ReportExtension::NICPAS_Stub/Check/Stub
+  name: "\"NICPAS Stub/Check/Stub\""
+  fqName: "\"NICPAS Stub/Check/Stub\""
+  href: reference/payment-signatures/ReportExtension/NICPAS-Stub-Check-Stub.html
+- uid: O:ReportExtension::NICPAS_Stub/Stub/Check
+  name: "\"NICPAS Stub/Stub/Check\""
+  fqName: "\"NICPAS Stub/Stub/Check\""
+  href: reference/payment-signatures/ReportExtension/NICPAS-Stub-Stub-Check.html
+- uid: O:ReportExtension::NICPAS_Three_Checks_Per_Page
+  name: "\"NICPAS Three Checks Per Page\""
+  fqName: "\"NICPAS Three Checks Per Page\""
+  href: reference/payment-signatures/ReportExtension/NICPAS-Three-Checks-Per-Page.html
 - uid: O:Table::NICALG_LotAlgAPIMethods
   name: "\"NICALG LotAlgAPIMethods\""
   fqName: "\"NICALG LotAlgAPIMethods\""
@@ -22577,6 +23036,14 @@ references:
   name: "\"NICTRM BankAccountLookupBuffer\""
   fqName: "\"NICTRM BankAccountLookupBuffer\""
   href: reference/treasury-management-suite/Table/NICTRM-BankAccountLookupBuffer.html
+- uid: O:Table::NICVCC_Capacity_Cost_APIs
+  name: "\"NICVCC Capacity Cost APIs\""
+  fqName: "\"NICVCC Capacity Cost APIs\""
+  href: reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html
+- uid: O:Table::NICVCC_Setup
+  name: "\"NICVCC Setup\""
+  fqName: "\"NICVCC Setup\""
+  href: reference/variable-capacity-cost/Table/NICVCC-Setup.html
 - uid: O:Table::NICVIN_Vendor_Insight
   name: "\"NICVIN Vendor Insight\""
   fqName: "\"NICVIN Vendor Insight\""
@@ -22613,6 +23080,10 @@ references:
   name: "\"NICWLP RESTStripeConfig\""
   fqName: "\"NICWLP RESTStripeConfig\""
   href: reference/warehouse-license-plating/Table/NICWLP-RESTStripeConfig.html
+- uid: O:Table::NICWLP_Whse#_Lic#_Plate_APIs
+  name: "\"NICWLP Whse. Lic. Plate APIs\""
+  fqName: "\"NICWLP Whse. Lic. Plate APIs\""
+  href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
 - uid: O:Table::nicmdcLabels
   name: nicmdcLabels
   fqName: nicmdcLabels
@@ -22981,6 +23452,10 @@ references:
   name: "\"NICOVS WarehouseShipmentLine\""
   fqName: "\"NICOVS WarehouseShipmentLine\""
   href: reference/over-shipping/TableExtension/NICOVS-WarehouseShipmentLine.html
+- uid: O:TableExtension::NICPAS_Bank_Account
+  name: "\"NICPAS Bank Account\""
+  fqName: "\"NICPAS Bank Account\""
+  href: reference/payment-signatures/TableExtension/NICPAS-Bank-Account.html
 - uid: O:TableExtension::NICPBA_Item
   name: "\"NICPBA Item\""
   fqName: "\"NICPBA Item\""
@@ -23117,6 +23592,22 @@ references:
   name: "\"NICSOF Sales Line\""
   fqName: "\"NICSOF Sales Line\""
   href: reference/sales-rebates/TableExtension/NICSOF-Sales-Line.html
+- uid: O:TableExtension::NICVCC_Capacity_Ledger_Entry
+  name: "\"NICVCC Capacity Ledger Entry\""
+  fqName: "\"NICVCC Capacity Ledger Entry\""
+  href: reference/variable-capacity-cost/TableExtension/NICVCC-Capacity-Ledger-Entry.html
+- uid: O:TableExtension::NICVCC_Item_Jnl_Line
+  name: "\"NICVCC Item Jnl Line\""
+  fqName: "\"NICVCC Item Jnl Line\""
+  href: reference/variable-capacity-cost/TableExtension/NICVCC-Item-Jnl-Line.html
+- uid: O:TableExtension::NICVCC_Machine_Center
+  name: "\"NICVCC Machine Center\""
+  fqName: "\"NICVCC Machine Center\""
+  href: reference/variable-capacity-cost/TableExtension/NICVCC-Machine-Center.html
+- uid: O:TableExtension::NICVCC_Work_Center
+  name: "\"NICVCC Work Center\""
+  fqName: "\"NICVCC Work Center\""
+  href: reference/variable-capacity-cost/TableExtension/NICVCC-Work-Center.html
 - uid: O:TableExtension::NICWLP_Bin
   name: "\"NICWLP Bin\""
   fqName: "\"NICWLP Bin\""

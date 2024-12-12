@@ -29,6 +29,13 @@
     document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
   </script>
 
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-56M7LXMFCW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-56M7LXMFCW');
+  </script>
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -301,7 +308,7 @@ Code[10]               </td>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by internal function GetSelectionFilterForCompanyRec().,24.0)]
-procedure GetSelectionFilterForCompany(_Company: __MissingTypeSymbol__): Text</code></pre>
+procedure GetSelectionFilterForCompany(var _Company: Record Company): Text</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -318,7 +325,7 @@ procedure GetSelectionFilterForCompany(_Company: __MissingTypeSymbol__): Text</c
 								_Company
    							</td>
    							<td class="font-style-italic">
-__MissingTypeSymbol__                 </td>
+Record Company                 </td>
    							<td>
 								
    							</td>

@@ -29,6 +29,13 @@
     document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
   </script>
 
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-56M7LXMFCW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-56M7LXMFCW');
+  </script>
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -349,6 +356,87 @@ Integer                 </td>
    							</td>
    							<td class="font-style-italic">
 Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Boolean               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">nicUpdateBatchNoForPackageConsumption</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[ServiceEnabled]
+procedure nicUpdateBatchNoForPackageConsumption(prodOrderNo: Code[20], prodOrderLineNo: Integer, prodOrderBatchNo: Code[20], documentNo: Code[20]): Boolean</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								prodOrderNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								prodOrderLineNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								prodOrderBatchNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								documentNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
    							<td>
 								
    							</td>

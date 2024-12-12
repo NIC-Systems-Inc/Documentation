@@ -29,6 +29,13 @@
     document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
   </script>
 
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-56M7LXMFCW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-56M7LXMFCW');
+  </script>
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -82,7 +89,7 @@
 
   	<div class="CAUTION alert alert-danger alert-is-danger">
   		<h5 class="alert-title">Obsolete</h5>
-  			<p>This element will become obsolete from version . Removing generic inspection page, replaced by status specific pages.</p>
+  			<p>This element will become obsolete from version 25.2. Removing generic inspection page, replaced by status specific pages.</p>
   	</div>
 
 
@@ -137,6 +144,12 @@
   					<td>ObsoleteReason</td>
   					<td class="font-style-italic">
 							Removing generic inspection page, replaced by status specific pages.
+  					</td>
+  			</tr>
+  			<tr>
+  					<td>ObsoleteTag</td>
+  					<td class="font-style-italic">
+							25.2
   					</td>
   			</tr>
   			<tr>

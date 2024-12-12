@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/srideout/.vscode/extensions/ms-dynamics-smb.al-15.0.1177813/bin/win32/_GeneratedSite",
+  "source_base_path": "C:/aldoc/output",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -7895,6 +7895,216 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/Codeunit/NICPAS-Get-Signatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/Codeunit/NICPAS-Get-Signatures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/Codeunit/NICPAS-Payment-Signatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/Codeunit/NICPAS-Payment-Signatures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/Codeunit/NICPAS-Signature-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/Codeunit/NICPAS-Signature-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/Module/Payment-Signatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/Module/Payment-Signatures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/Page/NICPAS-Bank-Account-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/Page/NICPAS-Bank-Account-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/PageExtension/NICPAS-Bank-Account-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/PageExtension/NICPAS-Bank-Account-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/PermissionSet/NICPAS-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/PermissionSet/NICPAS-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Basic-Isv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Basic-Isv.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Basic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Basic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Bus-Full-Access.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Bus-Full-Access.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Bus-Premium.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Bus-Premium.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Full-Access.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Full-Access.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Team-Member.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-D365-Team-Member.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-Intelligent-Cloud.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/PermissionSetExtension/NICPAS-Intelligent-Cloud.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/ReportExtension/NICPAS-Check-Stub-Stub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/ReportExtension/NICPAS-Check-Stub-Stub.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/ReportExtension/NICPAS-Check.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/ReportExtension/NICPAS-Check.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/ReportExtension/NICPAS-Stub-Check-Stub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/ReportExtension/NICPAS-Stub-Check-Stub.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/ReportExtension/NICPAS-Stub-Stub-Check.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/ReportExtension/NICPAS-Stub-Stub-Check.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/ReportExtension/NICPAS-Three-Checks-Per-Page.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/ReportExtension/NICPAS-Three-Checks-Per-Page.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/payment-signatures/TableExtension/NICPAS-Bank-Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/payment-signatures/TableExtension/NICPAS-Bank-Account.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/production-batching/Codeunit/NICPBA-Batch-Calc-Prod-Batches.yml",
       "output": {
         ".html": {
@@ -10305,6 +10515,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Run-InvtRestWksht-Page.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Run-InvtRestWksht-Page.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Run-RlsdItemRecallsPage.yml",
       "output": {
         ".html": {
@@ -10495,6 +10715,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Enum/NICQIN-Unit-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Enum/NICQIN-Unit-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/quality-inspections/Enum/NICQIN-User-Task-Receipient.yml",
       "output": {
         ".html": {
@@ -10555,10 +10785,10 @@
     },
     {
       "type": "BusinessCentralObsoletionList",
-      "source_relative_path": "reference/quality-inspections/Obsoletion/obsolete_by_[Untagged].yml",
+      "source_relative_path": "reference/quality-inspections/Obsoletion/obsolete_by_25.2.yml",
       "output": {
         ".html": {
-          "relative_path": "reference/quality-inspections/Obsoletion/obsolete_by_[Untagged].html"
+          "relative_path": "reference/quality-inspections/Obsoletion/obsolete_by_25.2.html"
         }
       },
       "version": ""
@@ -15955,6 +16185,306 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-APIs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-APIs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Capacity-Cost-Posting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Caption-Mgmt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Caption-Mgmt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Guided-Exp-Assist-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Guided-Exp-Assist-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Guided-Exp-Manual-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Guided-Exp-Manual-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Initialize-Company.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Initialize-Company.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Initialize-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Initialize-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Setup-Wizard-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Setup-Wizard-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-SingleInstanceSubs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-SingleInstanceSubs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Subscribers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Codeunit/NICVCC-Subscribers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Module/Variable-Capacity-Cost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Module/Variable-Capacity-Cost.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Page/NICVCC-Capacity-Cost-APIs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Page/NICVCC-Capacity-Cost-APIs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Page/NICVCC-Setup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Page/NICVCC-Setup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Page/NICVCC-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Page/NICVCC-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/PageExtension/NICVCC-Capacity-Ledger-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/PageExtension/NICVCC-Capacity-Ledger-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/PageExtension/NICVCC-Machine-Center-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/PageExtension/NICVCC-Machine-Center-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/PageExtension/NICVCC-Output-Journal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/PageExtension/NICVCC-Output-Journal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/PageExtension/NICVCC-Production-Journal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/PageExtension/NICVCC-Production-Journal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/PageExtension/NICVCC-Work-Center-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/PageExtension/NICVCC-Work-Center-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/PermissionSet/NICVCC-Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/PermissionSet/NICVCC-Admin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/PermissionSet/NICVCC-Edit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/PermissionSet/NICVCC-Edit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/PermissionSet/NICVCC-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/PermissionSet/NICVCC-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/PermissionSet/NICVCC-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/PermissionSet/NICVCC-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Table/NICVCC-Capacity-Cost-APIs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/Table/NICVCC-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/Table/NICVCC-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/TableExtension/NICVCC-Capacity-Ledger-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/TableExtension/NICVCC-Capacity-Ledger-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/TableExtension/NICVCC-Item-Jnl-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/TableExtension/NICVCC-Item-Jnl-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/TableExtension/NICVCC-Machine-Center.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/TableExtension/NICVCC-Machine-Center.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/variable-capacity-cost/TableExtension/NICVCC-Work-Center.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/variable-capacity-cost/TableExtension/NICVCC-Work-Center.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/vendor-insights/Codeunit/NICVIN-AppIntegration.yml",
       "output": {
         ".html": {
@@ -16635,6 +17165,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-Whse.-Lic.-Plate-APIs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-Whse.-Lic.-Plate-APIs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/warehouse-license-plating/PageExtension/NICWLP-Bin-List.yml",
       "output": {
         ".html": {
@@ -16989,6 +17529,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/warehouse-license-plating/Table/NICWLP-RESTStripeConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html"
         }
       },
       "version": ""
