@@ -724,6 +724,81 @@ references:
 - uid: E:Enum::NICALG_Number_Format._
   name: "\" \""
   href: reference/lot-algorithms/Enum/NICALG-Number-Format.html
+- uid: E:Enum::NICAPP_Application_Name.Backorder_Management
+  name: "\"Backorder Management\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Customer_Insights
+  name: "\"Customer Insights\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Inventory_Freshness
+  name: "\"Inventory Freshness\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Inventory_Restrictions
+  name: "\"Inventory Restrictions\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Inventory_Shelf_Life
+  name: "\"Inventory Shelf Life\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Item_Recalls
+  name: "\"Item Recalls\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Item_Tracking_Status_Indicator
+  name: "\"Item Tracking Status Indicator\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Lot_Algorithms
+  name: "\"Lot Algorithms\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Mobile_Data_Collection
+  name: "\"Mobile Data Collection\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Over_Shipping
+  name: "\"Over Shipping\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Payment_Signatures
+  name: "\"Payment Signatures\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Production_Batching
+  name: "\"Production Batching\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Production_Instructions
+  name: "\"Production Instructions\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Production_Sequencing
+  name: "\"Production Sequencing\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Production_Yield_Metrics
+  name: "\"Production Yield Metrics\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Purchasing_Restrictions
+  name: "\"Purchasing Restrictions\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Quality_Inspections
+  name: "\"Quality Inspections\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Sales_Commissions
+  name: "\"Sales Commissions\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Sales_Rebates
+  name: "\"Sales Rebates\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Sales_Restrictions
+  name: "\"Sales Restrictions\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Serial_Shipping_Container_Codes
+  name: "\"Serial Shipping Container Codes\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Treasury_Management_Suite
+  name: "\"Treasury Management Suite\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Variable_Capacity_Cost
+  name: "\"Variable Capacity Cost\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Vendor_Insights
+  name: "\"Vendor Insights\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Warehouse_License_Plating
+  name: "\"Warehouse License Plating\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
 - uid: E:Enum::NICBOM_Qty#_To_Handle_Option.Blank
   name: Blank
   href: reference/backorder-management/Enum/NICBOM-Qty.-To-Handle-Option.html
@@ -1411,6 +1486,39 @@ references:
 - uid: E:Enum::nicmdc_Font_Size.X-large
   name: "\"X-large\""
   href: reference/mobile-data-collection/Enum/nicmdc-Font-Size.html
+- uid: E:Enum::nicmdc_Reclass-To_Bin.Reclass-From_Bin
+  name: "\"Reclass-From Bin\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Bin.html
+- uid: E:Enum::nicmdc_Reclass-To_Bin._
+  name: "\" \""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Bin.html
+- uid: E:Enum::nicmdc_Reclass-To_Location.Reclass-From_Location
+  name: "\"Reclass-From Location\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Location.html
+- uid: E:Enum::nicmdc_Reclass-To_Location._
+  name: "\" \""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Location.html
+- uid: E:Enum::nicmdc_Reclass-To_Lot.Reclass-From_Lot
+  name: "\"Reclass-From Lot\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Lot.html
+- uid: E:Enum::nicmdc_Reclass-To_Lot._
+  name: "\" \""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Lot.html
+- uid: E:Enum::nicmdc_Reclass-To_Package.Reclass-From_Package
+  name: "\"Reclass-From Package\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Package.html
+- uid: E:Enum::nicmdc_Reclass-To_Package._
+  name: "\" \""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Package.html
+- uid: E:Enum::nicmdc_Reclass_UOM.Base_Unit_of_Measure
+  name: "\"Base Unit of Measure\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-UOM.html
+- uid: E:Enum::nicmdc_Reclass_UOM.Purchase_Unit_of_Measure
+  name: "\"Purchase Unit of Measure\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-UOM.html
+- uid: E:Enum::nicmdc_Reclass_UOM._
+  name: "\" \""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-UOM.html
 - uid: E:Enum::nicmdc_Report_Data_Item_Source.Bin_Content
   name: "\"Bin Content\""
   href: reference/mobile-data-collection/Enum/nicmdc-Report-Data-Item-Source.html
@@ -7288,6 +7396,9 @@ references:
 - uid: F:Table::NICSHC_SSCC_Header.SystemRowVersion
   name: SystemRowVersion
   href: reference/serial-shipping-container-codes/Table/NICSHC-SSCC-Header.html
+- uid: F:Table::NICSHC_SSCC_Header.Weight
+  name: Weight
+  href: reference/serial-shipping-container-codes/Table/NICSHC-SSCC-Header.html
 - uid: F:Table::NICSHC_SSCC_Limitation.Customer_No#[20]
   name: "\"Customer No.\""
   href: reference/serial-shipping-container-codes/Table/NICSHC-SSCC-Limitation.html
@@ -9174,6 +9285,21 @@ references:
   href: reference/mobile-data-collection/Table/nicmdcSetup.html
 - uid: F:Table::nicmdcSetup.Prod#_Order_User_Filtering
   name: "\"Prod. Order User Filtering\""
+  href: reference/mobile-data-collection/Table/nicmdcSetup.html
+- uid: F:Table::nicmdcSetup.Reclass#_UOM
+  name: "\"Reclass. UOM\""
+  href: reference/mobile-data-collection/Table/nicmdcSetup.html
+- uid: F:Table::nicmdcSetup.Reclass-To_Bin
+  name: "\"Reclass-To Bin\""
+  href: reference/mobile-data-collection/Table/nicmdcSetup.html
+- uid: F:Table::nicmdcSetup.Reclass-To_Location
+  name: "\"Reclass-To Location\""
+  href: reference/mobile-data-collection/Table/nicmdcSetup.html
+- uid: F:Table::nicmdcSetup.Reclass-To_Lot
+  name: "\"Reclass-To Lot\""
+  href: reference/mobile-data-collection/Table/nicmdcSetup.html
+- uid: F:Table::nicmdcSetup.Reclass-To_Package
+  name: "\"Reclass-To Package\""
   href: reference/mobile-data-collection/Table/nicmdcSetup.html
 - uid: F:Table::nicmdcSetup.Reclass_Jnl#_No#_of_Copies
   name: "\"Reclass Jnl. No. of Copies\""
@@ -14896,6 +15022,9 @@ references:
 - uid: M:Codeunit::nicmdcInventoryFunctions.AssignLotNoInvCount(Item_Journal_Line,Decimal)
   name: AssignLotNoInvCount
   href: reference/mobile-data-collection/Codeunit/nicmdcInventoryFunctions.html
+- uid: M:Codeunit::nicmdcInventoryFunctions.AssignLotandPackage(Item_Journal_Line,Decimal,Option)
+  name: AssignLotandPackage
+  href: reference/mobile-data-collection/Codeunit/nicmdcInventoryFunctions.html
 - uid: M:Codeunit::nicmdcInventoryFunctions.AssignNewLotNo(Code[20]):Text
   name: AssignNewLotNo
   href: reference/mobile-data-collection/Codeunit/nicmdcInventoryFunctions.html
@@ -15598,6 +15727,9 @@ references:
 - uid: M:Page::NICMDC_Inventory_Methods_API.nicGetItemSpec(Code[20]):Text
   name: nicGetItemSpec
   href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
+- uid: M:Page::NICMDC_Inventory_Methods_API.nicGetReclassUOMDefaultValue(Code[20]):Code[10]
+  name: nicGetReclassUOMDefaultValue
+  href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
 - uid: M:Page::NICMDC_Inventory_Methods_API.nicIsWhseLotTracked(Code[20]):Boolean
   name: nicIsWhseLotTracked
   href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
@@ -15606,6 +15738,9 @@ references:
   href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
 - uid: M:Page::NICMDC_Inventory_Methods_API.nicPostPhysInvAdvance(Code[20],Code[10],Code[20],Decimal,Decimal,Code[50],Text,Code[50]):Boolean
   name: nicPostPhysInvAdvance
+  href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
+- uid: M:Page::NICMDC_Inventory_Methods_API.nicPostPositiveInv(Code[20],Code[10],Code[10],Code[20],Decimal,Code[50],Text,Code[50]):Boolean
+  name: nicPostPositiveInv
   href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
 - uid: M:Page::NICMDC_Inventory_Methods_API.nicUOMValidation(Code[20],Boolean@,XmlPort::nicmdcListOfUOM@):Boolean
   name: nicUOMValidation
@@ -16570,6 +16705,12 @@ references:
 - uid: M:XmlPort::nicmdcListOfUOM.WGetItemUOM(Code[20])
   name: WGetItemUOM
   href: reference/mobile-data-collection/XmlPort/nicmdcListOfUOM.html
+- uid: N:Module::Application_Installer
+  name: Application Installer
+  summary: >
+    <p sourcefile="reference/application-installer/Module/Application-Installer.yml" sourcestartlinenumber="1" jsonPath="/summary">Install applications created by NIC Systems Inc.</p>
+  fqName: Application Installer by NIC Systems Inc. (25.1.13343.0)
+  href: reference/application-installer/Module/Application-Installer.html
 - uid: N:Module::Backorder_Management
   name: Backorder Management
   summary: >
@@ -16585,8 +16726,13 @@ references:
   name: Customer Insights
   summary: >
     <p sourcefile="reference/customer-insights/Module/Customer-Insights.yml" sourcestartlinenumber="1" jsonPath="/summary">Evaluate how well your customers meet performance goals.</p>
-  fqName: Customer Insights by NIC Systems Inc. (25.1.13082.0)
+  fqName: Customer Insights by NIC Systems Inc. (25.2.13472.0)
   href: reference/customer-insights/Module/Customer-Insights.html
+- uid: N:Module::Customer_Insights_obsolete_by_25.1
+  tag: "25.1"
+  href: reference/customer-insights/Obsoletion/obsolete_by_25.1.html
+- uid: N:Module::Customer_Insights_obsolete_by_25.1#25.1
+  href: reference/customer-insights/Obsoletion/obsolete_by_25.1.html
 - uid: N:Module::Inventory_Freshness
   name: Inventory Freshness
   summary: >
@@ -16652,7 +16798,7 @@ references:
   name: Mobile Data Collection
   summary: >
     <p sourcefile="reference/mobile-data-collection/Module/Mobile-Data-Collection.yml" sourcestartlinenumber="1" jsonPath="/summary">Mobile Data Collection</p>
-  fqName: Mobile Data Collection by NIC Systems Inc. (25.1.13161.0)
+  fqName: Mobile Data Collection by NIC Systems Inc. (25.2.13484.0)
   href: reference/mobile-data-collection/Module/Mobile-Data-Collection.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_23.0
   tag: "23.0"
@@ -16754,7 +16900,7 @@ references:
   name: Serial Shipping Container Codes
   summary: >
     <p sourcefile="reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables organizations to generate SSCC numbers adhering to GS1 requirements. The user can assign the SSCC number to a bundle of items, and print a shipping label.</p>
-  fqName: Serial Shipping Container Codes by NIC Systems Inc. (25.0.13112.0)
+  fqName: Serial Shipping Container Codes by NIC Systems Inc. (25.2.13474.0)
   href: reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.html
 - uid: N:Module::Serial_Shipping_Container_Codes_obsolete_by_22.2
   tag: "22.2"
@@ -16791,13 +16937,13 @@ references:
   name: Variable Capacity Cost
   summary: >
     <p sourcefile="reference/variable-capacity-cost/Module/Variable-Capacity-Cost.yml" sourcestartlinenumber="1" jsonPath="/summary">Use a variable machine and work center cost when posting output capacity.</p>
-  fqName: Variable Capacity Cost by NIC Systems Inc. (25.1.13079.0)
+  fqName: Variable Capacity Cost by NIC Systems Inc. (25.1.13305.0)
   href: reference/variable-capacity-cost/Module/Variable-Capacity-Cost.html
 - uid: N:Module::Vendor_Insights
   name: Vendor Insights
   summary: >
     <p sourcefile="reference/vendor-insights/Module/Vendor-Insights.yml" sourcestartlinenumber="1" jsonPath="/summary">Vendor Insights</p>
-  fqName: Vendor Insights by NIC Systems Inc. (25.0.13116.0)
+  fqName: Vendor Insights by NIC Systems Inc. (25.2.13473.0)
   href: reference/vendor-insights/Module/Vendor-Insights.html
 - uid: N:Module::Vendor_Insights_obsolete_by_25.0
   tag: "25.0"
@@ -16916,6 +17062,18 @@ references:
   name: "\"NICALG Upgrade\""
   fqName: "\"NICALG Upgrade\""
   href: reference/lot-algorithms/Codeunit/NICALG-Upgrade.html
+- uid: O:Codeunit::NICAPP_App_Management
+  name: "\"NICAPP App Management\""
+  fqName: "\"NICAPP App Management\""
+  href: reference/application-installer/Codeunit/NICAPP-App-Management.html
+- uid: O:Codeunit::NICAPP_Check_Free_App
+  name: "\"NICAPP Check Free App\""
+  fqName: "\"NICAPP Check Free App\""
+  href: reference/application-installer/Codeunit/NICAPP-Check-Free-App.html
+- uid: O:Codeunit::NICAPP_Get_App_ID
+  name: "\"NICAPP Get App ID\""
+  fqName: "\"NICAPP Get App ID\""
+  href: reference/application-installer/Codeunit/NICAPP-Get-App-ID.html
 - uid: O:Codeunit::NICBOM_Single_Inst_Sub_(Purch)
   name: "\"NICBOM Single Inst Sub (Purch)\""
   fqName: "\"NICBOM Single Inst Sub (Purch)\""
@@ -18744,6 +18902,10 @@ references:
   name: "\"NICALG Number Format\""
   fqName: "\"NICALG Number Format\""
   href: reference/lot-algorithms/Enum/NICALG-Number-Format.html
+- uid: O:Enum::NICAPP_Application_Name
+  name: "\"NICAPP Application Name\""
+  fqName: "\"NICAPP Application Name\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
 - uid: O:Enum::NICBOM_Qty#_To_Handle_Option
   name: "\"NICBOM Qty. To Handle Option\""
   fqName: "\"NICBOM Qty. To Handle Option\""
@@ -19028,6 +19190,26 @@ references:
   name: "\"nicmdc Font Size\""
   fqName: "\"nicmdc Font Size\""
   href: reference/mobile-data-collection/Enum/nicmdc-Font-Size.html
+- uid: O:Enum::nicmdc_Reclass-To_Bin
+  name: "\"nicmdc Reclass-To Bin\""
+  fqName: "\"nicmdc Reclass-To Bin\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Bin.html
+- uid: O:Enum::nicmdc_Reclass-To_Location
+  name: "\"nicmdc Reclass-To Location\""
+  fqName: "\"nicmdc Reclass-To Location\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Location.html
+- uid: O:Enum::nicmdc_Reclass-To_Lot
+  name: "\"nicmdc Reclass-To Lot\""
+  fqName: "\"nicmdc Reclass-To Lot\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Lot.html
+- uid: O:Enum::nicmdc_Reclass-To_Package
+  name: "\"nicmdc Reclass-To Package\""
+  fqName: "\"nicmdc Reclass-To Package\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Package.html
+- uid: O:Enum::nicmdc_Reclass_UOM
+  name: "\"nicmdc Reclass UOM\""
+  fqName: "\"nicmdc Reclass UOM\""
+  href: reference/mobile-data-collection/Enum/nicmdc-Reclass-UOM.html
 - uid: O:Enum::nicmdc_Report_Data_Item_Source
   name: "\"nicmdc Report Data Item Source\""
   fqName: "\"nicmdc Report Data Item Source\""
@@ -19100,6 +19282,10 @@ references:
   name: "\"NICALG Lot Alg Ref Entries\""
   fqName: "\"NICALG Lot Alg Ref Entries\""
   href: reference/lot-algorithms/Page/NICALG-Lot-Alg-Ref-Entries.html
+- uid: O:Page::NICAPP_Application_Installer
+  name: "\"NICAPP Application Installer\""
+  fqName: "\"NICAPP Application Installer\""
+  href: reference/application-installer/Page/NICAPP-Application-Installer.html
 - uid: O:Page::NICBOM_CustItemUnderShptCodes
   name: "\"NICBOM CustItemUnderShptCodes\""
   fqName: "\"NICBOM CustItemUnderShptCodes\""
@@ -21612,6 +21798,10 @@ references:
   name: "\"NICALG LotAlgRead\""
   fqName: "\"NICALG LotAlgRead\""
   href: reference/lot-algorithms/PermissionSet/NICALG-LotAlgRead.html
+- uid: O:PermissionSet::NICAPP_Objects
+  name: "\"NICAPP Objects\""
+  fqName: "\"NICAPP Objects\""
+  href: reference/application-installer/PermissionSet/NICAPP-Objects.html
 - uid: O:PermissionSet::NICBOM_BackorderEdit
   name: "\"NICBOM BackorderEdit\""
   fqName: "\"NICBOM BackorderEdit\""

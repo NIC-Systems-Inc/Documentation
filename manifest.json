@@ -15,6 +15,76 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/application-installer/Codeunit/NICAPP-App-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/application-installer/Codeunit/NICAPP-App-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/application-installer/Codeunit/NICAPP-Check-Free-App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/application-installer/Codeunit/NICAPP-Check-Free-App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/application-installer/Codeunit/NICAPP-Get-App-ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/application-installer/Codeunit/NICAPP-Get-App-ID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/application-installer/Enum/NICAPP-Application-Name.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/application-installer/Enum/NICAPP-Application-Name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/application-installer/Module/Application-Installer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/application-installer/Module/Application-Installer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/application-installer/Page/NICAPP-Application-Installer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/application-installer/Page/NICAPP-Application-Installer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/application-installer/PermissionSet/NICAPP-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/application-installer/PermissionSet/NICAPP-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/backorder-management/Codeunit/NICBOM-Single-Inst-Sub-(Purch).yml",
       "output": {
         ".html": {
@@ -649,6 +719,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/customer-insights/Module/Customer-Insights.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/customer-insights/Obsoletion/obsolete_by_25.1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/customer-insights/Obsoletion/obsolete_by_25.1.html"
         }
       },
       "version": ""
@@ -6779,6 +6859,56 @@
       "output": {
         ".html": {
           "relative_path": "reference/mobile-data-collection/Enum/nicmdc-Font-Size.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Bin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Bin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Location.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Lot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Lot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Enum/nicmdc-Reclass-To-Package.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Enum/nicmdc-Reclass-UOM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Enum/nicmdc-Reclass-UOM.html"
         }
       },
       "version": ""
