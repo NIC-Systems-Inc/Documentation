@@ -6625,6 +6625,856 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-AppIntegration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-AppIntegration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Get-Source-Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Get-Source-Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Guided-Exp-Assist-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Guided-Exp-Assist-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Guided-Exp-Manual-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Guided-Exp-Manual-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-InitDefaultNoSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-InitDefaultNoSeries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Initialize-Company.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Initialize-Company.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Initialize-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Initialize-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Kit-Consumption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Kit-Consumption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Kit-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Kit-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Kit-Entry-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Kit-Entry-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-LookupItemTrackSum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-LookupItemTrackSum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-MatStagHeader-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-MatStagHeader-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-MatStagSource-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-MatStagSource-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Prod-Bom-Line-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Prod-Bom-Line-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Prod-Order-Comp-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Prod-Order-Comp-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Prod.-Order-Line-Ctrl..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Prod.-Order-Line-Ctrl..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Setup-Wizard-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Setup-Wizard-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Staging-Bin-Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Staging-Bin-Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Subscribers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Subscribers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Suggest-Kits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Suggest-Kits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Unlicensed-SingInstSubs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Unlicensed-SingInstSubs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Enum/NICMAS-Kit-Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Enum/NICMAS-Kit-Action.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Enum/NICMAS-Kit-Entry-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Enum/NICMAS-Kit-Entry-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Enum/NICMAS-Kit-Production-Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Enum/NICMAS-Kit-Production-Group.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Enum/NICMAS-Kit-State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Enum/NICMAS-Kit-State.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Enum/NICMAS-Kit-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Enum/NICMAS-Kit-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Module/Material-Staging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Module/Material-Staging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-Kit-Entries-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-Kit-Entries-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-Kit-Groups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-Kit-Groups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-Kit-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-Kit-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-Kit-Production-Groups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-Kit-Production-Groups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-Kit-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-Kit-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-Kit-Subgroups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-Kit-Subgroups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-Kit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-Kit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-KitProdGrp-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-KitProdGrp-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-MatStagOrder-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-MatStagOrder-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-MatStagOrder-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-MatStagOrder-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-MatStagOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-MatStagOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-MatStagOrderFB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-MatStagOrderFB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-MatStagSource-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-MatStagSource-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-MatStaging-Setup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-MatStaging-Setup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-Material-Staging-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-Material-Staging-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Firm-Plan-Prod-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Firm-Plan-Prod-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Firm-Plan-Prod-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Firm-Plan-Prod-Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-FirmPlanProdOrderLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-FirmPlanProdOrderLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Item-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Item-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Location-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Location-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Machine-Center-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Machine-Center-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Plan-Prod-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Plan-Prod-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Plan-Prod-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Plan-Prod-Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-PlannedProdOrderLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-PlannedProdOrderLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Prod-Order-Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Prod-Order-Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Prod-Order-Routing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Prod-Order-Routing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Production-BOM-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Production-BOM-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Released-Prod-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Released-Prod-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Released-Prod-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Released-Prod-Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-ReleasedProdOrderLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-ReleasedProdOrderLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Work-Center-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-Work-Center-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PermissionSet/NICMAS-Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PermissionSet/NICMAS-Admin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PermissionSet/NICMAS-Edit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PermissionSet/NICMAS-Edit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PermissionSet/NICMAS-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PermissionSet/NICMAS-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PermissionSet/NICMAS-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PermissionSet/NICMAS-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PermissionSet/NICMAS-Unlicensed-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PermissionSet/NICMAS-Unlicensed-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Query/NICMAS-MatStagSourceProdOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Query/NICMAS-MatStagSourceProdOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Query/NICMAS-MatStagSourceProdOrders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Query/NICMAS-MatStagSourceProdOrders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Report/NICMAS-Get-Source-Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Report/NICMAS-Get-Source-Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-Kit-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-Kit-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-Kit-Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-Kit-Group.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-Kit-Production-Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-Kit-Production-Group.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-Kit-Subgroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-Kit-Subgroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-Kit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-Kit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-MatStag-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-MatStag-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-MatStag-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-MatStag-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-MatStag-Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-MatStag-Source.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-Material-Staging-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-Material-Staging-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/TableExtension/NICMAS-Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/TableExtension/NICMAS-Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/TableExtension/NICMAS-Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/TableExtension/NICMAS-Location.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/TableExtension/NICMAS-Machine-Center.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/TableExtension/NICMAS-Machine-Center.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/TableExtension/NICMAS-Prod-Order-Routing-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/TableExtension/NICMAS-Prod-Order-Routing-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/TableExtension/NICMAS-Prod.-Order-Component.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/TableExtension/NICMAS-Prod.-Order-Component.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/TableExtension/NICMAS-Prod.-Order-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/TableExtension/NICMAS-Prod.-Order-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/TableExtension/NICMAS-Production-BOM-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/TableExtension/NICMAS-Production-BOM-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/TableExtension/NICMAS-Work-Center.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/TableExtension/NICMAS-Work-Center.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/mobile-data-collection/Codeunit/NICMDC-App-Integration.yml",
       "output": {
         ".html": {

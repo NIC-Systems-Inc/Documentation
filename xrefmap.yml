@@ -172,6 +172,36 @@ references:
 - uid: C:Query::NICIRA_Open_Item_Ledger_Entry.ItemLedgerEntry.VariantCode
   name: VariantCode
   href: reference/inventory-restrictions/Query/NICIRA-Open-Item-Ledger-Entry.html
+- uid: C:Query::NICMAS_MatStagSourceProdOrder.MatStag_Source.Comp__Item_Kit_Group_Code
+  name: Comp__Item_Kit_Group_Code
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrder.html
+- uid: C:Query::NICMAS_MatStagSourceProdOrder.MatStag_Source.Kit_Production_Group
+  name: Kit_Production_Group
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrder.html
+- uid: C:Query::NICMAS_MatStagSourceProdOrder.MatStag_Source.Material_Staging_Order_No_
+  name: Material_Staging_Order_No_
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrder.html
+- uid: C:Query::NICMAS_MatStagSourceProdOrder.MatStag_Source.Prod__Item_Kit_Group_Code
+  name: Prod__Item_Kit_Group_Code
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrder.html
+- uid: C:Query::NICMAS_MatStagSourceProdOrder.MatStag_Source.Prod__OrderNo_
+  name: Prod__OrderNo_
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrder.html
+- uid: C:Query::NICMAS_MatStagSourceProdOrder.MatStag_Source.Prod__OrderStatus
+  name: Prod__OrderStatus
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrder.html
+- uid: C:Query::NICMAS_MatStagSourceProdOrders.MatStag_Source.Comp__Item_Kit_Group_Code
+  name: Comp__Item_Kit_Group_Code
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrders.html
+- uid: C:Query::NICMAS_MatStagSourceProdOrders.MatStag_Source.Kit_Production_Group
+  name: Kit_Production_Group
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrders.html
+- uid: C:Query::NICMAS_MatStagSourceProdOrders.MatStag_Source.Material_Staging_Order_No_
+  name: Material_Staging_Order_No_
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrders.html
+- uid: C:Query::NICMAS_MatStagSourceProdOrders.MatStag_Source.Prod__Item_Kit_Group_Code
+  name: Prod__Item_Kit_Group_Code
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrders.html
 - uid: C:Query::NICMDC_ItemLedgerEntriesAPI.warehouseEntry.itemNo
   name: itemNo
   href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI.html
@@ -1123,6 +1153,66 @@ references:
 - uid: E:Enum::NICITR_Item_Recall_Status.Simulated
   name: Simulated
   href: reference/item-recalls/Enum/NICITR-Item-Recall-Status.html
+- uid: E:Enum::NICMAS_Kit_Action.Consume
+  name: Consume
+  href: reference/material-staging/Enum/NICMAS-Kit-Action.html
+- uid: E:Enum::NICMAS_Kit_Action.Move
+  name: Move
+  href: reference/material-staging/Enum/NICMAS-Kit-Action.html
+- uid: E:Enum::NICMAS_Kit_Action.Remove
+  name: Remove
+  href: reference/material-staging/Enum/NICMAS-Kit-Action.html
+- uid: E:Enum::NICMAS_Kit_Action.Stage
+  name: Stage
+  href: reference/material-staging/Enum/NICMAS-Kit-Action.html
+- uid: E:Enum::NICMAS_Kit_Action.Unstage
+  name: Unstage
+  href: reference/material-staging/Enum/NICMAS-Kit-Action.html
+- uid: E:Enum::NICMAS_Kit_Entry_Type.Consumption
+  name: Consumption
+  href: reference/material-staging/Enum/NICMAS-Kit-Entry-Type.html
+- uid: E:Enum::NICMAS_Kit_Entry_Type.Demand
+  name: Demand
+  href: reference/material-staging/Enum/NICMAS-Kit-Entry-Type.html
+- uid: E:Enum::NICMAS_Kit_Entry_Type.Production
+  name: Production
+  href: reference/material-staging/Enum/NICMAS-Kit-Entry-Type.html
+- uid: E:Enum::NICMAS_Kit_Entry_Type.Staged
+  name: Staged
+  href: reference/material-staging/Enum/NICMAS-Kit-Entry-Type.html
+- uid: E:Enum::NICMAS_Kit_Entry_Type.Supply
+  name: Supply
+  href: reference/material-staging/Enum/NICMAS-Kit-Entry-Type.html
+- uid: E:Enum::NICMAS_Kit_Production_Group.Batch
+  name: Batch
+  href: reference/material-staging/Enum/NICMAS-Kit-Production-Group.html
+- uid: E:Enum::NICMAS_Kit_Production_Group.Order
+  name: Order
+  href: reference/material-staging/Enum/NICMAS-Kit-Production-Group.html
+- uid: E:Enum::NICMAS_Kit_Production_Group.Order_Line
+  name: "\"Order Line\""
+  href: reference/material-staging/Enum/NICMAS-Kit-Production-Group.html
+- uid: E:Enum::NICMAS_Kit_Production_Group.Orders
+  name: Orders
+  href: reference/material-staging/Enum/NICMAS-Kit-Production-Group.html
+- uid: E:Enum::NICMAS_Kit_Production_Group._
+  name: "\" \""
+  href: reference/material-staging/Enum/NICMAS-Kit-Production-Group.html
+- uid: E:Enum::NICMAS_Kit_State.Empty
+  name: Empty
+  href: reference/material-staging/Enum/NICMAS-Kit-State.html
+- uid: E:Enum::NICMAS_Kit_State.Full
+  name: Full
+  href: reference/material-staging/Enum/NICMAS-Kit-State.html
+- uid: E:Enum::NICMAS_Kit_State.Partial
+  name: Partial
+  href: reference/material-staging/Enum/NICMAS-Kit-State.html
+- uid: E:Enum::NICMAS_Kit_Type.Assemble
+  name: Assemble
+  href: reference/material-staging/Enum/NICMAS-Kit-Type.html
+- uid: E:Enum::NICMAS_Kit_Type.Bulk
+  name: Bulk
+  href: reference/material-staging/Enum/NICMAS-Kit-Type.html
 - uid: E:Enum::NICPBA_BatchCalculationMethod.Equal
   name: Equal
   href: reference/production-batching/Enum/NICPBA-BatchCalculationMethod.html
@@ -5290,6 +5380,420 @@ references:
 - uid: F:Table::NICITR_Test_Config.TestRecallPicture
   name: TestRecallPicture
   href: reference/item-recalls/Table/NICITR-Test-Config.html
+- uid: F:Table::NICMAS_Kit.Material_Staging_Order_No#[20]
+  name: "\"Material Staging Order No.\""
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.No#[20]
+  name: "\"No.\""
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.No#_Series[20]
+  name: "\"No. Series\""
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.Prod#_Start_Date_Time
+  name: "\"Prod. Start Date Time\""
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.Staged_State
+  name: "\"Staged State\""
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.Staging_Start_Date_Time
+  name: "\"Staging Start Date Time\""
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.SystemId
+  name: SystemId
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.Type
+  name: Type
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit_Entry.Bin_Code[20]
+  name: "\"Bin Code\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Bulk_Unit_Measure_Code[10]
+  name: "\"Bulk Unit Measure Code\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Consumption_Quantity
+  name: "\"Consumption Quantity\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Demand_Entry_No#
+  name: "\"Demand Entry No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Description[100]
+  name: Description
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Entry_No#
+  name: "\"Entry No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Entry_Type
+  name: "\"Entry Type\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Item_No#[20]
+  name: "\"Item No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Kit_No#[20]
+  name: "\"Kit No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Location_Code[10]
+  name: "\"Location Code\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Lot_No#[50]
+  name: "\"Lot No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Lot_Tracked
+  name: "\"Lot Tracked\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Package_No#[50]
+  name: "\"Package No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Package_Tracked
+  name: "\"Package Tracked\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Qty#_(Base)
+  name: "\"Qty. (Base)\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Qty#_Rounding_Precision
+  name: "\"Qty. Rounding Precision\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Qty#_Rounding_Precision_(Base)
+  name: "\"Qty. Rounding Precision (Base)\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Qty#_per_Unit_of_Measure
+  name: "\"Qty. per Unit of Measure\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Quantity
+  name: Quantity
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Quantity_(Bulk)
+  name: "\"Quantity (Bulk)\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Serial_No#[50]
+  name: "\"Serial No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Serial_Tracked
+  name: "\"Serial Tracked\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Staged_Quantity
+  name: "\"Staged Quantity\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Supply_Entry_No#
+  name: "\"Supply Entry No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.SystemId
+  name: SystemId
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.To-Production_Quantity
+  name: "\"To-Production Quantity\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Unit_of_Measure_Code[10]
+  name: "\"Unit of Measure Code\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Variant_Code[10]
+  name: "\"Variant Code\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Zone_Code[10]
+  name: "\"Zone Code\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Group.Code[20]
+  name: Code
+  href: reference/material-staging/Table/NICMAS-Kit-Group.html
+- uid: F:Table::NICMAS_Kit_Group.Description[80]
+  name: Description
+  href: reference/material-staging/Table/NICMAS-Kit-Group.html
+- uid: F:Table::NICMAS_Kit_Group.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/material-staging/Table/NICMAS-Kit-Group.html
+- uid: F:Table::NICMAS_Kit_Group.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/material-staging/Table/NICMAS-Kit-Group.html
+- uid: F:Table::NICMAS_Kit_Group.SystemId
+  name: SystemId
+  href: reference/material-staging/Table/NICMAS-Kit-Group.html
+- uid: F:Table::NICMAS_Kit_Group.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/material-staging/Table/NICMAS-Kit-Group.html
+- uid: F:Table::NICMAS_Kit_Group.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/material-staging/Table/NICMAS-Kit-Group.html
+- uid: F:Table::NICMAS_Kit_Group.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/material-staging/Table/NICMAS-Kit-Group.html
+- uid: F:Table::NICMAS_Kit_Production_Group.Comp#_Item_Kit_Group_Code[20]
+  name: "\"Comp. Item Kit Group Code\""
+  href: reference/material-staging/Table/NICMAS-Kit-Production-Group.html
+- uid: F:Table::NICMAS_Kit_Production_Group.Kit_Production_Group
+  name: "\"Kit Production Group\""
+  href: reference/material-staging/Table/NICMAS-Kit-Production-Group.html
+- uid: F:Table::NICMAS_Kit_Production_Group.Prod#_Item_Kit_Group_Code[20]
+  name: "\"Prod. Item Kit Group Code\""
+  href: reference/material-staging/Table/NICMAS-Kit-Production-Group.html
+- uid: F:Table::NICMAS_Kit_Production_Group.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/material-staging/Table/NICMAS-Kit-Production-Group.html
+- uid: F:Table::NICMAS_Kit_Production_Group.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/material-staging/Table/NICMAS-Kit-Production-Group.html
+- uid: F:Table::NICMAS_Kit_Production_Group.SystemId
+  name: SystemId
+  href: reference/material-staging/Table/NICMAS-Kit-Production-Group.html
+- uid: F:Table::NICMAS_Kit_Production_Group.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/material-staging/Table/NICMAS-Kit-Production-Group.html
+- uid: F:Table::NICMAS_Kit_Production_Group.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/material-staging/Table/NICMAS-Kit-Production-Group.html
+- uid: F:Table::NICMAS_Kit_Production_Group.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/material-staging/Table/NICMAS-Kit-Production-Group.html
+- uid: F:Table::NICMAS_Kit_Subgroup.Code[20]
+  name: Code
+  href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: F:Table::NICMAS_Kit_Subgroup.Description[80]
+  name: Description
+  href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: F:Table::NICMAS_Kit_Subgroup.Kit_Group_Code[20]
+  name: "\"Kit Group Code\""
+  href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: F:Table::NICMAS_Kit_Subgroup.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: F:Table::NICMAS_Kit_Subgroup.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: F:Table::NICMAS_Kit_Subgroup.SystemId
+  name: SystemId
+  href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: F:Table::NICMAS_Kit_Subgroup.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: F:Table::NICMAS_Kit_Subgroup.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: F:Table::NICMAS_Kit_Subgroup.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: F:Table::NICMAS_MatStag_Header.Description[100]
+  name: Description
+  href: reference/material-staging/Table/NICMAS-MatStag-Header.html
+- uid: F:Table::NICMAS_MatStag_Header.No#[20]
+  name: "\"No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Header.html
+- uid: F:Table::NICMAS_MatStag_Header.No#_Series[20]
+  name: "\"No. Series\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Header.html
+- uid: F:Table::NICMAS_MatStag_Header.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/material-staging/Table/NICMAS-MatStag-Header.html
+- uid: F:Table::NICMAS_MatStag_Header.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/material-staging/Table/NICMAS-MatStag-Header.html
+- uid: F:Table::NICMAS_MatStag_Header.SystemId
+  name: SystemId
+  href: reference/material-staging/Table/NICMAS-MatStag-Header.html
+- uid: F:Table::NICMAS_MatStag_Header.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/material-staging/Table/NICMAS-MatStag-Header.html
+- uid: F:Table::NICMAS_MatStag_Header.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/material-staging/Table/NICMAS-MatStag-Header.html
+- uid: F:Table::NICMAS_MatStag_Header.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/material-staging/Table/NICMAS-MatStag-Header.html
+- uid: F:Table::NICMAS_MatStag_Line.Allocated_Kit[20]
+  name: "\"Allocated Kit\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Bulk_Unit_Measure_Code[10]
+  name: "\"Bulk Unit Measure Code\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Description[100]
+  name: Description
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Item_No#[20]
+  name: "\"Item No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Kit_Group_Code[20]
+  name: "\"Kit Group Code\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Kit_Staged
+  name: "\"Kit Staged\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Kit_Subgroup_Code[20]
+  name: "\"Kit Subgroup Code\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Kit_to_Create
+  name: "\"Kit to Create\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Line_No#
+  name: "\"Line No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Location_Code[10]
+  name: "\"Location Code\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Material_Staging_Order_No#[20]
+  name: "\"Material Staging Order No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Prod#_Order_Batch_No#[20]
+  name: "\"Prod. Order Batch No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Prod#_Order_Component_Line_No#
+  name: "\"Prod. Order Component Line No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Prod#_Order_Line_No#
+  name: "\"Prod. Order Line No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Prod#_Order_No#[20]
+  name: "\"Prod. Order No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Prod#_Order_Status
+  name: "\"Prod. Order Status\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Qty#_(Base)
+  name: "\"Qty. (Base)\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Qty#_Rounding_Precision
+  name: "\"Qty. Rounding Precision\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Qty#_Rounding_Precision_(Base)
+  name: "\"Qty. Rounding Precision (Base)\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Qty#_per_Unit_of_Measure
+  name: "\"Qty. per Unit of Measure\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Quantity
+  name: Quantity
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Quantity_(Bulk)
+  name: "\"Quantity (Bulk)\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Staging_Bin_Code[20]
+  name: "\"Staging Bin Code\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.SystemId
+  name: SystemId
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.To-Production_Bin_Code[20]
+  name: "\"To-Production Bin Code\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Unit_of_Measure_Code[10]
+  name: "\"Unit of Measure Code\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Variant_Code[10]
+  name: "\"Variant Code\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Source.Batch_No#[20]
+  name: "\"Batch No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.Comp#_Item_Kit_Group_Code[20]
+  name: "\"Comp. Item Kit Group Code\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.Entry_No#
+  name: "\"Entry No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.Kit_Production_Group
+  name: "\"Kit Production Group\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.Material_Staging_Order_No#[20]
+  name: "\"Material Staging Order No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.Prod#_Item_Kit_Group_Code[20]
+  name: "\"Prod. Item Kit Group Code\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.Prod#_Order_Line_No#
+  name: "\"Prod. Order Line No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.Prod#_Order_No#[20]
+  name: "\"Prod. Order No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.Prod#_Order_Status
+  name: "\"Prod. Order Status\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.SystemId
+  name: SystemId
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_MatStag_Source.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.Material_Kit_Nos#[20]
+  name: "\"Material Kit Nos.\""
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.Material_Staging_Order_Nos#[20]
+  name: "\"Material Staging Order Nos.\""
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.Primary_Key[10]
+  name: "\"Primary Key\""
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.SystemId
+  name: SystemId
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
 - uid: F:Table::NICMDC_Package_Contents_Buffer.Bin_Code[20]
   name: "\"Bin Code\""
   href: reference/mobile-data-collection/Table/NICMDC-Package-Contents-Buffer.html
@@ -10306,6 +10810,54 @@ references:
 - uid: F:TableExtension::NICITR_User_Setup.NICITR_Item_Rcll_Comm_Grp_Code[20]
   name: "\"NICITR Item Rcll Comm Grp Code\""
   href: reference/item-recalls/TableExtension/NICITR-User-Setup.html
+- uid: F:TableExtension::NICMAS_Item.NICMAS_Bulk_Unit_Measure_Code[10]
+  name: "\"NICMAS Bulk Unit Measure Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Item.html
+- uid: F:TableExtension::NICMAS_Item.NICMAS_Kit_Group_Code[20]
+  name: "\"NICMAS Kit Group Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Item.html
+- uid: F:TableExtension::NICMAS_Item.NICMAS_Kit_Subgroup_Code[20]
+  name: "\"NICMAS Kit Subgroup Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Item.html
+- uid: F:TableExtension::NICMAS_Location.NICMAS_Staging_Bin_Code[20]
+  name: "\"NICMAS Staging Bin Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Location.html
+- uid: F:TableExtension::NICMAS_Machine_Center.NICMAS_Staging_Bin_Code[20]
+  name: "\"NICMAS Staging Bin Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Machine-Center.html
+- uid: F:TableExtension::NICMAS_Prod#_Order_Component.NICMAS_Bulk_Unit_Measure_Code[10]
+  name: "\"NICMAS Bulk Unit Measure Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Prod.-Order-Component.html
+- uid: F:TableExtension::NICMAS_Prod#_Order_Component.NICMAS_Kit_Group_Code[20]
+  name: "\"NICMAS Kit Group Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Prod.-Order-Component.html
+- uid: F:TableExtension::NICMAS_Prod#_Order_Component.NICMAS_Kit_Subgroup_Code[20]
+  name: "\"NICMAS Kit Subgroup Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Prod.-Order-Component.html
+- uid: F:TableExtension::NICMAS_Prod#_Order_Component.NICMAS_Mat#_Staging_Order_No#[20]
+  name: "\"NICMAS Mat. Staging Order No.\""
+  href: reference/material-staging/TableExtension/NICMAS-Prod.-Order-Component.html
+- uid: F:TableExtension::NICMAS_Prod#_Order_Component.NICMAS_Staging_Bin_Code[20]
+  name: "\"NICMAS Staging Bin Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Prod.-Order-Component.html
+- uid: F:TableExtension::NICMAS_Prod#_Order_Line.NICMAS_Kit_Group_Code[20]
+  name: "\"NICMAS Kit Group Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Prod.-Order-Line.html
+- uid: F:TableExtension::NICMAS_Prod_Order_Routing_Line.NICMAS_Staging_Bin_Code[20]
+  name: "\"NICMAS Staging Bin Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Prod-Order-Routing-Line.html
+- uid: F:TableExtension::NICMAS_Production_BOM_Line.NICMAS_Bulk_Unit_Measure_Code[10]
+  name: "\"NICMAS Bulk Unit Measure Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Production-BOM-Line.html
+- uid: F:TableExtension::NICMAS_Production_BOM_Line.NICMAS_Kit_Group_Code[20]
+  name: "\"NICMAS Kit Group Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Production-BOM-Line.html
+- uid: F:TableExtension::NICMAS_Production_BOM_Line.NICMAS_Kit_Subgroup_Code[20]
+  name: "\"NICMAS Kit Subgroup Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Production-BOM-Line.html
+- uid: F:TableExtension::NICMAS_Work_Center.NICMAS_Staging_Bin_Code[20]
+  name: "\"NICMAS Staging Bin Code\""
+  href: reference/material-staging/TableExtension/NICMAS-Work-Center.html
 - uid: F:TableExtension::NICOVS_Customer.NICOVS_Over-Shipment_Code[20]
   name: "\"NICOVS Over-Shipment Code\""
   href: reference/over-shipping/TableExtension/NICOVS-Customer.html
@@ -12034,6 +12586,9 @@ references:
 - uid: M:Codeunit::NICIRA_InvtRest_Jnl-Check_Line.OnBeforeCheckDates(NICIRA_Invt_Rest_Jnl_Line,Boolean@)
   name: OnBeforeCheckDates
   href: reference/inventory-restrictions/Codeunit/NICIRA-InvtRest-Jnl-Check-Line.html
+- uid: M:Codeunit::NICIRA_InvtRest_Jnl-Check_Line.OnBeforeCheckPermissions(NICIRA_Invt_Rest_Jnl_Line@,Boolean@)
+  name: OnBeforeCheckPermissions
+  href: reference/inventory-restrictions/Codeunit/NICIRA-InvtRest-Jnl-Check-Line.html
 - uid: M:Codeunit::NICIRA_InvtRest_Jnl-Check_Line.OnBeforeCheckTracking(NICIRA_Invt_Rest_Jnl_Line@,Boolean@)
   name: OnBeforeCheckTracking
   href: reference/inventory-restrictions/Codeunit/NICIRA-InvtRest-Jnl-Check-Line.html
@@ -13006,6 +13561,93 @@ references:
 - uid: M:Codeunit::NICITR_Send_User_Task.OnBeforeCreateUserTask(NICITR_Item_Recall@,NICITR_Item_Recall_Comm_Task@,Boolean@,Boolean@)
   name: OnBeforeCreateUserTask
   href: reference/item-recalls/Codeunit/NICITR-Send-User-Task.html
+- uid: M:Codeunit::NICMAS_AppIntegration.OnBeforeCreateMatStagForBatch(Code[20],NICMAS_Kit_Production_Group@,Prod#_Order_Line,Prod#_Order_Component,Code[20],Boolean@)
+  name: OnBeforeCreateMatStagForBatch
+  href: reference/material-staging/Codeunit/NICMAS-AppIntegration.html
+- uid: M:Codeunit::NICMAS_Guided_Exp_Assist_Setup.OnAfterCheckFeatureEnabled(Boolean@)
+  name: OnAfterCheckFeatureEnabled
+  href: reference/material-staging/Codeunit/NICMAS-Guided-Exp-Assist-Setup.html
+- uid: M:Codeunit::NICMAS_Kit_Consumption.OnAfterCreateItemConsumptionJnlLine(Item_Journal_Line@,Enum::Microsoft#Inventory#Ledger#Item_Ledger_Entry_Type,Date,NICMAS_Kit_Entry@)
+  name: OnAfterCreateItemConsumptionJnlLine
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Consumption.html
+- uid: M:Codeunit::NICMAS_Kit_Consumption.OnBeforeCreateItemConsumptionJnlLine(Item_Journal_Line@,Enum::Microsoft#Inventory#Ledger#Item_Ledger_Entry_Type,Date,NICMAS_Kit_Entry@,Boolean@)
+  name: OnBeforeCreateItemConsumptionJnlLine
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Consumption.html
+- uid: M:Codeunit::NICMAS_Kit_Ctrl.OnAssistEditBeforeExit(NICMAS_Kit@,NICMAS_Kit@)
+  name: OnAssistEditBeforeExit
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Ctrl.html
+- uid: M:Codeunit::NICMAS_Kit_Ctrl.OnBeforeGetNoSeriesCode(NICMAS_Kit@,Code[20]@,Boolean@)
+  name: OnBeforeGetNoSeriesCode
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Ctrl.html
+- uid: M:Codeunit::NICMAS_Kit_Ctrl.OnBeforeSetKitHeaderNo(NICMAS_Kit@,NICMAS_Kit@,Boolean@)
+  name: OnBeforeSetKitHeaderNo
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Ctrl.html
+- uid: M:Codeunit::NICMAS_Kit_Ctrl.OnBeforeTestNoSeries(NICMAS_Kit,NICMAS_Material_Staging_Setup,Boolean@)
+  name: OnBeforeTestNoSeries
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Ctrl.html
+- uid: M:Codeunit::NICMAS_Kit_Entry_Ctrl.OnAfterCreateItemReclassJnlLine(Item_Journal_Line@,Enum::Microsoft#Inventory#Ledger#Item_Ledger_Entry_Type,Date,NICMAS_Kit_Entry@)
+  name: OnAfterCreateItemReclassJnlLine
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Entry-Ctrl.html
+- uid: M:Codeunit::NICMAS_Kit_Entry_Ctrl.OnAfterInsertKitItemReclassJournal(Item_Journal_Line,Reservation_Entry,NICMAS_Kit_Entry@)
+  name: OnAfterInsertKitItemReclassJournal
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Entry-Ctrl.html
+- uid: M:Codeunit::NICMAS_Kit_Entry_Ctrl.OnBeforeCheckKitItemReclass(NICMAS_Kit_Entry@,Boolean@)
+  name: OnBeforeCheckKitItemReclass
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Entry-Ctrl.html
+- uid: M:Codeunit::NICMAS_Kit_Entry_Ctrl.OnBeforeCreateItemReclassJnlLine(Item_Journal_Line@,Enum::Microsoft#Inventory#Ledger#Item_Ledger_Entry_Type,Date,NICMAS_Kit_Entry@,Boolean@)
+  name: OnBeforeCreateItemReclassJnlLine
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Entry-Ctrl.html
+- uid: M:Codeunit::NICMAS_Kit_Entry_Ctrl.OnBeforeInsertKitItemReclassJournal(NICMAS_Kit_Entry@,Boolean@)
+  name: OnBeforeInsertKitItemReclassJournal
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Entry-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagHeader_Ctrl.OnAssistEditBeforeExit(NICMAS_MatStag_Header@,NICMAS_MatStag_Header@)
+  name: OnAssistEditBeforeExit
+  href: reference/material-staging/Codeunit/NICMAS-MatStagHeader-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagHeader_Ctrl.OnBeforeGetNoSeriesCode(NICMAS_MatStag_Header@,Code[20]@,Boolean@)
+  name: OnBeforeGetNoSeriesCode
+  href: reference/material-staging/Codeunit/NICMAS-MatStagHeader-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagHeader_Ctrl.OnBeforeSetMatStagHeaderNo(NICMAS_MatStag_Header@,NICMAS_MatStag_Header@,Boolean@)
+  name: OnBeforeSetMatStagHeaderNo
+  href: reference/material-staging/Codeunit/NICMAS-MatStagHeader-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagHeader_Ctrl.OnBeforeTestNoSeries(NICMAS_MatStag_Header,NICMAS_Material_Staging_Setup,Boolean@)
+  name: OnBeforeTestNoSeries
+  href: reference/material-staging/Codeunit/NICMAS-MatStagHeader-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnAfterCreateBulkMatStagLine(Code[20],Prod#_Order_Component,Code[20],Decimal@)
+  name: OnAfterCreateBulkMatStagLine
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnAfterCreateMatStagLines(Code[20],Prod#_Order_Component,Code[20],Decimal)
+  name: OnAfterCreateMatStagLines
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnAfterCreatePartialMatStagLine(Code[20],Prod#_Order_Component,Code[20],Decimal@)
+  name: OnAfterCreatePartialMatStagLine
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnBeforeCreateBulkMatStagLine(Code[20],Prod#_Order_Component,Code[20],Decimal@,Boolean@)
+  name: OnBeforeCreateBulkMatStagLine
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnBeforeCreateMatStagLines(Code[20],Prod#_Order_Component,Code[20],Decimal,Boolean@)
+  name: OnBeforeCreateMatStagLines
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnBeforeCreatePartialMatStagLine(Code[20],Prod#_Order_Component,Code[20],Decimal@,Boolean@)
+  name: OnBeforeCreatePartialMatStagLine
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_Staging_Bin_Ctrl.OnAfterFillDefaultStagingBin(Prod#_Order_Routing_Line@)
+  name: OnAfterFillDefaultStagingBin
+  href: reference/material-staging/Codeunit/NICMAS-Staging-Bin-Ctrl.html
+- uid: M:Codeunit::NICMAS_Staging_Bin_Ctrl.OnAfterGetDefaultStagingBin(Prod#_Order_Component@,Prod#_Order_Routing_Line@)
+  name: OnAfterGetDefaultStagingBin
+  href: reference/material-staging/Codeunit/NICMAS-Staging-Bin-Ctrl.html
+- uid: M:Codeunit::NICMAS_Staging_Bin_Ctrl.OnAfterGetDefaultStagingBinFromRtngLine(Code[20],Prod#_Order_Component@,Prod#_Order_Routing_Line@)
+  name: OnAfterGetDefaultStagingBinFromRtngLine
+  href: reference/material-staging/Codeunit/NICMAS-Staging-Bin-Ctrl.html
+- uid: M:Codeunit::NICMAS_Staging_Bin_Ctrl.OnAfterGetStagingBinCodeFromLocation(Prod#_Order_Component@,Code[20]@)
+  name: OnAfterGetStagingBinCodeFromLocation
+  href: reference/material-staging/Codeunit/NICMAS-Staging-Bin-Ctrl.html
+- uid: M:Codeunit::NICMAS_Staging_Bin_Ctrl.OnBeforeFillDefaultStagingBin(Prod#_Order_Routing_Line@,Boolean@)
+  name: OnBeforeFillDefaultStagingBin
+  href: reference/material-staging/Codeunit/NICMAS-Staging-Bin-Ctrl.html
+- uid: M:Codeunit::NICMAS_Staging_Bin_Ctrl.OnBeforeGetDefaultStagingBin(Prod#_Order_Component@,Prod#_Order_Routing_Line@,Boolean@)
+  name: OnBeforeGetDefaultStagingBin
+  href: reference/material-staging/Codeunit/NICMAS-Staging-Bin-Ctrl.html
 - uid: M:Codeunit::NICMDC_Barcode_Management.GetBarcode_Code128(Text):Text
   name: GetBarcode_Code128
   href: reference/mobile-data-collection/Codeunit/NICMDC-Barcode-Management.html
@@ -15673,6 +16315,9 @@ references:
 - uid: M:Page::NICITR_Item_Recall_Setup.OnOpenPageOnBeforeRecInsert(NICITR_Item_Recall_Setup@)
   name: OnOpenPageOnBeforeRecInsert
   href: reference/item-recalls/Page/NICITR-Item-Recall-Setup.html
+- uid: M:Page::NICMAS_MatStaging_Setup_Wizard.IsSetupFinished:Boolean
+  name: IsSetupFinished
+  href: reference/material-staging/Page/NICMAS-MatStaging-Setup-Wizard.html
 - uid: M:Page::NICMDC_API_Key_Method.PlaceHolder(WebServiceActionContext@)
   name: PlaceHolder
   href: reference/mobile-data-collection/Page/NICMDC-API-Key-Method.html
@@ -15732,6 +16377,9 @@ references:
   href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
 - uid: M:Page::NICMDC_Inventory_Methods_API.nicIsWhseLotTracked(Code[20]):Boolean
   name: nicIsWhseLotTracked
+  href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
+- uid: M:Page::NICMDC_Inventory_Methods_API.nicIsWhsePackageTracked(Code[20]):Boolean
+  name: nicIsWhsePackageTracked
   href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
 - uid: M:Page::NICMDC_Inventory_Methods_API.nicPostPhysInv(Code[20],Code[10],Code[20],Decimal,Code[50],Text,Code[50]):Boolean
   name: nicPostPhysInv
@@ -16567,6 +17215,12 @@ references:
 - uid: M:Table::NICITR_Item_Recall_Line.OnBeforeSetCommunicationGroup(NICITR_Item_Recall_Line@,Enum::Microsoft#Foundation#Enums#Analysis_Source_Type,Boolean@)
   name: OnBeforeSetCommunicationGroup
   href: reference/item-recalls/Table/NICITR-Item-Recall-Line.html
+- uid: M:Table::NICMAS_Material_Staging_Setup.GetRecordOnce
+  name: GetRecordOnce
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: M:Table::NICMAS_Material_Staging_Setup.InsertIfNotExists
+  name: InsertIfNotExists
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
 - uid: M:Table::NICOVS_Over-Shipment_Code.OnBeforeCheckMinMaxValue(NICOVS_Over-Shipment_Code@,Boolean@)
   name: OnBeforeCheckMinMaxValue
   href: reference/over-shipping/Table/NICOVS-Over-Shipment-Code.html
@@ -16743,7 +17397,7 @@ references:
   name: Inventory Restrictions
   summary: >
     <p sourcefile="reference/inventory-restrictions/Module/Inventory-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to easily add and remove restrictions on item inventory, as well as create sub-lots.</p>
-  fqName: Inventory Restrictions by NIC Systems Inc. (25.0.13085.0)
+  fqName: Inventory Restrictions by NIC Systems Inc. (25.0.13359.0)
   href: reference/inventory-restrictions/Module/Inventory-Restrictions.html
 - uid: N:Module::Inventory_Restrictions_obsolete_by_22.2
   tag: "22.2"
@@ -16794,11 +17448,17 @@ references:
   href: reference/lot-algorithms/Obsoletion/obsolete_by_22.2.html
 - uid: N:Module::Lot_Algorithms_obsolete_by_22.2#22.2
   href: reference/lot-algorithms/Obsoletion/obsolete_by_22.2.html
+- uid: N:Module::Material_Staging
+  name: Material Staging
+  summary: >
+    <p sourcefile="reference/material-staging/Module/Material-Staging.yml" sourcestartlinenumber="1" jsonPath="/summary">Identify, prepare, and stage materials to keep production organized and running smoothly</p>
+  fqName: Material Staging by NIC Systems Inc. (25.4.14002.0)
+  href: reference/material-staging/Module/Material-Staging.html
 - uid: N:Module::Mobile_Data_Collection
   name: Mobile Data Collection
   summary: >
     <p sourcefile="reference/mobile-data-collection/Module/Mobile-Data-Collection.yml" sourcestartlinenumber="1" jsonPath="/summary">Mobile Data Collection</p>
-  fqName: Mobile Data Collection by NIC Systems Inc. (25.2.13484.0)
+  fqName: Mobile Data Collection by NIC Systems Inc. (25.2.13710.0)
   href: reference/mobile-data-collection/Module/Mobile-Data-Collection.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_23.0
   tag: "23.0"
@@ -16826,7 +17486,7 @@ references:
   name: Production Batching
   summary: >
     <p sourcefile="reference/production-batching/Module/Production-Batching.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to accomplish a production order through batches.</p>
-  fqName: Production Batching by NIC Systems Inc. (25.1.13106.0)
+  fqName: Production Batching by NIC Systems Inc. (25.4.14005.0)
   href: reference/production-batching/Module/Production-Batching.html
 - uid: N:Module::Production_Batching_obsolete_by_22.2
   tag: "22.2"
@@ -16861,7 +17521,7 @@ references:
   name: Quality Inspections
   summary: >
     <p sourcefile="reference/quality-inspections/Module/Quality-Inspections.yml" sourcestartlinenumber="1" jsonPath="/summary">Quality Inspections</p>
-  fqName: Quality Inspections by NIC Systems Inc. (25.1.13166.0)
+  fqName: Quality Inspections by NIC Systems Inc. (25.2.13621.0)
   href: reference/quality-inspections/Module/Quality-Inspections.html
 - uid: N:Module::Quality_Inspections_obsolete_by_25.1
   tag: "25.1"
@@ -17870,6 +18530,100 @@ references:
   name: "\"NICITR Upgrade\""
   fqName: "\"NICITR Upgrade\""
   href: reference/item-recalls/Codeunit/NICITR-Upgrade.html
+- uid: O:Codeunit::NICMAS_AppIntegration
+  name: "\"NICMAS AppIntegration\""
+  fqName: "\"NICMAS AppIntegration\""
+  href: reference/material-staging/Codeunit/NICMAS-AppIntegration.html
+- uid: O:Codeunit::NICMAS_Get_Source_Components
+  name: "\"NICMAS Get Source Components\""
+  fqName: "\"NICMAS Get Source Components\""
+  href: reference/material-staging/Codeunit/NICMAS-Get-Source-Components.html
+- uid: O:Codeunit::NICMAS_Guided_Exp_Assist_Setup
+  name: "\"NICMAS Guided Exp Assist Setup\""
+  fqName: "\"NICMAS Guided Exp Assist Setup\""
+  href: reference/material-staging/Codeunit/NICMAS-Guided-Exp-Assist-Setup.html
+- uid: O:Codeunit::NICMAS_Guided_Exp_Manual_Setup
+  name: "\"NICMAS Guided Exp Manual Setup\""
+  fqName: "\"NICMAS Guided Exp Manual Setup\""
+  href: reference/material-staging/Codeunit/NICMAS-Guided-Exp-Manual-Setup.html
+- uid: O:Codeunit::NICMAS_InitDefaultNoSeries
+  name: "\"NICMAS InitDefaultNoSeries\""
+  fqName: "\"NICMAS InitDefaultNoSeries\""
+  href: reference/material-staging/Codeunit/NICMAS-InitDefaultNoSeries.html
+- uid: O:Codeunit::NICMAS_Initialize_Company
+  name: "\"NICMAS Initialize Company\""
+  fqName: "\"NICMAS Initialize Company\""
+  href: reference/material-staging/Codeunit/NICMAS-Initialize-Company.html
+- uid: O:Codeunit::NICMAS_Initialize_Data
+  name: "\"NICMAS Initialize Data\""
+  fqName: "\"NICMAS Initialize Data\""
+  href: reference/material-staging/Codeunit/NICMAS-Initialize-Data.html
+- uid: O:Codeunit::NICMAS_Install
+  name: "\"NICMAS Install\""
+  fqName: "\"NICMAS Install\""
+  href: reference/material-staging/Codeunit/NICMAS-Install.html
+- uid: O:Codeunit::NICMAS_Kit_Consumption
+  name: "\"NICMAS Kit Consumption\""
+  fqName: "\"NICMAS Kit Consumption\""
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Consumption.html
+- uid: O:Codeunit::NICMAS_Kit_Ctrl
+  name: "\"NICMAS Kit Ctrl\""
+  fqName: "\"NICMAS Kit Ctrl\""
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Ctrl.html
+- uid: O:Codeunit::NICMAS_Kit_Entry_Ctrl
+  name: "\"NICMAS Kit Entry Ctrl\""
+  fqName: "\"NICMAS Kit Entry Ctrl\""
+  href: reference/material-staging/Codeunit/NICMAS-Kit-Entry-Ctrl.html
+- uid: O:Codeunit::NICMAS_LookupItemTrackSum
+  name: "\"NICMAS LookupItemTrackSum\""
+  fqName: "\"NICMAS LookupItemTrackSum\""
+  href: reference/material-staging/Codeunit/NICMAS-LookupItemTrackSum.html
+- uid: O:Codeunit::NICMAS_MatStagHeader_Ctrl
+  name: "\"NICMAS MatStagHeader Ctrl\""
+  fqName: "\"NICMAS MatStagHeader Ctrl\""
+  href: reference/material-staging/Codeunit/NICMAS-MatStagHeader-Ctrl.html
+- uid: O:Codeunit::NICMAS_MatStagLine_Ctrl
+  name: "\"NICMAS MatStagLine Ctrl\""
+  fqName: "\"NICMAS MatStagLine Ctrl\""
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: O:Codeunit::NICMAS_MatStagSource_Ctrl
+  name: "\"NICMAS MatStagSource Ctrl\""
+  fqName: "\"NICMAS MatStagSource Ctrl\""
+  href: reference/material-staging/Codeunit/NICMAS-MatStagSource-Ctrl.html
+- uid: O:Codeunit::NICMAS_Prod#_Order_Line_Ctrl#
+  name: "\"NICMAS Prod. Order Line Ctrl.\""
+  fqName: "\"NICMAS Prod. Order Line Ctrl.\""
+  href: reference/material-staging/Codeunit/NICMAS-Prod.-Order-Line-Ctrl..html
+- uid: O:Codeunit::NICMAS_Prod_Bom_Line_Ctrl
+  name: "\"NICMAS Prod Bom Line Ctrl\""
+  fqName: "\"NICMAS Prod Bom Line Ctrl\""
+  href: reference/material-staging/Codeunit/NICMAS-Prod-Bom-Line-Ctrl.html
+- uid: O:Codeunit::NICMAS_Prod_Order_Comp_Ctrl
+  name: "\"NICMAS Prod Order Comp Ctrl\""
+  fqName: "\"NICMAS Prod Order Comp Ctrl\""
+  href: reference/material-staging/Codeunit/NICMAS-Prod-Order-Comp-Ctrl.html
+- uid: O:Codeunit::NICMAS_Setup_Wizard_Handler
+  name: "\"NICMAS Setup Wizard Handler\""
+  fqName: "\"NICMAS Setup Wizard Handler\""
+  href: reference/material-staging/Codeunit/NICMAS-Setup-Wizard-Handler.html
+- uid: O:Codeunit::NICMAS_Staging_Bin_Ctrl
+  name: "\"NICMAS Staging Bin Ctrl\""
+  fqName: "\"NICMAS Staging Bin Ctrl\""
+  href: reference/material-staging/Codeunit/NICMAS-Staging-Bin-Ctrl.html
+- uid: O:Codeunit::NICMAS_Subscribers
+  name: "\"NICMAS Subscribers\""
+  fqName: "\"NICMAS Subscribers\""
+  href: reference/material-staging/Codeunit/NICMAS-Subscribers.html
+- uid: O:Codeunit::NICMAS_Suggest_Kits
+  name: "\"NICMAS Suggest Kits\""
+  fqName: "\"NICMAS Suggest Kits\""
+  href: reference/material-staging/Codeunit/NICMAS-Suggest-Kits.html
+- uid: O:Codeunit::NICMAS_Unlicensed_SingInstSubs
+  name: "\"NICMAS Unlicensed SingInstSubs\""
+  summary: >
+    <p sourcefile="reference/material-staging/Codeunit/NICMAS-Unlicensed-SingInstSubs.yml" sourcestartlinenumber="1" jsonPath="/summary">This codeunit contains subscribers that can be executed by unlicensed users.</p>
+  fqName: "\"NICMAS Unlicensed SingInstSubs\""
+  href: reference/material-staging/Codeunit/NICMAS-Unlicensed-SingInstSubs.html
 - uid: O:Codeunit::NICMDC_App_Integration
   name: "\"NICMDC App Integration\""
   fqName: "\"NICMDC App Integration\""
@@ -19038,6 +19792,26 @@ references:
   name: "\"NICITR Item Recall Status\""
   fqName: "\"NICITR Item Recall Status\""
   href: reference/item-recalls/Enum/NICITR-Item-Recall-Status.html
+- uid: O:Enum::NICMAS_Kit_Action
+  name: "\"NICMAS Kit Action\""
+  fqName: "\"NICMAS Kit Action\""
+  href: reference/material-staging/Enum/NICMAS-Kit-Action.html
+- uid: O:Enum::NICMAS_Kit_Entry_Type
+  name: "\"NICMAS Kit Entry Type\""
+  fqName: "\"NICMAS Kit Entry Type\""
+  href: reference/material-staging/Enum/NICMAS-Kit-Entry-Type.html
+- uid: O:Enum::NICMAS_Kit_Production_Group
+  name: "\"NICMAS Kit Production Group\""
+  fqName: "\"NICMAS Kit Production Group\""
+  href: reference/material-staging/Enum/NICMAS-Kit-Production-Group.html
+- uid: O:Enum::NICMAS_Kit_State
+  name: "\"NICMAS Kit State\""
+  fqName: "\"NICMAS Kit State\""
+  href: reference/material-staging/Enum/NICMAS-Kit-State.html
+- uid: O:Enum::NICMAS_Kit_Type
+  name: "\"NICMAS Kit Type\""
+  fqName: "\"NICMAS Kit Type\""
+  href: reference/material-staging/Enum/NICMAS-Kit-Type.html
 - uid: O:Enum::NICPBA_BatchCalculationMethod
   name: "\"NICPBA BatchCalculationMethod\""
   fqName: "\"NICPBA BatchCalculationMethod\""
@@ -19766,6 +20540,66 @@ references:
   name: "\"NICITR Simulated Recall Lines\""
   fqName: "\"NICITR Simulated Recall Lines\""
   href: reference/item-recalls/Page/NICITR-Simulated-Recall-Lines.html
+- uid: O:Page::NICMAS_Kit
+  name: "\"NICMAS Kit\""
+  fqName: "\"NICMAS Kit\""
+  href: reference/material-staging/Page/NICMAS-Kit.html
+- uid: O:Page::NICMAS_KitProdGrp_FactBox
+  name: "\"NICMAS KitProdGrp FactBox\""
+  fqName: "\"NICMAS KitProdGrp FactBox\""
+  href: reference/material-staging/Page/NICMAS-KitProdGrp-FactBox.html
+- uid: O:Page::NICMAS_Kit_Entries_FactBox
+  name: "\"NICMAS Kit Entries FactBox\""
+  fqName: "\"NICMAS Kit Entries FactBox\""
+  href: reference/material-staging/Page/NICMAS-Kit-Entries-FactBox.html
+- uid: O:Page::NICMAS_Kit_Groups
+  name: "\"NICMAS Kit Groups\""
+  fqName: "\"NICMAS Kit Groups\""
+  href: reference/material-staging/Page/NICMAS-Kit-Groups.html
+- uid: O:Page::NICMAS_Kit_List
+  name: "\"NICMAS Kit List\""
+  fqName: "\"NICMAS Kit List\""
+  href: reference/material-staging/Page/NICMAS-Kit-List.html
+- uid: O:Page::NICMAS_Kit_Production_Groups
+  name: "\"NICMAS Kit Production Groups\""
+  fqName: "\"NICMAS Kit Production Groups\""
+  href: reference/material-staging/Page/NICMAS-Kit-Production-Groups.html
+- uid: O:Page::NICMAS_Kit_Subform
+  name: "\"NICMAS Kit Subform\""
+  fqName: "\"NICMAS Kit Subform\""
+  href: reference/material-staging/Page/NICMAS-Kit-Subform.html
+- uid: O:Page::NICMAS_Kit_Subgroups
+  name: "\"NICMAS Kit Subgroups\""
+  fqName: "\"NICMAS Kit Subgroups\""
+  href: reference/material-staging/Page/NICMAS-Kit-Subgroups.html
+- uid: O:Page::NICMAS_MatStagOrder
+  name: "\"NICMAS MatStagOrder\""
+  fqName: "\"NICMAS MatStagOrder\""
+  href: reference/material-staging/Page/NICMAS-MatStagOrder.html
+- uid: O:Page::NICMAS_MatStagOrderFB
+  name: "\"NICMAS MatStagOrderFB\""
+  fqName: "\"NICMAS MatStagOrderFB\""
+  href: reference/material-staging/Page/NICMAS-MatStagOrderFB.html
+- uid: O:Page::NICMAS_MatStagOrder_List
+  name: "\"NICMAS MatStagOrder List\""
+  fqName: "\"NICMAS MatStagOrder List\""
+  href: reference/material-staging/Page/NICMAS-MatStagOrder-List.html
+- uid: O:Page::NICMAS_MatStagOrder_Subform
+  name: "\"NICMAS MatStagOrder Subform\""
+  fqName: "\"NICMAS MatStagOrder Subform\""
+  href: reference/material-staging/Page/NICMAS-MatStagOrder-Subform.html
+- uid: O:Page::NICMAS_MatStagSource_FactBox
+  name: "\"NICMAS MatStagSource FactBox\""
+  fqName: "\"NICMAS MatStagSource FactBox\""
+  href: reference/material-staging/Page/NICMAS-MatStagSource-FactBox.html
+- uid: O:Page::NICMAS_MatStaging_Setup_Wizard
+  name: "\"NICMAS MatStaging Setup Wizard\""
+  fqName: "\"NICMAS MatStaging Setup Wizard\""
+  href: reference/material-staging/Page/NICMAS-MatStaging-Setup-Wizard.html
+- uid: O:Page::NICMAS_Material_Staging_Setup
+  name: "\"NICMAS Material Staging Setup\""
+  fqName: "\"NICMAS Material Staging Setup\""
+  href: reference/material-staging/Page/NICMAS-Material-Staging-Setup.html
 - uid: O:Page::NICMDC_API_Key_Method
   name: "\"NICMDC API Key Method\""
   fqName: "\"NICMDC API Key Method\""
@@ -21258,6 +22092,70 @@ references:
   name: "\"NICITR User Setup\""
   fqName: "\"NICITR User Setup\""
   href: reference/item-recalls/PageExtension/NICITR-User-Setup.html
+- uid: O:PageExtension::NICMAS_FirmPlanProdOrderLines
+  name: "\"NICMAS FirmPlanProdOrderLines\""
+  fqName: "\"NICMAS FirmPlanProdOrderLines\""
+  href: reference/material-staging/PageExtension/NICMAS-FirmPlanProdOrderLines.html
+- uid: O:PageExtension::NICMAS_Firm_Plan_Prod_Order
+  name: "\"NICMAS Firm Plan Prod Order\""
+  fqName: "\"NICMAS Firm Plan Prod Order\""
+  href: reference/material-staging/PageExtension/NICMAS-Firm-Plan-Prod-Order.html
+- uid: O:PageExtension::NICMAS_Firm_Plan_Prod_Orders
+  name: "\"NICMAS Firm Plan Prod Orders\""
+  fqName: "\"NICMAS Firm Plan Prod Orders\""
+  href: reference/material-staging/PageExtension/NICMAS-Firm-Plan-Prod-Orders.html
+- uid: O:PageExtension::NICMAS_Item_Card
+  name: "\"NICMAS Item Card\""
+  fqName: "\"NICMAS Item Card\""
+  href: reference/material-staging/PageExtension/NICMAS-Item-Card.html
+- uid: O:PageExtension::NICMAS_Location_Card
+  name: "\"NICMAS Location Card\""
+  fqName: "\"NICMAS Location Card\""
+  href: reference/material-staging/PageExtension/NICMAS-Location-Card.html
+- uid: O:PageExtension::NICMAS_Machine_Center_Card
+  name: "\"NICMAS Machine Center Card\""
+  fqName: "\"NICMAS Machine Center Card\""
+  href: reference/material-staging/PageExtension/NICMAS-Machine-Center-Card.html
+- uid: O:PageExtension::NICMAS_Plan_Prod_Order
+  name: "\"NICMAS Plan Prod Order\""
+  fqName: "\"NICMAS Plan Prod Order\""
+  href: reference/material-staging/PageExtension/NICMAS-Plan-Prod-Order.html
+- uid: O:PageExtension::NICMAS_Plan_Prod_Orders
+  name: "\"NICMAS Plan Prod Orders\""
+  fqName: "\"NICMAS Plan Prod Orders\""
+  href: reference/material-staging/PageExtension/NICMAS-Plan-Prod-Orders.html
+- uid: O:PageExtension::NICMAS_PlannedProdOrderLines
+  name: "\"NICMAS PlannedProdOrderLines\""
+  fqName: "\"NICMAS PlannedProdOrderLines\""
+  href: reference/material-staging/PageExtension/NICMAS-PlannedProdOrderLines.html
+- uid: O:PageExtension::NICMAS_Prod_Order_Components
+  name: "\"NICMAS Prod Order Components\""
+  fqName: "\"NICMAS Prod Order Components\""
+  href: reference/material-staging/PageExtension/NICMAS-Prod-Order-Components.html
+- uid: O:PageExtension::NICMAS_Prod_Order_Routing
+  name: "\"NICMAS Prod Order Routing\""
+  fqName: "\"NICMAS Prod Order Routing\""
+  href: reference/material-staging/PageExtension/NICMAS-Prod-Order-Routing.html
+- uid: O:PageExtension::NICMAS_Production_BOM_Lines
+  name: "\"NICMAS Production BOM Lines\""
+  fqName: "\"NICMAS Production BOM Lines\""
+  href: reference/material-staging/PageExtension/NICMAS-Production-BOM-Lines.html
+- uid: O:PageExtension::NICMAS_ReleasedProdOrderLines
+  name: "\"NICMAS ReleasedProdOrderLines\""
+  fqName: "\"NICMAS ReleasedProdOrderLines\""
+  href: reference/material-staging/PageExtension/NICMAS-ReleasedProdOrderLines.html
+- uid: O:PageExtension::NICMAS_Released_Prod_Order
+  name: "\"NICMAS Released Prod Order\""
+  fqName: "\"NICMAS Released Prod Order\""
+  href: reference/material-staging/PageExtension/NICMAS-Released-Prod-Order.html
+- uid: O:PageExtension::NICMAS_Released_Prod_Orders
+  name: "\"NICMAS Released Prod Orders\""
+  fqName: "\"NICMAS Released Prod Orders\""
+  href: reference/material-staging/PageExtension/NICMAS-Released-Prod-Orders.html
+- uid: O:PageExtension::NICMAS_Work_Center_Card
+  name: "\"NICMAS Work Center Card\""
+  fqName: "\"NICMAS Work Center Card\""
+  href: reference/material-staging/PageExtension/NICMAS-Work-Center-Card.html
 - uid: O:PageExtension::NICOVSCustomerCard
   name: NICOVSCustomerCard
   fqName: NICOVSCustomerCard
@@ -21914,6 +22812,28 @@ references:
   name: "\"NICITR Read\""
   fqName: "\"NICITR Read\""
   href: reference/item-recalls/PermissionSet/NICITR-Read.html
+- uid: O:PermissionSet::NICMAS_Admin
+  name: "\"NICMAS Admin\""
+  fqName: "\"NICMAS Admin\""
+  href: reference/material-staging/PermissionSet/NICMAS-Admin.html
+- uid: O:PermissionSet::NICMAS_Edit
+  name: "\"NICMAS Edit\""
+  fqName: "\"NICMAS Edit\""
+  href: reference/material-staging/PermissionSet/NICMAS-Edit.html
+- uid: O:PermissionSet::NICMAS_Objects
+  name: "\"NICMAS Objects\""
+  fqName: "\"NICMAS Objects\""
+  href: reference/material-staging/PermissionSet/NICMAS-Objects.html
+- uid: O:PermissionSet::NICMAS_Read
+  name: "\"NICMAS Read\""
+  fqName: "\"NICMAS Read\""
+  href: reference/material-staging/PermissionSet/NICMAS-Read.html
+- uid: O:PermissionSet::NICMAS_Unlicensed_Objects
+  name: "\"NICMAS Unlicensed Objects\""
+  summary: >
+    <p sourcefile="reference/material-staging/PermissionSet/NICMAS-Unlicensed-Objects.yml" sourcestartlinenumber="1" jsonPath="/summary">This permissionset contains only objects that can be executed by unlicensed users.</p>
+  fqName: "\"NICMAS Unlicensed Objects\""
+  href: reference/material-staging/PermissionSet/NICMAS-Unlicensed-Objects.html
 - uid: O:PermissionSet::NICMDC_ADMIN
   name: "\"NICMDC ADMIN\""
   fqName: "\"NICMDC ADMIN\""
@@ -22298,6 +23218,14 @@ references:
   name: "\"NICIRA Open Item Ledger Entry\""
   fqName: "\"NICIRA Open Item Ledger Entry\""
   href: reference/inventory-restrictions/Query/NICIRA-Open-Item-Ledger-Entry.html
+- uid: O:Query::NICMAS_MatStagSourceProdOrder
+  name: "\"NICMAS MatStagSourceProdOrder\""
+  fqName: "\"NICMAS MatStagSourceProdOrder\""
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrder.html
+- uid: O:Query::NICMAS_MatStagSourceProdOrders
+  name: "\"NICMAS MatStagSourceProdOrders\""
+  fqName: "\"NICMAS MatStagSourceProdOrders\""
+  href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrders.html
 - uid: O:Query::NICMDC_ItemLedgerEntriesAPI
   name: "\"NICMDC ItemLedgerEntriesAPI\""
   fqName: "\"NICMDC ItemLedgerEntriesAPI\""
@@ -22438,6 +23366,10 @@ references:
   name: "\"NICITR Recall Notification\""
   fqName: "\"NICITR Recall Notification\""
   href: reference/item-recalls/Report/NICITR-Recall-Notification.html
+- uid: O:Report::NICMAS_Get_Source_Components
+  name: "\"NICMAS Get Source Components\""
+  fqName: "\"NICMAS Get Source Components\""
+  href: reference/material-staging/Report/NICMAS-Get-Source-Components.html
 - uid: O:Report::NICPSQ_Apply_Sequence
   name: "\"NICPSQ Apply Sequence\""
   fqName: "\"NICPSQ Apply Sequence\""
@@ -22918,6 +23850,42 @@ references:
   name: "\"NICITR Test Config\""
   fqName: "\"NICITR Test Config\""
   href: reference/item-recalls/Table/NICITR-Test-Config.html
+- uid: O:Table::NICMAS_Kit
+  name: "\"NICMAS Kit\""
+  fqName: "\"NICMAS Kit\""
+  href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: O:Table::NICMAS_Kit_Entry
+  name: "\"NICMAS Kit Entry\""
+  fqName: "\"NICMAS Kit Entry\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: O:Table::NICMAS_Kit_Group
+  name: "\"NICMAS Kit Group\""
+  fqName: "\"NICMAS Kit Group\""
+  href: reference/material-staging/Table/NICMAS-Kit-Group.html
+- uid: O:Table::NICMAS_Kit_Production_Group
+  name: "\"NICMAS Kit Production Group\""
+  fqName: "\"NICMAS Kit Production Group\""
+  href: reference/material-staging/Table/NICMAS-Kit-Production-Group.html
+- uid: O:Table::NICMAS_Kit_Subgroup
+  name: "\"NICMAS Kit Subgroup\""
+  fqName: "\"NICMAS Kit Subgroup\""
+  href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: O:Table::NICMAS_MatStag_Header
+  name: "\"NICMAS MatStag Header\""
+  fqName: "\"NICMAS MatStag Header\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Header.html
+- uid: O:Table::NICMAS_MatStag_Line
+  name: "\"NICMAS MatStag Line\""
+  fqName: "\"NICMAS MatStag Line\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: O:Table::NICMAS_MatStag_Source
+  name: "\"NICMAS MatStag Source\""
+  fqName: "\"NICMAS MatStag Source\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: O:Table::NICMAS_Material_Staging_Setup
+  name: "\"NICMAS Material Staging Setup\""
+  fqName: "\"NICMAS Material Staging Setup\""
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
 - uid: O:Table::NICMDC_Package_Contents_Buffer
   name: "\"NICMDC Package Contents Buffer\""
   fqName: "\"NICMDC Package Contents Buffer\""
@@ -23622,6 +24590,38 @@ references:
   name: "\"NICITR User Setup\""
   fqName: "\"NICITR User Setup\""
   href: reference/item-recalls/TableExtension/NICITR-User-Setup.html
+- uid: O:TableExtension::NICMAS_Item
+  name: "\"NICMAS Item\""
+  fqName: "\"NICMAS Item\""
+  href: reference/material-staging/TableExtension/NICMAS-Item.html
+- uid: O:TableExtension::NICMAS_Location
+  name: "\"NICMAS Location\""
+  fqName: "\"NICMAS Location\""
+  href: reference/material-staging/TableExtension/NICMAS-Location.html
+- uid: O:TableExtension::NICMAS_Machine_Center
+  name: "\"NICMAS Machine Center\""
+  fqName: "\"NICMAS Machine Center\""
+  href: reference/material-staging/TableExtension/NICMAS-Machine-Center.html
+- uid: O:TableExtension::NICMAS_Prod#_Order_Component
+  name: "\"NICMAS Prod. Order Component\""
+  fqName: "\"NICMAS Prod. Order Component\""
+  href: reference/material-staging/TableExtension/NICMAS-Prod.-Order-Component.html
+- uid: O:TableExtension::NICMAS_Prod#_Order_Line
+  name: "\"NICMAS Prod. Order Line\""
+  fqName: "\"NICMAS Prod. Order Line\""
+  href: reference/material-staging/TableExtension/NICMAS-Prod.-Order-Line.html
+- uid: O:TableExtension::NICMAS_Prod_Order_Routing_Line
+  name: "\"NICMAS Prod Order Routing Line\""
+  fqName: "\"NICMAS Prod Order Routing Line\""
+  href: reference/material-staging/TableExtension/NICMAS-Prod-Order-Routing-Line.html
+- uid: O:TableExtension::NICMAS_Production_BOM_Line
+  name: "\"NICMAS Production BOM Line\""
+  fqName: "\"NICMAS Production BOM Line\""
+  href: reference/material-staging/TableExtension/NICMAS-Production-BOM-Line.html
+- uid: O:TableExtension::NICMAS_Work_Center
+  name: "\"NICMAS Work Center\""
+  fqName: "\"NICMAS Work Center\""
+  href: reference/material-staging/TableExtension/NICMAS-Work-Center.html
 - uid: O:TableExtension::NICOVS_Customer
   name: "\"NICOVS Customer\""
   fqName: "\"NICOVS Customer\""
