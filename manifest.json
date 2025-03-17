@@ -15,6 +15,556 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Allergen-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Allergen-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Bom-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Bom-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Create-Allergen-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Create-Allergen-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Data-Load-Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Data-Load-Notification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Guided-Exp-Assist-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Guided-Exp-Assist-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Initialize-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Initialize-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Item-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Item-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Prod-Order-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Prod-Order-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Setup-Wizard-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Setup-Wizard-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Show-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Show-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Subscribers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Subscribers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Enum/NICALL-Allergen-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Enum/NICALL-Allergen-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Module/Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Module/Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Page/NICALL-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Page/NICALL-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Page/NICALL-Bom-Allergens-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Page/NICALL-Bom-Allergens-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Page/NICALL-Bom-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Page/NICALL-Bom-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Page/NICALL-Item-Allergens---View.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Page/NICALL-Item-Allergens---View.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Page/NICALL-Item-Allergens-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Page/NICALL-Item-Allergens-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Page/NICALL-Item-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Page/NICALL-Item-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Page/NICALL-Prod-Order-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Page/NICALL-Prod-Order-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Page/NICALL-ProdOrderAllergensFctbx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Page/NICALL-ProdOrderAllergensFctbx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Page/NICALL-ProdOrderCompAllergenFB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Page/NICALL-ProdOrderCompAllergenFB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Page/NICALL-Setup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Page/NICALL-Setup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Finished-Prod-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Finished-Prod-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Finished-Prod-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Finished-Prod-Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-FinishedProdOrderLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-FinishedProdOrderLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Firm-Plan-Prod-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Firm-Plan-Prod-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Firm-Plan-Prod-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Firm-Plan-Prod-Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-FirmPlanProdOrderLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-FirmPlanProdOrderLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Item-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Item-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Item-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Item-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Plan-Prod-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Plan-Prod-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Plan-Prod-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Plan-Prod-Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-PlanProdOrderLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-PlanProdOrderLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Prod-Bom-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Prod-Bom-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Prod-Bom-Version-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Prod-Bom-Version-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Prod-Order-Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Prod-Order-Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Prod.-Bom-Version-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Prod.-Bom-Version-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Production-Bom-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Production-Bom-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Production-Bom-Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Production-Bom-Version.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Production-Bom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Production-Bom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Released-Prod-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Released-Prod-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Released-Prod-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Released-Prod-Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-ReleasedProdOrderLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-ReleasedProdOrderLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Simul-Prod-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Simul-Prod-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-Simul-Prod-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-Simul-Prod-Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PageExtension/NICALL-SimulProdOrderLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PageExtension/NICALL-SimulProdOrderLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PermissionSet/NICALL-Edit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PermissionSet/NICALL-Edit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PermissionSet/NICALL-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PermissionSet/NICALL-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/PermissionSet/NICALL-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/PermissionSet/NICALL-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Table/NICALL-Allergen-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Table/NICALL-Allergen-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Table/NICALL-Allergen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Table/NICALL-Allergen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Table/NICALL-Item-Allergen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Table/NICALL-Item-Allergen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/TableExtension/NICALL-Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/TableExtension/NICALL-Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/application-installer/Codeunit/NICAPP-App-Management.yml",
       "output": {
         ".html": {
@@ -979,6 +1529,146 @@
       "output": {
         ".html": {
           "relative_path": "reference/customer-insights/Table/NICCIN-Customer-Metric.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Codeunit/NICFXC-ExportToExcelManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Codeunit/NICFXC-ExportToExcelManagement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Codeunit/NICFXC-ImportForecastX-Mng..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Codeunit/NICFXC-ImportForecastX-Mng..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Codeunit/NICFXC-Regional-Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Codeunit/NICFXC-Regional-Utility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Enum/NICFXC-Forecast-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Enum/NICFXC-Forecast-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Module/ForecastX-Connector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Module/ForecastX-Connector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Page/NICFXC-ForecastX-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Page/NICFXC-ForecastX-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Page/NICFXC-Legacy-ItemLedgerEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Page/NICFXC-Legacy-ItemLedgerEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/PageExtension/NICFXC-DemandForecastCard-Ext..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/PageExtension/NICFXC-DemandForecastCard-Ext..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/PermissionSet/NICFXC-Edit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/PermissionSet/NICFXC-Edit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/PermissionSet/NICFXC-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/PermissionSet/NICFXC-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/PermissionSet/NICFXC-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/PermissionSet/NICFXC-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Report/NICFXC-Export-Sales-Component.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Report/NICFXC-Export-Sales-Component.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/TableExtension/NICFXC-ProdForecastName-Ext..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/TableExtension/NICFXC-ProdForecastName-Ext..html"
         }
       },
       "version": ""
@@ -8225,6 +8915,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Page/NICMDC-Work-Shift-Code-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Page/NICMDC-Work-Shift-Code-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/mobile-data-collection/Page/NICMDC-Zones-API.yml",
       "output": {
         ".html": {
@@ -8389,6 +9089,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI2.html"
         }
       },
       "version": ""

@@ -223,6 +223,27 @@ references:
 - uid: C:Query::NICMDC_ItemLedgerEntriesAPI.warehouseEntry.unitOfMeasureCode
   name: unitOfMeasureCode
   href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI.html
+- uid: C:Query::NICMDC_ItemLedgerEntriesAPI2.warehouseEntry.itemNo
+  name: itemNo
+  href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI2.html
+- uid: C:Query::NICMDC_ItemLedgerEntriesAPI2.warehouseEntry.locationCode
+  name: locationCode
+  href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI2.html
+- uid: C:Query::NICMDC_ItemLedgerEntriesAPI2.warehouseEntry.lotNo
+  name: lotNo
+  href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI2.html
+- uid: C:Query::NICMDC_ItemLedgerEntriesAPI2.warehouseEntry.packageNo
+  name: packageNo
+  href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI2.html
+- uid: C:Query::NICMDC_ItemLedgerEntriesAPI2.warehouseEntry.quantity
+  name: quantity
+  href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI2.html
+- uid: C:Query::NICMDC_ItemLedgerEntriesAPI2.warehouseEntry.serialNo
+  name: serialNo
+  href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI2.html
+- uid: C:Query::NICMDC_ItemLedgerEntriesAPI2.warehouseEntry.variantCode
+  name: variantCode
+  href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI2.html
 - uid: C:Query::NICMDC_Item_Ledger_Entry.ItemLedgerEntry.Description
   name: Description
   href: reference/mobile-data-collection/Query/NICMDC-Item-Ledger-Entry.html
@@ -754,11 +775,26 @@ references:
 - uid: E:Enum::NICALG_Number_Format._
   name: "\" \""
   href: reference/lot-algorithms/Enum/NICALG-Number-Format.html
+- uid: E:Enum::NICALL_Allergen_Type.Food
+  name: Food
+  href: reference/allergens/Enum/NICALL-Allergen-Type.html
+- uid: E:Enum::NICALL_Allergen_Type.Medical
+  name: Medical
+  href: reference/allergens/Enum/NICALL-Allergen-Type.html
+- uid: E:Enum::NICALL_Allergen_Type.Skin
+  name: Skin
+  href: reference/allergens/Enum/NICALL-Allergen-Type.html
+- uid: E:Enum::NICAPP_Application_Name.Allergens
+  name: Allergens
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
 - uid: E:Enum::NICAPP_Application_Name.Backorder_Management
   name: "\"Backorder Management\""
   href: reference/application-installer/Enum/NICAPP-Application-Name.html
 - uid: E:Enum::NICAPP_Application_Name.Customer_Insights
   name: "\"Customer Insights\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.ForecastX_Connector
+  name: "\"ForecastX Connector\""
   href: reference/application-installer/Enum/NICAPP-Application-Name.html
 - uid: E:Enum::NICAPP_Application_Name.Inventory_Freshness
   name: "\"Inventory Freshness\""
@@ -777,6 +813,9 @@ references:
   href: reference/application-installer/Enum/NICAPP-Application-Name.html
 - uid: E:Enum::NICAPP_Application_Name.Lot_Algorithms
   name: "\"Lot Algorithms\""
+  href: reference/application-installer/Enum/NICAPP-Application-Name.html
+- uid: E:Enum::NICAPP_Application_Name.Material_Staging
+  name: "\"Material Staging\""
   href: reference/application-installer/Enum/NICAPP-Application-Name.html
 - uid: E:Enum::NICAPP_Application_Name.Mobile_Data_Collection
   name: "\"Mobile Data Collection\""
@@ -946,6 +985,12 @@ references:
 - uid: E:Enum::NICCOM_Posted_Sales_Doc#_Type.Invoice
   name: Invoice
   href: reference/sales-commissions/Enum/NICCOM-Posted-Sales-Doc.-Type.html
+- uid: E:Enum::NICFXC_Forecast_Type.Consumption
+  name: Consumption
+  href: reference/forecastx-connector/Enum/NICFXC-Forecast-Type.html
+- uid: E:Enum::NICFXC_Forecast_Type.Sale
+  name: Sale
+  href: reference/forecastx-connector/Enum/NICFXC-Forecast-Type.html
 - uid: E:Enum::NICINF_Default_Output_ProdDate.Current_Date
   name: "\"Current Date\""
   href: reference/inventory-freshness/Enum/NICINF-Default-Output-ProdDate.html
@@ -1858,6 +1903,90 @@ references:
 - uid: F:Table::NICALG_RESTStripeConfig.SystemRowVersion
   name: SystemRowVersion
   href: reference/lot-algorithms/Table/NICALG-RESTStripeConfig.html
+- uid: F:Table::NICALL_Allergen.Code[20]
+  name: Code
+  href: reference/allergens/Table/NICALL-Allergen.html
+- uid: F:Table::NICALL_Allergen.Description[80]
+  name: Description
+  href: reference/allergens/Table/NICALL-Allergen.html
+- uid: F:Table::NICALL_Allergen.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/allergens/Table/NICALL-Allergen.html
+- uid: F:Table::NICALL_Allergen.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/allergens/Table/NICALL-Allergen.html
+- uid: F:Table::NICALL_Allergen.SystemId
+  name: SystemId
+  href: reference/allergens/Table/NICALL-Allergen.html
+- uid: F:Table::NICALL_Allergen.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/allergens/Table/NICALL-Allergen.html
+- uid: F:Table::NICALL_Allergen.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/allergens/Table/NICALL-Allergen.html
+- uid: F:Table::NICALL_Allergen.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/allergens/Table/NICALL-Allergen.html
+- uid: F:Table::NICALL_Allergen.Type
+  name: Type
+  href: reference/allergens/Table/NICALL-Allergen.html
+- uid: F:Table::NICALL_Allergen_Buffer.Code[20]
+  name: Code
+  href: reference/allergens/Table/NICALL-Allergen-Buffer.html
+- uid: F:Table::NICALL_Allergen_Buffer.Description[80]
+  name: Description
+  href: reference/allergens/Table/NICALL-Allergen-Buffer.html
+- uid: F:Table::NICALL_Allergen_Buffer.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/allergens/Table/NICALL-Allergen-Buffer.html
+- uid: F:Table::NICALL_Allergen_Buffer.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/allergens/Table/NICALL-Allergen-Buffer.html
+- uid: F:Table::NICALL_Allergen_Buffer.SystemId
+  name: SystemId
+  href: reference/allergens/Table/NICALL-Allergen-Buffer.html
+- uid: F:Table::NICALL_Allergen_Buffer.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/allergens/Table/NICALL-Allergen-Buffer.html
+- uid: F:Table::NICALL_Allergen_Buffer.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/allergens/Table/NICALL-Allergen-Buffer.html
+- uid: F:Table::NICALL_Allergen_Buffer.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/allergens/Table/NICALL-Allergen-Buffer.html
+- uid: F:Table::NICALL_Allergen_Buffer.Type
+  name: Type
+  href: reference/allergens/Table/NICALL-Allergen-Buffer.html
+- uid: F:Table::NICALL_Item_Allergen.Allergen_Code[20]
+  name: "\"Allergen Code\""
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
+- uid: F:Table::NICALL_Item_Allergen.Description[80]
+  name: Description
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
+- uid: F:Table::NICALL_Item_Allergen.Item_No#[20]
+  name: "\"Item No.\""
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
+- uid: F:Table::NICALL_Item_Allergen.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
+- uid: F:Table::NICALL_Item_Allergen.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
+- uid: F:Table::NICALL_Item_Allergen.SystemId
+  name: SystemId
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
+- uid: F:Table::NICALL_Item_Allergen.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
+- uid: F:Table::NICALL_Item_Allergen.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
+- uid: F:Table::NICALL_Item_Allergen.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
+- uid: F:Table::NICALL_Item_Allergen.Type
+  name: Type
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
 - uid: F:Table::NICBOM_ItemCustUnderShptCode.Customer_No#[20]
   name: "\"Customer No.\""
   href: reference/backorder-management/Table/NICBOM-ItemCustUnderShptCode.html
@@ -3274,6 +3403,60 @@ references:
 - uid: F:Table::NICCOM_Sales_Document_Agent.SystemRowVersion
   name: SystemRowVersion
   href: reference/sales-commissions/Table/NICCOM-Sales-Document-Agent.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Description[100]
+  name: Description
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Document_Type
+  name: "\"Document Type\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Entry_No#
+  name: "\"Entry No.\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Entry_Type
+  name: "\"Entry Type\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Item_Category_Code[20]
+  name: "\"Item Category Code\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Item_No#[20]
+  name: "\"Item No.\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Location_Code[10]
+  name: "\"Location Code\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Posting_Date
+  name: "\"Posting Date\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Qty#_per_Unit_of_Measure
+  name: "\"Qty. per Unit of Measure\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Quantity
+  name: Quantity
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.SystemId
+  name: SystemId
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Unit_of_Measure_Code[10]
+  name: "\"Unit of Measure Code\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
+- uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Variant_Code[10]
+  name: "\"Variant Code\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
 - uid: F:Table::NICINF_Default_Output_ProdDate.Default_Output_ProdDate
   name: "\"Default Output ProdDate\""
   href: reference/inventory-freshness/Table/NICINF-Default-Output-ProdDate.html
@@ -9826,6 +10009,12 @@ references:
 - uid: F:Table::nicmdcSetup.Show_Capacity_Cost_Factor
   name: "\"Show Capacity Cost Factor\""
   href: reference/mobile-data-collection/Table/nicmdcSetup.html
+- uid: F:Table::nicmdcSetup.Show_Manual_Flushing_Cons#
+  name: "\"Show Manual Flushing Cons.\""
+  href: reference/mobile-data-collection/Table/nicmdcSetup.html
+- uid: F:Table::nicmdcSetup.Show_Manual_Flushing_Output
+  name: "\"Show Manual Flushing Output\""
+  href: reference/mobile-data-collection/Table/nicmdcSetup.html
 - uid: F:Table::nicmdcSetup.SystemCreatedAt
   name: SystemCreatedAt
   href: reference/mobile-data-collection/Table/nicmdcSetup.html
@@ -10636,6 +10825,12 @@ references:
 - uid: F:TableExtension::NICCOM_Sales_Line.NICCOM_Exclude_From_Comm
   name: "\"NICCOM Exclude From Comm\""
   href: reference/sales-commissions/TableExtension/NICCOM-Sales-Line.html
+- uid: F:TableExtension::NICFXC_ProdForecastName_Ext#.NICFXC_FileName[2048]
+  name: "\"NICFXC FileName\""
+  href: reference/forecastx-connector/TableExtension/NICFXC-ProdForecastName-Ext..html
+- uid: F:TableExtension::NICFXC_ProdForecastName_Ext#.NICFXC_ForecastX
+  name: "\"NICFXC ForecastX\""
+  href: reference/forecastx-connector/TableExtension/NICFXC-ProdForecastName-Ext..html
 - uid: F:TableExtension::NICINF_Customer.NICINF_InvFreshnessCode[20]
   name: "\"NICINF InvFreshnessCode\""
   href: reference/inventory-freshness/TableExtension/NICINF-Customer.html
@@ -11290,6 +11485,9 @@ references:
 - uid: M:Codeunit::NICALG_LotAlgorithmAPI.GetNewLotNoMDC(Code[20],Integer,Integer,Date,Date,Date):Text
   name: GetNewLotNoMDC
   href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmAPI.html
+- uid: M:Codeunit::NICALG_LotAlgorithmAPI.GetNewLotNoMDCAdv(Code[10],Code[10],Code[20],Integer,Integer,Date,Date,Date):Text
+  name: GetNewLotNoMDCAdv
+  href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmAPI.html
 - uid: M:Codeunit::NICALG_LotAlgorithmCompCtrl.OnAfterSetLotAlgorithmComponentTypeDefaults(NICALG_LotAlgorithmComponent@)
   name: OnAfterSetLotAlgorithmComponentTypeDefaults
   href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmCompCtrl.html
@@ -11320,6 +11518,102 @@ references:
 - uid: M:Codeunit::NICALG_Sample_Data_Handler.OnBeforeHandlerListEmptyNotifications(Boolean@)
   name: OnBeforeHandlerListEmptyNotifications
   href: reference/lot-algorithms/Codeunit/NICALG-Sample-Data-Handler.html
+- uid: M:Codeunit::NICALL_Allergen_Handler.OnAfterCheckAllergenIsUsed(Code[20],Boolean@)
+  name: OnAfterCheckAllergenIsUsed
+  href: reference/allergens/Codeunit/NICALL-Allergen-Handler.html
+- uid: M:Codeunit::NICALL_Allergens.BomHasAllergens(Code[20],Code[20],Integer):Boolean
+  name: BomHasAllergens
+  href: reference/allergens/Codeunit/NICALL-Allergens.html
+- uid: M:Codeunit::NICALL_Allergens.GetBomAllergens(Code[20],Code[20],Integer):Dictionary_of_[Code,Text]
+  name: GetBomAllergens
+  href: reference/allergens/Codeunit/NICALL-Allergens.html
+- uid: M:Codeunit::NICALL_Allergens.GetItemAllergens(Code[20]):Dictionary_of_[Code,Text]
+  name: GetItemAllergens
+  href: reference/allergens/Codeunit/NICALL-Allergens.html
+- uid: M:Codeunit::NICALL_Allergens.GetProdOrderAllergens(Enum::Microsoft#Manufacturing#Document#Production_Order_Status,Code[20],Integer):Dictionary_of_[Code,Text]
+  name: GetProdOrderAllergens
+  href: reference/allergens/Codeunit/NICALL-Allergens.html
+- uid: M:Codeunit::NICALL_Allergens.ItemHasAllergens(Code[20]):Boolean
+  name: ItemHasAllergens
+  href: reference/allergens/Codeunit/NICALL-Allergens.html
+- uid: M:Codeunit::NICALL_Allergens.ProdOrderHasAllergens(Enum::Microsoft#Manufacturing#Document#Production_Order_Status,Code[20],Integer):Boolean
+  name: ProdOrderHasAllergens
+  href: reference/allergens/Codeunit/NICALL-Allergens.html
+- uid: M:Codeunit::NICALL_Bom_Allergens.OnAfterBomHasAllergens(Code[20],Code[20],Integer,Boolean@)
+  name: OnAfterBomHasAllergens
+  href: reference/allergens/Codeunit/NICALL-Bom-Allergens.html
+- uid: M:Codeunit::NICALL_Bom_Allergens.OnAfterGetBomAllergens(Code[20],Code[20],Integer,Dictionary_of_[Code,Text]@)
+  name: OnAfterGetBomAllergens
+  href: reference/allergens/Codeunit/NICALL-Bom-Allergens.html
+- uid: M:Codeunit::NICALL_Bom_Allergens.OnAfterTransferAllergensToGlobal(Dictionary_of_[Code,Text]@)
+  name: OnAfterTransferAllergensToGlobal
+  href: reference/allergens/Codeunit/NICALL-Bom-Allergens.html
+- uid: M:Codeunit::NICALL_Bom_Allergens.OnBeforeGetAllergensBomMultiLevel(Code[20],Code[20],Integer,Boolean@)
+  name: OnBeforeGetAllergensBomMultiLevel
+  href: reference/allergens/Codeunit/NICALL-Bom-Allergens.html
+- uid: M:Codeunit::NICALL_Bom_Allergens.OnGetAllergensBomMultiLevelOnBeforeFindSet(Production_BOM_Line@,Code[20],Code[20],Integer)
+  name: OnGetAllergensBomMultiLevelOnBeforeFindSet
+  href: reference/allergens/Codeunit/NICALL-Bom-Allergens.html
+- uid: M:Codeunit::NICALL_Bom_Allergens.OnGetItemAllergensOnBeforeTransferAllergensToGlobal(Dictionary_of_[Code,Text]@,Code[20])
+  name: OnGetItemAllergensOnBeforeTransferAllergensToGlobal
+  href: reference/allergens/Codeunit/NICALL-Bom-Allergens.html
+- uid: M:Codeunit::NICALL_Create_Allergen_Buffer.OnAfterCreateBomAllergenBuffer(NICALL_Allergen_Buffer@,Code[20],Code[20],Integer)
+  name: OnAfterCreateBomAllergenBuffer
+  href: reference/allergens/Codeunit/NICALL-Create-Allergen-Buffer.html
+- uid: M:Codeunit::NICALL_Create_Allergen_Buffer.OnAfterCreateItemAllergenBuffer(NICALL_Allergen_Buffer@,Code[20])
+  name: OnAfterCreateItemAllergenBuffer
+  href: reference/allergens/Codeunit/NICALL-Create-Allergen-Buffer.html
+- uid: M:Codeunit::NICALL_Create_Allergen_Buffer.OnAfterCreateProdOrderAllergenBuffer(NICALL_Allergen_Buffer@,Enum::Microsoft#Manufacturing#Document#Production_Order_Status,Code[20],Integer)
+  name: OnAfterCreateProdOrderAllergenBuffer
+  href: reference/allergens/Codeunit/NICALL-Create-Allergen-Buffer.html
+- uid: M:Codeunit::NICALL_Data_Load_Notification.OnBeforeHandleEmptyAllergensNotification(Boolean@)
+  name: OnBeforeHandleEmptyAllergensNotification
+  href: reference/allergens/Codeunit/NICALL-Data-Load-Notification.html
+- uid: M:Codeunit::NICALL_Guided_Exp_Assist_Setup.OnAfterCheckFeatureEnabled(Boolean@)
+  name: OnAfterCheckFeatureEnabled
+  href: reference/allergens/Codeunit/NICALL-Guided-Exp-Assist-Setup.html
+- uid: M:Codeunit::NICALL_Initialize_Data.OnAfterLoadDefaultAllergens(Enum::NICALL_Allergen_Type)
+  name: OnAfterLoadDefaultAllergens
+  href: reference/allergens/Codeunit/NICALL-Initialize-Data.html
+- uid: M:Codeunit::NICALL_Initialize_Data.OnAfterLoadFoodAllergens
+  name: OnAfterLoadFoodAllergens
+  href: reference/allergens/Codeunit/NICALL-Initialize-Data.html
+- uid: M:Codeunit::NICALL_Initialize_Data.OnAfterLoadMedicalAllergens
+  name: OnAfterLoadMedicalAllergens
+  href: reference/allergens/Codeunit/NICALL-Initialize-Data.html
+- uid: M:Codeunit::NICALL_Initialize_Data.OnAfterLoadSkinAllergens
+  name: OnAfterLoadSkinAllergens
+  href: reference/allergens/Codeunit/NICALL-Initialize-Data.html
+- uid: M:Codeunit::NICALL_Item_Allergens.OnAfterDeleteItemAllergens(Code[20])
+  name: OnAfterDeleteItemAllergens
+  href: reference/allergens/Codeunit/NICALL-Item-Allergens.html
+- uid: M:Codeunit::NICALL_Item_Allergens.OnAfterGetAllergens(Code[20],Dictionary_of_[Code,Text]@)
+  name: OnAfterGetAllergens
+  href: reference/allergens/Codeunit/NICALL-Item-Allergens.html
+- uid: M:Codeunit::NICALL_Item_Allergens.OnAfterGetAllergensMfgItem(Item,Dictionary_of_[Code,Text]@)
+  name: OnAfterGetAllergensMfgItem
+  href: reference/allergens/Codeunit/NICALL-Item-Allergens.html
+- uid: M:Codeunit::NICALL_Item_Allergens.OnAfterIsFinishedGoodItem(Code[20],Boolean@)
+  name: OnAfterIsFinishedGoodItem
+  href: reference/allergens/Codeunit/NICALL-Item-Allergens.html
+- uid: M:Codeunit::NICALL_Item_Allergens.OnAfterItemHasAllergens(Code[20],Boolean@)
+  name: OnAfterItemHasAllergens
+  href: reference/allergens/Codeunit/NICALL-Item-Allergens.html
+- uid: M:Codeunit::NICALL_Item_Allergens.OnBeforeGetAllergensNonMfgItem(Code[20],Dictionary_of_[Code,Text]@,Boolean@)
+  name: OnBeforeGetAllergensNonMfgItem
+  href: reference/allergens/Codeunit/NICALL-Item-Allergens.html
+- uid: M:Codeunit::NICALL_Prod_Order_Allergens.OnAfterGetProdOrderAllergens(Enum::Microsoft#Manufacturing#Document#Production_Order_Status,Code[20],Integer,Dictionary_of_[Code,Text]@)
+  name: OnAfterGetProdOrderAllergens
+  href: reference/allergens/Codeunit/NICALL-Prod-Order-Allergens.html
+- uid: M:Codeunit::NICALL_Prod_Order_Allergens.OnAfterProdOrderHasAllergens(Enum::Microsoft#Manufacturing#Document#Production_Order_Status,Code[20],Integer,Boolean@)
+  name: OnAfterProdOrderHasAllergens
+  href: reference/allergens/Codeunit/NICALL-Prod-Order-Allergens.html
+- uid: M:Codeunit::NICALL_Prod_Order_Allergens.OnBeforeGetAllergens(Enum::Microsoft#Manufacturing#Document#Production_Order_Status,Code[20],Integer,Dictionary_of_[Code,Text]@,Boolean@)
+  name: OnBeforeGetAllergens
+  href: reference/allergens/Codeunit/NICALL-Prod-Order-Allergens.html
+- uid: M:Codeunit::NICALL_Setup_Wizard_Handler.OnBeforeLaunchSetupWizardFromNotification(Notification,Boolean@)
+  name: OnBeforeLaunchSetupWizardFromNotification
+  href: reference/allergens/Codeunit/NICALL-Setup-Wizard-Handler.html
 - uid: M:Codeunit::NICBOM_UnderReceiptMgt.OnGetDefaultUnderReceiptCode(Purchase_Line@,Code[20]@,Boolean@)
   name: OnGetDefaultUnderReceiptCode
   href: reference/backorder-management/Codeunit/NICBOM-UnderReceiptMgt.html
@@ -12097,6 +12391,24 @@ references:
 - uid: M:Codeunit::NICCOM_Verify_Posting_Req.OnVerifySalesDocFullyPaidOnAfterSetLoadFields(Sales_Invoice_Header@,Sales_Cr#Memo_Header@,Cust#_Ledger_Entry@)
   name: OnVerifySalesDocFullyPaidOnAfterSetLoadFields
   href: reference/sales-commissions/Codeunit/NICCOM-Verify-Posting-Req.html
+- uid: M:Codeunit::NICFXC_ExportToExcelManagement.OnAfterPopulateTempItemLedgerEntryAsDataItem(Item_Ledger_Entry@)
+  name: OnAfterPopulateTempItemLedgerEntryAsDataItem
+  href: reference/forecastx-connector/Codeunit/NICFXC-ExportToExcelManagement.html
+- uid: M:Codeunit::NICFXC_ExportToExcelManagement.OnBeforePopulateTempItemLedgerEntryAsDataItem(Item_Ledger_Entry@,Enum::NICFXC_Forecast_Type,Date,Date,Boolean@)
+  name: OnBeforePopulateTempItemLedgerEntryAsDataItem
+  href: reference/forecastx-connector/Codeunit/NICFXC-ExportToExcelManagement.html
+- uid: M:Codeunit::NICFXC_ImportForecastX_Mng#.OnAfterDeleteForecastX(Production_Forecast_Name)
+  name: OnAfterDeleteForecastX
+  href: reference/forecastx-connector/Codeunit/NICFXC-ImportForecastX-Mng..html
+- uid: M:Codeunit::NICFXC_ImportForecastX_Mng#.OnAfterTestForecastXExists(Production_Forecast_Name)
+  name: OnAfterTestForecastXExists
+  href: reference/forecastx-connector/Codeunit/NICFXC-ImportForecastX-Mng..html
+- uid: M:Codeunit::NICFXC_Regional_Utility.OnBefore_GetDateInStandardFormat_Regional(Text,Text@,Boolean@)
+  name: OnBefore_GetDateInStandardFormat_Regional
+  href: reference/forecastx-connector/Codeunit/NICFXC-Regional-Utility.html
+- uid: M:Codeunit::NICFXC_Regional_Utility.OnBefore_GetDecimalInStandardFormat_Regional(Text,Text,Text,Text,Text@,Boolean@)
+  name: OnBefore_GetDecimalInStandardFormat_Regional
+  href: reference/forecastx-connector/Codeunit/NICFXC-Regional-Utility.html
 - uid: M:Codeunit::NICINF_Find_Entries.OnBeforeFilterProductionDateEntries(Text,Text,NICINF_Production_Date_Entry@,Boolean@)
   name: OnBeforeFilterProductionDateEntries
   href: reference/inventory-freshness/Codeunit/NICINF-Find-Entries.html
@@ -16261,6 +16573,12 @@ references:
 - uid: M:Page::NICALG_LotAlgAPIMethods.nicshcGetNewLotNoMDC(Code[20],Integer,Integer,Date,Date,Date):Text
   name: nicshcGetNewLotNoMDC
   href: reference/lot-algorithms/Page/NICALG-LotAlgAPIMethods.html
+- uid: M:Page::NICALG_LotAlgAPIMethods.nicshcGetNewLotNoMDCAdv(Code[10],Code[10],Code[20],Integer,Integer,Date,Date,Date):Text
+  name: nicshcGetNewLotNoMDCAdv
+  href: reference/lot-algorithms/Page/NICALG-LotAlgAPIMethods.html
+- uid: M:Page::NICALL_Setup_Wizard.IsSetupFinished:Boolean
+  name: IsSetupFinished
+  href: reference/allergens/Page/NICALL-Setup-Wizard.html
 - uid: M:Page::NICCIN_Setup_Wizard.IsSetupFinished:Boolean
   name: IsSetupFinished
   href: reference/customer-insights/Page/NICCIN-Setup-Wizard.html
@@ -16696,6 +17014,9 @@ references:
 - uid: M:Page::NICMDC_Production_Methods_API.nicUpdateSetupRunTime(Decimal,Decimal,Decimal,Code[10],Code[10],Integer)
   name: nicUpdateSetupRunTime
   href: reference/mobile-data-collection/Page/NICMDC-Production-Methods-API.html
+- uid: M:Page::NICMDC_Production_Methods_API.nicUpdateWorkShiftCode(Code[10],Code[10],Integer,Code[10])
+  name: nicUpdateWorkShiftCode
+  href: reference/mobile-data-collection/Page/NICMDC-Production-Methods-API.html
 - uid: M:Page::NICMDC_Production_Methods_API.nicupdateProdJnlConsLotNoExpDateQtyPost(Code[10],Code[10],Integer,Code[50],Text,Decimal,Boolean):Text
   name: nicupdateProdJnlConsLotNoExpDateQtyPost
   href: reference/mobile-data-collection/Page/NICMDC-Production-Methods-API.html
@@ -17041,6 +17362,9 @@ references:
 - uid: M:Page::NICVIN_Setup_Wizard.IsSetupFinished:Boolean
   name: IsSetupFinished
   href: reference/vendor-insights/Page/NICVIN-Setup-Wizard.html
+- uid: M:Page::NICWLP_Whse#_Lic#_Plate_APIs.nicGetAssignedPackageNo:Code[50]
+  name: nicGetAssignedPackageNo
+  href: reference/warehouse-license-plating/Page/NICWLP-Whse.-Lic.-Plate-APIs.html
 - uid: M:Page::NICWLP_Whse#_Lic#_Plate_APIs.nicGetDefaultPackage:Code[50]
   name: nicGetDefaultPackage
   href: reference/warehouse-license-plating/Page/NICWLP-Whse.-Lic.-Plate-APIs.html
@@ -17359,11 +17683,17 @@ references:
 - uid: M:XmlPort::nicmdcListOfUOM.WGetItemUOM(Code[20])
   name: WGetItemUOM
   href: reference/mobile-data-collection/XmlPort/nicmdcListOfUOM.html
+- uid: N:Module::Allergens
+  name: Allergens
+  summary: >
+    <p sourcefile="reference/allergens/Module/Allergens.yml" sourcestartlinenumber="1" jsonPath="/summary">Assign allergens to items, which flow to production orders and are inherited by finished goods</p>
+  fqName: Allergens by NIC Systems Inc. (25.4.14078.0)
+  href: reference/allergens/Module/Allergens.html
 - uid: N:Module::Application_Installer
   name: Application Installer
   summary: >
     <p sourcefile="reference/application-installer/Module/Application-Installer.yml" sourcestartlinenumber="1" jsonPath="/summary">Install applications created by NIC Systems Inc.</p>
-  fqName: Application Installer by NIC Systems Inc. (25.1.13343.0)
+  fqName: Application Installer by NIC Systems Inc. (25.4.14197.0)
   href: reference/application-installer/Module/Application-Installer.html
 - uid: N:Module::Backorder_Management
   name: Backorder Management
@@ -17387,6 +17717,12 @@ references:
   href: reference/customer-insights/Obsoletion/obsolete_by_25.1.html
 - uid: N:Module::Customer_Insights_obsolete_by_25.1#25.1
   href: reference/customer-insights/Obsoletion/obsolete_by_25.1.html
+- uid: N:Module::ForecastX_Connector
+  name: ForecastX Connector
+  summary: >
+    <p sourcefile="reference/forecastx-connector/Module/ForecastX-Connector.yml" sourcestartlinenumber="1" jsonPath="/summary">Export data from Dynamics 365 Business Central to ForecastX for advanced forecasting</p>
+  fqName: ForecastX Connector by NIC Systems Inc. (25.4.14112.0)
+  href: reference/forecastx-connector/Module/ForecastX-Connector.html
 - uid: N:Module::Inventory_Freshness
   name: Inventory Freshness
   summary: >
@@ -17441,7 +17777,7 @@ references:
   name: Lot Algorithms
   summary: >
     <p sourcefile="reference/lot-algorithms/Module/Lot-Algorithms.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to create tailor-made lot numbers to keep track of inventory item more effectively.</p>
-  fqName: Lot Algorithms by NIC Systems Inc. (25.1.13088.0)
+  fqName: Lot Algorithms by NIC Systems Inc. (25.4.14046.0)
   href: reference/lot-algorithms/Module/Lot-Algorithms.html
 - uid: N:Module::Lot_Algorithms_obsolete_by_22.2
   tag: "22.2"
@@ -17458,7 +17794,7 @@ references:
   name: Mobile Data Collection
   summary: >
     <p sourcefile="reference/mobile-data-collection/Module/Mobile-Data-Collection.yml" sourcestartlinenumber="1" jsonPath="/summary">Mobile Data Collection</p>
-  fqName: Mobile Data Collection by NIC Systems Inc. (25.2.13710.0)
+  fqName: Mobile Data Collection by NIC Systems Inc. (25.4.14044.0)
   href: reference/mobile-data-collection/Module/Mobile-Data-Collection.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_23.0
   tag: "23.0"
@@ -17614,7 +17950,7 @@ references:
   name: Warehouse License Plating
   summary: >
     <p sourcefile="reference/warehouse-license-plating/Module/Warehouse-License-Plating.yml" sourcestartlinenumber="1" jsonPath="/summary">Warehouse License Plating contains features that allow you to view and control package-tracked inventory.</p>
-  fqName: Warehouse License Plating by NIC Systems Inc. (25.1.13125.0)
+  fqName: Warehouse License Plating by NIC Systems Inc. (25.4.14045.0)
   href: reference/warehouse-license-plating/Module/Warehouse-License-Plating.html
 - uid: N:Module::Warehouse_License_Plating_obsolete_by_22.2
   tag: "22.2"
@@ -17722,6 +18058,54 @@ references:
   name: "\"NICALG Upgrade\""
   fqName: "\"NICALG Upgrade\""
   href: reference/lot-algorithms/Codeunit/NICALG-Upgrade.html
+- uid: O:Codeunit::NICALL_Allergen_Handler
+  name: "\"NICALL Allergen Handler\""
+  fqName: "\"NICALL Allergen Handler\""
+  href: reference/allergens/Codeunit/NICALL-Allergen-Handler.html
+- uid: O:Codeunit::NICALL_Allergens
+  name: "\"NICALL Allergens\""
+  fqName: "\"NICALL Allergens\""
+  href: reference/allergens/Codeunit/NICALL-Allergens.html
+- uid: O:Codeunit::NICALL_Bom_Allergens
+  name: "\"NICALL Bom Allergens\""
+  fqName: "\"NICALL Bom Allergens\""
+  href: reference/allergens/Codeunit/NICALL-Bom-Allergens.html
+- uid: O:Codeunit::NICALL_Create_Allergen_Buffer
+  name: "\"NICALL Create Allergen Buffer\""
+  fqName: "\"NICALL Create Allergen Buffer\""
+  href: reference/allergens/Codeunit/NICALL-Create-Allergen-Buffer.html
+- uid: O:Codeunit::NICALL_Data_Load_Notification
+  name: "\"NICALL Data Load Notification\""
+  fqName: "\"NICALL Data Load Notification\""
+  href: reference/allergens/Codeunit/NICALL-Data-Load-Notification.html
+- uid: O:Codeunit::NICALL_Guided_Exp_Assist_Setup
+  name: "\"NICALL Guided Exp Assist Setup\""
+  fqName: "\"NICALL Guided Exp Assist Setup\""
+  href: reference/allergens/Codeunit/NICALL-Guided-Exp-Assist-Setup.html
+- uid: O:Codeunit::NICALL_Initialize_Data
+  name: "\"NICALL Initialize Data\""
+  fqName: "\"NICALL Initialize Data\""
+  href: reference/allergens/Codeunit/NICALL-Initialize-Data.html
+- uid: O:Codeunit::NICALL_Item_Allergens
+  name: "\"NICALL Item Allergens\""
+  fqName: "\"NICALL Item Allergens\""
+  href: reference/allergens/Codeunit/NICALL-Item-Allergens.html
+- uid: O:Codeunit::NICALL_Prod_Order_Allergens
+  name: "\"NICALL Prod Order Allergens\""
+  fqName: "\"NICALL Prod Order Allergens\""
+  href: reference/allergens/Codeunit/NICALL-Prod-Order-Allergens.html
+- uid: O:Codeunit::NICALL_Setup_Wizard_Handler
+  name: "\"NICALL Setup Wizard Handler\""
+  fqName: "\"NICALL Setup Wizard Handler\""
+  href: reference/allergens/Codeunit/NICALL-Setup-Wizard-Handler.html
+- uid: O:Codeunit::NICALL_Show_Allergens
+  name: "\"NICALL Show Allergens\""
+  fqName: "\"NICALL Show Allergens\""
+  href: reference/allergens/Codeunit/NICALL-Show-Allergens.html
+- uid: O:Codeunit::NICALL_Subscribers
+  name: "\"NICALL Subscribers\""
+  fqName: "\"NICALL Subscribers\""
+  href: reference/allergens/Codeunit/NICALL-Subscribers.html
 - uid: O:Codeunit::NICAPP_App_Management
   name: "\"NICAPP App Management\""
   fqName: "\"NICAPP App Management\""
@@ -18018,6 +18402,18 @@ references:
   name: "\"NICCOM Verify Posting Req\""
   fqName: "\"NICCOM Verify Posting Req\""
   href: reference/sales-commissions/Codeunit/NICCOM-Verify-Posting-Req.html
+- uid: O:Codeunit::NICFXC_ExportToExcelManagement
+  name: "\"NICFXC ExportToExcelManagement\""
+  fqName: "\"NICFXC ExportToExcelManagement\""
+  href: reference/forecastx-connector/Codeunit/NICFXC-ExportToExcelManagement.html
+- uid: O:Codeunit::NICFXC_ImportForecastX_Mng#
+  name: "\"NICFXC ImportForecastX Mng.\""
+  fqName: "\"NICFXC ImportForecastX Mng.\""
+  href: reference/forecastx-connector/Codeunit/NICFXC-ImportForecastX-Mng..html
+- uid: O:Codeunit::NICFXC_Regional_Utility
+  name: "\"NICFXC Regional Utility\""
+  fqName: "\"NICFXC Regional Utility\""
+  href: reference/forecastx-connector/Codeunit/NICFXC-Regional-Utility.html
 - uid: O:Codeunit::NICINF_Find_Entries
   name: "\"NICINF Find Entries\""
   fqName: "\"NICINF Find Entries\""
@@ -19656,6 +20052,10 @@ references:
   name: "\"NICALG Number Format\""
   fqName: "\"NICALG Number Format\""
   href: reference/lot-algorithms/Enum/NICALG-Number-Format.html
+- uid: O:Enum::NICALL_Allergen_Type
+  name: "\"NICALL Allergen Type\""
+  fqName: "\"NICALL Allergen Type\""
+  href: reference/allergens/Enum/NICALL-Allergen-Type.html
 - uid: O:Enum::NICAPP_Application_Name
   name: "\"NICAPP Application Name\""
   fqName: "\"NICAPP Application Name\""
@@ -19712,6 +20112,10 @@ references:
   name: "\"NICCOM Posted Sales Doc. Type\""
   fqName: "\"NICCOM Posted Sales Doc. Type\""
   href: reference/sales-commissions/Enum/NICCOM-Posted-Sales-Doc.-Type.html
+- uid: O:Enum::NICFXC_Forecast_Type
+  name: "\"NICFXC Forecast Type\""
+  fqName: "\"NICFXC Forecast Type\""
+  href: reference/forecastx-connector/Enum/NICFXC-Forecast-Type.html
 - uid: O:Enum::NICINF_Default_Output_ProdDate
   name: "\"NICINF Default Output ProdDate\""
   fqName: "\"NICINF Default Output ProdDate\""
@@ -20056,6 +20460,46 @@ references:
   name: "\"NICALG Lot Alg Ref Entries\""
   fqName: "\"NICALG Lot Alg Ref Entries\""
   href: reference/lot-algorithms/Page/NICALG-Lot-Alg-Ref-Entries.html
+- uid: O:Page::NICALL_Allergens
+  name: "\"NICALL Allergens\""
+  fqName: "\"NICALL Allergens\""
+  href: reference/allergens/Page/NICALL-Allergens.html
+- uid: O:Page::NICALL_Bom_Allergens
+  name: "\"NICALL Bom Allergens\""
+  fqName: "\"NICALL Bom Allergens\""
+  href: reference/allergens/Page/NICALL-Bom-Allergens.html
+- uid: O:Page::NICALL_Bom_Allergens_Factbox
+  name: "\"NICALL Bom Allergens Factbox\""
+  fqName: "\"NICALL Bom Allergens Factbox\""
+  href: reference/allergens/Page/NICALL-Bom-Allergens-Factbox.html
+- uid: O:Page::NICALL_Item_Allergens
+  name: "\"NICALL Item Allergens\""
+  fqName: "\"NICALL Item Allergens\""
+  href: reference/allergens/Page/NICALL-Item-Allergens.html
+- uid: O:Page::NICALL_Item_Allergens_-_View
+  name: "\"NICALL Item Allergens - View\""
+  fqName: "\"NICALL Item Allergens - View\""
+  href: reference/allergens/Page/NICALL-Item-Allergens---View.html
+- uid: O:Page::NICALL_Item_Allergens_Factbox
+  name: "\"NICALL Item Allergens Factbox\""
+  fqName: "\"NICALL Item Allergens Factbox\""
+  href: reference/allergens/Page/NICALL-Item-Allergens-Factbox.html
+- uid: O:Page::NICALL_ProdOrderAllergensFctbx
+  name: "\"NICALL ProdOrderAllergensFctbx\""
+  fqName: "\"NICALL ProdOrderAllergensFctbx\""
+  href: reference/allergens/Page/NICALL-ProdOrderAllergensFctbx.html
+- uid: O:Page::NICALL_ProdOrderCompAllergenFB
+  name: "\"NICALL ProdOrderCompAllergenFB\""
+  fqName: "\"NICALL ProdOrderCompAllergenFB\""
+  href: reference/allergens/Page/NICALL-ProdOrderCompAllergenFB.html
+- uid: O:Page::NICALL_Prod_Order_Allergens
+  name: "\"NICALL Prod Order Allergens\""
+  fqName: "\"NICALL Prod Order Allergens\""
+  href: reference/allergens/Page/NICALL-Prod-Order-Allergens.html
+- uid: O:Page::NICALL_Setup_Wizard
+  name: "\"NICALL Setup Wizard\""
+  fqName: "\"NICALL Setup Wizard\""
+  href: reference/allergens/Page/NICALL-Setup-Wizard.html
 - uid: O:Page::NICAPP_Application_Installer
   name: "\"NICAPP Application Installer\""
   fqName: "\"NICAPP Application Installer\""
@@ -20276,6 +20720,14 @@ references:
   name: "\"NICCOM Sales Document Agents\""
   fqName: "\"NICCOM Sales Document Agents\""
   href: reference/sales-commissions/Page/NICCOM-Sales-Document-Agents.html
+- uid: O:Page::NICFXC_ForecastX_FactBox
+  name: "\"NICFXC ForecastX FactBox\""
+  fqName: "\"NICFXC ForecastX FactBox\""
+  href: reference/forecastx-connector/Page/NICFXC-ForecastX-FactBox.html
+- uid: O:Page::NICFXC_Legacy_ItemLedgerEntry
+  name: "\"NICFXC Legacy ItemLedgerEntry\""
+  fqName: "\"NICFXC Legacy ItemLedgerEntry\""
+  href: reference/forecastx-connector/Page/NICFXC-Legacy-ItemLedgerEntry.html
 - uid: O:Page::NICINF_CustItemInvFreshCodes
   name: "\"NICINF CustItemInvFreshCodes\""
   fqName: "\"NICINF CustItemInvFreshCodes\""
@@ -20764,6 +21216,10 @@ references:
   name: "\"NICMDC Whse. Shipments API\""
   fqName: "\"NICMDC Whse. Shipments API\""
   href: reference/mobile-data-collection/Page/NICMDC-Whse.-Shipments-API.html
+- uid: O:Page::NICMDC_Work_Shift_Code_API
+  name: "\"NICMDC Work Shift Code API\""
+  fqName: "\"NICMDC Work Shift Code API\""
+  href: reference/mobile-data-collection/Page/NICMDC-Work-Shift-Code-API.html
 - uid: O:Page::NICMDC_Zones_API
   name: "\"NICMDC Zones API\""
   fqName: "\"NICMDC Zones API\""
@@ -21456,6 +21912,102 @@ references:
   name: "\"NICALG WorkShifts\""
   fqName: "\"NICALG WorkShifts\""
   href: reference/lot-algorithms/PageExtension/NICALG-WorkShifts.html
+- uid: O:PageExtension::NICALL_FinishedProdOrderLines
+  name: "\"NICALL FinishedProdOrderLines\""
+  fqName: "\"NICALL FinishedProdOrderLines\""
+  href: reference/allergens/PageExtension/NICALL-FinishedProdOrderLines.html
+- uid: O:PageExtension::NICALL_Finished_Prod_Order
+  name: "\"NICALL Finished Prod Order\""
+  fqName: "\"NICALL Finished Prod Order\""
+  href: reference/allergens/PageExtension/NICALL-Finished-Prod-Order.html
+- uid: O:PageExtension::NICALL_Finished_Prod_Orders
+  name: "\"NICALL Finished Prod Orders\""
+  fqName: "\"NICALL Finished Prod Orders\""
+  href: reference/allergens/PageExtension/NICALL-Finished-Prod-Orders.html
+- uid: O:PageExtension::NICALL_FirmPlanProdOrderLines
+  name: "\"NICALL FirmPlanProdOrderLines\""
+  fqName: "\"NICALL FirmPlanProdOrderLines\""
+  href: reference/allergens/PageExtension/NICALL-FirmPlanProdOrderLines.html
+- uid: O:PageExtension::NICALL_Firm_Plan_Prod_Order
+  name: "\"NICALL Firm Plan Prod Order\""
+  fqName: "\"NICALL Firm Plan Prod Order\""
+  href: reference/allergens/PageExtension/NICALL-Firm-Plan-Prod-Order.html
+- uid: O:PageExtension::NICALL_Firm_Plan_Prod_Orders
+  name: "\"NICALL Firm Plan Prod Orders\""
+  fqName: "\"NICALL Firm Plan Prod Orders\""
+  href: reference/allergens/PageExtension/NICALL-Firm-Plan-Prod-Orders.html
+- uid: O:PageExtension::NICALL_Item_Card
+  name: "\"NICALL Item Card\""
+  fqName: "\"NICALL Item Card\""
+  href: reference/allergens/PageExtension/NICALL-Item-Card.html
+- uid: O:PageExtension::NICALL_Item_List
+  name: "\"NICALL Item List\""
+  fqName: "\"NICALL Item List\""
+  href: reference/allergens/PageExtension/NICALL-Item-List.html
+- uid: O:PageExtension::NICALL_PlanProdOrderLines
+  name: "\"NICALL PlanProdOrderLines\""
+  fqName: "\"NICALL PlanProdOrderLines\""
+  href: reference/allergens/PageExtension/NICALL-PlanProdOrderLines.html
+- uid: O:PageExtension::NICALL_Plan_Prod_Order
+  name: "\"NICALL Plan Prod Order\""
+  fqName: "\"NICALL Plan Prod Order\""
+  href: reference/allergens/PageExtension/NICALL-Plan-Prod-Order.html
+- uid: O:PageExtension::NICALL_Plan_Prod_Orders
+  name: "\"NICALL Plan Prod Orders\""
+  fqName: "\"NICALL Plan Prod Orders\""
+  href: reference/allergens/PageExtension/NICALL-Plan-Prod-Orders.html
+- uid: O:PageExtension::NICALL_Prod#_Bom_Version_List
+  name: "\"NICALL Prod. Bom Version List\""
+  fqName: "\"NICALL Prod. Bom Version List\""
+  href: reference/allergens/PageExtension/NICALL-Prod.-Bom-Version-List.html
+- uid: O:PageExtension::NICALL_Prod_Bom_Lines
+  name: "\"NICALL Prod Bom Lines\""
+  fqName: "\"NICALL Prod Bom Lines\""
+  href: reference/allergens/PageExtension/NICALL-Prod-Bom-Lines.html
+- uid: O:PageExtension::NICALL_Prod_Bom_Version_Lines
+  name: "\"NICALL Prod Bom Version Lines\""
+  fqName: "\"NICALL Prod Bom Version Lines\""
+  href: reference/allergens/PageExtension/NICALL-Prod-Bom-Version-Lines.html
+- uid: O:PageExtension::NICALL_Prod_Order_Components
+  name: "\"NICALL Prod Order Components\""
+  fqName: "\"NICALL Prod Order Components\""
+  href: reference/allergens/PageExtension/NICALL-Prod-Order-Components.html
+- uid: O:PageExtension::NICALL_Production_Bom
+  name: "\"NICALL Production Bom\""
+  fqName: "\"NICALL Production Bom\""
+  href: reference/allergens/PageExtension/NICALL-Production-Bom.html
+- uid: O:PageExtension::NICALL_Production_Bom_List
+  name: "\"NICALL Production Bom List\""
+  fqName: "\"NICALL Production Bom List\""
+  href: reference/allergens/PageExtension/NICALL-Production-Bom-List.html
+- uid: O:PageExtension::NICALL_Production_Bom_Version
+  name: "\"NICALL Production Bom Version\""
+  fqName: "\"NICALL Production Bom Version\""
+  href: reference/allergens/PageExtension/NICALL-Production-Bom-Version.html
+- uid: O:PageExtension::NICALL_ReleasedProdOrderLines
+  name: "\"NICALL ReleasedProdOrderLines\""
+  fqName: "\"NICALL ReleasedProdOrderLines\""
+  href: reference/allergens/PageExtension/NICALL-ReleasedProdOrderLines.html
+- uid: O:PageExtension::NICALL_Released_Prod_Order
+  name: "\"NICALL Released Prod Order\""
+  fqName: "\"NICALL Released Prod Order\""
+  href: reference/allergens/PageExtension/NICALL-Released-Prod-Order.html
+- uid: O:PageExtension::NICALL_Released_Prod_Orders
+  name: "\"NICALL Released Prod Orders\""
+  fqName: "\"NICALL Released Prod Orders\""
+  href: reference/allergens/PageExtension/NICALL-Released-Prod-Orders.html
+- uid: O:PageExtension::NICALL_SimulProdOrderLines
+  name: "\"NICALL SimulProdOrderLines\""
+  fqName: "\"NICALL SimulProdOrderLines\""
+  href: reference/allergens/PageExtension/NICALL-SimulProdOrderLines.html
+- uid: O:PageExtension::NICALL_Simul_Prod_Order
+  name: "\"NICALL Simul Prod Order\""
+  fqName: "\"NICALL Simul Prod Order\""
+  href: reference/allergens/PageExtension/NICALL-Simul-Prod-Order.html
+- uid: O:PageExtension::NICALL_Simul_Prod_Orders
+  name: "\"NICALL Simul Prod Orders\""
+  fqName: "\"NICALL Simul Prod Orders\""
+  href: reference/allergens/PageExtension/NICALL-Simul-Prod-Orders.html
 - uid: O:PageExtension::NICBOMCustomerCard
   name: NICBOMCustomerCard
   fqName: NICBOMCustomerCard
@@ -21564,6 +22116,10 @@ references:
   name: "\"NICCOM Sales Return Order\""
   fqName: "\"NICCOM Sales Return Order\""
   href: reference/sales-commissions/PageExtension/NICCOM-Sales-Return-Order.html
+- uid: O:PageExtension::NICFXC_DemandForecastCard_Ext#
+  name: "\"NICFXC DemandForecastCard Ext.\""
+  fqName: "\"NICFXC DemandForecastCard Ext.\""
+  href: reference/forecastx-connector/PageExtension/NICFXC-DemandForecastCard-Ext..html
 - uid: O:PageExtension::NICINF_CustomerCard
   name: "\"NICINF CustomerCard\""
   fqName: "\"NICINF CustomerCard\""
@@ -22696,6 +23252,18 @@ references:
   name: "\"NICALG LotAlgRead\""
   fqName: "\"NICALG LotAlgRead\""
   href: reference/lot-algorithms/PermissionSet/NICALG-LotAlgRead.html
+- uid: O:PermissionSet::NICALL_Edit
+  name: "\"NICALL Edit\""
+  fqName: "\"NICALL Edit\""
+  href: reference/allergens/PermissionSet/NICALL-Edit.html
+- uid: O:PermissionSet::NICALL_Objects
+  name: "\"NICALL Objects\""
+  fqName: "\"NICALL Objects\""
+  href: reference/allergens/PermissionSet/NICALL-Objects.html
+- uid: O:PermissionSet::NICALL_Read
+  name: "\"NICALL Read\""
+  fqName: "\"NICALL Read\""
+  href: reference/allergens/PermissionSet/NICALL-Read.html
 - uid: O:PermissionSet::NICAPP_Objects
   name: "\"NICAPP Objects\""
   fqName: "\"NICAPP Objects\""
@@ -22744,6 +23312,18 @@ references:
   name: "\"NICCOM Read\""
   fqName: "\"NICCOM Read\""
   href: reference/sales-commissions/PermissionSet/NICCOM-Read.html
+- uid: O:PermissionSet::NICFXC_Edit
+  name: "\"NICFXC Edit\""
+  fqName: "\"NICFXC Edit\""
+  href: reference/forecastx-connector/PermissionSet/NICFXC-Edit.html
+- uid: O:PermissionSet::NICFXC_Objects
+  name: "\"NICFXC Objects\""
+  fqName: "\"NICFXC Objects\""
+  href: reference/forecastx-connector/PermissionSet/NICFXC-Objects.html
+- uid: O:PermissionSet::NICFXC_Read
+  name: "\"NICFXC Read\""
+  fqName: "\"NICFXC Read\""
+  href: reference/forecastx-connector/PermissionSet/NICFXC-Read.html
 - uid: O:PermissionSet::NICINF_InvFreshAdmin
   name: "\"NICINF InvFreshAdmin\""
   fqName: "\"NICINF InvFreshAdmin\""
@@ -23230,6 +23810,10 @@ references:
   name: "\"NICMDC ItemLedgerEntriesAPI\""
   fqName: "\"NICMDC ItemLedgerEntriesAPI\""
   href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI.html
+- uid: O:Query::NICMDC_ItemLedgerEntriesAPI2
+  name: "\"NICMDC ItemLedgerEntriesAPI2\""
+  fqName: "\"NICMDC ItemLedgerEntriesAPI2\""
+  href: reference/mobile-data-collection/Query/NICMDC-ItemLedgerEntriesAPI2.html
 - uid: O:Query::NICMDC_Item_Ledger_Entry
   name: "\"NICMDC Item Ledger Entry\""
   fqName: "\"NICMDC Item Ledger Entry\""
@@ -23346,6 +23930,10 @@ references:
   name: "\"NICCOM Post Comm to Agents\""
   fqName: "\"NICCOM Post Comm to Agents\""
   href: reference/sales-commissions/Report/NICCOM-Post-Comm-to-Agents.html
+- uid: O:Report::NICFXC_Export_Sales-Component
+  name: "\"NICFXC Export Sales-Component\""
+  fqName: "\"NICFXC Export Sales-Component\""
+  href: reference/forecastx-connector/Report/NICFXC-Export-Sales-Component.html
 - uid: O:Report::NICIRA_ApplyExpirationRestCode
   name: "\"NICIRA ApplyExpirationRestCode\""
   fqName: "\"NICIRA ApplyExpirationRestCode\""
@@ -23506,6 +24094,18 @@ references:
   name: "\"NICALG RESTStripeConfig\""
   fqName: "\"NICALG RESTStripeConfig\""
   href: reference/lot-algorithms/Table/NICALG-RESTStripeConfig.html
+- uid: O:Table::NICALL_Allergen
+  name: "\"NICALL Allergen\""
+  fqName: "\"NICALL Allergen\""
+  href: reference/allergens/Table/NICALL-Allergen.html
+- uid: O:Table::NICALL_Allergen_Buffer
+  name: "\"NICALL Allergen Buffer\""
+  fqName: "\"NICALL Allergen Buffer\""
+  href: reference/allergens/Table/NICALL-Allergen-Buffer.html
+- uid: O:Table::NICALL_Item_Allergen
+  name: "\"NICALL Item Allergen\""
+  fqName: "\"NICALL Item Allergen\""
+  href: reference/allergens/Table/NICALL-Item-Allergen.html
 - uid: O:Table::NICBOM_ItemCustUnderShptCode
   name: "\"NICBOM ItemCustUnderShptCode\""
   fqName: "\"NICBOM ItemCustUnderShptCode\""
@@ -23646,6 +24246,10 @@ references:
   name: "\"NICCOM Sales Document Agent\""
   fqName: "\"NICCOM Sales Document Agent\""
   href: reference/sales-commissions/Table/NICCOM-Sales-Document-Agent.html
+- uid: O:Table::NICFXC_ItemLedgerEntryLegacy
+  name: "\"NICFXC ItemLedgerEntryLegacy\""
+  fqName: "\"NICFXC ItemLedgerEntryLegacy\""
+  href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
 - uid: O:Table::NICINF_Default_Output_ProdDate
   name: "\"NICINF Default Output ProdDate\""
   fqName: "\"NICINF Default Output ProdDate\""
@@ -24350,6 +24954,10 @@ references:
   name: "\"NICALG WorkShift\""
   fqName: "\"NICALG WorkShift\""
   href: reference/lot-algorithms/TableExtension/NICALG-WorkShift.html
+- uid: O:TableExtension::NICALL_Item
+  name: "\"NICALL Item\""
+  fqName: "\"NICALL Item\""
+  href: reference/allergens/TableExtension/NICALL-Item.html
 - uid: O:TableExtension::NICBOM_Customer
   name: "\"NICBOM Customer\""
   fqName: "\"NICBOM Customer\""
@@ -24414,6 +25022,10 @@ references:
   name: "\"NICCOM Sales Line\""
   fqName: "\"NICCOM Sales Line\""
   href: reference/sales-commissions/TableExtension/NICCOM-Sales-Line.html
+- uid: O:TableExtension::NICFXC_ProdForecastName_Ext#
+  name: "\"NICFXC ProdForecastName Ext.\""
+  fqName: "\"NICFXC ProdForecastName Ext.\""
+  href: reference/forecastx-connector/TableExtension/NICFXC-ProdForecastName-Ext..html
 - uid: O:TableExtension::NICINF_Customer
   name: "\"NICINF Customer\""
   fqName: "\"NICINF Customer\""
