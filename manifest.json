@@ -7325,6 +7325,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Barcode-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Barcode-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Get-Source-Components.yml",
       "output": {
         ".html": {
@@ -7465,6 +7475,36 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Material-Staging-MDC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Material-Staging-MDC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Print-Kit-Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Print-Kit-Label.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Print-Staging-Instr..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Print-Staging-Instr..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Prod-Bom-Line-Ctrl.yml",
       "output": {
         ".html": {
@@ -7545,6 +7585,26 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Upgrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Upgrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Enum/NICMAS-Consumption-State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Enum/NICMAS-Consumption-State.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/material-staging/Enum/NICMAS-Kit-Action.yml",
       "output": {
         ".html": {
@@ -7595,10 +7655,30 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Enum/NICMAS-To-Production-State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Enum/NICMAS-To-Production-State.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/material-staging/Module/Material-Staging.yml",
       "output": {
         ".html": {
           "relative_path": "reference/material-staging/Module/Material-Staging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/material-staging/Obsoletion/obsolete_by_25.5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Obsoletion/obsolete_by_25.5.html"
         }
       },
       "version": ""
@@ -7609,6 +7689,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/material-staging/Page/NICMAS-Kit-Entries-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-Kit-Entry-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-Kit-Entry-API.html"
         }
       },
       "version": ""
@@ -7685,6 +7775,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-MatStag-API-Methods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-MatStag-API-Methods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/material-staging/Page/NICMAS-MatStagOrder-List.yml",
       "output": {
         ".html": {
@@ -7749,6 +7849,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/material-staging/Page/NICMAS-Material-Staging-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Page/NICMAS-Unallocated-Kits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Page/NICMAS-Unallocated-Kits.html"
         }
       },
       "version": ""
@@ -7995,6 +8105,26 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Report/NICMAS-Kit-Barcode-Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Report/NICMAS-Kit-Barcode-Label.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Report/NICMAS-Staging-Instruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Report/NICMAS-Staging-Instruction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/material-staging/Table/NICMAS-Kit-Entry.yml",
       "output": {
         ".html": {
@@ -8039,6 +8169,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/material-staging/Table/NICMAS-Kit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-MatStag-API-Methods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-MatStag-API-Methods.html"
         }
       },
       "version": ""
@@ -8499,6 +8639,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/mobile-data-collection/Obsoletion/obsolete_by_23.4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/mobile-data-collection/Obsoletion/obsolete_by_25.3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Obsoletion/obsolete_by_25.3.html"
         }
       },
       "version": ""
@@ -11505,6 +11655,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Check-Purchasing-Restr.yml",
       "output": {
         ".html": {
@@ -11625,6 +11785,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Enum/NICPRR-Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Enum/NICPRR-Action.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/purchasing-restrictions/Enum/NICPRR-Restriction-Status.yml",
       "output": {
         ".html": {
@@ -11649,6 +11819,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/purchasing-restrictions/Module/Purchasing-Restrictions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Page/NICPRR-Purch.-Restr.-Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Page/NICPRR-Purch.-Restr.-Category.html"
         }
       },
       "version": ""
@@ -11705,6 +11885,26 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Item-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Item-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Item-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Item-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Order-Address.yml",
       "output": {
         ".html": {
@@ -11719,6 +11919,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Vendor-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Vendor-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/PageExtension/NICPRR-Vendor-List.html"
         }
       },
       "version": ""
@@ -11759,6 +11969,76 @@
       "output": {
         ".html": {
           "relative_path": "reference/purchasing-restrictions/PermissionSet/NICPRR-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Report/NICPRR-AddPurchRestrtoVend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Report/NICPRR-AddPurchRestrtoVend.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Report/NICPRR-Process-Item-RestrHdr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Report/NICPRR-Process-Item-RestrHdr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Report/NICPRR-Process-Item-Vendor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Report/NICPRR-Process-Item-Vendor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Report/NICPRR-PurchRestr-Status-Mng..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Report/NICPRR-PurchRestr-Status-Mng..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Report/NICPRR-RemovePurchRestrFrmVend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Report/NICPRR-RemovePurchRestrFrmVend.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Report/NICPRR-VendPurchRestrStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Report/NICPRR-VendPurchRestrStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html"
         }
       },
       "version": ""
@@ -11909,6 +12189,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/quality-inspections/Codeunit/NICQIN-DoTestFailActionTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-DocAttachmentHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-DocAttachmentHandler.html"
         }
       },
       "version": ""
@@ -12945,6 +13235,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Doc-Attach-List-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Doc-Attach-List-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-Item-Ledger-Entries.yml",
       "output": {
         ".html": {
@@ -13529,6 +13829,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/quality-inspections/Table/NICQIN-Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/TableExtension/NICQIN-Document-Attachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/TableExtension/NICQIN-Document-Attachment.html"
         }
       },
       "version": ""
@@ -16255,6 +16565,26 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Check-Min-Order-Amount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Check-Min-Order-Amount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Check-Sales-Restr.yml",
       "output": {
         ".html": {
@@ -16375,6 +16705,26 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Enum/NICSLR-Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Enum/NICSLR-Action.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Enum/NICSLR-Minimum-Order-Msg-Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Enum/NICSLR-Minimum-Order-Msg-Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/sales-restrictions/Enum/NICSLR-Restriction-Status.yml",
       "output": {
         ".html": {
@@ -16425,6 +16775,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restr.-Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restr.-Category.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/sales-restrictions/Page/NICSLR-Sales-Restr.-Setup.yml",
       "output": {
         ".html": {
@@ -16455,10 +16815,50 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Cust-Details-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Cust-Details-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Customer-Card.yml",
       "output": {
         ".html": {
           "relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Customer-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Customer-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Customer-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Item-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Item-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Item-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/PageExtension/NICSLR-Item-List.html"
         }
       },
       "version": ""
@@ -16515,6 +16915,66 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Report/NICSLR-Add-Sale-Restr-to-Cust.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Report/NICSLR-Add-Sale-Restr-to-Cust.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Report/NICSLR-Cust.-Sal.-Restr-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Report/NICSLR-Cust.-Sal.-Restr-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Report/NICSLR-Process-Item-Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Report/NICSLR-Process-Item-Customer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Report/NICSLR-Process-Item-RestrHdr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Report/NICSLR-Process-Item-RestrHdr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Report/NICSLR-RemoveSaleRestrFrmCust.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Report/NICSLR-RemoveSaleRestrFrmCust.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Report/NICSLR-Sal.-Restr.-Status-Mng..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Report/NICSLR-Sal.-Restr.-Status-Mng..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr-Header.yml",
       "output": {
         ".html": {
@@ -16539,6 +16999,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html"
         }
       },
       "version": ""
@@ -18665,6 +19135,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Init-Default-No.-Series.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Init-Default-No.-Series.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/warehouse-license-plating/Codeunit/NICWLP-Install.yml",
       "output": {
         ".html": {
@@ -18789,6 +19269,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/warehouse-license-plating/Page/NICWLP-Item-Tracking-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Page/NICWLP-Package-Content-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Page/NICWLP-Package-Content-API.html"
         }
       },
       "version": ""

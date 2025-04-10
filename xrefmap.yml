@@ -1198,6 +1198,15 @@ references:
 - uid: E:Enum::NICITR_Item_Recall_Status.Simulated
   name: Simulated
   href: reference/item-recalls/Enum/NICITR-Item-Recall-Status.html
+- uid: E:Enum::NICMAS_Consumption_State.Empty
+  name: Empty
+  href: reference/material-staging/Enum/NICMAS-Consumption-State.html
+- uid: E:Enum::NICMAS_Consumption_State.Full
+  name: Full
+  href: reference/material-staging/Enum/NICMAS-Consumption-State.html
+- uid: E:Enum::NICMAS_Consumption_State.Partial
+  name: Partial
+  href: reference/material-staging/Enum/NICMAS-Consumption-State.html
 - uid: E:Enum::NICMAS_Kit_Action.Consume
   name: Consume
   href: reference/material-staging/Enum/NICMAS-Kit-Action.html
@@ -1258,6 +1267,15 @@ references:
 - uid: E:Enum::NICMAS_Kit_Type.Bulk
   name: Bulk
   href: reference/material-staging/Enum/NICMAS-Kit-Type.html
+- uid: E:Enum::NICMAS_To_Production_State.Empty
+  name: Empty
+  href: reference/material-staging/Enum/NICMAS-To-Production-State.html
+- uid: E:Enum::NICMAS_To_Production_State.Full
+  name: Full
+  href: reference/material-staging/Enum/NICMAS-To-Production-State.html
+- uid: E:Enum::NICMAS_To_Production_State.Partial
+  name: Partial
+  href: reference/material-staging/Enum/NICMAS-To-Production-State.html
 - uid: E:Enum::NICPBA_BatchCalculationMethod.Equal
   name: Equal
   href: reference/production-batching/Enum/NICPBA-BatchCalculationMethod.html
@@ -1303,6 +1321,12 @@ references:
 - uid: E:Enum::NICPBA_Comp#_Ratio_Link_Type._
   name: "\" \""
   href: reference/production-batching/Enum/NICPBA-Comp.-Ratio-Link-Type.html
+- uid: E:Enum::NICPRR_Action.Add_Item
+  name: "\"Add Item\""
+  href: reference/purchasing-restrictions/Enum/NICPRR-Action.html
+- uid: E:Enum::NICPRR_Action.Remove_Item
+  name: "\"Remove Item\""
+  href: reference/purchasing-restrictions/Enum/NICPRR-Action.html
 - uid: E:Enum::NICPRR_Restriction_Status.Active
   name: Active
   href: reference/purchasing-restrictions/Enum/NICPRR-Restriction-Status.html
@@ -1474,6 +1498,18 @@ references:
 - uid: E:Enum::NICSHC_Status.Open
   name: Open
   href: reference/serial-shipping-container-codes/Enum/NICSHC-Status.html
+- uid: E:Enum::NICSLR_Action.Add_Item
+  name: "\"Add Item\""
+  href: reference/sales-restrictions/Enum/NICSLR-Action.html
+- uid: E:Enum::NICSLR_Action.Remove_Item
+  name: "\"Remove Item\""
+  href: reference/sales-restrictions/Enum/NICSLR-Action.html
+- uid: E:Enum::NICSLR_Minimum_Order_Msg_Types.Error
+  name: Error
+  href: reference/sales-restrictions/Enum/NICSLR-Minimum-Order-Msg-Types.html
+- uid: E:Enum::NICSLR_Minimum_Order_Msg_Types.Warning
+  name: Warning
+  href: reference/sales-restrictions/Enum/NICSLR-Minimum-Order-Msg-Types.html
 - uid: E:Enum::NICSLR_Restriction_Status.Active
   name: Active
   href: reference/sales-restrictions/Enum/NICSLR-Restriction-Status.html
@@ -5563,6 +5599,9 @@ references:
 - uid: F:Table::NICITR_Test_Config.TestRecallPicture
   name: TestRecallPicture
   href: reference/item-recalls/Table/NICITR-Test-Config.html
+- uid: F:Table::NICMAS_Kit.Consumption_State
+  name: "\"Consumption State\""
+  href: reference/material-staging/Table/NICMAS-Kit.html
 - uid: F:Table::NICMAS_Kit.Material_Staging_Order_No#[20]
   name: "\"Material Staging Order No.\""
   href: reference/material-staging/Table/NICMAS-Kit.html
@@ -5599,9 +5638,15 @@ references:
 - uid: F:Table::NICMAS_Kit.SystemRowVersion
   name: SystemRowVersion
   href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit.To_Production_State
+  name: "\"To Production State\""
+  href: reference/material-staging/Table/NICMAS-Kit.html
 - uid: F:Table::NICMAS_Kit.Type
   name: Type
   href: reference/material-staging/Table/NICMAS-Kit.html
+- uid: F:Table::NICMAS_Kit_Entry.Allocated
+  name: Allocated
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
 - uid: F:Table::NICMAS_Kit_Entry.Bin_Code[20]
   name: "\"Bin Code\""
   href: reference/material-staging/Table/NICMAS-Kit-Entry.html
@@ -5638,11 +5683,32 @@ references:
 - uid: F:Table::NICMAS_Kit_Entry.Lot_Tracked
   name: "\"Lot Tracked\""
   href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.MatStag_Order_Line_No#
+  name: "\"MatStag Order Line No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Material_Staging_Order_No#[20]
+  name: "\"Material Staging Order No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
 - uid: F:Table::NICMAS_Kit_Entry.Package_No#[50]
   name: "\"Package No.\""
   href: reference/material-staging/Table/NICMAS-Kit-Entry.html
 - uid: F:Table::NICMAS_Kit_Entry.Package_Tracked
   name: "\"Package Tracked\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Prod#_Order_Batch_No#[20]
+  name: "\"Prod. Order Batch No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Prod#_Order_Component_Line_No#
+  name: "\"Prod. Order Component Line No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Prod#_Order_Line_No#
+  name: "\"Prod. Order Line No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Prod#_Order_No#[20]
+  name: "\"Prod. Order No.\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Prod#_Order_Status
+  name: "\"Prod. Order Status\""
   href: reference/material-staging/Table/NICMAS-Kit-Entry.html
 - uid: F:Table::NICMAS_Kit_Entry.Qty#_(Base)
   name: "\"Qty. (Base)\""
@@ -5670,6 +5736,9 @@ references:
   href: reference/material-staging/Table/NICMAS-Kit-Entry.html
 - uid: F:Table::NICMAS_Kit_Entry.Staged_Quantity
   name: "\"Staged Quantity\""
+  href: reference/material-staging/Table/NICMAS-Kit-Entry.html
+- uid: F:Table::NICMAS_Kit_Entry.Staged_Quantity_(Bulk)
+  name: "\"Staged Quantity (Bulk)\""
   href: reference/material-staging/Table/NICMAS-Kit-Entry.html
 - uid: F:Table::NICMAS_Kit_Entry.Supply_Entry_No#
   name: "\"Supply Entry No.\""
@@ -5782,6 +5851,36 @@ references:
 - uid: F:Table::NICMAS_Kit_Subgroup.SystemRowVersion
   name: SystemRowVersion
   href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: F:Table::NICMAS_MatStag_API_Methods.API_Key[50]
+  name: "\"API Key\""
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
+- uid: F:Table::NICMAS_MatStag_API_Methods.API_Method_Name[100]
+  name: "\"API Method Name\""
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
+- uid: F:Table::NICMAS_MatStag_API_Methods.Last_Modified_Date_Time
+  name: "\"Last Modified Date Time\""
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
+- uid: F:Table::NICMAS_MatStag_API_Methods.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
+- uid: F:Table::NICMAS_MatStag_API_Methods.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
+- uid: F:Table::NICMAS_MatStag_API_Methods.SystemId
+  name: SystemId
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
+- uid: F:Table::NICMAS_MatStag_API_Methods.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
+- uid: F:Table::NICMAS_MatStag_API_Methods.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
+- uid: F:Table::NICMAS_MatStag_API_Methods.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
+- uid: F:Table::NICMAS_MatStag_API_Methods.User_ID[50]
+  name: "\"User ID\""
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
 - uid: F:Table::NICMAS_MatStag_Header.Description[100]
   name: Description
   href: reference/material-staging/Table/NICMAS-MatStag-Header.html
@@ -5841,6 +5940,9 @@ references:
   href: reference/material-staging/Table/NICMAS-MatStag-Line.html
 - uid: F:Table::NICMAS_MatStag_Line.Material_Staging_Order_No#[20]
   name: "\"Material Staging Order No.\""
+  href: reference/material-staging/Table/NICMAS-MatStag-Line.html
+- uid: F:Table::NICMAS_MatStag_Line.Prod#_Item_Kit_Group_Code[20]
+  name: "\"Prod. Item Kit Group Code\""
   href: reference/material-staging/Table/NICMAS-MatStag-Line.html
 - uid: F:Table::NICMAS_MatStag_Line.Prod#_Order_Batch_No#[20]
   name: "\"Prod. Order Batch No.\""
@@ -5950,6 +6052,12 @@ references:
 - uid: F:Table::NICMAS_MatStag_Source.SystemRowVersion
   name: SystemRowVersion
   href: reference/material-staging/Table/NICMAS-MatStag-Source.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.Kit_Barcode_Label
+  name: "\"Kit Barcode Label\""
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.Kit_Barcode_Label_Name[250]
+  name: "\"Kit Barcode Label Name\""
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
 - uid: F:Table::NICMAS_Material_Staging_Setup.Material_Kit_Nos#[20]
   name: "\"Material Kit Nos.\""
   href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
@@ -5958,6 +6066,12 @@ references:
   href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
 - uid: F:Table::NICMAS_Material_Staging_Setup.Primary_Key[10]
   name: "\"Primary Key\""
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.Staging_Instruction
+  name: "\"Staging Instruction\""
+  href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
+- uid: F:Table::NICMAS_Material_Staging_Setup.Staging_Instruction_Name[250]
+  name: "\"Staging Instruction Name\""
   href: reference/material-staging/Table/NICMAS-Material-Staging-Setup.html
 - uid: F:Table::NICMAS_Material_Staging_Setup.SystemCreatedAt
   name: SystemCreatedAt
@@ -6598,6 +6712,30 @@ references:
 - uid: F:Table::NICPIN_Prod_Order_Instruction.Version_Code[20]
   name: "\"Version Code\""
   href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPRR_Purch#_Restr#_Category.Code[20]
+  name: Code
+  href: reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html
+- uid: F:Table::NICPRR_Purch#_Restr#_Category.Description[100]
+  name: Description
+  href: reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html
+- uid: F:Table::NICPRR_Purch#_Restr#_Category.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html
+- uid: F:Table::NICPRR_Purch#_Restr#_Category.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html
+- uid: F:Table::NICPRR_Purch#_Restr#_Category.SystemId
+  name: SystemId
+  href: reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html
+- uid: F:Table::NICPRR_Purch#_Restr#_Category.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html
+- uid: F:Table::NICPRR_Purch#_Restr#_Category.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html
+- uid: F:Table::NICPRR_Purch#_Restr#_Category.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html
 - uid: F:Table::NICPRR_Purchasing_Restr_Header.Description[100]
   name: Description
   href: reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Header.html
@@ -6606,6 +6744,9 @@ references:
   href: reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Header.html
 - uid: F:Table::NICPRR_Purchasing_Restr_Header.No#_Series[20]
   name: "\"No. Series\""
+  href: reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Header.html
+- uid: F:Table::NICPRR_Purchasing_Restr_Header.Purch#_Restrictions_Category[20]
+  name: "\"Purch. Restrictions Category\""
   href: reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Header.html
 - uid: F:Table::NICPRR_Purchasing_Restr_Header.Status
   name: Status
@@ -7537,6 +7678,9 @@ references:
 - uid: F:Table::NICQIN_Inspection_Line_Result.Test_Result_Value[250]
   name: "\"Test Result Value\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Line-Result.html
+- uid: F:Table::NICQIN_Inspection_Setup.Copy_Attachments_to_Reinspect#
+  name: "\"Copy Attachments to Reinspect.\""
+  href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
 - uid: F:Table::NICQIN_Inspection_Setup.Inspection_Nos#[20]
   name: "\"Inspection Nos.\""
   href: reference/quality-inspections/Table/NICQIN-Inspection-Setup.html
@@ -8176,6 +8320,30 @@ references:
 - uid: F:Table::NICSHC_SSCC_Types.SystemRowVersion
   name: SystemRowVersion
   href: reference/serial-shipping-container-codes/Table/NICSHC-SSCC-Types.html
+- uid: F:Table::NICSLR_Sales_Restr#_Category.Code[20]
+  name: Code
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html
+- uid: F:Table::NICSLR_Sales_Restr#_Category.Description[100]
+  name: Description
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html
+- uid: F:Table::NICSLR_Sales_Restr#_Category.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html
+- uid: F:Table::NICSLR_Sales_Restr#_Category.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html
+- uid: F:Table::NICSLR_Sales_Restr#_Category.SystemId
+  name: SystemId
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html
+- uid: F:Table::NICSLR_Sales_Restr#_Category.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html
+- uid: F:Table::NICSLR_Sales_Restr#_Category.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html
+- uid: F:Table::NICSLR_Sales_Restr#_Category.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html
 - uid: F:Table::NICSLR_Sales_Restr_Header.Description[100]
   name: Description
   href: reference/sales-restrictions/Table/NICSLR-Sales-Restr-Header.html
@@ -8184,6 +8352,9 @@ references:
   href: reference/sales-restrictions/Table/NICSLR-Sales-Restr-Header.html
 - uid: F:Table::NICSLR_Sales_Restr_Header.No#_Series[20]
   name: "\"No. Series\""
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr-Header.html
+- uid: F:Table::NICSLR_Sales_Restr_Header.Sale_Restrictions_Category[20]
+  name: "\"Sale Restrictions Category\""
   href: reference/sales-restrictions/Table/NICSLR-Sales-Restr-Header.html
 - uid: F:Table::NICSLR_Sales_Restr_Header.Status
   name: Status
@@ -8245,6 +8416,9 @@ references:
 - uid: F:Table::NICSLR_Sales_Restr_Line.Variant_Code[10]
   name: "\"Variant Code\""
   href: reference/sales-restrictions/Table/NICSLR-Sales-Restr-Line.html
+- uid: F:Table::NICSLR_Sales_Restr_Setup.Minimum_Order_Amount_Message
+  name: "\"Minimum Order Amount Message\""
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr-Setup.html
 - uid: F:Table::NICSLR_Sales_Restr_Setup.Primary_Key[10]
   name: "\"Primary Key\""
   href: reference/sales-restrictions/Table/NICSLR-Sales-Restr-Setup.html
@@ -8320,7 +8494,7 @@ references:
 - uid: F:Table::NICSOF_Copy_Rebate_Parameters.Copy_Pay_Exceptions
   name: "\"Copy Pay Exceptions\""
   href: reference/sales-rebates/Table/NICSOF-Copy-Rebate-Parameters.html
-- uid: F:Table::NICSOF_Copy_Rebate_Parameters.Copy_Starting_&amp;_Ending_Dates
+- uid: F:Table::NICSOF_Copy_Rebate_Parameters.Copy_Starting_&_Ending_Dates
   name: "\"Copy Starting & Ending Dates\""
   href: reference/sales-rebates/Table/NICSOF-Copy-Rebate-Parameters.html
 - uid: F:Table::NICSOF_Copy_Rebate_Parameters.Copy_Tiers
@@ -11155,6 +11329,9 @@ references:
 - uid: F:TableExtension::NICPSQ_Work_Center.NICPSQ_Default_Start_Time
   name: "\"NICPSQ Default Start Time\""
   href: reference/production-sequencing/TableExtension/NICPSQ-Work-Center.html
+- uid: F:TableExtension::NICQIN_Document_Attachment.NICQIN_Reinspection_No#
+  name: "\"NICQIN Reinspection No.\""
+  href: reference/quality-inspections/TableExtension/NICQIN-Document-Attachment.html
 - uid: F:TableExtension::NICQIN_Entry_Summary.NICQIN_FromInspectionSource
   name: "\"NICQIN FromInspectionSource\""
   href: reference/quality-inspections/TableExtension/NICQIN-Entry-Summary.html
@@ -11194,9 +11371,15 @@ references:
 - uid: F:TableExtension::NICSHC_Warehouse_Activity_Line.NICSHC_Ship-to_Code[20]
   name: "\"NICSHC Ship-to Code\""
   href: reference/serial-shipping-container-codes/TableExtension/NICSHC-Warehouse-Activity-Line.html
+- uid: F:TableExtension::NICSLR_Customer.NICSLR_Min#_Order_Amount_(LCY)
+  name: "\"NICSLR Min. Order Amount (LCY)\""
+  href: reference/sales-restrictions/TableExtension/NICSLR-Customer.html
 - uid: F:TableExtension::NICSLR_Customer.NICSLR_Sales_Restriction_No#[20]
   name: "\"NICSLR Sales Restriction No.\""
   href: reference/sales-restrictions/TableExtension/NICSLR-Customer.html
+- uid: F:TableExtension::NICSLR_Ship-to_Address.NICSLR_Min#_Order_Amount
+  name: "\"NICSLR Min. Order Amount\""
+  href: reference/sales-restrictions/TableExtension/NICSLR-Ship-to-Address.html
 - uid: F:TableExtension::NICSLR_Ship-to_Address.NICSLR_Sales_Restriction_No#[20]
   name: "\"NICSLR Sales Restriction No.\""
   href: reference/sales-restrictions/TableExtension/NICSLR-Ship-to-Address.html
@@ -13927,21 +14110,42 @@ references:
 - uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnAfterCreateBulkMatStagLine(Code[20],Prod#_Order_Component,Code[20],Decimal@)
   name: OnAfterCreateBulkMatStagLine
   href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnAfterCreateBulkMaterialStagingLine(Code[20],Prod#_Order_Line,Prod#_Order_Component,Code[20],Decimal@)
+  name: OnAfterCreateBulkMaterialStagingLine
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
 - uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnAfterCreateMatStagLines(Code[20],Prod#_Order_Component,Code[20],Decimal)
   name: OnAfterCreateMatStagLines
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnAfterCreateMaterialStagingLines(Code[20],Prod#_Order_Line,Prod#_Order_Component,Code[20],Decimal)
+  name: OnAfterCreateMaterialStagingLines
   href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
 - uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnAfterCreatePartialMatStagLine(Code[20],Prod#_Order_Component,Code[20],Decimal@)
   name: OnAfterCreatePartialMatStagLine
   href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnAfterCreatePartialMaterialStagingLine(Code[20],Prod#_Order_Line,Prod#_Order_Component,Code[20],Decimal@)
+  name: OnAfterCreatePartialMaterialStagingLine
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
 - uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnBeforeCreateBulkMatStagLine(Code[20],Prod#_Order_Component,Code[20],Decimal@,Boolean@)
   name: OnBeforeCreateBulkMatStagLine
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnBeforeCreateBulkMaterialStagingLine(Code[20],Prod#_Order_Line,Prod#_Order_Component,Code[20],Decimal@,Boolean@)
+  name: OnBeforeCreateBulkMaterialStagingLine
   href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
 - uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnBeforeCreateMatStagLines(Code[20],Prod#_Order_Component,Code[20],Decimal,Boolean@)
   name: OnBeforeCreateMatStagLines
   href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnBeforeCreateMaterialStagingLines(Code[20],Prod#_Order_Line,Prod#_Order_Component,Code[20],Decimal,Boolean@)
+  name: OnBeforeCreateMaterialStagingLines
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
 - uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnBeforeCreatePartialMatStagLine(Code[20],Prod#_Order_Component,Code[20],Decimal@,Boolean@)
   name: OnBeforeCreatePartialMatStagLine
   href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_MatStagLine_Ctrl.OnBeforeCreatePartialMaterialStagingLine(Code[20],Prod#_Order_Line,Prod#_Order_Component,Code[20],Decimal@,Boolean@)
+  name: OnBeforeCreatePartialMaterialStagingLine
+  href: reference/material-staging/Codeunit/NICMAS-MatStagLine-Ctrl.html
+- uid: M:Codeunit::NICMAS_Print_Staging_Instr#.OnBeforePrintStagingInstruction(NICMAS_MatStag_Header,Boolean@)
+  name: OnBeforePrintStagingInstruction
+  href: reference/material-staging/Codeunit/NICMAS-Print-Staging-Instr..html
 - uid: M:Codeunit::NICMAS_Staging_Bin_Ctrl.OnAfterFillDefaultStagingBin(Prod#_Order_Routing_Line@)
   name: OnAfterFillDefaultStagingBin
   href: reference/material-staging/Codeunit/NICMAS-Staging-Bin-Ctrl.html
@@ -14359,6 +14563,39 @@ references:
 - uid: M:Codeunit::NICPIN_Prod_Order_Inst#_Mng#.OnTransProductionOrderInstructions_OnBeforeInsert(NICPIN_Prod_Order_Instruction@,NICPIN_Prod_Order_Instruction@)
   name: OnTransProductionOrderInstructions_OnBeforeInsert
   href: reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnBeforeAddPurchasingRestrictionsToVendor(Code[20],Code[20],Boolean@)
+  name: OnBeforeAddPurchasingRestrictionsToVendor
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnBeforeManageStatusPurchasingRestrictions(Code[20],Enum::NICPRR_Restriction_Status,Boolean@)
+  name: OnBeforeManageStatusPurchasingRestrictions
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnBeforeManageStatusVendor(Code[20],Enum::NICPRR_Restriction_Status,Boolean@)
+  name: OnBeforeManageStatusVendor
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnBeforeProcessActionItemPurchasingRestrictions(Code[20],Code[20],Enum::NICPRR_Action,Boolean@)
+  name: OnBeforeProcessActionItemPurchasingRestrictions
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnBeforeProcessActionItemPurchasingRestrictionsVendor(Code[20],Code[20],Enum::NICPRR_Action,Boolean@)
+  name: OnBeforeProcessActionItemPurchasingRestrictionsVendor
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnBeforeRemovePurchasingRestrictionsFromVendor(Code[20],Code[20],Boolean@)
+  name: OnBeforeRemovePurchasingRestrictionsFromVendor
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnConfirm_ExtendedAction_DataitemsNotFiltered_ItemPurchasingRestrHeader(Boolean,Boolean,Enum::NICPRR_Action,Text@)
+  name: OnConfirm_ExtendedAction_DataitemsNotFiltered_ItemPurchasingRestrHeader
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnConfirm_ExtendedAction_DataitemsNotFiltered_ItemVendor(Boolean,Boolean,Enum::NICPRR_Action,Text@)
+  name: OnConfirm_ExtendedAction_DataitemsNotFiltered_ItemVendor
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnManagePurchasingRestrictionsStatus(Code[20],Enum::NICPRR_Restriction_Status)
+  name: OnManagePurchasingRestrictionsStatus
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnProcessAction_ItemPurchasingRestrictions(Code[20],Code[20],Enum::NICPRR_Action)
+  name: OnProcessAction_ItemPurchasingRestrictions
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
+- uid: M:Codeunit::NICPRR_Batch_Management.OnProcessAction_ItemPurchasingRestrictionsVendors(Code[20],Code[20],Enum::NICPRR_Action)
+  name: OnProcessAction_ItemPurchasingRestrictionsVendors
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
 - uid: M:Codeunit::NICPRR_Check_Purchasing_Restr.OnAfterCheckItemRestriction(Purchase_Line@,Code[20])
   name: OnAfterCheckItemRestriction
   href: reference/purchasing-restrictions/Codeunit/NICPRR-Check-Purchasing-Restr.html
@@ -14845,6 +15082,9 @@ references:
 - uid: M:Codeunit::NICQIN_Inspection_Ctrl.OnBeforeCheckTestResultValueAtInspectionLines(Code[20],Integer,Boolean@)
   name: OnBeforeCheckTestResultValueAtInspectionLines
   href: reference/quality-inspections/Codeunit/NICQIN-Inspection-Ctrl.html
+- uid: M:Codeunit::NICQIN_Inspection_Ctrl.OnBeforeDeleteDocumentAttachments(NICQIN_Inspection_Header@,Document_Attachment)
+  name: OnBeforeDeleteDocumentAttachments
+  href: reference/quality-inspections/Codeunit/NICQIN-Inspection-Ctrl.html
 - uid: M:Codeunit::NICQIN_Inspection_Ctrl.OnBeforeDeleteInspectionComments(NICQIN_Inspection_Header@)
   name: OnBeforeDeleteInspectionComments
   href: reference/quality-inspections/Codeunit/NICQIN-Inspection-Ctrl.html
@@ -15046,6 +15286,45 @@ references:
 - uid: M:Codeunit::NICSHC_Verify_Limitations.OnDoVerifyLimitations(Warehouse_Activity_Line@,NICSHC_SSCC_Limitation@)
   name: OnDoVerifyLimitations
   href: reference/serial-shipping-container-codes/Codeunit/NICSHC-Verify-Limitations.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnBeforeAddSaleRestrictionsToCustomer(Code[20],Code[20],Boolean@)
+  name: OnBeforeAddSaleRestrictionsToCustomer
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnBeforeManageStatusCustomer(Code[20],Enum::NICSLR_Restriction_Status,Boolean@)
+  name: OnBeforeManageStatusCustomer
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnBeforeManageStatusSalesRestrictions(Code[20],Enum::NICSLR_Restriction_Status,Boolean@)
+  name: OnBeforeManageStatusSalesRestrictions
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnBeforeProcessActionItemSaleRestrictions(Code[20],Code[20],Enum::NICSLR_Action,Boolean@)
+  name: OnBeforeProcessActionItemSaleRestrictions
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnBeforeProcessActionItemSaleRestrictionsCustomer(Code[20],Code[20],Enum::NICSLR_Action,Boolean@)
+  name: OnBeforeProcessActionItemSaleRestrictionsCustomer
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnBeforeRemoveSaleRestrictionsFromCustomer(Code[20],Code[20],Boolean@)
+  name: OnBeforeRemoveSaleRestrictionsFromCustomer
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnConfirm_ExtendedAction_DataitemsNotFiltered_ItemCustomer(Boolean,Boolean,Enum::NICSLR_Action,Text@)
+  name: OnConfirm_ExtendedAction_DataitemsNotFiltered_ItemCustomer
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnConfirm_ExtendedAction_DataitemsNotFiltered_ItemSalesRestrHeader(Boolean,Boolean,Enum::NICSLR_Action,Text@)
+  name: OnConfirm_ExtendedAction_DataitemsNotFiltered_ItemSalesRestrHeader
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnManageSalesRestrictionsStatus(Code[20],Enum::NICSLR_Restriction_Status)
+  name: OnManageSalesRestrictionsStatus
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnProcessAction_ItemSalesRestrictions(Code[20],Code[20],Enum::NICSLR_Action)
+  name: OnProcessAction_ItemSalesRestrictions
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Batch_Management.OnProcessAction_ItemSalesRestrictionsCustomers(Code[20],Code[20],Enum::NICSLR_Action)
+  name: OnProcessAction_ItemSalesRestrictionsCustomers
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: M:Codeunit::NICSLR_Check_Min_Order_Amount.OnAfterCheckIfMeetsMinimum(Sales_Header@,Decimal,Boolean@)
+  name: OnAfterCheckIfMeetsMinimum
+  href: reference/sales-restrictions/Codeunit/NICSLR-Check-Min-Order-Amount.html
+- uid: M:Codeunit::NICSLR_Check_Min_Order_Amount.OnBeforeCheckMinOrderAmount(Sales_Header@,Boolean@)
+  name: OnBeforeCheckMinOrderAmount
+  href: reference/sales-restrictions/Codeunit/NICSLR-Check-Min-Order-Amount.html
 - uid: M:Codeunit::NICSLR_Check_Sales_Restr.OnAfterCheckItemRestriction(Sales_Line@,Code[20])
   name: OnAfterCheckItemRestriction
   href: reference/sales-restrictions/Codeunit/NICSLR-Check-Sales-Restr.html
@@ -16633,6 +16912,36 @@ references:
 - uid: M:Page::NICITR_Item_Recall_Setup.OnOpenPageOnBeforeRecInsert(NICITR_Item_Recall_Setup@)
   name: OnOpenPageOnBeforeRecInsert
   href: reference/item-recalls/Page/NICITR-Item-Recall-Setup.html
+- uid: M:Page::NICMAS_MatStag_API_Methods.nicConsumeKitEntry(Code[20],Integer):Boolean
+  name: nicConsumeKitEntry
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
+- uid: M:Page::NICMAS_MatStag_API_Methods.nicConsumeKitEntryFromHeaderMDC(Code[20]):Boolean
+  name: nicConsumeKitEntryFromHeaderMDC
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
+- uid: M:Page::NICMAS_MatStag_API_Methods.nicMoveKitEntryToProd(Code[20],Integer):Boolean
+  name: nicMoveKitEntryToProd
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
+- uid: M:Page::NICMAS_MatStag_API_Methods.nicMoveKitEntryToProdFromHeader(Code[20]):Boolean
+  name: nicMoveKitEntryToProdFromHeader
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
+- uid: M:Page::NICMAS_MatStag_API_Methods.nicPrintKitBarCodeLabel(Code[20],Code[20],Code[20]):Text
+  name: nicPrintKitBarCodeLabel
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
+- uid: M:Page::NICMAS_MatStag_API_Methods.nicRemoveKitEntryFromProd(Code[20],Integer):Boolean
+  name: nicRemoveKitEntryFromProd
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
+- uid: M:Page::NICMAS_MatStag_API_Methods.nicUnstageKitEntry(Code[20],Integer):Boolean
+  name: nicUnstageKitEntry
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
+- uid: M:Page::NICMAS_MatStag_API_Methods.nicUpdateStageSupplyEntry(Code[20],Integer,Decimal,Code[20],Code[50],Code[50],Code[50]):Text
+  name: nicUpdateStageSupplyEntry
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
+- uid: M:Page::NICMAS_MatStag_API_Methods.nicshcDeleteAll:Boolean
+  name: nicshcDeleteAll
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
+- uid: M:Page::NICMAS_MatStag_API_Methods.nicshcGetId:Guid
+  name: nicshcGetId
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
 - uid: M:Page::NICMAS_MatStaging_Setup_Wizard.IsSetupFinished:Boolean
   name: IsSetupFinished
   href: reference/material-staging/Page/NICMAS-MatStaging-Setup-Wizard.html
@@ -17053,6 +17362,9 @@ references:
 - uid: M:Page::NICMDC_Sales_Methods_API.Post(WebServiceActionContext@):Text
   name: Post
   href: reference/mobile-data-collection/Page/NICMDC-Sales-Methods-API.html
+- uid: M:Page::NICMDC_Sales_Methods_API.nicCreateShipmentFromSalesOrder(Code[20]):Boolean
+  name: nicCreateShipmentFromSalesOrder
+  href: reference/mobile-data-collection/Page/NICMDC-Sales-Methods-API.html
 - uid: M:Page::NICMDC_Sales_Methods_API.nicGetAPISysId:Guid
   name: nicGetAPISysId
   href: reference/mobile-data-collection/Page/NICMDC-Sales-Methods-API.html
@@ -17437,6 +17749,12 @@ references:
 - uid: M:Report::NICITR_Recall_Notification.OnGetItemRecallDetailsOnBeforeNotificationDetailInsert(NICITR_Item_Recall_Line,NICITR_Notification_Detail@)
   name: OnGetItemRecallDetailsOnBeforeNotificationDetailInsert
   href: reference/item-recalls/Report/NICITR-Recall-Notification.html
+- uid: M:Report::NICMAS_Staging_Instruction.InitializeRequest(Integer)
+  name: InitializeRequest
+  href: reference/material-staging/Report/NICMAS-Staging-Instruction.html
+- uid: M:Report::NICMAS_Staging_Instruction.OnBeforeGetUOM(Code[10],Text@,Boolean@)
+  name: OnBeforeGetUOM
+  href: reference/material-staging/Report/NICMAS-Staging-Instruction.html
 - uid: M:Report::NICQIN_CopyInspectTemplate.OnAfterInitializeCopyInspectionTemplateArguments(NICQIN_Copy_Inspect_Templ_Arg@)
   name: OnAfterInitializeCopyInspectionTemplateArguments
   href: reference/quality-inspections/Report/NICQIN-CopyInspectTemplate.html
@@ -17687,7 +18005,7 @@ references:
   name: Allergens
   summary: >
     <p sourcefile="reference/allergens/Module/Allergens.yml" sourcestartlinenumber="1" jsonPath="/summary">Assign allergens to items, which flow to production orders and are inherited by finished goods</p>
-  fqName: Allergens by NIC Systems Inc. (25.4.14078.0)
+  fqName: Allergens by NIC Systems Inc. (25.4.14229.0)
   href: reference/allergens/Module/Allergens.html
 - uid: N:Module::Application_Installer
   name: Application Installer
@@ -17788,13 +18106,18 @@ references:
   name: Material Staging
   summary: >
     <p sourcefile="reference/material-staging/Module/Material-Staging.yml" sourcestartlinenumber="1" jsonPath="/summary">Identify, prepare, and stage materials to keep production organized and running smoothly</p>
-  fqName: Material Staging by NIC Systems Inc. (25.4.14002.0)
+  fqName: Material Staging by NIC Systems Inc. (25.5.14480.0)
   href: reference/material-staging/Module/Material-Staging.html
+- uid: N:Module::Material_Staging_obsolete_by_25.5
+  tag: "25.5"
+  href: reference/material-staging/Obsoletion/obsolete_by_25.5.html
+- uid: N:Module::Material_Staging_obsolete_by_25.5#25.5
+  href: reference/material-staging/Obsoletion/obsolete_by_25.5.html
 - uid: N:Module::Mobile_Data_Collection
   name: Mobile Data Collection
   summary: >
     <p sourcefile="reference/mobile-data-collection/Module/Mobile-Data-Collection.yml" sourcestartlinenumber="1" jsonPath="/summary">Mobile Data Collection</p>
-  fqName: Mobile Data Collection by NIC Systems Inc. (25.4.14044.0)
+  fqName: Mobile Data Collection by NIC Systems Inc. (25.5.14459.0)
   href: reference/mobile-data-collection/Module/Mobile-Data-Collection.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_23.0
   tag: "23.0"
@@ -17806,6 +18129,11 @@ references:
   href: reference/mobile-data-collection/Obsoletion/obsolete_by_23.4.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_23.4#23.4
   href: reference/mobile-data-collection/Obsoletion/obsolete_by_23.4.html
+- uid: N:Module::Mobile_Data_Collection_obsolete_by_25.3
+  tag: "25.3"
+  href: reference/mobile-data-collection/Obsoletion/obsolete_by_25.3.html
+- uid: N:Module::Mobile_Data_Collection_obsolete_by_25.3#25.3
+  href: reference/mobile-data-collection/Obsoletion/obsolete_by_25.3.html
 - uid: N:Module::Over_Shipping
   name: Over Shipping
   summary: >
@@ -17851,13 +18179,13 @@ references:
   name: Purchasing Restrictions
   summary: >
     <p sourcefile="reference/purchasing-restrictions/Module/Purchasing-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Purchasing Restrictions</p>
-  fqName: Purchasing Restrictions by NIC Systems Inc. (25.0.13108.0)
+  fqName: Purchasing Restrictions by NIC Systems Inc. (25.5.14457.0)
   href: reference/purchasing-restrictions/Module/Purchasing-Restrictions.html
 - uid: N:Module::Quality_Inspections
   name: Quality Inspections
   summary: >
     <p sourcefile="reference/quality-inspections/Module/Quality-Inspections.yml" sourcestartlinenumber="1" jsonPath="/summary">Quality Inspections</p>
-  fqName: Quality Inspections by NIC Systems Inc. (25.2.13621.0)
+  fqName: Quality Inspections by NIC Systems Inc. (25.5.14483.0)
   href: reference/quality-inspections/Module/Quality-Inspections.html
 - uid: N:Module::Quality_Inspections_obsolete_by_25.1
   tag: "25.1"
@@ -17890,7 +18218,7 @@ references:
   name: Sales Restrictions
   summary: >
     <p sourcefile="reference/sales-restrictions/Module/Sales-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Sales Restrictions</p>
-  fqName: Sales Restrictions by NIC Systems Inc. (25.0.13111.0)
+  fqName: Sales Restrictions by NIC Systems Inc. (25.5.14458.0)
   href: reference/sales-restrictions/Module/Sales-Restrictions.html
 - uid: N:Module::Serial_Shipping_Container_Codes
   name: Serial Shipping Container Codes
@@ -17950,7 +18278,7 @@ references:
   name: Warehouse License Plating
   summary: >
     <p sourcefile="reference/warehouse-license-plating/Module/Warehouse-License-Plating.yml" sourcestartlinenumber="1" jsonPath="/summary">Warehouse License Plating contains features that allow you to view and control package-tracked inventory.</p>
-  fqName: Warehouse License Plating by NIC Systems Inc. (25.4.14045.0)
+  fqName: Warehouse License Plating by NIC Systems Inc. (25.5.14394.0)
   href: reference/warehouse-license-plating/Module/Warehouse-License-Plating.html
 - uid: N:Module::Warehouse_License_Plating_obsolete_by_22.2
   tag: "22.2"
@@ -18930,6 +19258,10 @@ references:
   name: "\"NICMAS AppIntegration\""
   fqName: "\"NICMAS AppIntegration\""
   href: reference/material-staging/Codeunit/NICMAS-AppIntegration.html
+- uid: O:Codeunit::NICMAS_Barcode_Management
+  name: "\"NICMAS Barcode Management\""
+  fqName: "\"NICMAS Barcode Management\""
+  href: reference/material-staging/Codeunit/NICMAS-Barcode-Management.html
 - uid: O:Codeunit::NICMAS_Get_Source_Components
   name: "\"NICMAS Get Source Components\""
   fqName: "\"NICMAS Get Source Components\""
@@ -18986,6 +19318,18 @@ references:
   name: "\"NICMAS MatStagSource Ctrl\""
   fqName: "\"NICMAS MatStagSource Ctrl\""
   href: reference/material-staging/Codeunit/NICMAS-MatStagSource-Ctrl.html
+- uid: O:Codeunit::NICMAS_Material_Staging_MDC
+  name: "\"NICMAS Material Staging MDC\""
+  fqName: "\"NICMAS Material Staging MDC\""
+  href: reference/material-staging/Codeunit/NICMAS-Material-Staging-MDC.html
+- uid: O:Codeunit::NICMAS_Print_Kit_Label
+  name: "\"NICMAS Print Kit Label\""
+  fqName: "\"NICMAS Print Kit Label\""
+  href: reference/material-staging/Codeunit/NICMAS-Print-Kit-Label.html
+- uid: O:Codeunit::NICMAS_Print_Staging_Instr#
+  name: "\"NICMAS Print Staging Instr.\""
+  fqName: "\"NICMAS Print Staging Instr.\""
+  href: reference/material-staging/Codeunit/NICMAS-Print-Staging-Instr..html
 - uid: O:Codeunit::NICMAS_Prod#_Order_Line_Ctrl#
   name: "\"NICMAS Prod. Order Line Ctrl.\""
   fqName: "\"NICMAS Prod. Order Line Ctrl.\""
@@ -19020,6 +19364,10 @@ references:
     <p sourcefile="reference/material-staging/Codeunit/NICMAS-Unlicensed-SingInstSubs.yml" sourcestartlinenumber="1" jsonPath="/summary">This codeunit contains subscribers that can be executed by unlicensed users.</p>
   fqName: "\"NICMAS Unlicensed SingInstSubs\""
   href: reference/material-staging/Codeunit/NICMAS-Unlicensed-SingInstSubs.html
+- uid: O:Codeunit::NICMAS_Upgrade
+  name: "\"NICMAS Upgrade\""
+  fqName: "\"NICMAS Upgrade\""
+  href: reference/material-staging/Codeunit/NICMAS-Upgrade.html
 - uid: O:Codeunit::NICMDC_App_Integration
   name: "\"NICMDC App Integration\""
   fqName: "\"NICMDC App Integration\""
@@ -19236,6 +19584,10 @@ references:
   name: "\"NICPIN Subscribers\""
   fqName: "\"NICPIN Subscribers\""
   href: reference/production-instructions/Codeunit/NICPIN-Subscribers.html
+- uid: O:Codeunit::NICPRR_Batch_Management
+  name: "\"NICPRR Batch Management\""
+  fqName: "\"NICPRR Batch Management\""
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Batch-Management.html
 - uid: O:Codeunit::NICPRR_Check_Purchasing_Restr
   name: "\"NICPRR Check Purchasing Restr\""
   fqName: "\"NICPRR Check Purchasing Restr\""
@@ -19332,6 +19684,10 @@ references:
   name: "\"NICQIN DoTestFailActionTask\""
   fqName: "\"NICQIN DoTestFailActionTask\""
   href: reference/quality-inspections/Codeunit/NICQIN-DoTestFailActionTask.html
+- uid: O:Codeunit::NICQIN_DocAttachmentHandler
+  name: "\"NICQIN DocAttachmentHandler\""
+  fqName: "\"NICQIN DocAttachmentHandler\""
+  href: reference/quality-inspections/Codeunit/NICQIN-DocAttachmentHandler.html
 - uid: O:Codeunit::NICQIN_Find_Entries
   name: "\"NICQIN Find Entries\""
   fqName: "\"NICQIN Find Entries\""
@@ -19560,6 +19916,14 @@ references:
   name: "\"NICSHC Verify Limitations\""
   fqName: "\"NICSHC Verify Limitations\""
   href: reference/serial-shipping-container-codes/Codeunit/NICSHC-Verify-Limitations.html
+- uid: O:Codeunit::NICSLR_Batch_Management
+  name: "\"NICSLR Batch Management\""
+  fqName: "\"NICSLR Batch Management\""
+  href: reference/sales-restrictions/Codeunit/NICSLR-Batch-Management.html
+- uid: O:Codeunit::NICSLR_Check_Min_Order_Amount
+  name: "\"NICSLR Check Min Order Amount\""
+  fqName: "\"NICSLR Check Min Order Amount\""
+  href: reference/sales-restrictions/Codeunit/NICSLR-Check-Min-Order-Amount.html
 - uid: O:Codeunit::NICSLR_Check_Sales_Restr
   name: "\"NICSLR Check Sales Restr\""
   fqName: "\"NICSLR Check Sales Restr\""
@@ -19940,6 +20304,10 @@ references:
   name: "\"NICWLP Guided Exp Manual Setup\""
   fqName: "\"NICWLP Guided Exp Manual Setup\""
   href: reference/warehouse-license-plating/Codeunit/NICWLP-Guided-Exp-Manual-Setup.html
+- uid: O:Codeunit::NICWLP_Init_Default_No#_Series
+  name: "\"NICWLP Init Default No. Series\""
+  fqName: "\"NICWLP Init Default No. Series\""
+  href: reference/warehouse-license-plating/Codeunit/NICWLP-Init-Default-No.-Series.html
 - uid: O:Codeunit::NICWLP_Install
   name: "\"NICWLP Install\""
   fqName: "\"NICWLP Install\""
@@ -20196,6 +20564,10 @@ references:
   name: "\"NICITR Item Recall Status\""
   fqName: "\"NICITR Item Recall Status\""
   href: reference/item-recalls/Enum/NICITR-Item-Recall-Status.html
+- uid: O:Enum::NICMAS_Consumption_State
+  name: "\"NICMAS Consumption State\""
+  fqName: "\"NICMAS Consumption State\""
+  href: reference/material-staging/Enum/NICMAS-Consumption-State.html
 - uid: O:Enum::NICMAS_Kit_Action
   name: "\"NICMAS Kit Action\""
   fqName: "\"NICMAS Kit Action\""
@@ -20216,6 +20588,10 @@ references:
   name: "\"NICMAS Kit Type\""
   fqName: "\"NICMAS Kit Type\""
   href: reference/material-staging/Enum/NICMAS-Kit-Type.html
+- uid: O:Enum::NICMAS_To_Production_State
+  name: "\"NICMAS To Production State\""
+  fqName: "\"NICMAS To Production State\""
+  href: reference/material-staging/Enum/NICMAS-To-Production-State.html
 - uid: O:Enum::NICPBA_BatchCalculationMethod
   name: "\"NICPBA BatchCalculationMethod\""
   fqName: "\"NICPBA BatchCalculationMethod\""
@@ -20232,6 +20608,10 @@ references:
   name: "\"NICPBA Comp. Ratio Link Type\""
   fqName: "\"NICPBA Comp. Ratio Link Type\""
   href: reference/production-batching/Enum/NICPBA-Comp.-Ratio-Link-Type.html
+- uid: O:Enum::NICPRR_Action
+  name: "\"NICPRR Action\""
+  fqName: "\"NICPRR Action\""
+  href: reference/purchasing-restrictions/Enum/NICPRR-Action.html
 - uid: O:Enum::NICPRR_Restriction_Status
   name: "\"NICPRR Restriction Status\""
   fqName: "\"NICPRR Restriction Status\""
@@ -20316,6 +20696,14 @@ references:
   name: "\"NICSHC Status\""
   fqName: "\"NICSHC Status\""
   href: reference/serial-shipping-container-codes/Enum/NICSHC-Status.html
+- uid: O:Enum::NICSLR_Action
+  name: "\"NICSLR Action\""
+  fqName: "\"NICSLR Action\""
+  href: reference/sales-restrictions/Enum/NICSLR-Action.html
+- uid: O:Enum::NICSLR_Minimum_Order_Msg_Types
+  name: "\"NICSLR Minimum Order Msg Types\""
+  fqName: "\"NICSLR Minimum Order Msg Types\""
+  href: reference/sales-restrictions/Enum/NICSLR-Minimum-Order-Msg-Types.html
 - uid: O:Enum::NICSLR_Restriction_Status
   name: "\"NICSLR Restriction Status\""
   fqName: "\"NICSLR Restriction Status\""
@@ -21004,6 +21392,10 @@ references:
   name: "\"NICMAS Kit Entries FactBox\""
   fqName: "\"NICMAS Kit Entries FactBox\""
   href: reference/material-staging/Page/NICMAS-Kit-Entries-FactBox.html
+- uid: O:Page::NICMAS_Kit_Entry_API
+  name: "\"NICMAS Kit Entry API\""
+  fqName: "\"NICMAS Kit Entry API\""
+  href: reference/material-staging/Page/NICMAS-Kit-Entry-API.html
 - uid: O:Page::NICMAS_Kit_Groups
   name: "\"NICMAS Kit Groups\""
   fqName: "\"NICMAS Kit Groups\""
@@ -21044,6 +21436,10 @@ references:
   name: "\"NICMAS MatStagSource FactBox\""
   fqName: "\"NICMAS MatStagSource FactBox\""
   href: reference/material-staging/Page/NICMAS-MatStagSource-FactBox.html
+- uid: O:Page::NICMAS_MatStag_API_Methods
+  name: "\"NICMAS MatStag API Methods\""
+  fqName: "\"NICMAS MatStag API Methods\""
+  href: reference/material-staging/Page/NICMAS-MatStag-API-Methods.html
 - uid: O:Page::NICMAS_MatStaging_Setup_Wizard
   name: "\"NICMAS MatStaging Setup Wizard\""
   fqName: "\"NICMAS MatStaging Setup Wizard\""
@@ -21052,6 +21448,10 @@ references:
   name: "\"NICMAS Material Staging Setup\""
   fqName: "\"NICMAS Material Staging Setup\""
   href: reference/material-staging/Page/NICMAS-Material-Staging-Setup.html
+- uid: O:Page::NICMAS_Unallocated_Kits
+  name: "\"NICMAS Unallocated Kits\""
+  fqName: "\"NICMAS Unallocated Kits\""
+  href: reference/material-staging/Page/NICMAS-Unallocated-Kits.html
 - uid: O:Page::NICMDC_API_Key_Method
   name: "\"NICMDC API Key Method\""
   fqName: "\"NICMDC API Key Method\""
@@ -21308,6 +21708,10 @@ references:
   name: "\"NICPIN Prod Order Instructions\""
   fqName: "\"NICPIN Prod Order Instructions\""
   href: reference/production-instructions/Page/NICPIN-Prod-Order-Instructions.html
+- uid: O:Page::NICPRR_Purch#_Restr#_Category
+  name: "\"NICPRR Purch. Restr. Category\""
+  fqName: "\"NICPRR Purch. Restr. Category\""
+  href: reference/purchasing-restrictions/Page/NICPRR-Purch.-Restr.-Category.html
 - uid: O:Page::NICPRR_Purchasing_Restr#_Card
   name: "\"NICPRR Purchasing Restr. Card\""
   fqName: "\"NICPRR Purchasing Restr. Card\""
@@ -21564,6 +21968,10 @@ references:
   name: "\"NICSLR Sales Restr. Card\""
   fqName: "\"NICSLR Sales Restr. Card\""
   href: reference/sales-restrictions/Page/NICSLR-Sales-Restr.-Card.html
+- uid: O:Page::NICSLR_Sales_Restr#_Category
+  name: "\"NICSLR Sales Restr. Category\""
+  fqName: "\"NICSLR Sales Restr. Category\""
+  href: reference/sales-restrictions/Page/NICSLR-Sales-Restr.-Category.html
 - uid: O:Page::NICSLR_Sales_Restr#_Setup
   name: "\"NICSLR Sales Restr. Setup\""
   fqName: "\"NICSLR Sales Restr. Setup\""
@@ -21776,6 +22184,10 @@ references:
   name: "\"NICWLP PackageCtntCombMatrix\""
   fqName: "\"NICWLP PackageCtntCombMatrix\""
   href: reference/warehouse-license-plating/Page/NICWLP-PackageCtntCombMatrix.html
+- uid: O:Page::NICWLP_Package_Content_API
+  name: "\"NICWLP Package Content API\""
+  fqName: "\"NICWLP Package Content API\""
+  href: reference/warehouse-license-plating/Page/NICWLP-Package-Content-API.html
 - uid: O:Page::NICWLP_Package_Content_Codes
   name: "\"NICWLP Package Content Codes\""
   fqName: "\"NICWLP Package Content Codes\""
@@ -22912,6 +23324,14 @@ references:
   name: "\"NICPIN Simul. Prod Ords List\""
   fqName: "\"NICPIN Simul. Prod Ords List\""
   href: reference/production-instructions/PageExtension/NICPIN-Simul.-Prod-Ords-List.html
+- uid: O:PageExtension::NICPRR_Item_Card
+  name: "\"NICPRR Item Card\""
+  fqName: "\"NICPRR Item Card\""
+  href: reference/purchasing-restrictions/PageExtension/NICPRR-Item-Card.html
+- uid: O:PageExtension::NICPRR_Item_List
+  name: "\"NICPRR Item List\""
+  fqName: "\"NICPRR Item List\""
+  href: reference/purchasing-restrictions/PageExtension/NICPRR-Item-List.html
 - uid: O:PageExtension::NICPRR_Order_Address
   name: "\"NICPRR Order Address\""
   fqName: "\"NICPRR Order Address\""
@@ -22920,6 +23340,10 @@ references:
   name: "\"NICPRR Vendor Card\""
   fqName: "\"NICPRR Vendor Card\""
   href: reference/purchasing-restrictions/PageExtension/NICPRR-Vendor-Card.html
+- uid: O:PageExtension::NICPRR_Vendor_List
+  name: "\"NICPRR Vendor List\""
+  fqName: "\"NICPRR Vendor List\""
+  href: reference/purchasing-restrictions/PageExtension/NICPRR-Vendor-List.html
 - uid: O:PageExtension::NICPSQ_Item_Card
   name: "\"NICPSQ Item Card\""
   fqName: "\"NICPSQ Item Card\""
@@ -22944,6 +23368,10 @@ references:
   name: "\"NICQIN ApprovalUserSetup\""
   fqName: "\"NICQIN ApprovalUserSetup\""
   href: reference/quality-inspections/PageExtension/NICQIN-ApprovalUserSetup.html
+- uid: O:PageExtension::NICQIN_Doc_Attach_List_Factbox
+  name: "\"NICQIN Doc Attach List Factbox\""
+  fqName: "\"NICQIN Doc Attach List Factbox\""
+  href: reference/quality-inspections/PageExtension/NICQIN-Doc-Attach-List-Factbox.html
 - uid: O:PageExtension::NICQIN_Item_Ledger_Entries
   name: "\"NICQIN Item Ledger Entries\""
   fqName: "\"NICQIN Item Ledger Entries\""
@@ -23076,10 +23504,26 @@ references:
   name: "\"NICSHC Whse. Pick Subform\""
   fqName: "\"NICSHC Whse. Pick Subform\""
   href: reference/serial-shipping-container-codes/PageExtension/NICSHC-Whse.-Pick-Subform.html
+- uid: O:PageExtension::NICSLR_Cust_Details_FactBox
+  name: "\"NICSLR Cust Details FactBox\""
+  fqName: "\"NICSLR Cust Details FactBox\""
+  href: reference/sales-restrictions/PageExtension/NICSLR-Cust-Details-FactBox.html
 - uid: O:PageExtension::NICSLR_Customer_Card
   name: "\"NICSLR Customer Card\""
   fqName: "\"NICSLR Customer Card\""
   href: reference/sales-restrictions/PageExtension/NICSLR-Customer-Card.html
+- uid: O:PageExtension::NICSLR_Customer_List
+  name: "\"NICSLR Customer List\""
+  fqName: "\"NICSLR Customer List\""
+  href: reference/sales-restrictions/PageExtension/NICSLR-Customer-List.html
+- uid: O:PageExtension::NICSLR_Item_Card
+  name: "\"NICSLR Item Card\""
+  fqName: "\"NICSLR Item Card\""
+  href: reference/sales-restrictions/PageExtension/NICSLR-Item-Card.html
+- uid: O:PageExtension::NICSLR_Item_List
+  name: "\"NICSLR Item List\""
+  fqName: "\"NICSLR Item List\""
+  href: reference/sales-restrictions/PageExtension/NICSLR-Item-List.html
 - uid: O:PageExtension::NICSLR_Ship-to_Address
   name: "\"NICSLR Ship-to Address\""
   fqName: "\"NICSLR Ship-to Address\""
@@ -23958,6 +24402,38 @@ references:
   name: "\"NICMAS Get Source Components\""
   fqName: "\"NICMAS Get Source Components\""
   href: reference/material-staging/Report/NICMAS-Get-Source-Components.html
+- uid: O:Report::NICMAS_Kit_Barcode_Label
+  name: "\"NICMAS Kit Barcode Label\""
+  fqName: "\"NICMAS Kit Barcode Label\""
+  href: reference/material-staging/Report/NICMAS-Kit-Barcode-Label.html
+- uid: O:Report::NICMAS_Staging_Instruction
+  name: "\"NICMAS Staging Instruction\""
+  fqName: "\"NICMAS Staging Instruction\""
+  href: reference/material-staging/Report/NICMAS-Staging-Instruction.html
+- uid: O:Report::NICPRR_AddPurchRestrtoVend
+  name: "\"NICPRR AddPurchRestrtoVend\""
+  fqName: "\"NICPRR AddPurchRestrtoVend\""
+  href: reference/purchasing-restrictions/Report/NICPRR-AddPurchRestrtoVend.html
+- uid: O:Report::NICPRR_Process_Item-RestrHdr
+  name: "\"NICPRR Process Item-RestrHdr\""
+  fqName: "\"NICPRR Process Item-RestrHdr\""
+  href: reference/purchasing-restrictions/Report/NICPRR-Process-Item-RestrHdr.html
+- uid: O:Report::NICPRR_Process_Item-Vendor
+  name: "\"NICPRR Process Item-Vendor\""
+  fqName: "\"NICPRR Process Item-Vendor\""
+  href: reference/purchasing-restrictions/Report/NICPRR-Process-Item-Vendor.html
+- uid: O:Report::NICPRR_PurchRestr_Status_Mng#
+  name: "\"NICPRR PurchRestr Status Mng.\""
+  fqName: "\"NICPRR PurchRestr Status Mng.\""
+  href: reference/purchasing-restrictions/Report/NICPRR-PurchRestr-Status-Mng..html
+- uid: O:Report::NICPRR_RemovePurchRestrFrmVend
+  name: "\"NICPRR RemovePurchRestrFrmVend\""
+  fqName: "\"NICPRR RemovePurchRestrFrmVend\""
+  href: reference/purchasing-restrictions/Report/NICPRR-RemovePurchRestrFrmVend.html
+- uid: O:Report::NICPRR_VendPurchRestrStatus
+  name: "\"NICPRR VendPurchRestrStatus\""
+  fqName: "\"NICPRR VendPurchRestrStatus\""
+  href: reference/purchasing-restrictions/Report/NICPRR-VendPurchRestrStatus.html
 - uid: O:Report::NICPSQ_Apply_Sequence
   name: "\"NICPSQ Apply Sequence\""
   fqName: "\"NICPSQ Apply Sequence\""
@@ -23994,6 +24470,30 @@ references:
   name: "\"NICSHC SSCC Detail Label\""
   fqName: "\"NICSHC SSCC Detail Label\""
   href: reference/serial-shipping-container-codes/Report/NICSHC-SSCC-Detail-Label.html
+- uid: O:Report::NICSLR_Add_Sale_Restr_to_Cust
+  name: "\"NICSLR Add Sale Restr to Cust\""
+  fqName: "\"NICSLR Add Sale Restr to Cust\""
+  href: reference/sales-restrictions/Report/NICSLR-Add-Sale-Restr-to-Cust.html
+- uid: O:Report::NICSLR_Cust#_Sal#_Restr_Status
+  name: "\"NICSLR Cust. Sal. Restr Status\""
+  fqName: "\"NICSLR Cust. Sal. Restr Status\""
+  href: reference/sales-restrictions/Report/NICSLR-Cust.-Sal.-Restr-Status.html
+- uid: O:Report::NICSLR_Process_Item-Customer
+  name: "\"NICSLR Process Item-Customer\""
+  fqName: "\"NICSLR Process Item-Customer\""
+  href: reference/sales-restrictions/Report/NICSLR-Process-Item-Customer.html
+- uid: O:Report::NICSLR_Process_Item-RestrHdr
+  name: "\"NICSLR Process Item-RestrHdr\""
+  fqName: "\"NICSLR Process Item-RestrHdr\""
+  href: reference/sales-restrictions/Report/NICSLR-Process-Item-RestrHdr.html
+- uid: O:Report::NICSLR_RemoveSaleRestrFrmCust
+  name: "\"NICSLR RemoveSaleRestrFrmCust\""
+  fqName: "\"NICSLR RemoveSaleRestrFrmCust\""
+  href: reference/sales-restrictions/Report/NICSLR-RemoveSaleRestrFrmCust.html
+- uid: O:Report::NICSLR_Sal#_Restr#_Status_Mng#
+  name: "\"NICSLR Sal. Restr. Status Mng.\""
+  fqName: "\"NICSLR Sal. Restr. Status Mng.\""
+  href: reference/sales-restrictions/Report/NICSLR-Sal.-Restr.-Status-Mng..html
 - uid: O:Report::NICSOF_Calculate_Rebates
   name: "\"NICSOF Calculate Rebates\""
   fqName: "\"NICSOF Calculate Rebates\""
@@ -24474,6 +24974,10 @@ references:
   name: "\"NICMAS Kit Subgroup\""
   fqName: "\"NICMAS Kit Subgroup\""
   href: reference/material-staging/Table/NICMAS-Kit-Subgroup.html
+- uid: O:Table::NICMAS_MatStag_API_Methods
+  name: "\"NICMAS MatStag API Methods\""
+  fqName: "\"NICMAS MatStag API Methods\""
+  href: reference/material-staging/Table/NICMAS-MatStag-API-Methods.html
 - uid: O:Table::NICMAS_MatStag_Header
   name: "\"NICMAS MatStag Header\""
   fqName: "\"NICMAS MatStag Header\""
@@ -24550,6 +25054,10 @@ references:
   name: "\"NICPIN Prod Order Instruction\""
   fqName: "\"NICPIN Prod Order Instruction\""
   href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: O:Table::NICPRR_Purch#_Restr#_Category
+  name: "\"NICPRR Purch. Restr. Category\""
+  fqName: "\"NICPRR Purch. Restr. Category\""
+  href: reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html
 - uid: O:Table::NICPRR_Purchasing_Restr_Header
   name: "\"NICPRR Purchasing Restr Header\""
   fqName: "\"NICPRR Purchasing Restr Header\""
@@ -24702,6 +25210,10 @@ references:
   name: "\"NICSHC SSCC Types\""
   fqName: "\"NICSHC SSCC Types\""
   href: reference/serial-shipping-container-codes/Table/NICSHC-SSCC-Types.html
+- uid: O:Table::NICSLR_Sales_Restr#_Category
+  name: "\"NICSLR Sales Restr. Category\""
+  fqName: "\"NICSLR Sales Restr. Category\""
+  href: reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html
 - uid: O:Table::NICSLR_Sales_Restr_Header
   name: "\"NICSLR Sales Restr Header\""
   fqName: "\"NICSLR Sales Restr Header\""
@@ -25334,6 +25846,10 @@ references:
   name: "\"NICPSQ Work Center\""
   fqName: "\"NICPSQ Work Center\""
   href: reference/production-sequencing/TableExtension/NICPSQ-Work-Center.html
+- uid: O:TableExtension::NICQIN_Document_Attachment
+  name: "\"NICQIN Document Attachment\""
+  fqName: "\"NICQIN Document Attachment\""
+  href: reference/quality-inspections/TableExtension/NICQIN-Document-Attachment.html
 - uid: O:TableExtension::NICQIN_Entry_Summary
   name: "\"NICQIN Entry Summary\""
   fqName: "\"NICQIN Entry Summary\""
