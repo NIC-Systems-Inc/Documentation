@@ -18005,19 +18005,19 @@ references:
   name: Allergens
   summary: >
     <p sourcefile="reference/allergens/Module/Allergens.yml" sourcestartlinenumber="1" jsonPath="/summary">Assign allergens to items, which flow to production orders and are inherited by finished goods</p>
-  fqName: Allergens by NIC Systems Inc. (25.4.14229.0)
+  fqName: Allergens by NIC Systems Inc. (26.0.14557.0)
   href: reference/allergens/Module/Allergens.html
 - uid: N:Module::Application_Installer
   name: Application Installer
   summary: >
     <p sourcefile="reference/application-installer/Module/Application-Installer.yml" sourcestartlinenumber="1" jsonPath="/summary">Install applications created by NIC Systems Inc.</p>
-  fqName: Application Installer by NIC Systems Inc. (25.4.14197.0)
+  fqName: Application Installer by NIC Systems Inc. (26.0.14496.0)
   href: reference/application-installer/Module/Application-Installer.html
 - uid: N:Module::Backorder_Management
   name: Backorder Management
   summary: >
     <p sourcefile="reference/backorder-management/Module/Backorder-Management.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to help your organization handle under-receipts and short-shipments.</p>
-  fqName: Backorder Management by NIC Systems Inc. (25.1.13080.0)
+  fqName: Backorder Management by NIC Systems Inc. (26.0.14541.0)
   href: reference/backorder-management/Module/Backorder-Management.html
 - uid: N:Module::Backorder_Management_obsolete_by_22.2
   tag: "22.2"
@@ -18028,7 +18028,7 @@ references:
   name: Customer Insights
   summary: >
     <p sourcefile="reference/customer-insights/Module/Customer-Insights.yml" sourcestartlinenumber="1" jsonPath="/summary">Evaluate how well your customers meet performance goals.</p>
-  fqName: Customer Insights by NIC Systems Inc. (25.2.13472.0)
+  fqName: Customer Insights by NIC Systems Inc. (26.0.14498.0)
   href: reference/customer-insights/Module/Customer-Insights.html
 - uid: N:Module::Customer_Insights_obsolete_by_25.1
   tag: "25.1"
@@ -18039,19 +18039,19 @@ references:
   name: ForecastX Connector
   summary: >
     <p sourcefile="reference/forecastx-connector/Module/ForecastX-Connector.yml" sourcestartlinenumber="1" jsonPath="/summary">Export data from Dynamics 365 Business Central to ForecastX for advanced forecasting</p>
-  fqName: ForecastX Connector by NIC Systems Inc. (25.4.14112.0)
+  fqName: ForecastX Connector by NIC Systems Inc. (26.0.14499.0)
   href: reference/forecastx-connector/Module/ForecastX-Connector.html
 - uid: N:Module::Inventory_Freshness
   name: Inventory Freshness
   summary: >
     <p sourcefile="reference/inventory-freshness/Module/Inventory-Freshness.yml" sourcestartlinenumber="1" jsonPath="/summary">Apply production date requirements to ensure freshness when receiving and shipping inventory.</p>
-  fqName: Inventory Freshness by NIC Systems Inc. (25.0.13084.0)
+  fqName: Inventory Freshness by NIC Systems Inc. (26.0.14542.0)
   href: reference/inventory-freshness/Module/Inventory-Freshness.html
 - uid: N:Module::Inventory_Restrictions
   name: Inventory Restrictions
   summary: >
     <p sourcefile="reference/inventory-restrictions/Module/Inventory-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to easily add and remove restrictions on item inventory, as well as create sub-lots.</p>
-  fqName: Inventory Restrictions by NIC Systems Inc. (25.0.13359.0)
+  fqName: Inventory Restrictions by NIC Systems Inc. (26.0.14503.0)
   href: reference/inventory-restrictions/Module/Inventory-Restrictions.html
 - uid: N:Module::Inventory_Restrictions_obsolete_by_22.2
   tag: "22.2"
@@ -18072,13 +18072,13 @@ references:
   name: Inventory Shelf Life
   summary: >
     <p sourcefile="reference/inventory-shelf-life/Module/Inventory-Shelf-Life.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to easily create and assign shelf life controls to customers and items.</p>
-  fqName: Inventory Shelf Life by NIC Systems Inc. (25.0.13086.0)
+  fqName: Inventory Shelf Life by NIC Systems Inc. (26.0.14543.0)
   href: reference/inventory-shelf-life/Module/Inventory-Shelf-Life.html
 - uid: N:Module::Item_Recalls
   name: Item Recalls
   summary: >
     <p sourcefile="reference/item-recalls/Module/Item-Recalls.yml" sourcestartlinenumber="1" jsonPath="/summary">Handle recall process for inventory on hand and all inbound/outbound activities, backward and forward</p>
-  fqName: Item Recalls by NIC Systems Inc. (25.1.13087.0)
+  fqName: Item Recalls by NIC Systems Inc. (26.0.14505.0)
   href: reference/item-recalls/Module/Item-Recalls.html
 - uid: N:Module::Item_Recalls_obsolete_by_21.2
   tag: "21.2"
@@ -18089,13 +18089,13 @@ references:
   name: Item Tracking Status Indicator
   summary: >
     <p sourcefile="reference/item-tracking-status-indicator/Module/Item-Tracking-Status-Indicator.yml" sourcestartlinenumber="1" jsonPath="/summary">For an item that requires lot, serial or package tracking, the Item Tracking Status Indicator field displays whether tracking information has been populated.</p>
-  fqName: Item Tracking Status Indicator by NIC Systems Inc. (25.0.12201.0)
+  fqName: Item Tracking Status Indicator by NIC Systems Inc. (26.0.14506.0)
   href: reference/item-tracking-status-indicator/Module/Item-Tracking-Status-Indicator.html
 - uid: N:Module::Lot_Algorithms
   name: Lot Algorithms
   summary: >
     <p sourcefile="reference/lot-algorithms/Module/Lot-Algorithms.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to create tailor-made lot numbers to keep track of inventory item more effectively.</p>
-  fqName: Lot Algorithms by NIC Systems Inc. (25.4.14046.0)
+  fqName: Lot Algorithms by NIC Systems Inc. (26.0.14507.0)
   href: reference/lot-algorithms/Module/Lot-Algorithms.html
 - uid: N:Module::Lot_Algorithms_obsolete_by_22.2
   tag: "22.2"
@@ -18106,7 +18106,7 @@ references:
   name: Material Staging
   summary: >
     <p sourcefile="reference/material-staging/Module/Material-Staging.yml" sourcestartlinenumber="1" jsonPath="/summary">Identify, prepare, and stage materials to keep production organized and running smoothly</p>
-  fqName: Material Staging by NIC Systems Inc. (25.5.14480.0)
+  fqName: Material Staging by NIC Systems Inc. (26.0.14553.0)
   href: reference/material-staging/Module/Material-Staging.html
 - uid: N:Module::Material_Staging_obsolete_by_25.5
   tag: "25.5"
@@ -18117,7 +18117,7 @@ references:
   name: Mobile Data Collection
   summary: >
     <p sourcefile="reference/mobile-data-collection/Module/Mobile-Data-Collection.yml" sourcestartlinenumber="1" jsonPath="/summary">Mobile Data Collection</p>
-  fqName: Mobile Data Collection by NIC Systems Inc. (25.5.14459.0)
+  fqName: Mobile Data Collection by NIC Systems Inc. (26.0.14517.0)
   href: reference/mobile-data-collection/Module/Mobile-Data-Collection.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_23.0
   tag: "23.0"
@@ -18138,19 +18138,19 @@ references:
   name: Over Shipping
   summary: >
     <p sourcefile="reference/over-shipping/Module/Over-Shipping.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to help your organization handle over-shipments.</p>
-  fqName: Over Shipping by NIC Systems Inc. (25.0.13091.0)
+  fqName: Over Shipping by NIC Systems Inc. (26.0.14508.0)
   href: reference/over-shipping/Module/Over-Shipping.html
 - uid: N:Module::Payment_Signatures
   name: Payment Signatures
   summary: >
     <p sourcefile="reference/payment-signatures/Module/Payment-Signatures.yml" sourcestartlinenumber="1" jsonPath="/summary">Automatically print signatures based on thresholds.</p>
-  fqName: Payment Signatures by NIC Systems Inc. (25.1.13105.0)
+  fqName: Payment Signatures by NIC Systems Inc. (26.0.14509.0)
   href: reference/payment-signatures/Module/Payment-Signatures.html
 - uid: N:Module::Production_Batching
   name: Production Batching
   summary: >
     <p sourcefile="reference/production-batching/Module/Production-Batching.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to accomplish a production order through batches.</p>
-  fqName: Production Batching by NIC Systems Inc. (25.4.14005.0)
+  fqName: Production Batching by NIC Systems Inc. (26.0.14556.0)
   href: reference/production-batching/Module/Production-Batching.html
 - uid: N:Module::Production_Batching_obsolete_by_22.2
   tag: "22.2"
@@ -18161,31 +18161,31 @@ references:
   name: Production Instructions
   summary: >
     <p sourcefile="reference/production-instructions/Module/Production-Instructions.yml" sourcestartlinenumber="1" jsonPath="/summary">Production Instructions</p>
-  fqName: Production Instructions by NIC Systems Inc. (25.0.12211.0)
+  fqName: Production Instructions by NIC Systems Inc. (26.0.14555.0)
   href: reference/production-instructions/Module/Production-Instructions.html
 - uid: N:Module::Production_Sequencing
   name: Production Sequencing
   summary: >
     <p sourcefile="reference/production-sequencing/Module/Production-Sequencing.yml" sourcestartlinenumber="1" jsonPath="/summary">Arrange production orders by sequence code, production order number, or start date and time.</p>
-  fqName: Production Sequencing by NIC Systems Inc. (25.0.13107.0)
+  fqName: Production Sequencing by NIC Systems Inc. (26.0.14512.0)
   href: reference/production-sequencing/Module/Production-Sequencing.html
 - uid: N:Module::Production_Yield_Metrics
   name: Production Yield Metrics
   summary: >
     <p sourcefile="reference/production-yield-metrics/Module/Production-Yield-Metrics.yml" sourcestartlinenumber="1" jsonPath="/summary">View production order and component statistics based on what you have actually produced.</p>
-  fqName: Production Yield Metrics by NIC Systems Inc. (25.1.12719.0)
+  fqName: Production Yield Metrics by NIC Systems Inc. (26.0.14484.0)
   href: reference/production-yield-metrics/Module/Production-Yield-Metrics.html
 - uid: N:Module::Purchasing_Restrictions
   name: Purchasing Restrictions
   summary: >
     <p sourcefile="reference/purchasing-restrictions/Module/Purchasing-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Purchasing Restrictions</p>
-  fqName: Purchasing Restrictions by NIC Systems Inc. (25.5.14457.0)
+  fqName: Purchasing Restrictions by NIC Systems Inc. (26.0.14538.0)
   href: reference/purchasing-restrictions/Module/Purchasing-Restrictions.html
 - uid: N:Module::Quality_Inspections
   name: Quality Inspections
   summary: >
     <p sourcefile="reference/quality-inspections/Module/Quality-Inspections.yml" sourcestartlinenumber="1" jsonPath="/summary">Quality Inspections</p>
-  fqName: Quality Inspections by NIC Systems Inc. (25.5.14483.0)
+  fqName: Quality Inspections by NIC Systems Inc. (26.0.14589.0)
   href: reference/quality-inspections/Module/Quality-Inspections.html
 - uid: N:Module::Quality_Inspections_obsolete_by_25.1
   tag: "25.1"
@@ -18201,13 +18201,13 @@ references:
   name: Sales Commissions
   summary: >
     <p sourcefile="reference/sales-commissions/Module/Sales-Commissions.yml" sourcestartlinenumber="1" jsonPath="/summary">Manage and track sales commissions</p>
-  fqName: Sales Commissions by NIC Systems Inc. (25.1.13110.0)
+  fqName: Sales Commissions by NIC Systems Inc. (26.0.14487.0)
   href: reference/sales-commissions/Module/Sales-Commissions.html
 - uid: N:Module::Sales_Rebates
   name: Sales Rebates
   summary: >
     <p sourcefile="reference/sales-rebates/Module/Sales-Rebates.yml" sourcestartlinenumber="1" jsonPath="/summary">A comprehensive solution to process sales rebate initiatives and boost your sales.</p>
-  fqName: Sales Rebates by NIC Systems Inc. (25.1.13104.0)
+  fqName: Sales Rebates by NIC Systems Inc. (26.0.14488.0)
   href: reference/sales-rebates/Module/Sales-Rebates.html
 - uid: N:Module::Sales_Rebates_obsolete_by_24.5
   tag: "24.5"
@@ -18218,13 +18218,13 @@ references:
   name: Sales Restrictions
   summary: >
     <p sourcefile="reference/sales-restrictions/Module/Sales-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Sales Restrictions</p>
-  fqName: Sales Restrictions by NIC Systems Inc. (25.5.14458.0)
+  fqName: Sales Restrictions by NIC Systems Inc. (26.0.14539.0)
   href: reference/sales-restrictions/Module/Sales-Restrictions.html
 - uid: N:Module::Serial_Shipping_Container_Codes
   name: Serial Shipping Container Codes
   summary: >
     <p sourcefile="reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables organizations to generate SSCC numbers adhering to GS1 requirements. The user can assign the SSCC number to a bundle of items, and print a shipping label.</p>
-  fqName: Serial Shipping Container Codes by NIC Systems Inc. (25.2.13474.0)
+  fqName: Serial Shipping Container Codes by NIC Systems Inc. (26.0.14490.0)
   href: reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.html
 - uid: N:Module::Serial_Shipping_Container_Codes_obsolete_by_22.2
   tag: "22.2"
@@ -18240,7 +18240,7 @@ references:
   name: Treasury Management Suite
   summary: >
     <p sourcefile="reference/treasury-management-suite/Module/Treasury-Management-Suite.yml" sourcestartlinenumber="1" jsonPath="/summary">Treasury Management</p>
-  fqName: Treasury Management Suite by NIC Systems Inc. (25.0.13113.0)
+  fqName: Treasury Management Suite by NIC Systems Inc. (26.0.14491.0)
   href: reference/treasury-management-suite/Module/Treasury-Management-Suite.html
 - uid: N:Module::Treasury_Management_Suite_obsolete_by_21.3
   tag: "21.3"
@@ -18261,13 +18261,13 @@ references:
   name: Variable Capacity Cost
   summary: >
     <p sourcefile="reference/variable-capacity-cost/Module/Variable-Capacity-Cost.yml" sourcestartlinenumber="1" jsonPath="/summary">Use a variable machine and work center cost when posting output capacity.</p>
-  fqName: Variable Capacity Cost by NIC Systems Inc. (25.1.13305.0)
+  fqName: Variable Capacity Cost by NIC Systems Inc. (26.0.14492.0)
   href: reference/variable-capacity-cost/Module/Variable-Capacity-Cost.html
 - uid: N:Module::Vendor_Insights
   name: Vendor Insights
   summary: >
     <p sourcefile="reference/vendor-insights/Module/Vendor-Insights.yml" sourcestartlinenumber="1" jsonPath="/summary">Vendor Insights</p>
-  fqName: Vendor Insights by NIC Systems Inc. (25.2.13473.0)
+  fqName: Vendor Insights by NIC Systems Inc. (26.0.14493.0)
   href: reference/vendor-insights/Module/Vendor-Insights.html
 - uid: N:Module::Vendor_Insights_obsolete_by_25.0
   tag: "25.0"
@@ -18278,7 +18278,7 @@ references:
   name: Warehouse License Plating
   summary: >
     <p sourcefile="reference/warehouse-license-plating/Module/Warehouse-License-Plating.yml" sourcestartlinenumber="1" jsonPath="/summary">Warehouse License Plating contains features that allow you to view and control package-tracked inventory.</p>
-  fqName: Warehouse License Plating by NIC Systems Inc. (25.5.14394.0)
+  fqName: Warehouse License Plating by NIC Systems Inc. (26.0.14494.0)
   href: reference/warehouse-license-plating/Module/Warehouse-License-Plating.html
 - uid: N:Module::Warehouse_License_Plating_obsolete_by_22.2
   tag: "22.2"
@@ -18422,6 +18422,10 @@ references:
   name: "\"NICALL Prod Order Allergens\""
   fqName: "\"NICALL Prod Order Allergens\""
   href: reference/allergens/Codeunit/NICALL-Prod-Order-Allergens.html
+- uid: O:Codeunit::NICALL_Reopen_Management
+  name: "\"NICALL Reopen Management\""
+  fqName: "\"NICALL Reopen Management\""
+  href: reference/allergens/Codeunit/NICALL-Reopen-Management.html
 - uid: O:Codeunit::NICALL_Setup_Wizard_Handler
   name: "\"NICALL Setup Wizard Handler\""
   fqName: "\"NICALL Setup Wizard Handler\""
@@ -19342,6 +19346,10 @@ references:
   name: "\"NICMAS Prod Order Comp Ctrl\""
   fqName: "\"NICMAS Prod Order Comp Ctrl\""
   href: reference/material-staging/Codeunit/NICMAS-Prod-Order-Comp-Ctrl.html
+- uid: O:Codeunit::NICMAS_Reopen_Management
+  name: "\"NICMAS Reopen Management\""
+  fqName: "\"NICMAS Reopen Management\""
+  href: reference/material-staging/Codeunit/NICMAS-Reopen-Management.html
 - uid: O:Codeunit::NICMAS_Setup_Wizard_Handler
   name: "\"NICMAS Setup Wizard Handler\""
   fqName: "\"NICMAS Setup Wizard Handler\""
@@ -19540,6 +19548,10 @@ references:
   name: "\"NICPBA ProductionBatchingAPI\""
   fqName: "\"NICPBA ProductionBatchingAPI\""
   href: reference/production-batching/Codeunit/NICPBA-ProductionBatchingAPI.html
+- uid: O:Codeunit::NICPBA_Reopen_Management
+  name: "\"NICPBA Reopen Management\""
+  fqName: "\"NICPBA Reopen Management\""
+  href: reference/production-batching/Codeunit/NICPBA-Reopen-Management.html
 - uid: O:Codeunit::NICPBA_Require_Batch_No#
   name: "\"NICPBA Require Batch No.\""
   fqName: "\"NICPBA Require Batch No.\""
@@ -19580,6 +19592,10 @@ references:
   name: "\"NICPIN Prod Order Inst. Mng.\""
   fqName: "\"NICPIN Prod Order Inst. Mng.\""
   href: reference/production-instructions/Codeunit/NICPIN-Prod-Order-Inst.-Mng..html
+- uid: O:Codeunit::NICPIN_Reopen_Management
+  name: "\"NICPIN Reopen Management\""
+  fqName: "\"NICPIN Reopen Management\""
+  href: reference/production-instructions/Codeunit/NICPIN-Reopen-Management.html
 - uid: O:Codeunit::NICPIN_Subscribers
   name: "\"NICPIN Subscribers\""
   fqName: "\"NICPIN Subscribers\""
@@ -19792,6 +19808,10 @@ references:
   name: "\"NICQIN PrintInspection\""
   fqName: "\"NICQIN PrintInspection\""
   href: reference/quality-inspections/Codeunit/NICQIN-PrintInspection.html
+- uid: O:Codeunit::NICQIN_Reopen_Management
+  name: "\"NICQIN Reopen Management\""
+  fqName: "\"NICQIN Reopen Management\""
+  href: reference/quality-inspections/Codeunit/NICQIN-Reopen-Management.html
 - uid: O:Codeunit::NICQIN_Result_Value_Mgmt
   name: "\"NICQIN Result Value Mgmt\""
   fqName: "\"NICQIN Result Value Mgmt\""
@@ -23060,6 +23080,14 @@ references:
   name: "\"NICITR User Setup\""
   fqName: "\"NICITR User Setup\""
   href: reference/item-recalls/PageExtension/NICITR-User-Setup.html
+- uid: O:PageExtension::NICMAS_CapacityLedgerEntries
+  name: "\"NICMAS CapacityLedgerEntries\""
+  fqName: "\"NICMAS CapacityLedgerEntries\""
+  href: reference/material-staging/PageExtension/NICMAS-CapacityLedgerEntries.html
+- uid: O:PageExtension::NICMAS_FinishedProdOrder
+  name: "\"NICMAS FinishedProdOrder\""
+  fqName: "\"NICMAS FinishedProdOrder\""
+  href: reference/material-staging/PageExtension/NICMAS-FinishedProdOrder.html
 - uid: O:PageExtension::NICMAS_FirmPlanProdOrderLines
   name: "\"NICMAS FirmPlanProdOrderLines\""
   fqName: "\"NICMAS FirmPlanProdOrderLines\""
@@ -23072,6 +23100,10 @@ references:
   name: "\"NICMAS Firm Plan Prod Orders\""
   fqName: "\"NICMAS Firm Plan Prod Orders\""
   href: reference/material-staging/PageExtension/NICMAS-Firm-Plan-Prod-Orders.html
+- uid: O:PageExtension::NICMAS_ItemLedgerEntries
+  name: "\"NICMAS ItemLedgerEntries\""
+  fqName: "\"NICMAS ItemLedgerEntries\""
+  href: reference/material-staging/PageExtension/NICMAS-ItemLedgerEntries.html
 - uid: O:PageExtension::NICMAS_Item_Card
   name: "\"NICMAS Item Card\""
   fqName: "\"NICMAS Item Card\""
@@ -23372,6 +23404,10 @@ references:
   name: "\"NICQIN Doc Attach List Factbox\""
   fqName: "\"NICQIN Doc Attach List Factbox\""
   href: reference/quality-inspections/PageExtension/NICQIN-Doc-Attach-List-Factbox.html
+- uid: O:PageExtension::NICQIN_FinishedProdOrder
+  name: "\"NICQIN FinishedProdOrder\""
+  fqName: "\"NICQIN FinishedProdOrder\""
+  href: reference/quality-inspections/PageExtension/NICQIN-FinishedProdOrder.html
 - uid: O:PageExtension::NICQIN_Item_Ledger_Entries
   name: "\"NICQIN Item Ledger Entries\""
   fqName: "\"NICQIN Item Ledger Entries\""

@@ -105,6 +105,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Reopen-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Reopen-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/allergens/Codeunit/NICALL-Setup-Wizard-Handler.yml",
       "output": {
         ".html": {
@@ -7535,6 +7545,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Reopen-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Codeunit/NICMAS-Reopen-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/material-staging/Codeunit/NICMAS-Setup-Wizard-Handler.yml",
       "output": {
         ".html": {
@@ -7865,6 +7885,26 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-CapacityLedgerEntries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-CapacityLedgerEntries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-FinishedProdOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-FinishedProdOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/material-staging/PageExtension/NICMAS-Firm-Plan-Prod-Order.yml",
       "output": {
         ".html": {
@@ -7899,6 +7939,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/material-staging/PageExtension/NICMAS-Item-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/PageExtension/NICMAS-ItemLedgerEntries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/PageExtension/NICMAS-ItemLedgerEntries.html"
         }
       },
       "version": ""
@@ -10205,6 +10255,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-batching/Codeunit/NICPBA-Reopen-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-batching/Codeunit/NICPBA-Reopen-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/production-batching/Codeunit/NICPBA-Require-Batch-No..yml",
       "output": {
         ".html": {
@@ -11009,6 +11069,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/production-instructions/Codeunit/NICPIN-Prod.-BOM-Inst.-Mng..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Codeunit/NICPIN-Reopen-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Codeunit/NICPIN-Reopen-Management.html"
         }
       },
       "version": ""
@@ -12465,6 +12535,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Reopen-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Reopen-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Result-Value-Mgmt.yml",
       "output": {
         ".html": {
@@ -13239,6 +13319,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/quality-inspections/PageExtension/NICQIN-Doc-Attach-List-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/PageExtension/NICQIN-FinishedProdOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/PageExtension/NICQIN-FinishedProdOrder.html"
         }
       },
       "version": ""
