@@ -109,12 +109,12 @@
   			<tr>
   					<td>DrillDownPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICPBA-ProductionOrderBatches.html">&quot;NICPBA ProductionOrderBatches&quot;</a>  					</td>
+<a class="xref" href="../Page/NICPBA-ProductionOrderBatches.html">Page &quot;NICPBA ProductionOrderBatches&quot;</a>  					</td>
   			</tr>
   			<tr>
   					<td>LookupPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICPBA-ProductionOrderBatches.html">&quot;NICPBA ProductionOrderBatches&quot;</a>  					</td>
+<a class="xref" href="../Page/NICPBA-ProductionOrderBatches.html">Page &quot;NICPBA ProductionOrderBatches&quot;</a>  					</td>
   			</tr>
   			<tr>
   					<td>ColumnStoreIndex</td>
@@ -139,105 +139,120 @@
   					<td class="font-style-italic">
 Microsoft.Manufacturing.Document.&quot;Production Order Status&quot;						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Status field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Prod. Order No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Prod. Order No. field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Prod. Order Line No.&quot;</td>
   					<td class="font-style-italic">
 Integer						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Prod. Order Line No. field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Batch No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies a number to identify the batch.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Sort Order&quot;</td>
   					<td class="font-style-italic">
 Integer						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Sort Orde field</p>
+</td>
   				</tr>
   				<tr>
   					<td>Quantity</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the quantity to be produced for the batch on the line.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Item No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Item No. field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Unit of Measure Code&quot;</td>
   					<td class="font-style-italic">
 Code[10]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies how each unit of the item is measured, such as in pieces or tons. By default, the value in the Base Unit of Measure field on the item card is inserted. It will be changed if you switch Product BOM or Production BOM Version.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Qty. per Unit of Measure&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Qty. per Unit of Measure field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Has Posted Consumption&quot;</td>
   					<td class="font-style-italic">
 Boolean						
   					</td>
-  					<td></td>
+  					<td><p>Specifies if consumption has been posted to the ledger for the batch on the line.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Has Posted Output&quot;</td>
   					<td class="font-style-italic">
 Boolean						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Has Posted Output field</p>
+</td>
   				</tr>
   				<tr>
   					<td>Blocked</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICPBA-Block-Batch-Option.html">&quot;NICPBA Block Batch Option&quot;</a>						
+<a class="xref" href="../Enum/NICPBA-Block-Batch-Option.html">Enum &quot;NICPBA Block Batch Option&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies if the batch is blocked from transactions. Choose 'All' to block all output and consumption transactions. Choose 'Output' or 'Consumption' to block only those specific transactions. Capacity is considered to be an output transaction.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Quantity (Base)&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the quantity to be produced in the base unit of measure for the batch on the line.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Finished Quantity&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies how much of the quantity on this line has been produced.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Finished Quantity (Base)&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies how much of the quantity, in the base unit of measure, on this line has been produced.</p>
+</td>
   				</tr>
   				<tr>
   					<td>SystemId</td>
@@ -306,7 +321,7 @@ local procedure OnAfterCheckExistingEntries(Rec: Record &quot;NICPBA ProductionO
 								Rec
    							</td>
    							<td class="font-style-italic">
-Record &quot;NICPBA ProductionOrderBatch&quot;                 </td>
+<a class="xref" href="NICPBA-ProductionOrderBatch.html">Table &quot;NICPBA ProductionOrderBatch&quot;</a>                 </td>
    							<td>
 								
    							</td>
@@ -316,7 +331,7 @@ Record &quot;NICPBA ProductionOrderBatch&quot;                 </td>
 								xRec
    							</td>
    							<td class="font-style-italic">
-Record &quot;NICPBA ProductionOrderBatch&quot;                 </td>
+<a class="xref" href="NICPBA-ProductionOrderBatch.html">Table &quot;NICPBA ProductionOrderBatch&quot;</a>                 </td>
    							<td>
 								
    							</td>
@@ -349,7 +364,7 @@ local procedure OnAfterUpdateFieldsFromProdOrderLine(var Rec: Record &quot;NICPB
 								Rec
    							</td>
    							<td class="font-style-italic">
-Record &quot;NICPBA ProductionOrderBatch&quot;                 </td>
+<a class="xref" href="NICPBA-ProductionOrderBatch.html">Table &quot;NICPBA ProductionOrderBatch&quot;</a>                 </td>
    							<td>
 								
    							</td>
@@ -359,7 +374,7 @@ Record &quot;NICPBA ProductionOrderBatch&quot;                 </td>
 								xRec
    							</td>
    							<td class="font-style-italic">
-Record &quot;NICPBA ProductionOrderBatch&quot;                 </td>
+<a class="xref" href="NICPBA-ProductionOrderBatch.html">Table &quot;NICPBA ProductionOrderBatch&quot;</a>                 </td>
    							<td>
 								
    							</td>
@@ -402,7 +417,7 @@ local procedure OnBeforeCheckExistingEntries(var Rec: Record &quot;NICPBA Produc
 								Rec
    							</td>
    							<td class="font-style-italic">
-Record &quot;NICPBA ProductionOrderBatch&quot;                 </td>
+<a class="xref" href="NICPBA-ProductionOrderBatch.html">Table &quot;NICPBA ProductionOrderBatch&quot;</a>                 </td>
    							<td>
 								
    							</td>
@@ -412,7 +427,7 @@ Record &quot;NICPBA ProductionOrderBatch&quot;                 </td>
 								xRec
    							</td>
    							<td class="font-style-italic">
-Record &quot;NICPBA ProductionOrderBatch&quot;                 </td>
+<a class="xref" href="NICPBA-ProductionOrderBatch.html">Table &quot;NICPBA ProductionOrderBatch&quot;</a>                 </td>
    							<td>
 								
    							</td>

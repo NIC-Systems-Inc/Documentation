@@ -565,6 +565,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Table/NICALL-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Table/NICALL-Load-Default-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/allergens/TableExtension/NICALL-Item.yml",
       "output": {
         ".html": {
@@ -639,6 +649,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/application-installer/PermissionSet/NICAPP-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/backorder-management/Codeunit/NICBOM-AppIntegration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/backorder-management/Codeunit/NICBOM-AppIntegration.html"
         }
       },
       "version": ""
@@ -1539,6 +1559,746 @@
       "output": {
         ".html": {
           "relative_path": "reference/customer-insights/Table/NICCIN-Customer-Metric.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/customer-insights/Table/NICCIN-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/customer-insights/Table/NICCIN-Load-Default-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-API-Connection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-API-Connection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-API-Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-API-Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Data-Transformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Data-Transformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Default-API-Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Default-API-Config.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Default-Field-Mappings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Default-Field-Mappings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Field-Map-Allowed-Table.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Field-Map-Allowed-Table.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Field-Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Field-Mapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-FoodChain-ID-Connector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-FoodChain-ID-Connector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Get-Items.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Get-Items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Get-Recipes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Get-Recipes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Get-Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Get-Resource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Guided-Exp-Assist-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Guided-Exp-Assist-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Guided-Exp-Manual-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Guided-Exp-Manual-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Handle-MultiLine-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Handle-MultiLine-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Http-Client-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Http-Client-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Initialize-Company.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Initialize-Company.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Initialize-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Initialize-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Item-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Item-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Item-Nutrition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Item-Nutrition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-JsonData-Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-JsonData-Helper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Process-Field-Mappings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Process-Field-Mappings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Process-Item-Spec..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Process-Item-Spec..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Process-Items.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Process-Items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Process-Recipes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Process-Recipes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Progress-Dialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Progress-Dialog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Record-Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Record-Mapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Scheduled-Job-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Scheduled-Job-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Scheduled-Job-Runner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Scheduled-Job-Runner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Send-Item-Cost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Send-Item-Cost.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Setup-Wizard-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Setup-Wizard-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Test-Connection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Test-Connection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/ControlAddIn/NICFCH-Multiline-Field.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/ControlAddIn/NICFCH-Multiline-Field.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Enum/NICFCH-API-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Enum/NICFCH-API-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Enum/NICFCH-BOM-Line-Qty-Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Enum/NICFCH-BOM-Line-Qty-Source.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Enum/NICFCH-BOM-Starting-Date-Src.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Enum/NICFCH-BOM-Starting-Date-Src.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Enum/NICFCH-Contains-Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Enum/NICFCH-Contains-Options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Enum/NICFCH-Data-Transform-Rule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Enum/NICFCH-Data-Transform-Rule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Enum/NICFCH-FCID-BOM-Line-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Enum/NICFCH-FCID-BOM-Line-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Enum/NICFCH-FCID-Environment-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Enum/NICFCH-FCID-Environment-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Module/FoodChain-ID-Connector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Module/FoodChain-ID-Connector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-API-Configuration-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-API-Configuration-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-Field-Map-Allow-Tables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-Field-Map-Allow-Tables.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-Field-Mappings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-Field-Mappings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-Item-Specification-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-Item-Specification-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-Item-Specifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-Item-Specifications.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-Nutritional-Information.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-Nutritional-Information.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-Setup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-Setup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-Spec-Ingredient-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-Spec-Ingredient-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-Spec-Usage-Stmt-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-Spec-Usage-Stmt-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Item-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Item-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Item-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Item-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Prod.-BOM-Version-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Prod.-BOM-Version-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Production-BOM-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Production-BOM-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Production-BOM-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Production-BOM-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Production-BOM-VerLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Production-BOM-VerLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Production-BOM-Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Production-BOM-Version.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Production-BOM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PageExtension/NICFCH-Production-BOM.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PermissionSet/NICFCH-Full-User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PermissionSet/NICFCH-Full-User.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PermissionSet/NICFCH-Lite-User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PermissionSet/NICFCH-Lite-User.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PermissionSet/NICFCH-Objects---Full.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PermissionSet/NICFCH-Objects---Full.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/PermissionSet/NICFCH-Objects---Lite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/PermissionSet/NICFCH-Objects---Lite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Table/NICFCH-API-Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Table/NICFCH-API-Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Table/NICFCH-Field-Map-Allowed-Table.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Table/NICFCH-Field-Map-Allowed-Table.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Table/NICFCH-Field-Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Table/NICFCH-Field-Mapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Table/NICFCH-Item-Cost-Sent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Table/NICFCH-Item-Cost-Sent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Table/NICFCH-Item-Specification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Table/NICFCH-Item-Specification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Table/NICFCH-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Table/NICFCH-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/TableExtension/NICFCH-Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/TableExtension/NICFCH-Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/TableExtension/NICFCH-Production-BOM-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/TableExtension/NICFCH-Production-BOM-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/TableExtension/NICFCH-Production-BOM-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/TableExtension/NICFCH-Production-BOM-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/TableExtension/NICFCH-Production-BOM-Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/TableExtension/NICFCH-Production-BOM-Version.html"
         }
       },
       "version": ""
@@ -5615,6 +6375,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-recalls/Table/NICITR-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-recalls/Table/NICITR-Load-Default-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/item-recalls/Table/NICITR-Notification-Detail.yml",
       "output": {
         ".html": {
@@ -7014,6 +7784,16 @@
       "version": ""
     },
     {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/lot-algorithms/Obsoletion/obsolete_by_26.1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/lot-algorithms/Obsoletion/obsolete_by_26.1.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/lot-algorithms/Page/NICALG-ALG-Setup-Wizard.yml",
       "output": {
@@ -7209,6 +7989,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/lot-algorithms/Report/NICALG-Item-Maintenance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/lot-algorithms/Table/NICALG-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/lot-algorithms/Table/NICALG-Load-Default-Data.html"
         }
       },
       "version": ""
@@ -8219,6 +9009,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/material-staging/Table/NICMAS-Kit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Table/NICMAS-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Table/NICMAS-Load-Default-Data.html"
         }
       },
       "version": ""
@@ -9549,6 +10349,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/mobile-data-collection/XmlPort/nicmdcListOfUOM.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/over-shipping/Codeunit/NICOVS-AppIntegration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/over-shipping/Codeunit/NICOVS-AppIntegration.html"
         }
       },
       "version": ""
@@ -13839,6 +14649,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/quality-inspections/Table/NICQIN-InvtRestrictionCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Table/NICQIN-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Table/NICQIN-Load-Default-Data.html"
         }
       },
       "version": ""
@@ -19109,6 +19929,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/vendor-insights/PermissionSet/NICVIN-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/vendor-insights/Table/NICVIN-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/vendor-insights/Table/NICVIN-Load-Default-Data.html"
         }
       },
       "version": ""

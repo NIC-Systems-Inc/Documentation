@@ -115,12 +115,12 @@
   			<tr>
   					<td>DrillDownPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICCOM-Commission-Entries.html">&quot;NICCOM Commission Entries&quot;</a>  					</td>
+<a class="xref" href="../Page/NICCOM-Commission-Entries.html">Page &quot;NICCOM Commission Entries&quot;</a>  					</td>
   			</tr>
   			<tr>
   					<td>LookupPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICCOM-Commission-Entries.html">&quot;NICCOM Commission Entries&quot;</a>  					</td>
+<a class="xref" href="../Page/NICCOM-Commission-Entries.html">Page &quot;NICCOM Commission Entries&quot;</a>  					</td>
   			</tr>
   		</tbody>
   	</table>
@@ -139,168 +139,192 @@
   					<td class="font-style-italic">
 Integer						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the number of the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Commission No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the commission number that the entry is linked to.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Description</td>
   					<td class="font-style-italic">
 Text[100]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the description of the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Posting Date&quot;</td>
   					<td class="font-style-italic">
 Date						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the posting date of the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Commission Posting Group&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Commission Posting Group field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Sell-to Customer No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the sell-to customer account number that the entry is linked to.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Pay-to Agent No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the agent that the entry will be applied to.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Document Type&quot;</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICCOM-Comm-Jnl-Doc.-Type.html">&quot;NICCOM Comm Jnl Doc. Type&quot;</a>						
+<a class="xref" href="../Enum/NICCOM-Comm-Jnl-Doc.-Type.html">Enum &quot;NICCOM Comm Jnl Doc. Type&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the document type of the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Document No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the document number of the transaction that created the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Currency Code&quot;</td>
   					<td class="font-style-italic">
 Code[10]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the code for the currency if the amount is in a foreign currency.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Amount</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the amount of the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Remaining Amount&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the amount that remains to be applied to the agent.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Amount (LCY)&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the amount of the entry in local currency.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Remaining Amount (LCY)&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the amount that remains to be applied to the agent, expressed in LCY.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Ship-to Code&quot;</td>
   					<td class="font-style-italic">
 Code[10]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the customer ship-to code to which the entry is linked.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Bill-to Customer No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Bill-to Customer No. field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Reason Code&quot;</td>
   					<td class="font-style-italic">
 Code[10]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the reason code, a supplementary source code that enables you to trace the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Open</td>
   					<td class="font-style-italic">
 Boolean						
   					</td>
-  					<td></td>
+  					<td><p>Specifies whether or not the amount on the entry has been fully applied to the agent.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Comment</td>
   					<td class="font-style-italic">
 Text[250]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies a comment about the activity on the journal line.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Date Filter&quot;</td>
   					<td class="font-style-italic">
 Date						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Date Filter field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Debit Amount&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the total of the entry that represents debits.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Credit Amount&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the total of the entry that represents credits.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Debit Amount (LCY)&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the total of the entry that represents debits, expressed in LCY.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Credit Amount (LCY)&quot;</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the total of the entry that represents credits, expressed in LCY.</p>
+</td>
   				</tr>
   				<tr>
   					<td>SystemId</td>

@@ -115,12 +115,12 @@
   			<tr>
   					<td>DrillDownPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICIRA-InvtRest-Log-Entries.html">&quot;NICIRA InvtRest Log Entries&quot;</a>  					</td>
+<a class="xref" href="../Page/NICIRA-InvtRest-Log-Entries.html">Page &quot;NICIRA InvtRest Log Entries&quot;</a>  					</td>
   			</tr>
   			<tr>
   					<td>LookupPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICIRA-InvtRest-Log-Entries.html">&quot;NICIRA InvtRest Log Entries&quot;</a>  					</td>
+<a class="xref" href="../Page/NICIRA-InvtRest-Log-Entries.html">Page &quot;NICIRA InvtRest Log Entries&quot;</a>  					</td>
   			</tr>
   			<tr>
   					<td>ReplicateData</td>
@@ -145,140 +145,160 @@
   					<td class="font-style-italic">
 Integer						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the number of the entry, as assigned from the specified number series when the entry was created.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Entry Type&quot;</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICIRA-InvRestEntryType.html">&quot;NICIRA InvRestEntryType&quot;</a>						
+<a class="xref" href="../Enum/NICIRA-InvRestEntryType.html">Enum &quot;NICIRA InvRestEntryType&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies which type of transaction that the entry is created from.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Invt Restriction Code&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the inventory restriction code that was added or removed.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Document Type&quot;</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICIRA-InvtRestGroupEntryType.html">&quot;NICIRA InvtRestGroupEntryType&quot;</a>						
+<a class="xref" href="../Enum/NICIRA-InvtRestGroupEntryType.html">Enum &quot;NICIRA InvtRestGroupEntryType&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the (Obsolete) Document Type field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Document Type (v2)&quot;</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICIRA-InvtRest-Entry-Doc-Type.html">&quot;NICIRA InvtRest Entry Doc Type&quot;</a>						
+<a class="xref" href="../Enum/NICIRA-InvtRest-Entry-Doc-Type.html">Enum &quot;NICIRA InvtRest Entry Doc Type&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies what type of document was posted to create the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Document No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the document number on the entry. The document is what the entry was based on, for example, a purchase receipt.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Document Line No.&quot;</td>
   					<td class="font-style-italic">
 Integer						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the number of the line on the posted document that corresponds to the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Item No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the number of the item in the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Description</td>
   					<td class="font-style-italic">
 Text[100]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies a description of the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;User ID&quot;</td>
   					<td class="font-style-italic">
 Code[50]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the ID of the user who posted the entry, to be used, for example, in the change log.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Date Created&quot;</td>
   					<td class="font-style-italic">
 Date						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the (Obsolete) Date Created field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Package No.&quot;</td>
   					<td class="font-style-italic">
 Code[50]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies a package number if the posted item carries such a number.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Lot No.&quot;</td>
   					<td class="font-style-italic">
 Code[50]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies a lot number if the posted item carries such a number.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Serial No.&quot;</td>
   					<td class="font-style-italic">
 Code[50]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies a serial number if the posted item carries such a number.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Variant Code&quot;</td>
   					<td class="font-style-italic">
 Code[10]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the variant of the item on the line.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Reason Code&quot;</td>
   					<td class="font-style-italic">
 Code[10]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the reason code, a supplementary source code that enables you to trace the entry.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Comment</td>
   					<td class="font-style-italic">
 Text[250]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies a comment about the activity on the journal line.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Posting Date&quot;</td>
   					<td class="font-style-italic">
 Date						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the posting date for the entry</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;No. Series&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the No. Series field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Tracking RecordId&quot;</td>
   					<td class="font-style-italic">
 RecordId						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Tracking RecordId field</p>
+</td>
   				</tr>
   				<tr>
   					<td>SystemId</td>

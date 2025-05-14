@@ -109,12 +109,12 @@
   			<tr>
   					<td>DrillDownPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICCOM-Commissions.html">&quot;NICCOM Commissions&quot;</a>  					</td>
+<a class="xref" href="../Page/NICCOM-Commissions.html">Page &quot;NICCOM Commissions&quot;</a>  					</td>
   			</tr>
   			<tr>
   					<td>LookupPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICCOM-Commissions.html">&quot;NICCOM Commissions&quot;</a>  					</td>
+<a class="xref" href="../Page/NICCOM-Commissions.html">Page &quot;NICCOM Commissions&quot;</a>  					</td>
   			</tr>
   		</tbody>
   	</table>
@@ -133,112 +133,128 @@
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the unique identifier of the commission, according to the specified number series.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Description</td>
   					<td class="font-style-italic">
 Text[100]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the description of the commission.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Calculation Type&quot;</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICCOM-Commission-Calc-Type.html">&quot;NICCOM Commission Calc Type&quot;</a>						
+<a class="xref" href="../Enum/NICCOM-Commission-Calc-Type.html">Enum &quot;NICCOM Commission Calc Type&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies how the commission is calculated. It can be calculated as a percentage of sales amount, profit, or profit margin, or you can pay out an amount per unit of measure.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Value</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the commission. If the commission is calculated based on a percentage, this field will be a percentage. If the commission is calculated per unit of measure, this field will be an amount.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Unit of Measure Code&quot;</td>
   					<td class="font-style-italic">
 Code[10]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the unit of measure code of the commission. If the commission is calculated based on a percentage, this field will be empty. If the commission is calculated per unit of measure, this field will be required. A commission will apply to a document line only if the unit of measure on the document line and the commission matches.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Commission Posting Group&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the general ledger accounts that will be used when you post commission amounts.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Value Type&quot;</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICCOM-Commission-Value-Type.html">&quot;NICCOM Commission Value Type&quot;</a>						
+<a class="xref" href="../Enum/NICCOM-Commission-Value-Type.html">Enum &quot;NICCOM Commission Value Type&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies whether the commission is calculated based on a specific value or tiered values based on the calculation type.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Copied From Commission No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Copied From Commission No. field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Currency Code&quot;</td>
   					<td class="font-style-italic">
 Code[10]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the currency code of the commission. A commission will apply to a document only if the currency of the document and commission matches. Leave this field empty to apply the commission to local currency transactions.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Starting Date&quot;</td>
   					<td class="font-style-italic">
 Date						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the starting date of the commission.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Ending Date&quot;</td>
   					<td class="font-style-italic">
 Date						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the ending date of the commission.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Commission Category Code&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the category that the commission belongs to.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Req Sales Doc Paid By Due Date&quot;</td>
   					<td class="font-style-italic">
 Option						
   					</td>
-  					<td></td>
+  					<td><p>Specifies if the commission will be paid only if the sales document is paid by the due date. This setting is ignored if 'Sales Document Is Fully Paid' is not enabled.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Req Sales Doc Fully Paid&quot;</td>
   					<td class="font-style-italic">
 Option						
   					</td>
-  					<td></td>
+  					<td><p>Specifies if the commission will be paid only when the sales document has been fully paid.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;No. Series&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the No. Series field</p>
+</td>
   				</tr>
   				<tr>
   					<td>Status</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICCOM-Commission-Status.html">&quot;NICCOM Commission Status&quot;</a>						
+<a class="xref" href="../Enum/NICCOM-Commission-Status.html">Enum &quot;NICCOM Commission Status&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the status of the commission. If the status is Draft, the commission can be edited and commission entries will not be calculated regardless of the start and end dates. If the status is Active, commission entries will be calculated based on the start and end dates, and the commission cannot be edited. If the status is Inactive, commission entries will not be calculated regardless of the start and end dates and the commission can be edited. This allows you to temporarily pause a commission.</p>
+</td>
   				</tr>
   				<tr>
   					<td>SystemId</td>

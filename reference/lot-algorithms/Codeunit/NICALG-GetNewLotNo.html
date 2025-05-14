@@ -642,9 +642,14 @@ Boolean                 </td>
    </div>
    <h3 class="memberNameHolder">OnBeforeGetProdOrderBatchNoValueForLotNo</h3>
    <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 26.1. Replaced by OnBeforeGetProdOrderBatchNoValueForLotNo in codeunit AppIntegration</p>
+    	</div>
 
 
-   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by OnBeforeGetProdOrderBatchNoValueForLotNo in codeunit AppIntegration,26.1)]
+[IntegrationEvent(False,False)]
 local procedure OnBeforeGetProdOrderBatchNoValueForLotNo(SourceTrackingSpecification: Record &quot;Tracking Specification&quot;, var ProdOrderBatchNo: Code[20], var IsHandled: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
@@ -715,7 +720,7 @@ local procedure OnGetNewLotNo(LotAlgorithm: Record &quot;NICALG LotAlgorithm&quo
 								LotAlgorithm
    							</td>
    							<td class="font-style-italic">
-Record &quot;NICALG LotAlgorithm&quot;                 </td>
+<a class="xref" href="../Table/NICALG-LotAlgorithm.html">Table &quot;NICALG LotAlgorithm&quot;</a>                 </td>
    							<td>
 								
    							</td>
@@ -725,7 +730,7 @@ Record &quot;NICALG LotAlgorithm&quot;                 </td>
 								LotAlgorithmComponent
    							</td>
    							<td class="font-style-italic">
-Record &quot;NICALG LotAlgorithmComponent&quot;                 </td>
+<a class="xref" href="../Table/NICALG-LotAlgorithmComponent.html">Table &quot;NICALG LotAlgorithmComponent&quot;</a>                 </td>
    							<td>
 								
    							</td>

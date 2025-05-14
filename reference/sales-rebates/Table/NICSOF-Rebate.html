@@ -109,12 +109,12 @@
   			<tr>
   					<td>DrillDownPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICSOF-Rebates.html">&quot;NICSOF Rebates&quot;</a>  					</td>
+<a class="xref" href="../Page/NICSOF-Rebates.html">Page &quot;NICSOF Rebates&quot;</a>  					</td>
   			</tr>
   			<tr>
   					<td>LookupPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICSOF-Rebates.html">&quot;NICSOF Rebates&quot;</a>  					</td>
+<a class="xref" href="../Page/NICSOF-Rebates.html">Page &quot;NICSOF Rebates&quot;</a>  					</td>
   			</tr>
   		</tbody>
   	</table>
@@ -133,98 +133,112 @@
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the unique identifier of the rebate, according to the specified number series.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Description</td>
   					<td class="font-style-italic">
 Text[100]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the description of the rebate.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Calculation Type&quot;</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICSOF-Rebate-Calc-Type.html">&quot;NICSOF Rebate Calc Type&quot;</a>						
+<a class="xref" href="../Enum/NICSOF-Rebate-Calc-Type.html">Enum &quot;NICSOF Rebate Calc Type&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies how the rebate is calculated. It can be a percentage of the sales amount, or a specific amount per sales or base unit of measure.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Value</td>
   					<td class="font-style-italic">
 Decimal						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the rebate. If the rebate is calculated based on a percentage, this field will be a percentage that will be applied to the sales document line amount. If the rebate is calculated per unit of measure, this field will be an amount per quantity or quantity (base).</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Unit of Measure Code&quot;</td>
   					<td class="font-style-italic">
 Code[10]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the unit of measure code of the rebate. If the rebate is calculated based on a percentage, this field will be empty. If the rebate is calculated per unit of measure, this field will be required. A rebate will apply to a document line only if the unit of measure on the document line and the rebate matches.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Rebate Posting Group&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the general ledger accounts that will be used when you post rebate amounts.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Value Type&quot;</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICSOF-Rebate-Value-Type.html">&quot;NICSOF Rebate Value Type&quot;</a>						
+<a class="xref" href="../Enum/NICSOF-Rebate-Value-Type.html">Enum &quot;NICSOF Rebate Value Type&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies whether the rebate is calculated based on a specific value or tiered values based on the calculation type.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Copied From Rebate No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the rebate number that this rebate was copied from.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Rebate Category Code&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the category that the rebate belongs to.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Currency Code&quot;</td>
   					<td class="font-style-italic">
 Code[10]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the currency code of the rebate. A rebate will apply to a document only if the currency of the document and rebate matches. Leave this field empty to apply the rebate to local currency transactions.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Starting Date&quot;</td>
   					<td class="font-style-italic">
 Date						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the starting date of the rebate.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Ending Date&quot;</td>
   					<td class="font-style-italic">
 Date						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the ending date of the rebate.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;No. Series&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the number series that was used to assign the number to this rebate.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Status</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICSOF-Rebate-Status.html">&quot;NICSOF Rebate Status&quot;</a>						
+<a class="xref" href="../Enum/NICSOF-Rebate-Status.html">Enum &quot;NICSOF Rebate Status&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the status of the rebate. If the status is Draft, the rebate can be edited and rebate entries will not be calculated regardless of the start and end dates. If the status is Active, rebate entries will be calculated based on the start and end dates, and the rebate cannot be edited. If the status is Inactive, rebate entries will not be calculated regardless of the start and end dates and the rebate can be edited. This allows you to temporarily pause a rebate.</p>
+</td>
   				</tr>
   				<tr>
   					<td>SystemId</td>

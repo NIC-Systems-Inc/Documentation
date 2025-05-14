@@ -115,12 +115,12 @@
   			<tr>
   					<td>LookupPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICITR-Item-Recall-Contacts.html">&quot;NICITR Item Recall Contacts&quot;</a>  					</td>
+<a class="xref" href="../Page/NICITR-Item-Recall-Contacts.html">Page &quot;NICITR Item Recall Contacts&quot;</a>  					</td>
   			</tr>
   			<tr>
   					<td>DrillDownPageId</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Page/NICITR-Item-Recall-Contacts.html">&quot;NICITR Item Recall Contacts&quot;</a>  					</td>
+<a class="xref" href="../Page/NICITR-Item-Recall-Contacts.html">Page &quot;NICITR Item Recall Contacts&quot;</a>  					</td>
   			</tr>
   		</tbody>
   	</table>
@@ -137,51 +137,58 @@
   				<tr>
   					<td>Status</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">&quot;NICITR Item Recall Status&quot;</a>						
+<a class="xref" href="../Enum/NICITR-Item-Recall-Status.html">Enum &quot;NICITR Item Recall Status&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Status field</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Item Recall No.&quot;</td>
   					<td class="font-style-italic">
 Code[20]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the value of the Item Recall No. field</p>
+</td>
   				</tr>
   				<tr>
   					<td>Type</td>
   					<td class="font-style-italic">
-<a class="xref" href="../Enum/NICITR-Contact-Type.html">&quot;NICITR Contact Type&quot;</a>						
+<a class="xref" href="../Enum/NICITR-Contact-Type.html">Enum &quot;NICITR Contact Type&quot;</a>						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the type of contact on the line. The type can be either a contact or an internal user.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;No.&quot;</td>
   					<td class="font-style-italic">
 Code[50]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the unique identifier of the contact on the line.</p>
+</td>
   				</tr>
   				<tr>
   					<td>Name</td>
   					<td class="font-style-italic">
 Text[100]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the name of the contact on the line.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Company Name&quot;</td>
   					<td class="font-style-italic">
 Text[100]						
   					</td>
-  					<td></td>
+  					<td><p>Specifies the name of the company for which this contact works. This field is blank for internal users.</p>
+</td>
   				</tr>
   				<tr>
   					<td>&quot;Is Default&quot;</td>
   					<td class="font-style-italic">
 Boolean						
   					</td>
-  					<td></td>
+  					<td><p>Specifies if the contact is a default contact. Default contacts cannot be deleted or modified on an item recall.</p>
+</td>
   				</tr>
   				<tr>
   					<td>SystemId</td>
@@ -250,7 +257,7 @@ local procedure OnBeforeCheckDefaultContact(var Rec: Record &quot;NICITR Item Re
 								Rec
    							</td>
    							<td class="font-style-italic">
-Record &quot;NICITR Item Recall Contact&quot;                 </td>
+<a class="xref" href="NICITR-Item-Recall-Contact.html">Table &quot;NICITR Item Recall Contact&quot;</a>                 </td>
    							<td>
 								
    							</td>
@@ -293,7 +300,7 @@ local procedure OnBeforeCheckFinishedRecall(Rec: Record &quot;NICITR Item Recall
 								Rec
    							</td>
    							<td class="font-style-italic">
-Record &quot;NICITR Item Recall Contact&quot;                 </td>
+<a class="xref" href="NICITR-Item-Recall-Contact.html">Table &quot;NICITR Item Recall Contact&quot;</a>                 </td>
    							<td>
 								
    							</td>
