@@ -2305,6 +2305,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Codeunit/NICFXC-ExportByExcelBufferMng.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Codeunit/NICFXC-ExportByExcelBufferMng.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/forecastx-connector/Codeunit/NICFXC-ExportToExcelManagement.yml",
       "output": {
         ".html": {
@@ -2315,10 +2325,30 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Codeunit/NICFXC-Import-Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Codeunit/NICFXC-Import-Helper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/forecastx-connector/Codeunit/NICFXC-ImportForecastX-Mng..yml",
       "output": {
         ".html": {
           "relative_path": "reference/forecastx-connector/Codeunit/NICFXC-ImportForecastX-Mng..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Codeunit/NICFXC-Legacy-Entries-Mng..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Codeunit/NICFXC-Legacy-Entries-Mng..html"
         }
       },
       "version": ""
@@ -2349,6 +2379,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/forecastx-connector/Module/ForecastX-Connector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/forecastx-connector/Obsoletion/obsolete_by_26.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Obsoletion/obsolete_by_26.0.html"
         }
       },
       "version": ""
@@ -2385,6 +2425,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/PermissionSet/NICFXC-Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/PermissionSet/NICFXC-Admin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/forecastx-connector/PermissionSet/NICFXC-Edit.yml",
       "output": {
         ".html": {
@@ -2415,6 +2465,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Report/NICFXC-Delete-Legacy-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Report/NICFXC-Delete-Legacy-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/forecastx-connector/Report/NICFXC-Export-Sales-Component.yml",
       "output": {
         ".html": {
@@ -2425,10 +2485,30 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Report/NICFXC-ExportToExcelForecastx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Report/NICFXC-ExportToExcelForecastx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.yml",
       "output": {
         ".html": {
           "relative_path": "reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html"
         }
       },
       "version": ""
@@ -12625,6 +12705,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Item-Control.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Item-Control.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Restriction-Ctrl.yml",
       "output": {
         ".html": {
@@ -12915,6 +13005,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.yml",
       "output": {
         ".html": {
@@ -12949,6 +13049,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/purchasing-restrictions/Table/NICPRR-Purchasing-Restr-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/TableExtension/NICPRR-Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/TableExtension/NICPRR-Item.html"
         }
       },
       "version": ""
@@ -17575,6 +17685,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Item-Control.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Item-Control.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Restriction-Ctrl.yml",
       "output": {
         ".html": {
@@ -17885,6 +18005,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Table/NICSLR-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Table/NICSLR-Load-Default-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/sales-restrictions/Table/NICSLR-Sales-Restr-Header.yml",
       "output": {
         ".html": {
@@ -17929,6 +18059,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Customer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/TableExtension/NICSLR-Item.html"
         }
       },
       "version": ""

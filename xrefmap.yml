@@ -4084,6 +4084,57 @@ references:
 - uid: F:Table::NICFCH_Setup.SystemRowVersion
   name: SystemRowVersion
   href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Day
+  name: Day
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Entry_No#
+  name: "\"Entry No.\""
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Entry_Type
+  name: "\"Entry Type\""
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Item_No#[20]
+  name: "\"Item No.\""
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Location_Code[10]
+  name: "\"Location Code\""
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Quantity
+  name: Quantity
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.SystemId
+  name: SystemId
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Variant_Code[20]
+  name: "\"Variant Code\""
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Year
+  name: Year
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Year-Month[20]
+  name: "\"Year-Month\""
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Year-Quarter[20]
+  name: "\"Year-Quarter\""
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
+- uid: F:Table::NICFXCExportToExcelBuffer.Year-Week[20]
+  name: "\"Year-Week\""
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
 - uid: F:Table::NICFXC_ItemLedgerEntryLegacy.Description[100]
   name: Description
   href: reference/forecastx-connector/Table/NICFXC-ItemLedgerEntryLegacy.html
@@ -7411,6 +7462,30 @@ references:
 - uid: F:Table::NICPIN_Prod_Order_Instruction.Version_Code[20]
   name: "\"Version Code\""
   href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: F:Table::NICPRR_Load_Default_Data.Primary_Key
+  name: "\"Primary Key\""
+  href: reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.html
+- uid: F:Table::NICPRR_Load_Default_Data.Purchasing_Restriction_Nos#[20]
+  name: "\"Purchasing Restriction Nos.\""
+  href: reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.html
+- uid: F:Table::NICPRR_Load_Default_Data.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.html
+- uid: F:Table::NICPRR_Load_Default_Data.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.html
+- uid: F:Table::NICPRR_Load_Default_Data.SystemId
+  name: SystemId
+  href: reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.html
+- uid: F:Table::NICPRR_Load_Default_Data.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.html
+- uid: F:Table::NICPRR_Load_Default_Data.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.html
+- uid: F:Table::NICPRR_Load_Default_Data.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.html
 - uid: F:Table::NICPRR_Purch#_Restr#_Category.Code[20]
   name: Code
   href: reference/purchasing-restrictions/Table/NICPRR-Purch.-Restr.-Category.html
@@ -9055,6 +9130,30 @@ references:
 - uid: F:Table::NICSHC_SSCC_Types.SystemRowVersion
   name: SystemRowVersion
   href: reference/serial-shipping-container-codes/Table/NICSHC-SSCC-Types.html
+- uid: F:Table::NICSLR_Load_Default_Data.Primary_Key
+  name: "\"Primary Key\""
+  href: reference/sales-restrictions/Table/NICSLR-Load-Default-Data.html
+- uid: F:Table::NICSLR_Load_Default_Data.Sales_Restriction_Nos#[20]
+  name: "\"Sales Restriction Nos.\""
+  href: reference/sales-restrictions/Table/NICSLR-Load-Default-Data.html
+- uid: F:Table::NICSLR_Load_Default_Data.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/sales-restrictions/Table/NICSLR-Load-Default-Data.html
+- uid: F:Table::NICSLR_Load_Default_Data.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/sales-restrictions/Table/NICSLR-Load-Default-Data.html
+- uid: F:Table::NICSLR_Load_Default_Data.SystemId
+  name: SystemId
+  href: reference/sales-restrictions/Table/NICSLR-Load-Default-Data.html
+- uid: F:Table::NICSLR_Load_Default_Data.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/sales-restrictions/Table/NICSLR-Load-Default-Data.html
+- uid: F:Table::NICSLR_Load_Default_Data.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/sales-restrictions/Table/NICSLR-Load-Default-Data.html
+- uid: F:Table::NICSLR_Load_Default_Data.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/sales-restrictions/Table/NICSLR-Load-Default-Data.html
 - uid: F:Table::NICSLR_Sales_Restr#_Category.Code[20]
   name: Code
   href: reference/sales-restrictions/Table/NICSLR-Sales-Restr.-Category.html
@@ -12088,6 +12187,9 @@ references:
 - uid: F:TableExtension::NICPBA_Production_BOM_Line.NICPBA_Req#_Cons#_Batch_No#
   name: "\"NICPBA Req. Cons. Batch No.\""
   href: reference/production-batching/TableExtension/NICPBA-Production-BOM-Line.html
+- uid: F:TableExtension::NICPRR_Item.NICPRR_Not_Subject_to_P#_Restr
+  name: "\"NICPRR Not Subject to P. Restr\""
+  href: reference/purchasing-restrictions/TableExtension/NICPRR-Item.html
 - uid: F:TableExtension::NICPRR_Order_Address.NICPRR_Purchasing_Restr_No#[20]
   name: "\"NICPRR Purchasing Restr No.\""
   href: reference/purchasing-restrictions/TableExtension/NICPRR-Order-Address.html
@@ -12166,6 +12268,9 @@ references:
 - uid: F:TableExtension::NICSLR_Customer.NICSLR_Sales_Restriction_No#[20]
   name: "\"NICSLR Sales Restriction No.\""
   href: reference/sales-restrictions/TableExtension/NICSLR-Customer.html
+- uid: F:TableExtension::NICSLR_Item.NICSLR_Not_Subject_to_S#_Restr
+  name: "\"NICSLR Not Subject to S. Restr\""
+  href: reference/sales-restrictions/TableExtension/NICSLR-Item.html
 - uid: F:TableExtension::NICSLR_Ship-to_Address.NICSLR_Min#_Order_Amount
   name: "\"NICSLR Min. Order Amount\""
   href: reference/sales-restrictions/TableExtension/NICSLR-Ship-to-Address.html
@@ -13555,6 +13660,15 @@ references:
 - uid: M:Codeunit::NICFCH_Send_Item_Cost.OnAfterReplaceTokenValues(Item@,Text@)
   name: OnAfterReplaceTokenValues
   href: reference/foodchain-id-connector/Codeunit/NICFCH-Send-Item-Cost.html
+- uid: M:Codeunit::NICFXC_ExportByExcelBufferMng.OnAfterPopulateTempExportBufferAsDataItem(NICFXCExportToExcelBuffer@)
+  name: OnAfterPopulateTempExportBufferAsDataItem
+  href: reference/forecastx-connector/Codeunit/NICFXC-ExportByExcelBufferMng.html
+- uid: M:Codeunit::NICFXC_ExportByExcelBufferMng.OnBeforeGetYearQuarter(Integer,Text[10]@,Boolean@)
+  name: OnBeforeGetYearQuarter
+  href: reference/forecastx-connector/Codeunit/NICFXC-ExportByExcelBufferMng.html
+- uid: M:Codeunit::NICFXC_ExportByExcelBufferMng.OnBeforePopulateTempExportBufferAsDataItem(NICFXCExportToExcelBuffer@,Enum::NICFXC_Forecast_Type,Date,Date,Boolean@)
+  name: OnBeforePopulateTempExportBufferAsDataItem
+  href: reference/forecastx-connector/Codeunit/NICFXC-ExportByExcelBufferMng.html
 - uid: M:Codeunit::NICFXC_ExportToExcelManagement.OnAfterPopulateTempItemLedgerEntryAsDataItem(Item_Ledger_Entry@)
   name: OnAfterPopulateTempItemLedgerEntryAsDataItem
   href: reference/forecastx-connector/Codeunit/NICFXC-ExportToExcelManagement.html
@@ -15592,6 +15706,9 @@ references:
 - uid: M:Codeunit::NICPRR_Check_Purchasing_Restr.OnAfterIsApplicablePurchaseLine(Purchase_Line,Boolean@)
   name: OnAfterIsApplicablePurchaseLine
   href: reference/purchasing-restrictions/Codeunit/NICPRR-Check-Purchasing-Restr.html
+- uid: M:Codeunit::NICPRR_Check_Purchasing_Restr.OnAfterItemIsSubjectToRestrictions(Purchase_Line,Boolean@)
+  name: OnAfterItemIsSubjectToRestrictions
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Check-Purchasing-Restr.html
 - uid: M:Codeunit::NICPRR_Check_Purchasing_Restr.OnAfterVerifyPurchaseLineQuantity(Purchase_Line@)
   name: OnAfterVerifyPurchaseLineQuantity
   href: reference/purchasing-restrictions/Codeunit/NICPRR-Check-Purchasing-Restr.html
@@ -15619,6 +15736,12 @@ references:
 - uid: M:Codeunit::NICPRR_Guided_Exp_Assist_Setup.OnAfterCheckFeatureEnabled(Boolean@)
   name: OnAfterCheckFeatureEnabled
   href: reference/purchasing-restrictions/Codeunit/NICPRR-Guided-Exp-Assist-Setup.html
+- uid: M:Codeunit::NICPRR_Item_Control.OnAfterIsItemSubjectToRestrictions(Code[20],Boolean@)
+  name: OnAfterIsItemSubjectToRestrictions
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Item-Control.html
+- uid: M:Codeunit::NICPRR_Item_Control.OnAfterItemOnExistingRestriction(Code[20],Boolean@)
+  name: OnAfterItemOnExistingRestriction
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Item-Control.html
 - uid: M:Codeunit::NICPRR_Restriction_Ctrl.OnAfterCheckIfRestrictionUsed(NICPRR_Purchasing_Restr_Header,Boolean@)
   name: OnAfterCheckIfRestrictionUsed
   href: reference/purchasing-restrictions/Codeunit/NICPRR-Restriction-Ctrl.html
@@ -16321,6 +16444,9 @@ references:
 - uid: M:Codeunit::NICSLR_Check_Sales_Restr.OnAfterIsApplicableSalesLine(Sales_Line,Boolean@)
   name: OnAfterIsApplicableSalesLine
   href: reference/sales-restrictions/Codeunit/NICSLR-Check-Sales-Restr.html
+- uid: M:Codeunit::NICSLR_Check_Sales_Restr.OnAfterItemIsSubjectToRestrictions(Sales_Line,Boolean@)
+  name: OnAfterItemIsSubjectToRestrictions
+  href: reference/sales-restrictions/Codeunit/NICSLR-Check-Sales-Restr.html
 - uid: M:Codeunit::NICSLR_Check_Sales_Restr.OnAfterVerifySalesLineQuantity(Sales_Line@)
   name: OnAfterVerifySalesLineQuantity
   href: reference/sales-restrictions/Codeunit/NICSLR-Check-Sales-Restr.html
@@ -16348,6 +16474,12 @@ references:
 - uid: M:Codeunit::NICSLR_Guided_Exp_Assist_Setup.OnAfterCheckFeatureEnabled(Boolean@)
   name: OnAfterCheckFeatureEnabled
   href: reference/sales-restrictions/Codeunit/NICSLR-Guided-Exp-Assist-Setup.html
+- uid: M:Codeunit::NICSLR_Item_Control.OnAfterIsItemSubjectToRestrictions(Code[20],Boolean@)
+  name: OnAfterIsItemSubjectToRestrictions
+  href: reference/sales-restrictions/Codeunit/NICSLR-Item-Control.html
+- uid: M:Codeunit::NICSLR_Item_Control.OnAfterItemOnExistingRestriction(Code[20],Boolean@)
+  name: OnAfterItemOnExistingRestriction
+  href: reference/sales-restrictions/Codeunit/NICSLR-Item-Control.html
 - uid: M:Codeunit::NICSLR_Restriction_Ctrl.OnAfterCheckIfRestrictionUsed(NICSLR_Sales_Restr_Header,Boolean@)
   name: OnAfterCheckIfRestrictionUsed
   href: reference/sales-restrictions/Codeunit/NICSLR-Restriction-Ctrl.html
@@ -19044,8 +19176,13 @@ references:
   name: ForecastX Connector
   summary: >
     <p sourcefile="reference/forecastx-connector/Module/ForecastX-Connector.yml" sourcestartlinenumber="1" jsonPath="/summary">Export data from Dynamics 365 Business Central to ForecastX for advanced forecasting</p>
-  fqName: ForecastX Connector by NIC Systems Inc. (26.0.14499.0)
+  fqName: ForecastX Connector by NIC Systems Inc. (26.2.15000.0)
   href: reference/forecastx-connector/Module/ForecastX-Connector.html
+- uid: N:Module::ForecastX_Connector_obsolete_by_26.0
+  tag: "26.0"
+  href: reference/forecastx-connector/Obsoletion/obsolete_by_26.0.html
+- uid: N:Module::ForecastX_Connector_obsolete_by_26.0#26.0
+  href: reference/forecastx-connector/Obsoletion/obsolete_by_26.0.html
 - uid: N:Module::Inventory_Freshness
   name: Inventory Freshness
   summary: >
@@ -19160,7 +19297,7 @@ references:
   name: Production Batching
   summary: >
     <p sourcefile="reference/production-batching/Module/Production-Batching.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to accomplish a production order through batches.</p>
-  fqName: Production Batching by NIC Systems Inc. (26.0.14556.0)
+  fqName: Production Batching by NIC Systems Inc. (26.2.14997.0)
   href: reference/production-batching/Module/Production-Batching.html
 - uid: N:Module::Production_Batching_obsolete_by_22.2
   tag: "22.2"
@@ -19189,7 +19326,7 @@ references:
   name: Purchasing Restrictions
   summary: >
     <p sourcefile="reference/purchasing-restrictions/Module/Purchasing-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Purchasing Restrictions</p>
-  fqName: Purchasing Restrictions by NIC Systems Inc. (26.0.14538.0)
+  fqName: Purchasing Restrictions by NIC Systems Inc. (26.2.14889.0)
   href: reference/purchasing-restrictions/Module/Purchasing-Restrictions.html
 - uid: N:Module::Quality_Inspections
   name: Quality Inspections
@@ -19228,7 +19365,7 @@ references:
   name: Sales Restrictions
   summary: >
     <p sourcefile="reference/sales-restrictions/Module/Sales-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Sales Restrictions</p>
-  fqName: Sales Restrictions by NIC Systems Inc. (26.0.14539.0)
+  fqName: Sales Restrictions by NIC Systems Inc. (26.2.14874.0)
   href: reference/sales-restrictions/Module/Sales-Restrictions.html
 - uid: N:Module::Serial_Shipping_Container_Codes
   name: Serial Shipping Container Codes
@@ -19876,6 +20013,10 @@ references:
   name: "\"NICFCH Test Connection\""
   fqName: Codeunit "NICFCH Test Connection"
   href: reference/foodchain-id-connector/Codeunit/NICFCH-Test-Connection.html
+- uid: O:Codeunit::NICFXC_ExportByExcelBufferMng
+  name: "\"NICFXC ExportByExcelBufferMng\""
+  fqName: Codeunit "NICFXC ExportByExcelBufferMng"
+  href: reference/forecastx-connector/Codeunit/NICFXC-ExportByExcelBufferMng.html
 - uid: O:Codeunit::NICFXC_ExportToExcelManagement
   name: "\"NICFXC ExportToExcelManagement\""
   fqName: Codeunit "NICFXC ExportToExcelManagement"
@@ -19884,6 +20025,14 @@ references:
   name: "\"NICFXC ImportForecastX Mng.\""
   fqName: Codeunit "NICFXC ImportForecastX Mng."
   href: reference/forecastx-connector/Codeunit/NICFXC-ImportForecastX-Mng..html
+- uid: O:Codeunit::NICFXC_Import_Helper
+  name: "\"NICFXC Import Helper\""
+  fqName: Codeunit "NICFXC Import Helper"
+  href: reference/forecastx-connector/Codeunit/NICFXC-Import-Helper.html
+- uid: O:Codeunit::NICFXC_Legacy_Entries_Mng#
+  name: "\"NICFXC Legacy Entries Mng.\""
+  fqName: Codeunit "NICFXC Legacy Entries Mng."
+  href: reference/forecastx-connector/Codeunit/NICFXC-Legacy-Entries-Mng..html
 - uid: O:Codeunit::NICFXC_Regional_Utility
   name: "\"NICFXC Regional Utility\""
   fqName: Codeunit "NICFXC Regional Utility"
@@ -20782,6 +20931,10 @@ references:
   name: "\"NICPRR Install\""
   fqName: Codeunit "NICPRR Install"
   href: reference/purchasing-restrictions/Codeunit/NICPRR-Install.html
+- uid: O:Codeunit::NICPRR_Item_Control
+  name: "\"NICPRR Item Control\""
+  fqName: Codeunit "NICPRR Item Control"
+  href: reference/purchasing-restrictions/Codeunit/NICPRR-Item-Control.html
 - uid: O:Codeunit::NICPRR_Restriction_Ctrl
   name: "\"NICPRR Restriction Ctrl\""
   fqName: Codeunit "NICPRR Restriction Ctrl"
@@ -21122,6 +21275,10 @@ references:
   name: "\"NICSLR Install\""
   fqName: Codeunit "NICSLR Install"
   href: reference/sales-restrictions/Codeunit/NICSLR-Install.html
+- uid: O:Codeunit::NICSLR_Item_Control
+  name: "\"NICSLR Item Control\""
+  fqName: Codeunit "NICSLR Item Control"
+  href: reference/sales-restrictions/Codeunit/NICSLR-Item-Control.html
 - uid: O:Codeunit::NICSLR_Restriction_Ctrl
   name: "\"NICSLR Restriction Ctrl\""
   fqName: Codeunit "NICSLR Restriction Ctrl"
@@ -25230,6 +25387,10 @@ references:
   name: "\"NICFCH Objects - Lite\""
   fqName: PermissionSet "NICFCH Objects - Lite"
   href: reference/foodchain-id-connector/PermissionSet/NICFCH-Objects---Lite.html
+- uid: O:PermissionSet::NICFXC_Admin
+  name: "\"NICFXC Admin\""
+  fqName: PermissionSet "NICFXC Admin"
+  href: reference/forecastx-connector/PermissionSet/NICFXC-Admin.html
 - uid: O:PermissionSet::NICFXC_Edit
   name: "\"NICFXC Edit\""
   fqName: PermissionSet "NICFXC Edit"
@@ -25848,6 +26009,14 @@ references:
   name: "\"NICCOM Post Comm to Agents\""
   fqName: Report "NICCOM Post Comm to Agents"
   href: reference/sales-commissions/Report/NICCOM-Post-Comm-to-Agents.html
+- uid: O:Report::NICFXC_Delete_Legacy_Entries
+  name: "\"NICFXC Delete Legacy Entries\""
+  fqName: Report "NICFXC Delete Legacy Entries"
+  href: reference/forecastx-connector/Report/NICFXC-Delete-Legacy-Entries.html
+- uid: O:Report::NICFXC_ExportToExcelForecastx
+  name: "\"NICFXC ExportToExcelForecastx\""
+  fqName: Report "NICFXC ExportToExcelForecastx"
+  href: reference/forecastx-connector/Report/NICFXC-ExportToExcelForecastx.html
 - uid: O:Report::NICFXC_Export_Sales-Component
   name: "\"NICFXC Export Sales-Component\""
   fqName: Report "NICFXC Export Sales-Component"
@@ -26256,6 +26425,10 @@ references:
   name: "\"NICFCH Setup\""
   fqName: Table "NICFCH Setup"
   href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: O:Table::NICFXCExportToExcelBuffer
+  name: NICFXCExportToExcelBuffer
+  fqName: Table NICFXCExportToExcelBuffer
+  href: reference/forecastx-connector/Table/NICFXCExportToExcelBuffer.html
 - uid: O:Table::NICFXC_ItemLedgerEntryLegacy
   name: "\"NICFXC ItemLedgerEntryLegacy\""
   fqName: Table "NICFXC ItemLedgerEntryLegacy"
@@ -26572,6 +26745,10 @@ references:
   name: "\"NICPIN Prod Order Instruction\""
   fqName: Table "NICPIN Prod Order Instruction"
   href: reference/production-instructions/Table/NICPIN-Prod-Order-Instruction.html
+- uid: O:Table::NICPRR_Load_Default_Data
+  name: "\"NICPRR Load Default Data\""
+  fqName: Table "NICPRR Load Default Data"
+  href: reference/purchasing-restrictions/Table/NICPRR-Load-Default-Data.html
 - uid: O:Table::NICPRR_Purch#_Restr#_Category
   name: "\"NICPRR Purch. Restr. Category\""
   fqName: Table "NICPRR Purch. Restr. Category"
@@ -26732,6 +26909,10 @@ references:
   name: "\"NICSHC SSCC Types\""
   fqName: Table "NICSHC SSCC Types"
   href: reference/serial-shipping-container-codes/Table/NICSHC-SSCC-Types.html
+- uid: O:Table::NICSLR_Load_Default_Data
+  name: "\"NICSLR Load Default Data\""
+  fqName: Table "NICSLR Load Default Data"
+  href: reference/sales-restrictions/Table/NICSLR-Load-Default-Data.html
 - uid: O:Table::NICSLR_Sales_Restr#_Category
   name: "\"NICSLR Sales Restr. Category\""
   fqName: Table "NICSLR Sales Restr. Category"
@@ -27352,6 +27533,10 @@ references:
   name: "\"NICPIN Production Order\""
   fqName: TableExtension "NICPIN Production Order"
   href: reference/production-instructions/TableExtension/NICPIN-Production-Order.html
+- uid: O:TableExtension::NICPRR_Item
+  name: "\"NICPRR Item\""
+  fqName: TableExtension "NICPRR Item"
+  href: reference/purchasing-restrictions/TableExtension/NICPRR-Item.html
 - uid: O:TableExtension::NICPRR_Order_Address
   name: "\"NICPRR Order Address\""
   fqName: TableExtension "NICPRR Order Address"
@@ -27420,6 +27605,10 @@ references:
   name: "\"NICSLR Customer\""
   fqName: TableExtension "NICSLR Customer"
   href: reference/sales-restrictions/TableExtension/NICSLR-Customer.html
+- uid: O:TableExtension::NICSLR_Item
+  name: "\"NICSLR Item\""
+  fqName: TableExtension "NICSLR Item"
+  href: reference/sales-restrictions/TableExtension/NICSLR-Item.html
 - uid: O:TableExtension::NICSLR_Sales_Header
   name: "\"NICSLR Sales Header\""
   fqName: TableExtension "NICSLR Sales Header"
