@@ -78,8 +78,11 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="N:Module::Lot_Algorithms">
-  <h1>Module Lot Algorithms</h1>
+        <article data-uid="O:Table::NICITF_Setup">
+  <h1>Table &quot;NICITF Setup&quot;</h1>
+
+
+<div class="font-style-italic">ID 23079810</div>
 
 
 
@@ -87,13 +90,6 @@
 
 
 
-
-  	<div class="summaryHolder">
-  		<div class="summary">
-			<p>Enables you to create tailor-made lot numbers to keep track of inventory item more effectively.</p>
-
-  		</div>
-  	</div>
   	<h2 id="properties">Properties</h2>
 
   	<table class="table">
@@ -105,25 +101,118 @@
   		</thead>
   		<tbody>
   			<tr>
-  					<td>Version</td>
+  					<td>Caption</td>
   					<td class="font-style-italic">
-							26.3.15176.0
-  					</td>
-  			</tr>
-  			<tr>
-  					<td>Publisher</td>
-  					<td class="font-style-italic">
-							NIC Systems Inc.
-  					</td>
-  			</tr>
-  			<tr>
-  					<td>Brief</td>
-  					<td class="font-style-italic">
-							Enables you to create tailor-made lot numbers to keep track of inventory item more effectively.
+							Item Tracked Flushing Setup
   					</td>
   			</tr>
   		</tbody>
   	</table>
+  	<h2 id="fields">Fields</h2>
+  	<table class="table">
+  		<thead>
+  			<tr>
+  				<th>Name</th>
+  				<th>Type</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  				<tr>
+  					<td>&quot;Primary Key&quot;</td>
+  					<td class="font-style-italic">
+Code[10]						
+  					</td>
+  					<td><p>Specifies the primary key of the record.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Mandatory Default Package&quot;</td>
+  					<td class="font-style-italic">
+Boolean						
+  					</td>
+  					<td><p>Specifies if the default package should always be used when setting the inventory priority.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Last Maintenance Run At&quot;</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td><p>Specifies the date and the time that the maintenance job was last run.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>SystemId</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemCreatedAt</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemCreatedBy</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemModifiedAt</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemModifiedBy</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemRowVersion</td>
+  					<td class="font-style-italic">
+BigInteger						
+  					</td>
+  					<td></td>
+  				</tr>
+  		</tbody>
+  	</table>
+  	<h2 id="methods">Methods</h2>
+   <h3 class="memberNameHolder">GetRecordOnce</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetRecordOnce()</code></pre>
+
+
+
+
+   </div>
+   <h3 class="memberNameHolder">InsertIfNotExists</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure InsertIfNotExists()</code></pre>
+
+
+
+
+   </div>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object">Table</a></p>
+</li>
+  	</ul>
 </article>
 
         <div class="contribution d-print-none">

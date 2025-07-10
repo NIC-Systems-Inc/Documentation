@@ -78,8 +78,11 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="N:Module::Lot_Algorithms">
-  <h1>Module Lot Algorithms</h1>
+        <article data-uid="O:Table::NICITF_Item_Trk#_Flush#_Entry">
+  <h1>Table &quot;NICITF Item Trk. Flush. Entry&quot;</h1>
+
+
+<div class="font-style-italic">ID 23079812</div>
 
 
 
@@ -87,13 +90,6 @@
 
 
 
-
-  	<div class="summaryHolder">
-  		<div class="summary">
-			<p>Enables you to create tailor-made lot numbers to keep track of inventory item more effectively.</p>
-
-  		</div>
-  	</div>
   	<h2 id="properties">Properties</h2>
 
   	<table class="table">
@@ -105,25 +101,170 @@
   		</thead>
   		<tbody>
   			<tr>
-  					<td>Version</td>
+  					<td>Caption</td>
   					<td class="font-style-italic">
-							26.3.15176.0
+							Item Tracked Flushing Entry
   					</td>
   			</tr>
   			<tr>
-  					<td>Publisher</td>
+  					<td>DataClassification</td>
   					<td class="font-style-italic">
-							NIC Systems Inc.
-  					</td>
-  			</tr>
-  			<tr>
-  					<td>Brief</td>
-  					<td class="font-style-italic">
-							Enables you to create tailor-made lot numbers to keep track of inventory item more effectively.
+							CustomerContent
   					</td>
   			</tr>
   		</tbody>
   	</table>
+  	<h2 id="fields">Fields</h2>
+  	<table class="table">
+  		<thead>
+  			<tr>
+  				<th>Name</th>
+  				<th>Type</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  				<tr>
+  					<td>&quot;Location Code&quot;</td>
+  					<td class="font-style-italic">
+Code[10]						
+  					</td>
+  					<td><p>Specifies the location of the inventory.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Bin Code&quot;</td>
+  					<td class="font-style-italic">
+Code[20]						
+  					</td>
+  					<td><p>Specifies the bin the inventory is in.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Item No.&quot;</td>
+  					<td class="font-style-italic">
+Code[20]						
+  					</td>
+  					<td><p>Specifies the item that corresponds to the inventory.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Lot No.&quot;</td>
+  					<td class="font-style-italic">
+Code[50]						
+  					</td>
+  					<td><p>Specifies the lot number of the inventory.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Expiration Date&quot;</td>
+  					<td class="font-style-italic">
+Date						
+  					</td>
+  					<td><p>Specifies the expiration date of the inventory.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>Priority</td>
+  					<td class="font-style-italic">
+Integer						
+  					</td>
+  					<td><p>Specifies the order that the inventory will be consumed in when flushing. Inventory with higher priority will be consumed first.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Entry No.&quot;</td>
+  					<td class="font-style-italic">
+Integer						
+  					</td>
+  					<td><p>Specifies the entry number of the record.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Package No.&quot;</td>
+  					<td class="font-style-italic">
+Code[50]						
+  					</td>
+  					<td><p>Specifies the package number of the inventory.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Serial No.&quot;</td>
+  					<td class="font-style-italic">
+Code[50]						
+  					</td>
+  					<td><p>Specifies the serial number of the inventory.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Variant Code&quot;</td>
+  					<td class="font-style-italic">
+Code[10]						
+  					</td>
+  					<td><p>Specifies the variant code of the item.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>SystemId</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemCreatedAt</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemCreatedBy</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemModifiedAt</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemModifiedBy</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemRowVersion</td>
+  					<td class="font-style-italic">
+BigInteger						
+  					</td>
+  					<td></td>
+  				</tr>
+  		</tbody>
+  	</table>
+  	<h2 id="methods">Methods</h2>
+   <h3 class="memberNameHolder">GetRecordOnce</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetRecordOnce()</code></pre>
+
+
+
+
+   </div>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object">Table</a></p>
+</li>
+  	</ul>
 </article>
 
         <div class="contribution d-print-none">

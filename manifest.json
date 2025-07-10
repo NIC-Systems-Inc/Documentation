@@ -6535,6 +6535,316 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-AppIntegration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-AppIntegration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Available-Quantity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Available-Quantity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Blocked-Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Blocked-Inventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Guided-Exp-Assist-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Guided-Exp-Assist-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Guided-Exp-Manual-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Guided-Exp-Manual-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Initialize-Company.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Initialize-Company.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Initialize-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Initialize-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Maintenance-Mng..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Maintenance-Mng..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Page-Prioritization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Page-Prioritization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Prioritization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Prioritization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Schedule-Maintenance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Schedule-Maintenance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Setup-Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Setup-Notification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Setup-Wizard-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Setup-Wizard-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Subscribers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Subscribers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Upgrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITF-Upgrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Codeunit/NICITFAutoPrioritizationMgmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Codeunit/NICITFAutoPrioritizationMgmt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Module/Item-Tracked-Flushing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Module/Item-Tracked-Flushing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Page/NICITF-Prioritization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Page/NICITF-Prioritization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Page/NICITF-Setup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Page/NICITF-Setup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Page/NICITF-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Page/NICITF-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/PageExtension/NICITF-Bin-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/PageExtension/NICITF-Bin-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/PermissionSet/NICITF-Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/PermissionSet/NICITF-Admin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/PermissionSet/NICITF-Edit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/PermissionSet/NICITF-Edit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/PermissionSet/NICITF-Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/PermissionSet/NICITF-Objects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/PermissionSet/NICITF-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/PermissionSet/NICITF-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Query/NICITF-GetContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Query/NICITF-GetContent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/Table/NICITF-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/Table/NICITF-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/item-tracked-flushing/TableExtension/NICITF-Warehouse-Activity-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/item-tracked-flushing/TableExtension/NICITF-Warehouse-Activity-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/item-tracking-status-indicator/Codeunit/NICITI-GetTrackingStatus.yml",
       "output": {
         ".html": {
@@ -8574,6 +8884,16 @@
       "version": ""
     },
     {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/material-staging/Obsoletion/obsolete_by_26.2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Obsoletion/obsolete_by_26.2.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/material-staging/Page/NICMAS-Kit-Entries-FactBox.yml",
       "output": {
@@ -9039,6 +9359,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/material-staging/Report/NICMAS-Staging-Instruction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/material-staging/Report/NICMAS-Staging-Instructions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/material-staging/Report/NICMAS-Staging-Instructions.html"
         }
       },
       "version": ""
@@ -18655,6 +18985,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/serial-shipping-container-codes/Report/NICSHC-SSCC-Detail-Label(Word).yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/Report/NICSHC-SSCC-Detail-Label(Word).html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/serial-shipping-container-codes/Report/NICSHC-SSCC-Detail-Label.yml",
       "output": {
         ".html": {
@@ -20729,6 +21069,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/warehouse-license-plating/Table/NICWLP-Item-Package-Ctnt-Code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.html"
         }
       },
       "version": ""

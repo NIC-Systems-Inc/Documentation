@@ -78,124 +78,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="O:Report::NICMAS_Staging_Instruction">
-  <h1>Report &quot;NICMAS Staging Instruction&quot;</h1>
+        <article data-uid="O:Codeunit::NICITF_Available_Quantity">
+  <h1>Codeunit &quot;NICITF Available Quantity&quot;</h1>
 
 
-<div class="font-style-italic">ID 23094062</div>
-
-
-
-
-  	<div class="CAUTION alert alert-danger alert-is-danger">
-  		<h5 class="alert-title">Obsolete</h5>
-  			<p>This element will become obsolete from version 26.2. Upgrading to report 23094060 &quot;NICMAS Staging Instructions&quot;.</p>
-  	</div>
+<div class="font-style-italic">ID 23079825</div>
 
 
 
-  	<h2 id="properties">Properties</h2>
-
-  	<table class="table">
-  		<thead>
-  			<tr>
-  				<th>Name</th>
-  				<th>Value</th>
-  			</tr>
-  		</thead>
-  		<tbody>
-  			<tr>
-  					<td>ApplicationArea</td>
-  					<td class="font-style-italic">
-							#All
-  					</td>
-  			</tr>
-  			<tr>
-  					<td>Caption</td>
-  					<td class="font-style-italic">
-							Staging Instruction
-  					</td>
-  			</tr>
-  			<tr>
-  					<td>DefaultRenderingLayout</td>
-  					<td class="font-style-italic">
-							Default
-  					</td>
-  			</tr>
-  			<tr>
-  					<td>UsageCategory</td>
-  					<td class="font-style-italic">
-							None
-  					</td>
-  			</tr>
-  			<tr>
-  					<td>ObsoleteState</td>
-  					<td class="font-style-italic">
-							Pending
-  					</td>
-  			</tr>
-  			<tr>
-  					<td>ObsoleteReason</td>
-  					<td class="font-style-italic">
-							Upgrading to report 23094060 "NICMAS Staging Instructions".
-  					</td>
-  			</tr>
-  			<tr>
-  					<td>ObsoleteTag</td>
-  					<td class="font-style-italic">
-							26.2
-  					</td>
-  			</tr>
-  		</tbody>
-  	</table>
-  	<h2 id="methods">Methods</h2>
-   <h3 class="memberNameHolder">InitializeRequest</h3>
-   <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 26.2. Upgrading to report 23094060 &quot;NICMAS Staging Instructions&quot;.</p>
-    	</div>
-
-
-   		<pre><code dir="ltr" class="hljs lang-al">procedure InitializeRequest(NewNoOfCopies: Integer)</code></pre>
-
-   			<h4>Parameters</h4>
-   			<table class="table">
-   				<thead>
-   					<tr>
-   						<th>Name</th>
-   						<th>Type</th>
-   						<th>Description</th>
-   					</tr>
-   				</thead>
-   				<tbody>
-   						<tr>
-   							<td>
-								NewNoOfCopies
-   							</td>
-   							<td class="font-style-italic">
-Integer                 </td>
-   							<td>
-								
-   							</td>
-   						</tr>
-   				</tbody>
-   			</table>
 
 
 
-   </div>
+
+
   	<h2 id="events">Events</h2>
-   <h3 class="memberNameHolder">OnBeforeGetUOM</h3>
+   <h3 class="memberNameHolder">OnBeforeQuantityVerified_GetContent</h3>
    <div class="memberInfo">
-    	<div class="CAUTION alert alert-danger alert-is-danger">
-    		<h5 class="alert-title">Obsolete</h5>
-    			<p>This element will become obsolete from version 26.2. Upgrading to report 23094060 &quot;NICMAS Staging Instructions&quot;.</p>
-    	</div>
 
 
    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
-local procedure OnBeforeGetUOM(UOMCode: Code[10], var Result: Text, var IsHandled: Boolean)</code></pre>
+procedure OnBeforeQuantityVerified_GetContent(GetContent: Query &quot;NICITF GetContent&quot;, var Handled: Boolean)</code></pre>
 
    			<h4>Parameters</h4>
    			<table class="table">
@@ -209,27 +111,17 @@ local procedure OnBeforeGetUOM(UOMCode: Code[10], var Result: Text, var IsHandle
    				<tbody>
    						<tr>
    							<td>
-								UOMCode
+								GetContent
    							</td>
    							<td class="font-style-italic">
-Code[10]                 </td>
+<a class="xref" href="../Query/NICITF-GetContent.html">Query &quot;NICITF GetContent&quot;</a>                 </td>
    							<td>
 								
    							</td>
    						</tr>
    						<tr>
    							<td>
-								Result
-   							</td>
-   							<td class="font-style-italic">
-Text                 </td>
-   							<td>
-								
-   							</td>
-   						</tr>
-   						<tr>
-   							<td>
-								IsHandled
+								Handled
    							</td>
    							<td class="font-style-italic">
 Boolean                 </td>
@@ -243,10 +135,139 @@ Boolean                 </td>
 
 
    </div>
+   <h3 class="memberNameHolder">OnAfterQuantityVerified_GetContent</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OnAfterQuantityVerified_GetContent(GetContent: Query &quot;NICITF GetContent&quot;, var AvlBaseQtyOnHand: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								GetContent
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Query/NICITF-GetContent.html">Query &quot;NICITF GetContent&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AvlBaseQtyOnHand
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeQuantityVerified_Consumption</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OnBeforeQuantityVerified_Consumption(ItemTrkFlushEntry: Record &quot;NICITF Item Trk. Flush. Entry&quot;, var Handled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemTrkFlushEntry
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Table/NICITF-Item-Trk.-Flush.-Entry.html">Table &quot;NICITF Item Trk. Flush. Entry&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Handled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterQuantityVerified_Consumption</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OnAfterQuantityVerified_Consumption(ItemTrkFlushEntry: Record &quot;NICITF Item Trk. Flush. Entry&quot;, var AvlBaseQtyOnHand: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemTrkFlushEntry
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Table/NICITF-Item-Trk.-Flush.-Entry.html">Table &quot;NICITF Item Trk. Flush. Entry&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AvlBaseQtyOnHand
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
 
   	<h2 id="see-also">See also</h2>
   	<ul>
-  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object">Report</a></p>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object">Codeunit</a></p>
 </li>
   	</ul>
 </article>

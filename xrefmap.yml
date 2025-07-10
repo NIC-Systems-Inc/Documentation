@@ -172,6 +172,33 @@ references:
 - uid: C:Query::NICIRA_Open_Item_Ledger_Entry.ItemLedgerEntry.VariantCode
   name: VariantCode
   href: reference/inventory-restrictions/Query/NICIRA-Open-Item-Ledger-Entry.html
+- uid: C:Query::NICITF_GetContent.WarehouseEntry.BinCode
+  name: BinCode
+  href: reference/item-tracked-flushing/Query/NICITF-GetContent.html
+- uid: C:Query::NICITF_GetContent.WarehouseEntry.ExpirationDate
+  name: ExpirationDate
+  href: reference/item-tracked-flushing/Query/NICITF-GetContent.html
+- uid: C:Query::NICITF_GetContent.WarehouseEntry.ItemNo
+  name: ItemNo
+  href: reference/item-tracked-flushing/Query/NICITF-GetContent.html
+- uid: C:Query::NICITF_GetContent.WarehouseEntry.LocationCode
+  name: LocationCode
+  href: reference/item-tracked-flushing/Query/NICITF-GetContent.html
+- uid: C:Query::NICITF_GetContent.WarehouseEntry.LotNo
+  name: LotNo
+  href: reference/item-tracked-flushing/Query/NICITF-GetContent.html
+- uid: C:Query::NICITF_GetContent.WarehouseEntry.PackageNo
+  name: PackageNo
+  href: reference/item-tracked-flushing/Query/NICITF-GetContent.html
+- uid: C:Query::NICITF_GetContent.WarehouseEntry.Quantity
+  name: Quantity
+  href: reference/item-tracked-flushing/Query/NICITF-GetContent.html
+- uid: C:Query::NICITF_GetContent.WarehouseEntry.SerialNo
+  name: SerialNo
+  href: reference/item-tracked-flushing/Query/NICITF-GetContent.html
+- uid: C:Query::NICITF_GetContent.WarehouseEntry.VariantCode
+  name: VariantCode
+  href: reference/item-tracked-flushing/Query/NICITF-GetContent.html
 - uid: C:Query::NICMAS_MatStagSourceProdOrder.MatStag_Source.Comp__Item_Kit_Group_Code
   name: Comp__Item_Kit_Group_Code
   href: reference/material-staging/Query/NICMAS-MatStagSourceProdOrder.html
@@ -5575,6 +5602,141 @@ references:
 - uid: F:Table::NICISL_ShelfLifeCode.SystemRowVersion
   name: SystemRowVersion
   href: reference/inventory-shelf-life/Table/NICISL-ShelfLifeCode.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Active
+  name: Active
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Available_Quantity
+  name: "\"Available Quantity\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Base_Unit_of_Measure_Code[10]
+  name: "\"Base Unit of Measure Code\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Bin_Code[20]
+  name: "\"Bin Code\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Description[100]
+  name: Description
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Entry_No#
+  name: "\"Entry No.\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Expiration_Date
+  name: "\"Expiration Date\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Item_No#[20]
+  name: "\"Item No.\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Location_Code[10]
+  name: "\"Location Code\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Lot_No#[50]
+  name: "\"Lot No.\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Package_No#[50]
+  name: "\"Package No.\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Priority
+  name: Priority
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Serial_No#[50]
+  name: "\"Serial No.\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.SystemId
+  name: SystemId
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Variant_Code[10]
+  name: "\"Variant Code\""
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.Bin_Code[20]
+  name: "\"Bin Code\""
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.Entry_No#
+  name: "\"Entry No.\""
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.Expiration_Date
+  name: "\"Expiration Date\""
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.Item_No#[20]
+  name: "\"Item No.\""
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.Location_Code[10]
+  name: "\"Location Code\""
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.Lot_No#[50]
+  name: "\"Lot No.\""
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.Package_No#[50]
+  name: "\"Package No.\""
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.Priority
+  name: Priority
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.Serial_No#[50]
+  name: "\"Serial No.\""
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.SystemId
+  name: SystemId
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Item_Trk#_Flush#_Entry.Variant_Code[10]
+  name: "\"Variant Code\""
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: F:Table::NICITF_Setup.Last_Maintenance_Run_At
+  name: "\"Last Maintenance Run At\""
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
+- uid: F:Table::NICITF_Setup.Mandatory_Default_Package
+  name: "\"Mandatory Default Package\""
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
+- uid: F:Table::NICITF_Setup.Primary_Key[10]
+  name: "\"Primary Key\""
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
+- uid: F:Table::NICITF_Setup.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
+- uid: F:Table::NICITF_Setup.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
+- uid: F:Table::NICITF_Setup.SystemId
+  name: SystemId
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
+- uid: F:Table::NICITF_Setup.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
+- uid: F:Table::NICITF_Setup.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
+- uid: F:Table::NICITF_Setup.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
 - uid: F:Table::NICITR_Def_Item_Recall_Contact.Company_Name[100]
   name: "\"Company Name\""
   href: reference/item-recalls/Table/NICITR-Def-Item-Recall-Contact.html
@@ -10444,6 +10606,30 @@ references:
 - uid: F:Table::NICWLP_Item_Package_Ctnt_Code.Variant_Code[10]
   name: "\"Variant Code\""
   href: reference/warehouse-license-plating/Table/NICWLP-Item-Package-Ctnt-Code.html
+- uid: F:Table::NICWLP_Load_Default_Data.Package_Nos#[20]
+  name: "\"Package Nos.\""
+  href: reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.html
+- uid: F:Table::NICWLP_Load_Default_Data.Primary_Key
+  name: "\"Primary Key\""
+  href: reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.html
+- uid: F:Table::NICWLP_Load_Default_Data.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.html
+- uid: F:Table::NICWLP_Load_Default_Data.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.html
+- uid: F:Table::NICWLP_Load_Default_Data.SystemId
+  name: SystemId
+  href: reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.html
+- uid: F:Table::NICWLP_Load_Default_Data.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.html
+- uid: F:Table::NICWLP_Load_Default_Data.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.html
+- uid: F:Table::NICWLP_Load_Default_Data.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.html
 - uid: F:Table::NICWLP_Package_Content_Code.Code[20]
   name: Code
   href: reference/warehouse-license-plating/Table/NICWLP-Package-Content-Code.html
@@ -14638,6 +14824,45 @@ references:
 - uid: M:Codeunit::NICISL_Shelf_Life_Loc_Check.OnBeforeLocationShelfLifeEnabled(Code[20],Enum::NICISL_LocShelfLifeSwitchType,Boolean@,Boolean@)
   name: OnBeforeLocationShelfLifeEnabled
   href: reference/inventory-shelf-life/Codeunit/NICISL-Shelf-Life-Loc-Check.html
+- uid: M:Codeunit::NICITFAutoPrioritizationMgmt.OnAfterAssignPrioritizedItemTrackingToItemJnlLine(Item_Journal_Line@)
+  name: OnAfterAssignPrioritizedItemTrackingToItemJnlLine
+  href: reference/item-tracked-flushing/Codeunit/NICITFAutoPrioritizationMgmt.html
+- uid: M:Codeunit::NICITFAutoPrioritizationMgmt.OnAfterInsertItemTracking(Reservation_Entry@)
+  name: OnAfterInsertItemTracking
+  href: reference/item-tracked-flushing/Codeunit/NICITFAutoPrioritizationMgmt.html
+- uid: M:Codeunit::NICITFAutoPrioritizationMgmt.OnBeforeAssignPrioritizedItemTrackingToItemJnlLine(Item_Journal_Line@,Boolean@)
+  name: OnBeforeAssignPrioritizedItemTrackingToItemJnlLine
+  href: reference/item-tracked-flushing/Codeunit/NICITFAutoPrioritizationMgmt.html
+- uid: M:Codeunit::NICITFAutoPrioritizationMgmt.OnBeforeInsertItemTracking(Reservation_Entry@,Boolean@)
+  name: OnBeforeInsertItemTracking
+  href: reference/item-tracked-flushing/Codeunit/NICITFAutoPrioritizationMgmt.html
+- uid: M:Codeunit::NICITF_Available_Quantity.OnAfterQuantityVerified_Consumption(NICITF_Item_Trk#_Flush#_Entry,Decimal@)
+  name: OnAfterQuantityVerified_Consumption
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Available-Quantity.html
+- uid: M:Codeunit::NICITF_Available_Quantity.OnAfterQuantityVerified_GetContent(Query::NICITF_GetContent,Decimal@)
+  name: OnAfterQuantityVerified_GetContent
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Available-Quantity.html
+- uid: M:Codeunit::NICITF_Available_Quantity.OnBeforeQuantityVerified_Consumption(NICITF_Item_Trk#_Flush#_Entry,Boolean@)
+  name: OnBeforeQuantityVerified_Consumption
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Available-Quantity.html
+- uid: M:Codeunit::NICITF_Available_Quantity.OnBeforeQuantityVerified_GetContent(Query::NICITF_GetContent,Boolean@)
+  name: OnBeforeQuantityVerified_GetContent
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Available-Quantity.html
+- uid: M:Codeunit::NICITF_Guided_Exp_Assist_Setup.OnAfterCheckFeatureEnabled(Boolean@)
+  name: OnAfterCheckFeatureEnabled
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Guided-Exp-Assist-Setup.html
+- uid: M:Codeunit::NICITF_Prioritization.OnAfterInsert_ItemTrkFlushEntry(NICITF_Item_Trk#_Flush#_Entry@)
+  name: OnAfterInsert_ItemTrkFlushEntry
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Prioritization.html
+- uid: M:Codeunit::NICITF_Prioritization.OnAfterManualPriority_Finish(NICITF_ItemTrkFlush#_Buffer@)
+  name: OnAfterManualPriority_Finish
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Prioritization.html
+- uid: M:Codeunit::NICITF_Prioritization.OnBeforeActive(NICITF_ItemTrkFlush#_Buffer@,Boolean@)
+  name: OnBeforeActive
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Prioritization.html
+- uid: M:Codeunit::NICITF_Prioritization.OnBeforeManualPriority_Finish(NICITF_ItemTrkFlush#_Buffer@,Integer@,Boolean@)
+  name: OnBeforeManualPriority_Finish
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Prioritization.html
 - uid: M:Codeunit::NICITI_GetTrackingStatus.OnAfterGetItemTrackingStatus(Variant,Text@,Text@)
   name: OnAfterGetItemTrackingStatus
   href: reference/item-tracking-status-indicator/Codeunit/NICITI-GetTrackingStatus.html
@@ -18025,6 +18250,9 @@ references:
 - uid: M:Page::NICIRA_Item_InvByLoc_FactBox.OnBeforeSet(Location@,Item@)
   name: OnBeforeSet
   href: reference/inventory-restrictions/Page/NICIRA-Item-InvByLoc-FactBox.html
+- uid: M:Page::NICITF_Setup_Wizard.IsSetupFinished:Boolean
+  name: IsSetupFinished
+  href: reference/item-tracked-flushing/Page/NICITF-Setup-Wizard.html
 - uid: M:Page::NICITR_Change_Status.OnAfterSetRecall(NICITR_Item_Recall)
   name: OnAfterSetRecall
   href: reference/item-recalls/Page/NICITR-Change-Status.html
@@ -18883,6 +19111,9 @@ references:
 - uid: M:Report::NICMAS_Staging_Instruction.OnBeforeGetUOM(Code[10],Text@,Boolean@)
   name: OnBeforeGetUOM
   href: reference/material-staging/Report/NICMAS-Staging-Instruction.html
+- uid: M:Report::NICMAS_Staging_Instructions.OnBeforeGetUOM(Code[10],Text@,Boolean@)
+  name: OnBeforeGetUOM
+  href: reference/material-staging/Report/NICMAS-Staging-Instructions.html
 - uid: M:Report::NICQIN_CopyInspectTemplate.OnAfterInitializeCopyInspectionTemplateArguments(NICQIN_Copy_Inspect_Templ_Arg@)
   name: OnAfterInitializeCopyInspectionTemplateArguments
   href: reference/quality-inspections/Report/NICQIN-CopyInspectTemplate.html
@@ -18973,6 +19204,15 @@ references:
 - uid: M:Table::NICFCH_Setup.InsertIfNotExists
   name: InsertIfNotExists
   href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: M:Table::NICITF_Item_Trk#_Flush#_Entry.GetRecordOnce
+  name: GetRecordOnce
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: M:Table::NICITF_Setup.GetRecordOnce
+  name: GetRecordOnce
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
+- uid: M:Table::NICITF_Setup.InsertIfNotExists
+  name: InsertIfNotExists
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
 - uid: M:Table::NICITR_Item_Recall_Cmt_Line.OnAfterSetUpNewLine(NICITR_Item_Recall_Cmt_Line@,NICITR_Item_Recall_Cmt_Line@)
   name: OnAfterSetUpNewLine
   href: reference/item-recalls/Table/NICITR-Item-Recall-Cmt-Line.html
@@ -19227,17 +19467,23 @@ references:
   href: reference/item-recalls/Obsoletion/obsolete_by_21.2.html
 - uid: N:Module::Item_Recalls_obsolete_by_21.2#21.2
   href: reference/item-recalls/Obsoletion/obsolete_by_21.2.html
+- uid: N:Module::Item_Tracked_Flushing
+  name: Item Tracked Flushing
+  summary: >
+    <p sourcefile="reference/item-tracked-flushing/Module/Item-Tracked-Flushing.yml" sourcestartlinenumber="1" jsonPath="/summary">Allows you to automatically consume tracked inventory when backward or forward flushing.</p>
+  fqName: Item Tracked Flushing by NIC Systems Inc. (26.3.15222.0)
+  href: reference/item-tracked-flushing/Module/Item-Tracked-Flushing.html
 - uid: N:Module::Item_Tracking_Status_Indicator
   name: Item Tracking Status Indicator
   summary: >
     <p sourcefile="reference/item-tracking-status-indicator/Module/Item-Tracking-Status-Indicator.yml" sourcestartlinenumber="1" jsonPath="/summary">For an item that requires lot, serial or package tracking, the Item Tracking Status Indicator field displays whether tracking information has been populated.</p>
-  fqName: Item Tracking Status Indicator by NIC Systems Inc. (26.0.14506.0)
+  fqName: Item Tracking Status Indicator by NIC Systems Inc. (26.3.15175.0)
   href: reference/item-tracking-status-indicator/Module/Item-Tracking-Status-Indicator.html
 - uid: N:Module::Lot_Algorithms
   name: Lot Algorithms
   summary: >
     <p sourcefile="reference/lot-algorithms/Module/Lot-Algorithms.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to create tailor-made lot numbers to keep track of inventory item more effectively.</p>
-  fqName: Lot Algorithms by NIC Systems Inc. (26.0.14730.0)
+  fqName: Lot Algorithms by NIC Systems Inc. (26.3.15176.0)
   href: reference/lot-algorithms/Module/Lot-Algorithms.html
 - uid: N:Module::Lot_Algorithms_obsolete_by_22.2
   tag: "22.2"
@@ -19253,13 +19499,18 @@ references:
   name: Material Staging
   summary: >
     <p sourcefile="reference/material-staging/Module/Material-Staging.yml" sourcestartlinenumber="1" jsonPath="/summary">Identify, prepare, and stage materials to keep production organized and running smoothly</p>
-  fqName: Material Staging by NIC Systems Inc. (26.0.14705.0)
+  fqName: Material Staging by NIC Systems Inc. (26.3.15177.0)
   href: reference/material-staging/Module/Material-Staging.html
 - uid: N:Module::Material_Staging_obsolete_by_25.5
   tag: "25.5"
   href: reference/material-staging/Obsoletion/obsolete_by_25.5.html
 - uid: N:Module::Material_Staging_obsolete_by_25.5#25.5
   href: reference/material-staging/Obsoletion/obsolete_by_25.5.html
+- uid: N:Module::Material_Staging_obsolete_by_26.2
+  tag: "26.2"
+  href: reference/material-staging/Obsoletion/obsolete_by_26.2.html
+- uid: N:Module::Material_Staging_obsolete_by_26.2#26.2
+  href: reference/material-staging/Obsoletion/obsolete_by_26.2.html
 - uid: N:Module::Mobile_Data_Collection
   name: Mobile Data Collection
   summary: >
@@ -19371,7 +19622,7 @@ references:
   name: Serial Shipping Container Codes
   summary: >
     <p sourcefile="reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables organizations to generate SSCC numbers adhering to GS1 requirements. The user can assign the SSCC number to a bundle of items, and print a shipping label.</p>
-  fqName: Serial Shipping Container Codes by NIC Systems Inc. (26.0.14490.0)
+  fqName: Serial Shipping Container Codes by NIC Systems Inc. (26.3.15179.0)
   href: reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.html
 - uid: N:Module::Serial_Shipping_Container_Codes_obsolete_by_22.2
   tag: "22.2"
@@ -19425,7 +19676,7 @@ references:
   name: Warehouse License Plating
   summary: >
     <p sourcefile="reference/warehouse-license-plating/Module/Warehouse-License-Plating.yml" sourcestartlinenumber="1" jsonPath="/summary">Warehouse License Plating contains features that allow you to view and control package-tracked inventory.</p>
-  fqName: Warehouse License Plating by NIC Systems Inc. (26.0.14494.0)
+  fqName: Warehouse License Plating by NIC Systems Inc. (26.3.15178.0)
   href: reference/warehouse-license-plating/Module/Warehouse-License-Plating.html
 - uid: N:Module::Warehouse_License_Plating_obsolete_by_22.2
   tag: "22.2"
@@ -20365,6 +20616,74 @@ references:
   name: "\"NICISL Upgrade\""
   fqName: Codeunit "NICISL Upgrade"
   href: reference/inventory-shelf-life/Codeunit/NICISL-Upgrade.html
+- uid: O:Codeunit::NICITFAutoPrioritizationMgmt
+  name: NICITFAutoPrioritizationMgmt
+  fqName: Codeunit NICITFAutoPrioritizationMgmt
+  href: reference/item-tracked-flushing/Codeunit/NICITFAutoPrioritizationMgmt.html
+- uid: O:Codeunit::NICITF_AppIntegration
+  name: "\"NICITF AppIntegration\""
+  fqName: Codeunit "NICITF AppIntegration"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-AppIntegration.html
+- uid: O:Codeunit::NICITF_Available_Quantity
+  name: "\"NICITF Available Quantity\""
+  fqName: Codeunit "NICITF Available Quantity"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Available-Quantity.html
+- uid: O:Codeunit::NICITF_Blocked_Inventory
+  name: "\"NICITF Blocked Inventory\""
+  fqName: Codeunit "NICITF Blocked Inventory"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Blocked-Inventory.html
+- uid: O:Codeunit::NICITF_Guided_Exp_Assist_Setup
+  name: "\"NICITF Guided Exp Assist Setup\""
+  fqName: Codeunit "NICITF Guided Exp Assist Setup"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Guided-Exp-Assist-Setup.html
+- uid: O:Codeunit::NICITF_Guided_Exp_Manual_Setup
+  name: "\"NICITF Guided Exp Manual Setup\""
+  fqName: Codeunit "NICITF Guided Exp Manual Setup"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Guided-Exp-Manual-Setup.html
+- uid: O:Codeunit::NICITF_Initialize_Company
+  name: "\"NICITF Initialize Company\""
+  fqName: Codeunit "NICITF Initialize Company"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Initialize-Company.html
+- uid: O:Codeunit::NICITF_Initialize_Data
+  name: "\"NICITF Initialize Data\""
+  fqName: Codeunit "NICITF Initialize Data"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Initialize-Data.html
+- uid: O:Codeunit::NICITF_Install
+  name: "\"NICITF Install\""
+  fqName: Codeunit "NICITF Install"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Install.html
+- uid: O:Codeunit::NICITF_Maintenance_Mng#
+  name: "\"NICITF Maintenance Mng.\""
+  fqName: Codeunit "NICITF Maintenance Mng."
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Maintenance-Mng..html
+- uid: O:Codeunit::NICITF_Page_Prioritization
+  name: "\"NICITF Page Prioritization\""
+  fqName: Codeunit "NICITF Page Prioritization"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Page-Prioritization.html
+- uid: O:Codeunit::NICITF_Prioritization
+  name: "\"NICITF Prioritization\""
+  fqName: Codeunit "NICITF Prioritization"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Prioritization.html
+- uid: O:Codeunit::NICITF_Schedule_Maintenance
+  name: "\"NICITF Schedule Maintenance\""
+  fqName: Codeunit "NICITF Schedule Maintenance"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Schedule-Maintenance.html
+- uid: O:Codeunit::NICITF_Setup_Notification
+  name: "\"NICITF Setup Notification\""
+  fqName: Codeunit "NICITF Setup Notification"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Setup-Notification.html
+- uid: O:Codeunit::NICITF_Setup_Wizard_Handler
+  name: "\"NICITF Setup Wizard Handler\""
+  fqName: Codeunit "NICITF Setup Wizard Handler"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Setup-Wizard-Handler.html
+- uid: O:Codeunit::NICITF_Subscribers
+  name: "\"NICITF Subscribers\""
+  fqName: Codeunit "NICITF Subscribers"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Subscribers.html
+- uid: O:Codeunit::NICITF_Upgrade
+  name: "\"NICITF Upgrade\""
+  fqName: Codeunit "NICITF Upgrade"
+  href: reference/item-tracked-flushing/Codeunit/NICITF-Upgrade.html
 - uid: O:Codeunit::NICITI_GetTrackingStatus
   name: "\"NICITI GetTrackingStatus\""
   fqName: Codeunit "NICITI GetTrackingStatus"
@@ -22723,6 +23042,20 @@ references:
   name: "\"NICISL VendItemShelfLifeCodes\""
   fqName: Page "NICISL VendItemShelfLifeCodes"
   href: reference/inventory-shelf-life/Page/NICISL-VendItemShelfLifeCodes.html
+- uid: O:Page::NICITF_Prioritization
+  name: "\"NICITF Prioritization\""
+  summary: >
+    <p sourcefile="reference/item-tracked-flushing/Page/NICITF-Prioritization.yml" sourcestartlinenumber="1" jsonPath="/summary">On this page, you can review available lots, packages, serials, with quantity that you have in inventory.</p>
+  fqName: Page "NICITF Prioritization"
+  href: reference/item-tracked-flushing/Page/NICITF-Prioritization.html
+- uid: O:Page::NICITF_Setup
+  name: "\"NICITF Setup\""
+  fqName: Page "NICITF Setup"
+  href: reference/item-tracked-flushing/Page/NICITF-Setup.html
+- uid: O:Page::NICITF_Setup_Wizard
+  name: "\"NICITF Setup Wizard\""
+  fqName: Page "NICITF Setup Wizard"
+  href: reference/item-tracked-flushing/Page/NICITF-Setup-Wizard.html
 - uid: O:Page::NICITR_Change_Status
   name: "\"NICITR Change Status\""
   fqName: Page "NICITR Change Status"
@@ -24363,6 +24696,10 @@ references:
   name: "\"NICISL WhseShipmentSubform\""
   fqName: PageExtension "NICISL WhseShipmentSubform"
   href: reference/inventory-shelf-life/PageExtension/NICISL-WhseShipmentSubform.html
+- uid: O:PageExtension::NICITF_Bin_List
+  name: "\"NICITF Bin List\""
+  fqName: PageExtension "NICITF Bin List"
+  href: reference/item-tracked-flushing/PageExtension/NICITF-Bin-List.html
 - uid: O:PageExtension::NICITI_AssemblyLines
   name: "\"NICITI AssemblyLines\""
   fqName: PageExtension "NICITI AssemblyLines"
@@ -25451,6 +25788,22 @@ references:
   name: "\"NICISL ShelfLifeRead\""
   fqName: PermissionSet "NICISL ShelfLifeRead"
   href: reference/inventory-shelf-life/PermissionSet/NICISL-ShelfLifeRead.html
+- uid: O:PermissionSet::NICITF_Admin
+  name: "\"NICITF Admin\""
+  fqName: PermissionSet "NICITF Admin"
+  href: reference/item-tracked-flushing/PermissionSet/NICITF-Admin.html
+- uid: O:PermissionSet::NICITF_Edit
+  name: "\"NICITF Edit\""
+  fqName: PermissionSet "NICITF Edit"
+  href: reference/item-tracked-flushing/PermissionSet/NICITF-Edit.html
+- uid: O:PermissionSet::NICITF_Objects
+  name: "\"NICITF Objects\""
+  fqName: PermissionSet "NICITF Objects"
+  href: reference/item-tracked-flushing/PermissionSet/NICITF-Objects.html
+- uid: O:PermissionSet::NICITF_Read
+  name: "\"NICITF Read\""
+  fqName: PermissionSet "NICITF Read"
+  href: reference/item-tracked-flushing/PermissionSet/NICITF-Read.html
 - uid: O:PermissionSet::NICITI_Objects
   name: "\"NICITI Objects\""
   fqName: PermissionSet "NICITI Objects"
@@ -25877,6 +26230,10 @@ references:
   name: "\"NICIRA Open Item Ledger Entry\""
   fqName: Query "NICIRA Open Item Ledger Entry"
   href: reference/inventory-restrictions/Query/NICIRA-Open-Item-Ledger-Entry.html
+- uid: O:Query::NICITF_GetContent
+  name: "\"NICITF GetContent\""
+  fqName: Query "NICITF GetContent"
+  href: reference/item-tracked-flushing/Query/NICITF-GetContent.html
 - uid: O:Query::NICMAS_MatStagSourceProdOrder
   name: "\"NICMAS MatStagSourceProdOrder\""
   fqName: Query "NICMAS MatStagSourceProdOrder"
@@ -26053,6 +26410,10 @@ references:
   name: "\"NICMAS Staging Instruction\""
   fqName: Report "NICMAS Staging Instruction"
   href: reference/material-staging/Report/NICMAS-Staging-Instruction.html
+- uid: O:Report::NICMAS_Staging_Instructions
+  name: "\"NICMAS Staging Instructions\""
+  fqName: Report "NICMAS Staging Instructions"
+  href: reference/material-staging/Report/NICMAS-Staging-Instructions.html
 - uid: O:Report::NICPRR_AddPurchRestrtoVend
   name: "\"NICPRR AddPurchRestrtoVend\""
   fqName: Report "NICPRR AddPurchRestrtoVend"
@@ -26113,6 +26474,10 @@ references:
   name: "\"NICSHC SSCC Detail Label\""
   fqName: Report "NICSHC SSCC Detail Label"
   href: reference/serial-shipping-container-codes/Report/NICSHC-SSCC-Detail-Label.html
+- uid: O:Report::NICSHC_SSCC_Detail_Label(Word)
+  name: "\"NICSHC SSCC Detail Label(Word)\""
+  fqName: Report "NICSHC SSCC Detail Label(Word)"
+  href: reference/serial-shipping-container-codes/Report/NICSHC-SSCC-Detail-Label(Word).html
 - uid: O:Report::NICSLR_Add_Sale_Restr_to_Cust
   name: "\"NICSLR Add Sale Restr to Cust\""
   fqName: Report "NICSLR Add Sale Restr to Cust"
@@ -26569,6 +26934,18 @@ references:
   name: "\"NICISL ShelfLifeCode\""
   fqName: Table "NICISL ShelfLifeCode"
   href: reference/inventory-shelf-life/Table/NICISL-ShelfLifeCode.html
+- uid: O:Table::NICITF_ItemTrkFlush#_Buffer
+  name: "\"NICITF ItemTrkFlush. Buffer\""
+  fqName: Table "NICITF ItemTrkFlush. Buffer"
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: O:Table::NICITF_Item_Trk#_Flush#_Entry
+  name: "\"NICITF Item Trk. Flush. Entry\""
+  fqName: Table "NICITF Item Trk. Flush. Entry"
+  href: reference/item-tracked-flushing/Table/NICITF-Item-Trk.-Flush.-Entry.html
+- uid: O:Table::NICITF_Setup
+  name: "\"NICITF Setup\""
+  fqName: Table "NICITF Setup"
+  href: reference/item-tracked-flushing/Table/NICITF-Setup.html
 - uid: O:Table::NICITR_Def_Item_Recall_Contact
   name: "\"NICITR Def Item Recall Contact\""
   fqName: Table "NICITR Def Item Recall Contact"
@@ -27045,6 +27422,10 @@ references:
   name: "\"NICWLP Item Package Ctnt Code\""
   fqName: Table "NICWLP Item Package Ctnt Code"
   href: reference/warehouse-license-plating/Table/NICWLP-Item-Package-Ctnt-Code.html
+- uid: O:Table::NICWLP_Load_Default_Data
+  name: "\"NICWLP Load Default Data\""
+  fqName: Table "NICWLP Load Default Data"
+  href: reference/warehouse-license-plating/Table/NICWLP-Load-Default-Data.html
 - uid: O:Table::NICWLP_Package_Content_Code
   name: "\"NICWLP Package Content Code\""
   fqName: Table "NICWLP Package Content Code"
@@ -27425,6 +27806,10 @@ references:
   name: "\"NICISL WarehouseShipmentLine\""
   fqName: TableExtension "NICISL WarehouseShipmentLine"
   href: reference/inventory-shelf-life/TableExtension/NICISL-WarehouseShipmentLine.html
+- uid: O:TableExtension::NICITF_Warehouse_Activity_Line
+  name: "\"NICITF Warehouse Activity Line\""
+  fqName: TableExtension "NICITF Warehouse Activity Line"
+  href: reference/item-tracked-flushing/TableExtension/NICITF-Warehouse-Activity-Line.html
 - uid: O:TableExtension::NICITR_Contact
   name: "\"NICITR Contact\""
   fqName: TableExtension "NICITR Contact"
