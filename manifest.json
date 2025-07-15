@@ -1895,6 +1895,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Upgrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-Upgrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/foodchain-id-connector/ControlAddIn/NICFCH-Multiline-Field.yml",
       "output": {
         ".html": {

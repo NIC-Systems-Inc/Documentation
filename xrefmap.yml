@@ -7012,6 +7012,9 @@ references:
 - uid: F:Table::NICMDC_Package_Contents_Buffer.Entry_No#
   name: "\"Entry No.\""
   href: reference/mobile-data-collection/Table/NICMDC-Package-Contents-Buffer.html
+- uid: F:Table::NICMDC_Package_Contents_Buffer.Item_Lot_Tracked
+  name: "\"Item Lot Tracked\""
+  href: reference/mobile-data-collection/Table/NICMDC-Package-Contents-Buffer.html
 - uid: F:Table::NICMDC_Package_Contents_Buffer.Item_No#[20]
   name: "\"Item No.\""
   href: reference/mobile-data-collection/Table/NICMDC-Package-Contents-Buffer.html
@@ -19410,7 +19413,7 @@ references:
   name: FoodChain ID Connector
   summary: >
     <p sourcefile="reference/foodchain-id-connector/Module/FoodChain-ID-Connector.yml" sourcestartlinenumber="1" jsonPath="/summary">Import recipes, ingredients, packaging and finished goods from FoodChain ID into Dynamics 365 Business Central.</p>
-  fqName: FoodChain ID Connector by NIC Systems Inc. (26.1.14858.0)
+  fqName: FoodChain ID Connector by NIC Systems Inc. (26.3.15209.0)
   href: reference/foodchain-id-connector/Module/FoodChain-ID-Connector.html
 - uid: N:Module::ForecastX_Connector
   name: ForecastX Connector
@@ -19515,7 +19518,7 @@ references:
   name: Mobile Data Collection
   summary: >
     <p sourcefile="reference/mobile-data-collection/Module/Mobile-Data-Collection.yml" sourcestartlinenumber="1" jsonPath="/summary">Mobile Data Collection</p>
-  fqName: Mobile Data Collection by NIC Systems Inc. (26.0.14634.0)
+  fqName: Mobile Data Collection by NIC Systems Inc. (26.3.15239.0)
   href: reference/mobile-data-collection/Module/Mobile-Data-Collection.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_23.0
   tag: "23.0"
@@ -20264,6 +20267,10 @@ references:
   name: "\"NICFCH Test Connection\""
   fqName: Codeunit "NICFCH Test Connection"
   href: reference/foodchain-id-connector/Codeunit/NICFCH-Test-Connection.html
+- uid: O:Codeunit::NICFCH_Upgrade
+  name: "\"NICFCH Upgrade\""
+  fqName: Codeunit "NICFCH Upgrade"
+  href: reference/foodchain-id-connector/Codeunit/NICFCH-Upgrade.html
 - uid: O:Codeunit::NICFXC_ExportByExcelBufferMng
   name: "\"NICFXC ExportByExcelBufferMng\""
   fqName: Codeunit "NICFXC ExportByExcelBufferMng"
