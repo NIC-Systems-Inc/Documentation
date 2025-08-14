@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/aldoc/output",
+  "source_base_path": "C:/aldoc/output/aldoc/output",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -85,6 +85,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/allergens/Codeunit/NICALL-Item-Allergens.yml",
       "output": {
         ".html": {
@@ -145,6 +155,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-Upgrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-Upgrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/allergens/Enum/NICALL-Allergen-Type.yml",
       "output": {
         ".html": {
@@ -159,6 +179,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/allergens/Module/Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/allergens/Obsoletion/obsolete_by_26.3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Obsoletion/obsolete_by_26.3.html"
         }
       },
       "version": ""
@@ -609,6 +639,26 @@
       "output": {
         ".html": {
           "relative_path": "reference/application-installer/Codeunit/NICAPP-Get-App-ID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/application-installer/Codeunit/NICAPP-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/application-installer/Codeunit/NICAPP-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/application-installer/Codeunit/NICAPP-Upgrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/application-installer/Codeunit/NICAPP-Upgrade.html"
         }
       },
       "version": ""
@@ -3759,16 +3809,6 @@
       "output": {
         ".html": {
           "relative_path": "reference/inventory-restrictions/Codeunit/NICIRA-InvtRestJnl-Restriction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/inventory-restrictions/Codeunit/NICIRA-InvtRestLog.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/inventory-restrictions/Codeunit/NICIRA-InvtRestLog.html"
         }
       },
       "version": ""
@@ -10775,6 +10815,376 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Codeunit/NICLIB-Telemetry-Feature-Usage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Codeunit/NICLIB-Telemetry-Feature-Usage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Codeunit/NICLIB-Telemetry-Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Codeunit/NICLIB-Telemetry-Logger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/EnumExtension/NICLIB-Assisted-Setup-Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/EnumExtension/NICLIB-Assisted-Setup-Group.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/EnumExtension/NICLIB-ManualSetupCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/EnumExtension/NICLIB-ManualSetupCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Module/NIC-Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Module/NIC-Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/nic-core/Obsoletion/obsolete_by_21.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Obsoletion/obsolete_by_21.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/nic-core/Obsoletion/obsolete_by_21.4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Obsoletion/obsolete_by_21.4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/nic-core/Obsoletion/obsolete_by_22.2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Obsoletion/obsolete_by_22.2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Page/NICLIB-Job-Planning-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Page/NICLIB-Job-Planning-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Page/NICLIB-Production-Order-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Page/NICLIB-Production-Order-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Page/NICLIB-TransferOrderLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Page/NICLIB-TransferOrderLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Page/NICLIB-Warehouse-Receipt-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Page/NICLIB-Warehouse-Receipt-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/PermissionSet/NICLIB-CoreObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/PermissionSet/NICLIB-CoreObjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/PermissionSet/NICLIB-Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/PermissionSet/NICLIB-Library.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Basic-Isv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Basic-Isv.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Basic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Basic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Bus-Full-Access.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Bus-Full-Access.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Bus-Premium.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Bus-Premium.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Full-Access.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Full-Access.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Read.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Read.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Team-Member.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Team-Member.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-Intelligent-Cloud.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-Intelligent-Cloud.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibEmailSecurityCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibEmailSecurityCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibPreStripeSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibPreStripeSubscription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibProductId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibProductId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibProductUserId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibProductUserId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibRESTMCKConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibRESTMCKConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibRESTWebServiceArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibRESTWebServiceArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibStripeCustomer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibStripeCustomer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibStripePlan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibStripePlan.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibStripeProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibStripeProduct.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibStripeSecurityPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibStripeSecurityPass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibStripeSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibStripeSetup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibStripeSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibStripeSubscription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibStripeUsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibStripeUsers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/nic-core/Table/niclibStripeUsersActual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/nic-core/Table/niclibStripeUsersActual.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/over-shipping/Codeunit/NICOVS-AppIntegration.yml",
       "output": {
         ".html": {
@@ -11535,6 +11945,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-batching/Codeunit/NICPBA-Undo-Prod.-Posting-Mgmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-batching/Codeunit/NICPBA-Undo-Prod.-Posting-Mgmt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/production-batching/Codeunit/NICPBA-Upgrade-Data.yml",
       "output": {
         ".html": {
@@ -11619,6 +12039,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/production-batching/Obsoletion/obsolete_by_22.2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/production-batching/Obsoletion/obsolete_by_26.4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-batching/Obsoletion/obsolete_by_26.4.html"
         }
       },
       "version": ""
@@ -12275,6 +12705,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Codeunit/NICPIN-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Codeunit/NICPIN-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/production-instructions/Codeunit/NICPIN-Page-Control.yml",
       "output": {
         ".html": {
@@ -12325,10 +12765,30 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/production-instructions/Codeunit/NICPIN-Upgrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Codeunit/NICPIN-Upgrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/production-instructions/Module/Production-Instructions.yml",
       "output": {
         ".html": {
           "relative_path": "reference/production-instructions/Module/Production-Instructions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/production-instructions/Obsoletion/obsolete_by_26.3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/production-instructions/Obsoletion/obsolete_by_26.3.html"
         }
       },
       "version": ""
@@ -13095,6 +13555,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Upgrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/purchasing-restrictions/Codeunit/NICPRR-Upgrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/purchasing-restrictions/Enum/NICPRR-Action.yml",
       "output": {
         ".html": {
@@ -13805,6 +14275,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Report-Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Codeunit/NICQIN-Report-Helper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/quality-inspections/Codeunit/NICQIN-Result-Value-Mgmt.yml",
       "output": {
         ".html": {
@@ -14109,6 +14589,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/quality-inspections/Obsoletion/obsolete_by_25.2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/quality-inspections/Obsoletion/obsolete_by_26.3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/quality-inspections/Obsoletion/obsolete_by_26.3.html"
         }
       },
       "version": ""
@@ -16605,6 +17095,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-commissions/Table/NICCOM-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-commissions/Table/NICCOM-Load-Default-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/sales-commissions/Table/NICCOM-Posted-Sales-Doc.-Agent.yml",
       "output": {
         ".html": {
@@ -17735,6 +18235,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-rebates/Table/NICSOF-Load-Default-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-rebates/Table/NICSOF-Load-Default-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/sales-rebates/Table/NICSOF-Rebate-Category.yml",
       "output": {
         ".html": {
@@ -18069,6 +18579,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Subscribers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Upgrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/sales-restrictions/Codeunit/NICSLR-Upgrade.html"
         }
       },
       "version": ""
