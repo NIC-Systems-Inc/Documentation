@@ -1852,12 +1852,6 @@ references:
 - uid: E:EnumExtension::NICITR_Email_Scenario.NICITR_Item_Recall_Notification
   name: "\"NICITR Item Recall Notification\""
   href: reference/item-recalls/EnumExtension/NICITR-Email-Scenario.html
-- uid: E:EnumExtension::NICLIB_Assisted_Setup_Group.NICLIB_Get_Started_NIC_Systems_Inc#
-  name: "\"NICLIB Get Started NIC Systems Inc.\""
-  href: reference/nic-core/EnumExtension/NICLIB-Assisted-Setup-Group.html
-- uid: E:EnumExtension::NICLIB_ManualSetupCategory.NICLIB_Manufacturing
-  name: "\"NICLIB Manufacturing\""
-  href: reference/nic-core/EnumExtension/NICLIB-ManualSetupCategory.html
 - uid: E:EnumExtension::NICPRR_AttachmentDocumentType.NICPRR_Purchasing_Restr_Header
   name: "\"NICPRR Purchasing Restr Header\""
   href: reference/purchasing-restrictions/EnumExtension/NICPRR-AttachmentDocumentType.html
@@ -3736,6 +3730,30 @@ references:
 - uid: F:Table::NICFCH_API_Configuration.Use_Pct#_Comp#_As_Quantity
   name: "\"Use Pct. Comp. As Quantity\""
   href: reference/foodchain-id-connector/Table/NICFCH-API-Configuration.html
+- uid: F:Table::NICFCH_Allergen.Code[20]
+  name: Code
+  href: reference/foodchain-id-connector/Table/NICFCH-Allergen.html
+- uid: F:Table::NICFCH_Allergen.Description[80]
+  name: Description
+  href: reference/foodchain-id-connector/Table/NICFCH-Allergen.html
+- uid: F:Table::NICFCH_Allergen.SystemCreatedAt
+  name: SystemCreatedAt
+  href: reference/foodchain-id-connector/Table/NICFCH-Allergen.html
+- uid: F:Table::NICFCH_Allergen.SystemCreatedBy
+  name: SystemCreatedBy
+  href: reference/foodchain-id-connector/Table/NICFCH-Allergen.html
+- uid: F:Table::NICFCH_Allergen.SystemId
+  name: SystemId
+  href: reference/foodchain-id-connector/Table/NICFCH-Allergen.html
+- uid: F:Table::NICFCH_Allergen.SystemModifiedAt
+  name: SystemModifiedAt
+  href: reference/foodchain-id-connector/Table/NICFCH-Allergen.html
+- uid: F:Table::NICFCH_Allergen.SystemModifiedBy
+  name: SystemModifiedBy
+  href: reference/foodchain-id-connector/Table/NICFCH-Allergen.html
+- uid: F:Table::NICFCH_Allergen.SystemRowVersion
+  name: SystemRowVersion
+  href: reference/foodchain-id-connector/Table/NICFCH-Allergen.html
 - uid: F:Table::NICFCH_Field_Map_Allowed_Table.Name[249]
   name: Name
   href: reference/foodchain-id-connector/Table/NICFCH-Field-Map-Allowed-Table.html
@@ -4120,6 +4138,33 @@ references:
 - uid: F:Table::NICFCH_Item_Specification.Vegetarian
   name: Vegetarian
   href: reference/foodchain-id-connector/Table/NICFCH-Item-Specification.html
+- uid: F:Table::NICFCH_Setup.All_Code_-_Crust#_Shellfish[20]
+  name: "\"All Code - Crust. Shellfish\""
+  href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: F:Table::NICFCH_Setup.All_Code_-_Eggs[20]
+  name: "\"All Code - Eggs\""
+  href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: F:Table::NICFCH_Setup.All_Code_-_Fish[20]
+  name: "\"All Code - Fish\""
+  href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: F:Table::NICFCH_Setup.All_Code_-_Milk[20]
+  name: "\"All Code - Milk\""
+  href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: F:Table::NICFCH_Setup.All_Code_-_Peanuts[20]
+  name: "\"All Code - Peanuts\""
+  href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: F:Table::NICFCH_Setup.All_Code_-_Sesame[20]
+  name: "\"All Code - Sesame\""
+  href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: F:Table::NICFCH_Setup.All_Code_-_Soybeans[20]
+  name: "\"All Code - Soybeans\""
+  href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: F:Table::NICFCH_Setup.All_Code_-_Tree_Nuts[20]
+  name: "\"All Code - Tree Nuts\""
+  href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: F:Table::NICFCH_Setup.All_Code_-_Wheat[20]
+  name: "\"All Code - Wheat\""
+  href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
 - uid: F:Table::NICFCH_Setup.FCID_Environment_Type
   name: "\"FCID Environment Type\""
   href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
@@ -4134,6 +4179,9 @@ references:
   href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
 - uid: F:Table::NICFCH_Setup.Inbound_Recipes
   name: "\"Inbound Recipes\""
+  href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
+- uid: F:Table::NICFCH_Setup.Link_Allergens_App
+  name: "\"Link Allergens App\""
   href: reference/foodchain-id-connector/Table/NICFCH-Setup.html
 - uid: F:Table::NICFCH_Setup.Outbound_Item_Costs
   name: "\"Outbound Item Costs\""
@@ -10876,561 +10924,6 @@ references:
 - uid: F:Table::NICWLP_Whse#_Lic#_Plate_APIs.User_ID[50]
   name: "\"User ID\""
   href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
-- uid: F:Table::niclibDatabase.DataBaseName[128]
-  name: DataBaseName
-  href: reference/nic-core/Table/niclibDatabase.html
-- uid: F:Table::niclibDatabase.Pk[5]
-  name: Pk
-  href: reference/nic-core/Table/niclibDatabase.html
-- uid: F:Table::niclibDatabase.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibDatabase.html
-- uid: F:Table::niclibDatabase.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibDatabase.html
-- uid: F:Table::niclibDatabase.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibDatabase.html
-- uid: F:Table::niclibDatabase.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibDatabase.html
-- uid: F:Table::niclibDatabase.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibDatabase.html
-- uid: F:Table::niclibDatabase.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibDatabase.html
-- uid: F:Table::niclibEmailSecurityCode.PrimaryKey[10]
-  name: PrimaryKey
-  href: reference/nic-core/Table/niclibEmailSecurityCode.html
-- uid: F:Table::niclibEmailSecurityCode.SecurityCode[10]
-  name: SecurityCode
-  href: reference/nic-core/Table/niclibEmailSecurityCode.html
-- uid: F:Table::niclibEmailSecurityCode.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibEmailSecurityCode.html
-- uid: F:Table::niclibEmailSecurityCode.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibEmailSecurityCode.html
-- uid: F:Table::niclibEmailSecurityCode.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibEmailSecurityCode.html
-- uid: F:Table::niclibEmailSecurityCode.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibEmailSecurityCode.html
-- uid: F:Table::niclibEmailSecurityCode.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibEmailSecurityCode.html
-- uid: F:Table::niclibEmailSecurityCode.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibEmailSecurityCode.html
-- uid: F:Table::niclibEmailSecurityCode.UserSecurtiyId
-  name: UserSecurtiyId
-  href: reference/nic-core/Table/niclibEmailSecurityCode.html
-- uid: F:Table::niclibPreStripeSubscription.Id[50]
-  name: Id
-  href: reference/nic-core/Table/niclibPreStripeSubscription.html
-- uid: F:Table::niclibPreStripeSubscription.Status
-  name: Status
-  href: reference/nic-core/Table/niclibPreStripeSubscription.html
-- uid: F:Table::niclibPreStripeSubscription.Subscription_Item_Id[50]
-  name: "\"Subscription Item Id\""
-  href: reference/nic-core/Table/niclibPreStripeSubscription.html
-- uid: F:Table::niclibPreStripeSubscription.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibPreStripeSubscription.html
-- uid: F:Table::niclibPreStripeSubscription.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibPreStripeSubscription.html
-- uid: F:Table::niclibPreStripeSubscription.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibPreStripeSubscription.html
-- uid: F:Table::niclibPreStripeSubscription.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibPreStripeSubscription.html
-- uid: F:Table::niclibPreStripeSubscription.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibPreStripeSubscription.html
-- uid: F:Table::niclibPreStripeSubscription.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibPreStripeSubscription.html
-- uid: F:Table::niclibProductId.Pk[5]
-  name: Pk
-  href: reference/nic-core/Table/niclibProductId.html
-- uid: F:Table::niclibProductId.ProductId[50]
-  name: ProductId
-  href: reference/nic-core/Table/niclibProductId.html
-- uid: F:Table::niclibProductId.ProductName[50]
-  name: ProductName
-  href: reference/nic-core/Table/niclibProductId.html
-- uid: F:Table::niclibProductId.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibProductId.html
-- uid: F:Table::niclibProductId.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibProductId.html
-- uid: F:Table::niclibProductId.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibProductId.html
-- uid: F:Table::niclibProductId.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibProductId.html
-- uid: F:Table::niclibProductId.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibProductId.html
-- uid: F:Table::niclibProductId.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibProductId.html
-- uid: F:Table::niclibProductUserId.ProductId[50]
-  name: ProductId
-  href: reference/nic-core/Table/niclibProductUserId.html
-- uid: F:Table::niclibProductUserId.ProductName[50]
-  name: ProductName
-  href: reference/nic-core/Table/niclibProductUserId.html
-- uid: F:Table::niclibProductUserId.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibProductUserId.html
-- uid: F:Table::niclibProductUserId.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibProductUserId.html
-- uid: F:Table::niclibProductUserId.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibProductUserId.html
-- uid: F:Table::niclibProductUserId.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibProductUserId.html
-- uid: F:Table::niclibProductUserId.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibProductUserId.html
-- uid: F:Table::niclibProductUserId.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibProductUserId.html
-- uid: F:Table::niclibProductUserId.UserId[50]
-  name: UserId
-  href: reference/nic-core/Table/niclibProductUserId.html
-- uid: F:Table::niclibRESTMCKConfig.IsMockConfig
-  name: IsMockConfig
-  href: reference/nic-core/Table/niclibRESTMCKConfig.html
-- uid: F:Table::niclibRESTMCKConfig.Primary_Key[10]
-  name: "\"Primary Key\""
-  href: reference/nic-core/Table/niclibRESTMCKConfig.html
-- uid: F:Table::niclibRESTMCKConfig.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibRESTMCKConfig.html
-- uid: F:Table::niclibRESTMCKConfig.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibRESTMCKConfig.html
-- uid: F:Table::niclibRESTMCKConfig.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibRESTMCKConfig.html
-- uid: F:Table::niclibRESTMCKConfig.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibRESTMCKConfig.html
-- uid: F:Table::niclibRESTMCKConfig.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibRESTMCKConfig.html
-- uid: F:Table::niclibRESTMCKConfig.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibRESTMCKConfig.html
-- uid: F:Table::niclibRESTWebServiceArgs.APIKey[250]
-  name: APIKey
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.Accept[30]
-  name: Accept
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.Blob
-  name: Blob
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.ETag[250]
-  name: ETag
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.Method[250]
-  name: Method
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.Password[50]
-  name: Password
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.PrimaryKey
-  name: PrimaryKey
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.RestMethod
-  name: RestMethod
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.URL[250]
-  name: URL
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibRESTWebServiceArgs.UserName[50]
-  name: UserName
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: F:Table::niclibStripeCustomer.Account_Balance
-  name: "\"Account Balance\""
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Address[100]
-  name: Address
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Address_2[100]
-  name: "\"Address 2\""
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.City[50]
-  name: City
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Country[2]
-  name: Country
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Currency[3]
-  name: Currency
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Delinquent
-  name: Delinquent
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Description[100]
-  name: Description
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Email[250]
-  name: Email
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Id[50]
-  name: Id
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Name[100]
-  name: Name
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Phone[50]
-  name: Phone
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Postal_Code[10]
-  name: "\"Postal Code\""
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Product_Id[50]
-  name: "\"Product Id\""
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.State[30]
-  name: State
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.Token_Id[30]
-  name: "\"Token Id\""
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.User_Security_Id
-  name: "\"User Security Id\""
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripeCustomer.VAT_Id[30]
-  name: "\"VAT Id\""
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: F:Table::niclibStripePlan.Amount
-  name: Amount
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.Currency[3]
-  name: Currency
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.Id[50]
-  name: Id
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.Interval
-  name: Interval
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.Interval_Count
-  name: "\"Interval Count\""
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.Product_Id[50]
-  name: "\"Product Id\""
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.Product_Name[250]
-  name: "\"Product Name\""
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.Quantity
-  name: Quantity
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.Select
-  name: Select
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.Trial_Period_Days
-  name: "\"Trial Period Days\""
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.active
-  name: active
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripePlan.coupon[50]
-  name: coupon
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: F:Table::niclibStripeProduct.Id[50]
-  name: Id
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: F:Table::niclibStripeProduct.Level
-  name: Level
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: F:Table::niclibStripeProduct.Name[50]
-  name: Name
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: F:Table::niclibStripeProduct.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: F:Table::niclibStripeProduct.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: F:Table::niclibStripeProduct.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: F:Table::niclibStripeProduct.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: F:Table::niclibStripeProduct.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: F:Table::niclibStripeProduct.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: F:Table::niclibStripeSecurityPass.PK[5]
-  name: PK
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSecurityPass.ProductId[50]
-  name: ProductId
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSecurityPass.ProductName[50]
-  name: ProductName
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSecurityPass.SecurityKey[250]
-  name: SecurityKey
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSecurityPass.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSecurityPass.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSecurityPass.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSecurityPass.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSecurityPass.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSecurityPass.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSecurityPass.Unlock[250]
-  name: Unlock
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: F:Table::niclibStripeSetup.Last_Synchronized
-  name: "\"Last Synchronized\""
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: F:Table::niclibStripeSetup.PK[10]
-  name: PK
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: F:Table::niclibStripeSetup.StripeCustomerId[50]
-  name: StripeCustomerId
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: F:Table::niclibStripeSetup.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: F:Table::niclibStripeSetup.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: F:Table::niclibStripeSetup.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: F:Table::niclibStripeSetup.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: F:Table::niclibStripeSetup.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: F:Table::niclibStripeSetup.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: F:Table::niclibStripeSubscription.Created
-  name: Created
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Current_Period_End
-  name: "\"Current Period End\""
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Current_Period_Start
-  name: "\"Current Period Start\""
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Customer_Id[50]
-  name: "\"Customer Id\""
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.DBName[150]
-  name: DBName
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.DataBaseName[100]
-  name: DataBaseName
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Ended_At
-  name: "\"Ended At\""
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Id[50]
-  name: Id
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.PlanStatus[50]
-  name: PlanStatus
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Plan_Id[50]
-  name: "\"Plan Id\""
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Product_Id[50]
-  name: "\"Product Id\""
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Product_Name[250]
-  name: "\"Product Name\""
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Quantity
-  name: Quantity
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Status
-  name: Status
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Subscription_Item_Id[50]
-  name: "\"Subscription Item Id\""
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Trial_End
-  name: "\"Trial End\""
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.Trial_Start
-  name: "\"Trial Start\""
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeSubscription.coupon[50]
-  name: coupon
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: F:Table::niclibStripeUsers.Enable
-  name: Enable
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsers.ProductId[50]
-  name: ProductId
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsers.ProductName[250]
-  name: ProductName
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsers.SubscriptionId[50]
-  name: SubscriptionId
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsers.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsers.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsers.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsers.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsers.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsers.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsers.UserId[50]
-  name: UserId
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: F:Table::niclibStripeUsersActual.Enable
-  name: Enable
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
-- uid: F:Table::niclibStripeUsersActual.ProductId[50]
-  name: ProductId
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
-- uid: F:Table::niclibStripeUsersActual.ProductName[250]
-  name: ProductName
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
-- uid: F:Table::niclibStripeUsersActual.SubscriptionId[50]
-  name: SubscriptionId
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
-- uid: F:Table::niclibStripeUsersActual.SystemCreatedAt
-  name: SystemCreatedAt
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
-- uid: F:Table::niclibStripeUsersActual.SystemCreatedBy
-  name: SystemCreatedBy
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
-- uid: F:Table::niclibStripeUsersActual.SystemId
-  name: SystemId
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
-- uid: F:Table::niclibStripeUsersActual.SystemModifiedAt
-  name: SystemModifiedAt
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
-- uid: F:Table::niclibStripeUsersActual.SystemModifiedBy
-  name: SystemModifiedBy
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
-- uid: F:Table::niclibStripeUsersActual.SystemRowVersion
-  name: SystemRowVersion
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
-- uid: F:Table::niclibStripeUsersActual.UserId[50]
-  name: UserId
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
 - uid: F:Table::nicmdcLabels.BinBarCode[250]
   name: BinBarCode
   href: reference/mobile-data-collection/Table/nicmdcLabels.html
@@ -13393,6 +12886,9 @@ references:
 - uid: M:Codeunit::NICALG_LotAlgorithmCompCtrl.OnBeforeSetLotAlgorithmComponentTypeDefaults(NICALG_LotAlgorithmComponent@,Boolean@)
   name: OnBeforeSetLotAlgorithmComponentTypeDefaults
   href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmCompCtrl.html
+- uid: M:Codeunit::NICALG_LotAlgorithmCompCtrl.OnBeforeValidateValueOnLotAlgorithmComponent(NICALG_LotAlgorithmComponent@,Boolean@)
+  name: OnBeforeValidateValueOnLotAlgorithmComponent
+  href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmCompCtrl.html
 - uid: M:Codeunit::NICALG_LotAlgorithmCompCtrl.OnBeforeVerifyDataFormatOnLotAlgorithmComponent(NICALG_LotAlgorithmComponent@,Boolean@)
   name: OnBeforeVerifyDataFormatOnLotAlgorithmComponent
   href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmCompCtrl.html
@@ -13435,6 +12931,9 @@ references:
 - uid: M:Codeunit::NICALL_Allergens.ProdOrderHasAllergens(Enum::Microsoft#Manufacturing#Document#Production_Order_Status,Code[20],Integer):Boolean
   name: ProdOrderHasAllergens
   href: reference/allergens/Codeunit/NICALL-Allergens.html
+- uid: M:Codeunit::NICALL_App_Integration.OnAfterIsItemAllergensLinkedToFoodChainId(Code[20],Boolean@)
+  name: OnAfterIsItemAllergensLinkedToFoodChainId
+  href: reference/allergens/Codeunit/NICALL-App-Integration.html
 - uid: M:Codeunit::NICALL_Bom_Allergens.OnAfterBomHasAllergens(Code[20],Code[20],Integer,Boolean@)
   name: OnAfterBomHasAllergens
   href: reference/allergens/Codeunit/NICALL-Bom-Allergens.html
@@ -14290,6 +13789,21 @@ references:
 - uid: M:Codeunit::NICFCH_API_Connection.OnAfterGetEndpointFromSetup(NICFCH_Setup,Text@)
   name: OnAfterGetEndpointFromSetup
   href: reference/foodchain-id-connector/Codeunit/NICFCH-API-Connection.html
+- uid: M:Codeunit::NICFCH_App_Integration.OnAfterClearAllergenCodes(NICFCH_Setup@)
+  name: OnAfterClearAllergenCodes
+  href: reference/foodchain-id-connector/Codeunit/NICFCH-App-Integration.html
+- uid: M:Codeunit::NICFCH_App_Integration.OnAfterCreateItemAllergens(NICFCH_Item_Specification)
+  name: OnAfterCreateItemAllergens
+  href: reference/foodchain-id-connector/Codeunit/NICFCH-App-Integration.html
+- uid: M:Codeunit::NICFCH_App_Integration.OnAfterDeleteExistingItemAllergens(RecordRef@,Code[20])
+  name: OnAfterDeleteExistingItemAllergens
+  href: reference/foodchain-id-connector/Codeunit/NICFCH-App-Integration.html
+- uid: M:Codeunit::NICFCH_App_Integration.OnAfterInitAllergenRecRef(RecordRef@,Code[20])
+  name: OnAfterInitAllergenRecRef
+  href: reference/foodchain-id-connector/Codeunit/NICFCH-App-Integration.html
+- uid: M:Codeunit::NICFCH_App_Integration.OnCreateItemAllergenOnBeforeInsert(RecordRef)
+  name: OnCreateItemAllergenOnBeforeInsert
+  href: reference/foodchain-id-connector/Codeunit/NICFCH-App-Integration.html
 - uid: M:Codeunit::NICFCH_Data_Transformation.OnAfterGetDateFormat(Text@)
   name: OnAfterGetDateFormat
   href: reference/foodchain-id-connector/Codeunit/NICFCH-Data-Transformation.html
@@ -14416,6 +13930,9 @@ references:
 - uid: M:Codeunit::NICFCH_Process_Field_Mappings.OnBeforePopulateTextField(RecordRef@,NICFCH_Field_Mapping,JsonValue@,Boolean@)
   name: OnBeforePopulateTextField
   href: reference/foodchain-id-connector/Codeunit/NICFCH-Process-Field-Mappings.html
+- uid: M:Codeunit::NICFCH_Process_Item_Spec#.OnAfterItemApplicableToCreateAllergens(NICFCH_API_Configuration,NICFCH_Item_Specification@,Boolean@)
+  name: OnAfterItemApplicableToCreateAllergens
+  href: reference/foodchain-id-connector/Codeunit/NICFCH-Process-Item-Spec..html
 - uid: M:Codeunit::NICFCH_Process_Items.OnInitNewItemOnBeforeInsert(Item@,Code[80],NICFCH_API_Configuration)
   name: OnInitNewItemOnBeforeInsert
   href: reference/foodchain-id-connector/Codeunit/NICFCH-Process-Items.html
@@ -14958,6 +14475,9 @@ references:
   href: reference/inventory-restrictions/Codeunit/NICIRA-InvtRestWksht-Register.html
 - uid: M:Codeunit::NICIRA_InvtRestWkshtMgmt.OnBeforeInitInvtRestrWkshtBuffer(NICIRA_InvtRestWkshtBuffer@,Enum::NICIRA_InvtRestrMaintMode,Boolean@)
   name: OnBeforeInitInvtRestrWkshtBuffer
+  href: reference/inventory-restrictions/Codeunit/NICIRA-InvtRestWkshtMgmt.html
+- uid: M:Codeunit::NICIRA_InvtRestWkshtMgmt.OnBeforeInitInvtRestrWorksheetBuffer(NICIRA_InvtRestWkshtBuffer@,Enum::NICIRA_InvtRestrMaintMode,Boolean@,Boolean@)
+  name: OnBeforeInitInvtRestrWorksheetBuffer
   href: reference/inventory-restrictions/Codeunit/NICIRA-InvtRestWkshtMgmt.html
 - uid: M:Codeunit::NICIRA_InvtRestWkshtMgmt.OnInitInvtRestrWkshtBuffer(NICIRA_InvtRestWkshtBuffer@,Enum::NICIRA_InvtRestrMaintMode,NICIRA_InvtRestWkshtBuffer@)
   name: OnInitInvtRestrWkshtBuffer
@@ -19939,126 +19459,6 @@ references:
 - uid: M:Table::NICVIN_Vendor_Insights_Setup.InsertIfNotExists
   name: InsertIfNotExists
   href: reference/vendor-insights/Table/NICVIN-Vendor-Insights-Setup.html
-- uid: M:Table::niclibRESTWebServiceArgs.GetRequestContent(HttpContent@)
-  name: GetRequestContent
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: M:Table::niclibRESTWebServiceArgs.GetResponseContent(HttpContent@)
-  name: GetResponseContent
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: M:Table::niclibRESTWebServiceArgs.GetResponseContentAsText:Text
-  name: GetResponseContentAsText
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: M:Table::niclibRESTWebServiceArgs.GetResponseHeaders(HttpHeaders@)
-  name: GetResponseHeaders
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: M:Table::niclibRESTWebServiceArgs.HasRequestContent:Boolean
-  name: HasRequestContent
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: M:Table::niclibRESTWebServiceArgs.HasResponseContent:Boolean
-  name: HasResponseContent
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: M:Table::niclibRESTWebServiceArgs.SetRequestContent(HttpContent@)
-  name: SetRequestContent
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: M:Table::niclibRESTWebServiceArgs.SetResponseContent(HttpContent@)
-  name: SetResponseContent
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: M:Table::niclibRESTWebServiceArgs.SetResponseHeaders(HttpHeaders@)
-  name: SetResponseHeaders
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: M:Table::niclibStripeCustomer.CreateSubscription(niclibStripePlan)
-  name: CreateSubscription
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: M:Table::niclibStripeCustomer.CreateTrialCustomer
-  name: CreateTrialCustomer
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: M:Table::niclibStripeCustomer.GetAsFormData:Text
-  name: GetAsFormData
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: M:Table::niclibStripeCustomer.GetStripeCustomer:Boolean
-  name: GetStripeCustomer
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: M:Table::niclibStripeCustomer.GetUser(User@):Boolean
-  name: GetUser
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: M:Table::niclibStripeCustomer.PopulateFromJson(JsonObject)
-  name: PopulateFromJson
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: M:Table::niclibStripeCustomer.PopulateJsonAsList(JsonObject)
-  name: PopulateJsonAsList
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: M:Table::niclibStripeCustomer.UpdateCustomer
-  name: UpdateCustomer
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: M:Table::niclibStripePlan.GetPlans
-  name: GetPlans
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: M:Table::niclibStripePlan.PopulateFromJson(JsonObject)
-  name: PopulateFromJson
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: M:Table::niclibStripeProduct.GetProducts
-  name: GetProducts
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: M:Table::niclibStripeProduct.PopulateFromJson(JsonObject)
-  name: PopulateFromJson
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: M:Table::niclibStripeSecurityPass.LockSecurityKey(Code[250])
-  name: LockSecurityKey
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: M:Table::niclibStripeSecurityPass.SetSecurityKey(Code[250])
-  name: SetSecurityKey
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: M:Table::niclibStripeSetup.GetSetup
-  name: GetSetup
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: M:Table::niclibStripeSetup.RefreshData
-  name: RefreshData
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: M:Table::niclibStripeSubscription.CreateTrialSubscription
-  name: CreateTrialSubscription
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.CurrentPeriodDaysLeft:Integer
-  name: CurrentPeriodDaysLeft
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.GetFormDataForCancelSubscription:Text
-  name: GetFormDataForCancelSubscription
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.GetFormDataForCreateSubscription(niclibStripePlan,niclibStripeCustomer):Text
-  name: GetFormDataForCreateSubscription
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.GetFormDataForQtyUpdateSubscription:Text
-  name: GetFormDataForQtyUpdateSubscription
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.GetFormDataForUpdateSubscription(niclibStripePlan):Text
-  name: GetFormDataForUpdateSubscription
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.GetFormDataForUpdateSubscription2(niclibStripePlan):Text
-  name: GetFormDataForUpdateSubscription2
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.GetNICSubscrition:Boolean
-  name: GetNICSubscrition
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.GetSubscrition:Boolean
-  name: GetSubscrition
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.GetSubscritionByCustomerId(Text[50]):Boolean
-  name: GetSubscritionByCustomerId
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.PastDueDays:Integer
-  name: PastDueDays
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.PopulateFromJson(JsonObject)
-  name: PopulateFromJson
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.PopulateFromJson2(JsonObject)
-  name: PopulateFromJson2
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.RefreshSubscription
-  name: RefreshSubscription
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: M:Table::niclibStripeSubscription.TrialDaysLeft:Integer
-  name: TrialDaysLeft
-  href: reference/nic-core/Table/niclibStripeSubscription.html
 - uid: M:Table::nicmdc_API_Key_Method.SetAPIKey(Enum::nicmdc_API_Category):Text[50]
   name: SetAPIKey
   href: reference/mobile-data-collection/Table/nicmdc-API-Key-Method.html
@@ -20142,9 +19542,6 @@ references:
   href: reference/mobile-data-collection/XmlPort/nicmdcListOfUOM.html
 - uid: N:Module::Allergens
   name: Allergens
-  summary: >
-    <p sourcefile="reference/allergens/Module/Allergens.yml" sourcestartlinenumber="1" jsonPath="/summary">Assign allergens to items, which flow to production orders and are inherited by finished goods</p>
-  fqName: Allergens by NIC Systems Inc. (26.4.15451.0)
   href: reference/allergens/Module/Allergens.html
 - uid: N:Module::Allergens_obsolete_by_26.3
   tag: "26.3"
@@ -20153,15 +19550,9 @@ references:
   href: reference/allergens/Obsoletion/obsolete_by_26.3.html
 - uid: N:Module::Application_Installer
   name: Application Installer
-  summary: >
-    <p sourcefile="reference/application-installer/Module/Application-Installer.yml" sourcestartlinenumber="1" jsonPath="/summary">Install applications created by NIC Systems Inc.</p>
-  fqName: Application Installer by NIC Systems Inc. (26.3.15261.0)
   href: reference/application-installer/Module/Application-Installer.html
 - uid: N:Module::Backorder_Management
   name: Backorder Management
-  summary: >
-    <p sourcefile="reference/backorder-management/Module/Backorder-Management.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to help your organization handle under-receipts and short-shipments.</p>
-  fqName: Backorder Management by NIC Systems Inc. (26.0.14577.0)
   href: reference/backorder-management/Module/Backorder-Management.html
 - uid: N:Module::Backorder_Management_obsolete_by_22.2
   tag: "22.2"
@@ -20170,9 +19561,6 @@ references:
   href: reference/backorder-management/Obsoletion/obsolete_by_22.2.html
 - uid: N:Module::Customer_Insights
   name: Customer Insights
-  summary: >
-    <p sourcefile="reference/customer-insights/Module/Customer-Insights.yml" sourcestartlinenumber="1" jsonPath="/summary">Evaluate how well your customers meet performance goals.</p>
-  fqName: Customer Insights by NIC Systems Inc. (26.0.14746.0)
   href: reference/customer-insights/Module/Customer-Insights.html
 - uid: N:Module::Customer_Insights_obsolete_by_25.1
   tag: "25.1"
@@ -20181,15 +19569,9 @@ references:
   href: reference/customer-insights/Obsoletion/obsolete_by_25.1.html
 - uid: N:Module::FoodChain_ID_Connector
   name: FoodChain ID Connector
-  summary: >
-    <p sourcefile="reference/foodchain-id-connector/Module/FoodChain-ID-Connector.yml" sourcestartlinenumber="1" jsonPath="/summary">Import recipes, ingredients, packaging and finished goods from FoodChain ID into Dynamics 365 Business Central.</p>
-  fqName: FoodChain ID Connector by NIC Systems Inc. (26.3.15209.0)
   href: reference/foodchain-id-connector/Module/FoodChain-ID-Connector.html
 - uid: N:Module::ForecastX_Connector
   name: ForecastX Connector
-  summary: >
-    <p sourcefile="reference/forecastx-connector/Module/ForecastX-Connector.yml" sourcestartlinenumber="1" jsonPath="/summary">Export data from Dynamics 365 Business Central to ForecastX for advanced forecasting</p>
-  fqName: ForecastX Connector by NIC Systems Inc. (26.2.15000.0)
   href: reference/forecastx-connector/Module/ForecastX-Connector.html
 - uid: N:Module::ForecastX_Connector_obsolete_by_26.0
   tag: "26.0"
@@ -20198,15 +19580,9 @@ references:
   href: reference/forecastx-connector/Obsoletion/obsolete_by_26.0.html
 - uid: N:Module::Inventory_Freshness
   name: Inventory Freshness
-  summary: >
-    <p sourcefile="reference/inventory-freshness/Module/Inventory-Freshness.yml" sourcestartlinenumber="1" jsonPath="/summary">Apply production date requirements to ensure freshness when receiving and shipping inventory.</p>
-  fqName: Inventory Freshness by NIC Systems Inc. (26.0.14542.0)
   href: reference/inventory-freshness/Module/Inventory-Freshness.html
 - uid: N:Module::Inventory_Restrictions
   name: Inventory Restrictions
-  summary: >
-    <p sourcefile="reference/inventory-restrictions/Module/Inventory-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to easily add and remove restrictions on item inventory, as well as create sub-lots.</p>
-  fqName: Inventory Restrictions by NIC Systems Inc. (26.4.15441.0)
   href: reference/inventory-restrictions/Module/Inventory-Restrictions.html
 - uid: N:Module::Inventory_Restrictions_obsolete_by_22.2
   tag: "22.2"
@@ -20223,17 +19599,16 @@ references:
   href: reference/inventory-restrictions/Obsoletion/obsolete_by_24.4.html
 - uid: N:Module::Inventory_Restrictions_obsolete_by_24.4#24.4
   href: reference/inventory-restrictions/Obsoletion/obsolete_by_24.4.html
+- uid: N:Module::Inventory_Restrictions_obsolete_by_26.4
+  tag: "26.4"
+  href: reference/inventory-restrictions/Obsoletion/obsolete_by_26.4.html
+- uid: N:Module::Inventory_Restrictions_obsolete_by_26.4#26.4
+  href: reference/inventory-restrictions/Obsoletion/obsolete_by_26.4.html
 - uid: N:Module::Inventory_Shelf_Life
   name: Inventory Shelf Life
-  summary: >
-    <p sourcefile="reference/inventory-shelf-life/Module/Inventory-Shelf-Life.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to easily create and assign shelf life controls to customers and items.</p>
-  fqName: Inventory Shelf Life by NIC Systems Inc. (26.0.14543.0)
   href: reference/inventory-shelf-life/Module/Inventory-Shelf-Life.html
 - uid: N:Module::Item_Recalls
   name: Item Recalls
-  summary: >
-    <p sourcefile="reference/item-recalls/Module/Item-Recalls.yml" sourcestartlinenumber="1" jsonPath="/summary">Handle recall process for inventory on hand and all inbound/outbound activities, backward and forward</p>
-  fqName: Item Recalls by NIC Systems Inc. (26.4.15444.0)
   href: reference/item-recalls/Module/Item-Recalls.html
 - uid: N:Module::Item_Recalls_obsolete_by_21.2
   tag: "21.2"
@@ -20242,21 +19617,12 @@ references:
   href: reference/item-recalls/Obsoletion/obsolete_by_21.2.html
 - uid: N:Module::Item_Tracked_Flushing
   name: Item Tracked Flushing
-  summary: >
-    <p sourcefile="reference/item-tracked-flushing/Module/Item-Tracked-Flushing.yml" sourcestartlinenumber="1" jsonPath="/summary">Allows you to automatically consume tracked inventory when backward or forward flushing.</p>
-  fqName: Item Tracked Flushing by NIC Systems Inc. (26.3.15222.0)
   href: reference/item-tracked-flushing/Module/Item-Tracked-Flushing.html
 - uid: N:Module::Item_Tracking_Status_Indicator
   name: Item Tracking Status Indicator
-  summary: >
-    <p sourcefile="reference/item-tracking-status-indicator/Module/Item-Tracking-Status-Indicator.yml" sourcestartlinenumber="1" jsonPath="/summary">For an item that requires lot, serial or package tracking, the Item Tracking Status Indicator field displays whether tracking information has been populated.</p>
-  fqName: Item Tracking Status Indicator by NIC Systems Inc. (26.3.15175.0)
   href: reference/item-tracking-status-indicator/Module/Item-Tracking-Status-Indicator.html
 - uid: N:Module::Lot_Algorithms
   name: Lot Algorithms
-  summary: >
-    <p sourcefile="reference/lot-algorithms/Module/Lot-Algorithms.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables you to create tailor-made lot numbers to keep track of inventory item more effectively.</p>
-  fqName: Lot Algorithms by NIC Systems Inc. (26.3.15176.0)
   href: reference/lot-algorithms/Module/Lot-Algorithms.html
 - uid: N:Module::Lot_Algorithms_obsolete_by_22.2
   tag: "22.2"
@@ -20270,9 +19636,6 @@ references:
   href: reference/lot-algorithms/Obsoletion/obsolete_by_26.1.html
 - uid: N:Module::Material_Staging
   name: Material Staging
-  summary: >
-    <p sourcefile="reference/material-staging/Module/Material-Staging.yml" sourcestartlinenumber="1" jsonPath="/summary">Identify, prepare, and stage materials to keep production organized and running smoothly</p>
-  fqName: Material Staging by NIC Systems Inc. (26.3.15177.0)
   href: reference/material-staging/Module/Material-Staging.html
 - uid: N:Module::Material_Staging_obsolete_by_25.5
   tag: "25.5"
@@ -20286,9 +19649,6 @@ references:
   href: reference/material-staging/Obsoletion/obsolete_by_26.2.html
 - uid: N:Module::Mobile_Data_Collection
   name: Mobile Data Collection
-  summary: >
-    <p sourcefile="reference/mobile-data-collection/Module/Mobile-Data-Collection.yml" sourcestartlinenumber="1" jsonPath="/summary">Mobile Data Collection</p>
-  fqName: Mobile Data Collection by NIC Systems Inc. (26.3.15239.0)
   href: reference/mobile-data-collection/Module/Mobile-Data-Collection.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_23.0
   tag: "23.0"
@@ -20305,44 +19665,14 @@ references:
   href: reference/mobile-data-collection/Obsoletion/obsolete_by_25.3.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_25.3#25.3
   href: reference/mobile-data-collection/Obsoletion/obsolete_by_25.3.html
-- uid: N:Module::NIC_Core
-  name: NIC Core
-  summary: >
-    <p sourcefile="reference/nic-core/Module/NIC-Core.yml" sourcestartlinenumber="1" jsonPath="/summary">Library functions for apps by NIC Systems Inc.</p>
-  fqName: NIC Core by NIC Systems Inc. (26.0.14465.0)
-  href: reference/nic-core/Module/NIC-Core.html
-- uid: N:Module::NIC_Core_obsolete_by_21.0
-  tag: "21.0"
-  href: reference/nic-core/Obsoletion/obsolete_by_21.0.html
-- uid: N:Module::NIC_Core_obsolete_by_21.0#21.0
-  href: reference/nic-core/Obsoletion/obsolete_by_21.0.html
-- uid: N:Module::NIC_Core_obsolete_by_21.4
-  tag: "21.4"
-  href: reference/nic-core/Obsoletion/obsolete_by_21.4.html
-- uid: N:Module::NIC_Core_obsolete_by_21.4#21.4
-  href: reference/nic-core/Obsoletion/obsolete_by_21.4.html
-- uid: N:Module::NIC_Core_obsolete_by_22.2
-  tag: "22.2"
-  href: reference/nic-core/Obsoletion/obsolete_by_22.2.html
-- uid: N:Module::NIC_Core_obsolete_by_22.2#22.2
-  href: reference/nic-core/Obsoletion/obsolete_by_22.2.html
 - uid: N:Module::Over_Shipping
   name: Over Shipping
-  summary: >
-    <p sourcefile="reference/over-shipping/Module/Over-Shipping.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to help your organization handle over-shipments.</p>
-  fqName: Over Shipping by NIC Systems Inc. (26.0.14574.0)
   href: reference/over-shipping/Module/Over-Shipping.html
 - uid: N:Module::Payment_Signatures
   name: Payment Signatures
-  summary: >
-    <p sourcefile="reference/payment-signatures/Module/Payment-Signatures.yml" sourcestartlinenumber="1" jsonPath="/summary">Automatically print signatures based on thresholds.</p>
-  fqName: Payment Signatures by NIC Systems Inc. (26.0.14509.0)
   href: reference/payment-signatures/Module/Payment-Signatures.html
 - uid: N:Module::Production_Batching
   name: Production Batching
-  summary: >
-    <p sourcefile="reference/production-batching/Module/Production-Batching.yml" sourcestartlinenumber="1" jsonPath="/summary">Provides you with a suite of capabilities to accomplish a production order through batches.</p>
-  fqName: Production Batching by NIC Systems Inc. (26.4.15308.0)
   href: reference/production-batching/Module/Production-Batching.html
 - uid: N:Module::Production_Batching_obsolete_by_22.2
   tag: "22.2"
@@ -20356,9 +19686,6 @@ references:
   href: reference/production-batching/Obsoletion/obsolete_by_26.4.html
 - uid: N:Module::Production_Instructions
   name: Production Instructions
-  summary: >
-    <p sourcefile="reference/production-instructions/Module/Production-Instructions.yml" sourcestartlinenumber="1" jsonPath="/summary">Production Instructions</p>
-  fqName: Production Instructions by NIC Systems Inc. (26.4.15443.0)
   href: reference/production-instructions/Module/Production-Instructions.html
 - uid: N:Module::Production_Instructions_obsolete_by_26.3
   tag: "26.3"
@@ -20367,27 +19694,15 @@ references:
   href: reference/production-instructions/Obsoletion/obsolete_by_26.3.html
 - uid: N:Module::Production_Sequencing
   name: Production Sequencing
-  summary: >
-    <p sourcefile="reference/production-sequencing/Module/Production-Sequencing.yml" sourcestartlinenumber="1" jsonPath="/summary">Arrange production orders by sequence code, production order number, or start date and time.</p>
-  fqName: Production Sequencing by NIC Systems Inc. (26.0.14512.0)
   href: reference/production-sequencing/Module/Production-Sequencing.html
 - uid: N:Module::Production_Yield_Metrics
   name: Production Yield Metrics
-  summary: >
-    <p sourcefile="reference/production-yield-metrics/Module/Production-Yield-Metrics.yml" sourcestartlinenumber="1" jsonPath="/summary">View production order and component statistics based on what you have actually produced.</p>
-  fqName: Production Yield Metrics by NIC Systems Inc. (26.0.14484.0)
   href: reference/production-yield-metrics/Module/Production-Yield-Metrics.html
 - uid: N:Module::Purchasing_Restrictions
   name: Purchasing Restrictions
-  summary: >
-    <p sourcefile="reference/purchasing-restrictions/Module/Purchasing-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Purchasing Restrictions</p>
-  fqName: Purchasing Restrictions by NIC Systems Inc. (26.4.15490.0)
   href: reference/purchasing-restrictions/Module/Purchasing-Restrictions.html
 - uid: N:Module::Quality_Inspections
   name: Quality Inspections
-  summary: >
-    <p sourcefile="reference/quality-inspections/Module/Quality-Inspections.yml" sourcestartlinenumber="1" jsonPath="/summary">Quality Inspections</p>
-  fqName: Quality Inspections by NIC Systems Inc. (26.4.15442.0)
   href: reference/quality-inspections/Module/Quality-Inspections.html
 - uid: N:Module::Quality_Inspections_obsolete_by_25.1
   tag: "25.1"
@@ -20406,15 +19721,9 @@ references:
   href: reference/quality-inspections/Obsoletion/obsolete_by_26.3.html
 - uid: N:Module::Sales_Commissions
   name: Sales Commissions
-  summary: >
-    <p sourcefile="reference/sales-commissions/Module/Sales-Commissions.yml" sourcestartlinenumber="1" jsonPath="/summary">Manage and track sales commissions</p>
-  fqName: Sales Commissions by NIC Systems Inc. (26.4.15446.0)
   href: reference/sales-commissions/Module/Sales-Commissions.html
 - uid: N:Module::Sales_Rebates
   name: Sales Rebates
-  summary: >
-    <p sourcefile="reference/sales-rebates/Module/Sales-Rebates.yml" sourcestartlinenumber="1" jsonPath="/summary">A comprehensive solution to process sales rebate initiatives and boost your sales.</p>
-  fqName: Sales Rebates by NIC Systems Inc. (26.4.15447.0)
   href: reference/sales-rebates/Module/Sales-Rebates.html
 - uid: N:Module::Sales_Rebates_obsolete_by_24.5
   tag: "24.5"
@@ -20423,15 +19732,9 @@ references:
   href: reference/sales-rebates/Obsoletion/obsolete_by_24.5.html
 - uid: N:Module::Sales_Restrictions
   name: Sales Restrictions
-  summary: >
-    <p sourcefile="reference/sales-restrictions/Module/Sales-Restrictions.yml" sourcestartlinenumber="1" jsonPath="/summary">Sales Restrictions</p>
-  fqName: Sales Restrictions by NIC Systems Inc. (26.4.15450.0)
   href: reference/sales-restrictions/Module/Sales-Restrictions.html
 - uid: N:Module::Serial_Shipping_Container_Codes
   name: Serial Shipping Container Codes
-  summary: >
-    <p sourcefile="reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.yml" sourcestartlinenumber="1" jsonPath="/summary">Enables organizations to generate SSCC numbers adhering to GS1 requirements. The user can assign the SSCC number to a bundle of items, and print a shipping label.</p>
-  fqName: Serial Shipping Container Codes by NIC Systems Inc. (26.3.15179.0)
   href: reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.html
 - uid: N:Module::Serial_Shipping_Container_Codes_obsolete_by_22.2
   tag: "22.2"
@@ -20445,9 +19748,6 @@ references:
   href: reference/serial-shipping-container-codes/Obsoletion/obsolete_by_23.2.html
 - uid: N:Module::Treasury_Management_Suite
   name: Treasury Management Suite
-  summary: >
-    <p sourcefile="reference/treasury-management-suite/Module/Treasury-Management-Suite.yml" sourcestartlinenumber="1" jsonPath="/summary">Treasury Management</p>
-  fqName: Treasury Management Suite by NIC Systems Inc. (26.0.14491.0)
   href: reference/treasury-management-suite/Module/Treasury-Management-Suite.html
 - uid: N:Module::Treasury_Management_Suite_obsolete_by_21.3
   tag: "21.3"
@@ -20466,15 +19766,9 @@ references:
   href: reference/treasury-management-suite/Obsoletion/obsolete_by_24.0.html
 - uid: N:Module::Variable_Capacity_Cost
   name: Variable Capacity Cost
-  summary: >
-    <p sourcefile="reference/variable-capacity-cost/Module/Variable-Capacity-Cost.yml" sourcestartlinenumber="1" jsonPath="/summary">Use a variable machine and work center cost when posting output capacity.</p>
-  fqName: Variable Capacity Cost by NIC Systems Inc. (26.0.14492.0)
   href: reference/variable-capacity-cost/Module/Variable-Capacity-Cost.html
 - uid: N:Module::Vendor_Insights
   name: Vendor Insights
-  summary: >
-    <p sourcefile="reference/vendor-insights/Module/Vendor-Insights.yml" sourcestartlinenumber="1" jsonPath="/summary">Vendor Insights</p>
-  fqName: Vendor Insights by NIC Systems Inc. (26.0.14747.0)
   href: reference/vendor-insights/Module/Vendor-Insights.html
 - uid: N:Module::Vendor_Insights_obsolete_by_25.0
   tag: "25.0"
@@ -20483,9 +19777,6 @@ references:
   href: reference/vendor-insights/Obsoletion/obsolete_by_25.0.html
 - uid: N:Module::Warehouse_License_Plating
   name: Warehouse License Plating
-  summary: >
-    <p sourcefile="reference/warehouse-license-plating/Module/Warehouse-License-Plating.yml" sourcestartlinenumber="1" jsonPath="/summary">Warehouse License Plating contains features that allow you to view and control package-tracked inventory.</p>
-  fqName: Warehouse License Plating by NIC Systems Inc. (26.3.15178.0)
   href: reference/warehouse-license-plating/Module/Warehouse-License-Plating.html
 - uid: N:Module::Warehouse_License_Plating_obsolete_by_22.2
   tag: "22.2"
@@ -20601,6 +19892,10 @@ references:
   name: "\"NICALL Allergens\""
   fqName: Codeunit "NICALL Allergens"
   href: reference/allergens/Codeunit/NICALL-Allergens.html
+- uid: O:Codeunit::NICALL_App_Integration
+  name: "\"NICALL App Integration\""
+  fqName: Codeunit "NICALL App Integration"
+  href: reference/allergens/Codeunit/NICALL-App-Integration.html
 - uid: O:Codeunit::NICALL_Bom_Allergens
   name: "\"NICALL Bom Allergens\""
   fqName: Codeunit "NICALL Bom Allergens"
@@ -20969,6 +20264,10 @@ references:
   name: "\"NICFCH API Token\""
   fqName: Codeunit "NICFCH API Token"
   href: reference/foodchain-id-connector/Codeunit/NICFCH-API-Token.html
+- uid: O:Codeunit::NICFCH_App_Integration
+  name: "\"NICFCH App Integration\""
+  fqName: Codeunit "NICFCH App Integration"
+  href: reference/foodchain-id-connector/Codeunit/NICFCH-App-Integration.html
 - uid: O:Codeunit::NICFCH_Data_Transformation
   name: "\"NICFCH Data Transformation\""
   fqName: Codeunit "NICFCH Data Transformation"
@@ -21693,14 +20992,6 @@ references:
   name: "\"NICITR Upgrade\""
   fqName: Codeunit "NICITR Upgrade"
   href: reference/item-recalls/Codeunit/NICITR-Upgrade.html
-- uid: O:Codeunit::NICLIB_Telemetry_Feature_Usage
-  name: "\"NICLIB Telemetry Feature Usage\""
-  fqName: Codeunit "NICLIB Telemetry Feature Usage"
-  href: reference/nic-core/Codeunit/NICLIB-Telemetry-Feature-Usage.html
-- uid: O:Codeunit::NICLIB_Telemetry_Logger
-  name: "\"NICLIB Telemetry Logger\""
-  fqName: Codeunit "NICLIB Telemetry Logger"
-  href: reference/nic-core/Codeunit/NICLIB-Telemetry-Logger.html
 - uid: O:Codeunit::NICMAS_AppIntegration
   name: "\"NICMAS AppIntegration\""
   fqName: Codeunit "NICMAS AppIntegration"
@@ -23327,14 +22618,6 @@ references:
   name: "\"NICITR Email Scenario\""
   fqName: EnumExtension "NICITR Email Scenario"
   href: reference/item-recalls/EnumExtension/NICITR-Email-Scenario.html
-- uid: O:EnumExtension::NICLIB_Assisted_Setup_Group
-  name: "\"NICLIB Assisted Setup Group\""
-  fqName: EnumExtension "NICLIB Assisted Setup Group"
-  href: reference/nic-core/EnumExtension/NICLIB-Assisted-Setup-Group.html
-- uid: O:EnumExtension::NICLIB_ManualSetupCategory
-  name: "\"NICLIB ManualSetupCategory\""
-  fqName: EnumExtension "NICLIB ManualSetupCategory"
-  href: reference/nic-core/EnumExtension/NICLIB-ManualSetupCategory.html
 - uid: O:EnumExtension::NICPRR_AttachmentDocumentType
   name: "\"NICPRR AttachmentDocumentType\""
   fqName: EnumExtension "NICPRR AttachmentDocumentType"
@@ -23701,6 +22984,10 @@ references:
     <p sourcefile="reference/foodchain-id-connector/Page/NICFCH-API-Configuration-Card.yml" sourcestartlinenumber="1" jsonPath="/summary">In FoodChain ID, use the 'Advanced Search' tool to configure the data you want to transfer and then click the '{}' button to view the JSON content. Copy and paste the entire JSON content into this field.</p>
   fqName: Page "NICFCH API Configuration Card"
   href: reference/foodchain-id-connector/Page/NICFCH-API-Configuration-Card.html
+- uid: O:Page::NICFCH_Allergens
+  name: "\"NICFCH Allergens\""
+  fqName: Page "NICFCH Allergens"
+  href: reference/foodchain-id-connector/Page/NICFCH-Allergens.html
 - uid: O:Page::NICFCH_Field_Map_Allow_Tables
   name: "\"NICFCH Field Map Allow Tables\""
   fqName: Page "NICFCH Field Map Allow Tables"
@@ -24041,22 +23328,6 @@ references:
   name: "\"NICITR Simulated Recall Lines\""
   fqName: Page "NICITR Simulated Recall Lines"
   href: reference/item-recalls/Page/NICITR-Simulated-Recall-Lines.html
-- uid: O:Page::NICLIB_Job_Planning_Lines
-  name: "\"NICLIB Job Planning Lines\""
-  fqName: Page "NICLIB Job Planning Lines"
-  href: reference/nic-core/Page/NICLIB-Job-Planning-Lines.html
-- uid: O:Page::NICLIB_Production_Order_Lines
-  name: "\"NICLIB Production Order Lines\""
-  fqName: Page "NICLIB Production Order Lines"
-  href: reference/nic-core/Page/NICLIB-Production-Order-Lines.html
-- uid: O:Page::NICLIB_TransferOrderLines
-  name: "\"NICLIB TransferOrderLines\""
-  fqName: Page "NICLIB TransferOrderLines"
-  href: reference/nic-core/Page/NICLIB-TransferOrderLines.html
-- uid: O:Page::NICLIB_Warehouse_Receipt_Lines
-  name: "\"NICLIB Warehouse Receipt Lines\""
-  fqName: Page "NICLIB Warehouse Receipt Lines"
-  href: reference/nic-core/Page/NICLIB-Warehouse-Receipt-Lines.html
 - uid: O:Page::NICMAS_Kit
   name: "\"NICMAS Kit\""
   summary: >
@@ -26705,14 +25976,6 @@ references:
   name: "\"NICITR Read\""
   fqName: PermissionSet "NICITR Read"
   href: reference/item-recalls/PermissionSet/NICITR-Read.html
-- uid: O:PermissionSet::NICLIB_CoreObjects
-  name: "\"NICLIB CoreObjects\""
-  fqName: PermissionSet "NICLIB CoreObjects"
-  href: reference/nic-core/PermissionSet/NICLIB-CoreObjects.html
-- uid: O:PermissionSet::NICLIB_Library
-  name: "\"NICLIB Library\""
-  fqName: PermissionSet "NICLIB Library"
-  href: reference/nic-core/PermissionSet/NICLIB-Library.html
 - uid: O:PermissionSet::NICMAS_Admin
   name: "\"NICMAS Admin\""
   fqName: PermissionSet "NICMAS Admin"
@@ -27019,38 +26282,6 @@ references:
   name: "\"NICITI Intelligent Cloud\""
   fqName: PermissionSetExtension "NICITI Intelligent Cloud"
   href: reference/item-tracking-status-indicator/PermissionSetExtension/NICITI-Intelligent-Cloud.html
-- uid: O:PermissionSetExtension::NICLIB_D365_Basic
-  name: "\"NICLIB D365 Basic\""
-  fqName: PermissionSetExtension "NICLIB D365 Basic"
-  href: reference/nic-core/PermissionSetExtension/NICLIB-D365-Basic.html
-- uid: O:PermissionSetExtension::NICLIB_D365_Basic_Isv
-  name: "\"NICLIB D365 Basic Isv\""
-  fqName: PermissionSetExtension "NICLIB D365 Basic Isv"
-  href: reference/nic-core/PermissionSetExtension/NICLIB-D365-Basic-Isv.html
-- uid: O:PermissionSetExtension::NICLIB_D365_Bus_Full_Access
-  name: "\"NICLIB D365 Bus Full Access\""
-  fqName: PermissionSetExtension "NICLIB D365 Bus Full Access"
-  href: reference/nic-core/PermissionSetExtension/NICLIB-D365-Bus-Full-Access.html
-- uid: O:PermissionSetExtension::NICLIB_D365_Bus_Premium
-  name: "\"NICLIB D365 Bus Premium\""
-  fqName: PermissionSetExtension "NICLIB D365 Bus Premium"
-  href: reference/nic-core/PermissionSetExtension/NICLIB-D365-Bus-Premium.html
-- uid: O:PermissionSetExtension::NICLIB_D365_Full_Access
-  name: "\"NICLIB D365 Full Access\""
-  fqName: PermissionSetExtension "NICLIB D365 Full Access"
-  href: reference/nic-core/PermissionSetExtension/NICLIB-D365-Full-Access.html
-- uid: O:PermissionSetExtension::NICLIB_D365_Read
-  name: "\"NICLIB D365 Read\""
-  fqName: PermissionSetExtension "NICLIB D365 Read"
-  href: reference/nic-core/PermissionSetExtension/NICLIB-D365-Read.html
-- uid: O:PermissionSetExtension::NICLIB_D365_Team_Member
-  name: "\"NICLIB D365 Team Member\""
-  fqName: PermissionSetExtension "NICLIB D365 Team Member"
-  href: reference/nic-core/PermissionSetExtension/NICLIB-D365-Team-Member.html
-- uid: O:PermissionSetExtension::NICLIB_Intelligent_Cloud
-  name: "\"NICLIB Intelligent Cloud\""
-  fqName: PermissionSetExtension "NICLIB Intelligent Cloud"
-  href: reference/nic-core/PermissionSetExtension/NICLIB-Intelligent-Cloud.html
 - uid: O:PermissionSetExtension::NICPAS_D365_Basic
   name: "\"NICPAS D365 Basic\""
   fqName: PermissionSetExtension "NICPAS D365 Basic"
@@ -27695,6 +26926,10 @@ references:
   name: "\"NICFCH API Configuration\""
   fqName: Table "NICFCH API Configuration"
   href: reference/foodchain-id-connector/Table/NICFCH-API-Configuration.html
+- uid: O:Table::NICFCH_Allergen
+  name: "\"NICFCH Allergen\""
+  fqName: Table "NICFCH Allergen"
+  href: reference/foodchain-id-connector/Table/NICFCH-Allergen.html
 - uid: O:Table::NICFCH_Field_Map_Allowed_Table
   name: "\"NICFCH Field Map Allowed Table\""
   fqName: Table "NICFCH Field Map Allowed Table"
@@ -28375,66 +27610,6 @@ references:
   name: "\"NICWLP Whse. Lic. Plate APIs\""
   fqName: Table "NICWLP Whse. Lic. Plate APIs"
   href: reference/warehouse-license-plating/Table/NICWLP-Whse.-Lic.-Plate-APIs.html
-- uid: O:Table::niclibDatabase
-  name: niclibDatabase
-  fqName: Table niclibDatabase
-  href: reference/nic-core/Table/niclibDatabase.html
-- uid: O:Table::niclibEmailSecurityCode
-  name: niclibEmailSecurityCode
-  fqName: Table niclibEmailSecurityCode
-  href: reference/nic-core/Table/niclibEmailSecurityCode.html
-- uid: O:Table::niclibPreStripeSubscription
-  name: niclibPreStripeSubscription
-  fqName: Table niclibPreStripeSubscription
-  href: reference/nic-core/Table/niclibPreStripeSubscription.html
-- uid: O:Table::niclibProductId
-  name: niclibProductId
-  fqName: Table niclibProductId
-  href: reference/nic-core/Table/niclibProductId.html
-- uid: O:Table::niclibProductUserId
-  name: niclibProductUserId
-  fqName: Table niclibProductUserId
-  href: reference/nic-core/Table/niclibProductUserId.html
-- uid: O:Table::niclibRESTMCKConfig
-  name: niclibRESTMCKConfig
-  fqName: Table niclibRESTMCKConfig
-  href: reference/nic-core/Table/niclibRESTMCKConfig.html
-- uid: O:Table::niclibRESTWebServiceArgs
-  name: niclibRESTWebServiceArgs
-  fqName: Table niclibRESTWebServiceArgs
-  href: reference/nic-core/Table/niclibRESTWebServiceArgs.html
-- uid: O:Table::niclibStripeCustomer
-  name: niclibStripeCustomer
-  fqName: Table niclibStripeCustomer
-  href: reference/nic-core/Table/niclibStripeCustomer.html
-- uid: O:Table::niclibStripePlan
-  name: niclibStripePlan
-  fqName: Table niclibStripePlan
-  href: reference/nic-core/Table/niclibStripePlan.html
-- uid: O:Table::niclibStripeProduct
-  name: niclibStripeProduct
-  fqName: Table niclibStripeProduct
-  href: reference/nic-core/Table/niclibStripeProduct.html
-- uid: O:Table::niclibStripeSecurityPass
-  name: niclibStripeSecurityPass
-  fqName: Table niclibStripeSecurityPass
-  href: reference/nic-core/Table/niclibStripeSecurityPass.html
-- uid: O:Table::niclibStripeSetup
-  name: niclibStripeSetup
-  fqName: Table niclibStripeSetup
-  href: reference/nic-core/Table/niclibStripeSetup.html
-- uid: O:Table::niclibStripeSubscription
-  name: niclibStripeSubscription
-  fqName: Table niclibStripeSubscription
-  href: reference/nic-core/Table/niclibStripeSubscription.html
-- uid: O:Table::niclibStripeUsers
-  name: niclibStripeUsers
-  fqName: Table niclibStripeUsers
-  href: reference/nic-core/Table/niclibStripeUsers.html
-- uid: O:Table::niclibStripeUsersActual
-  name: niclibStripeUsersActual
-  fqName: Table niclibStripeUsersActual
-  href: reference/nic-core/Table/niclibStripeUsersActual.html
 - uid: O:Table::nicmdcLabels
   name: nicmdcLabels
   fqName: Table nicmdcLabels

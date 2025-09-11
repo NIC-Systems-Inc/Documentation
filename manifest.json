@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/aldoc/output/aldoc/output",
+  "source_base_path": "C:/aldoc/output",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -29,6 +29,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/allergens/Codeunit/NICALL-Allergens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/allergens/Codeunit/NICALL-App-Integration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/allergens/Codeunit/NICALL-App-Integration.html"
         }
       },
       "version": ""
@@ -174,7 +184,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/allergens/Module/Allergens.yml",
       "output": {
         ".html": {
@@ -674,7 +687,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/application-installer/Module/Application-Installer.yml",
       "output": {
         ".html": {
@@ -784,7 +800,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/backorder-management/Module/Backorder-Management.yml",
       "output": {
         ".html": {
@@ -1344,7 +1363,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/customer-insights/Module/Customer-Insights.yml",
       "output": {
         ".html": {
@@ -1639,6 +1661,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-API-Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-App-Integration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Codeunit/NICFCH-App-Integration.html"
         }
       },
       "version": ""
@@ -2034,7 +2066,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/foodchain-id-connector/Module/FoodChain-ID-Connector.yml",
       "output": {
         ".html": {
@@ -2049,6 +2084,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/foodchain-id-connector/Page/NICFCH-API-Configuration-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Page/NICFCH-Allergens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Page/NICFCH-Allergens.html"
         }
       },
       "version": ""
@@ -2275,6 +2320,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/foodchain-id-connector/Table/NICFCH-Allergen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/foodchain-id-connector/Table/NICFCH-Allergen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/foodchain-id-connector/Table/NICFCH-Field-Map-Allowed-Table.yml",
       "output": {
         ".html": {
@@ -2434,7 +2489,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/forecastx-connector/Module/ForecastX-Connector.yml",
       "output": {
         ".html": {
@@ -2834,7 +2892,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/inventory-freshness/Module/Inventory-Freshness.yml",
       "output": {
         ".html": {
@@ -4054,7 +4115,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/inventory-restrictions/Module/Inventory-Restrictions.yml",
       "output": {
         ".html": {
@@ -4089,6 +4153,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/inventory-restrictions/Obsoletion/obsolete_by_24.4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/inventory-restrictions/Obsoletion/obsolete_by_26.4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/inventory-restrictions/Obsoletion/obsolete_by_26.4.html"
         }
       },
       "version": ""
@@ -5244,7 +5318,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/inventory-shelf-life/Module/Inventory-Shelf-Life.yml",
       "output": {
         ".html": {
@@ -6004,7 +6081,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/item-recalls/Module/Item-Recalls.yml",
       "output": {
         ".html": {
@@ -6754,7 +6834,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/item-tracked-flushing/Module/Item-Tracked-Flushing.yml",
       "output": {
         ".html": {
@@ -7114,7 +7197,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/item-tracking-status-indicator/Module/Item-Tracking-Status-Indicator.yml",
       "output": {
         ".html": {
@@ -8204,7 +8290,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/lot-algorithms/Module/Lot-Algorithms.yml",
       "output": {
         ".html": {
@@ -8914,7 +9003,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/material-staging/Module/Material-Staging.yml",
       "output": {
         ".html": {
@@ -9924,7 +10016,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/mobile-data-collection/Module/Mobile-Data-Collection.yml",
       "output": {
         ".html": {
@@ -10815,376 +10910,6 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Codeunit/NICLIB-Telemetry-Feature-Usage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Codeunit/NICLIB-Telemetry-Feature-Usage.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Codeunit/NICLIB-Telemetry-Logger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Codeunit/NICLIB-Telemetry-Logger.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/EnumExtension/NICLIB-Assisted-Setup-Group.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/EnumExtension/NICLIB-Assisted-Setup-Group.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/EnumExtension/NICLIB-ManualSetupCategory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/EnumExtension/NICLIB-ManualSetupCategory.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Module/NIC-Core.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Module/NIC-Core.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralObsoletionList",
-      "source_relative_path": "reference/nic-core/Obsoletion/obsolete_by_21.0.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Obsoletion/obsolete_by_21.0.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralObsoletionList",
-      "source_relative_path": "reference/nic-core/Obsoletion/obsolete_by_21.4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Obsoletion/obsolete_by_21.4.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralObsoletionList",
-      "source_relative_path": "reference/nic-core/Obsoletion/obsolete_by_22.2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Obsoletion/obsolete_by_22.2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Page/NICLIB-Job-Planning-Lines.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Page/NICLIB-Job-Planning-Lines.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Page/NICLIB-Production-Order-Lines.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Page/NICLIB-Production-Order-Lines.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Page/NICLIB-TransferOrderLines.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Page/NICLIB-TransferOrderLines.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Page/NICLIB-Warehouse-Receipt-Lines.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Page/NICLIB-Warehouse-Receipt-Lines.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/PermissionSet/NICLIB-CoreObjects.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/PermissionSet/NICLIB-CoreObjects.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/PermissionSet/NICLIB-Library.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/PermissionSet/NICLIB-Library.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Basic-Isv.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Basic-Isv.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Basic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Basic.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Bus-Full-Access.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Bus-Full-Access.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Bus-Premium.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Bus-Premium.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Full-Access.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Full-Access.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Read.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Read.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Team-Member.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-D365-Team-Member.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-Intelligent-Cloud.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/PermissionSetExtension/NICLIB-Intelligent-Cloud.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibDatabase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibDatabase.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibEmailSecurityCode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibEmailSecurityCode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibPreStripeSubscription.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibPreStripeSubscription.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibProductId.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibProductId.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibProductUserId.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibProductUserId.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibRESTMCKConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibRESTMCKConfig.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibRESTWebServiceArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibRESTWebServiceArgs.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibStripeCustomer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibStripeCustomer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibStripePlan.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibStripePlan.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibStripeProduct.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibStripeProduct.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibStripeSecurityPass.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibStripeSecurityPass.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibStripeSetup.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibStripeSetup.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibStripeSubscription.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibStripeSubscription.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibStripeUsers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibStripeUsers.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
-      "source_relative_path": "reference/nic-core/Table/niclibStripeUsersActual.yml",
-      "output": {
-        ".html": {
-          "relative_path": "reference/nic-core/Table/niclibStripeUsersActual.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/over-shipping/Codeunit/NICOVS-AppIntegration.yml",
       "output": {
         ".html": {
@@ -11224,7 +10949,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/over-shipping/Module/Over-Shipping.yml",
       "output": {
         ".html": {
@@ -11454,7 +11182,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/payment-signatures/Module/Payment-Signatures.yml",
       "output": {
         ".html": {
@@ -12024,7 +11755,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/production-batching/Module/Production-Batching.yml",
       "output": {
         ".html": {
@@ -12774,7 +12508,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/production-instructions/Module/Production-Instructions.yml",
       "output": {
         ".html": {
@@ -13094,7 +12831,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/production-sequencing/Module/Production-Sequencing.yml",
       "output": {
         ".html": {
@@ -13294,7 +13034,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/production-yield-metrics/Module/Production-Yield-Metrics.yml",
       "output": {
         ".html": {
@@ -13594,7 +13337,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/purchasing-restrictions/Module/Purchasing-Restrictions.yml",
       "output": {
         ".html": {
@@ -14564,7 +14310,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/quality-inspections/Module/Quality-Inspections.yml",
       "output": {
         ".html": {
@@ -16324,7 +16073,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/sales-commissions/Module/Sales-Commissions.yml",
       "output": {
         ".html": {
@@ -17734,7 +17486,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/sales-rebates/Module/Sales-Rebates.yml",
       "output": {
         ".html": {
@@ -18634,7 +18389,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/sales-restrictions/Module/Sales-Restrictions.yml",
       "output": {
         ".html": {
@@ -19194,7 +18952,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.yml",
       "output": {
         ".html": {
@@ -19734,7 +19495,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/treasury-management-suite/Module/Treasury-Management-Suite.yml",
       "output": {
         ".html": {
@@ -20374,7 +20138,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/variable-capacity-cost/Module/Variable-Capacity-Cost.yml",
       "output": {
         ".html": {
@@ -20754,7 +20521,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/vendor-insights/Module/Vendor-Insights.yml",
       "output": {
         ".html": {
@@ -21144,7 +20914,10 @@
       "version": ""
     },
     {
-      "type": "BusinessCentralApplicationObject",
+      "log_codes": [
+        "ViolateSchema"
+      ],
+      "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/warehouse-license-plating/Module/Warehouse-License-Plating.yml",
       "output": {
         ".html": {

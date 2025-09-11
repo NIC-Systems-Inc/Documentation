@@ -78,13 +78,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="O:PermissionSetExtension::NICLIB_D365_Basic">
-  <h1>PermissionSetExtension &quot;NICLIB D365 Basic&quot;</h1>
+        <article data-uid="O:Table::NICFCH_Allergen">
+  <h1>Table &quot;NICFCH Allergen&quot;</h1>
 
 
-<div class="font-style-italic">ID 23079835</div>
+<div class="font-style-italic">ID 23079741</div>
 
-<div class="font-style-italic">Extends: System.Security.AccessControl.&quot;D365 BASIC&quot;</div>
+
 
 
 
@@ -101,17 +101,103 @@
   		</thead>
   		<tbody>
   			<tr>
-  					<td>IncludedPermissionSets</td>
+  					<td>Caption</td>
   					<td class="font-style-italic">
-							"NICLIB Library"
+							Allergen
   					</td>
   			</tr>
+  			<tr>
+  					<td>LookupPageId</td>
+  					<td class="font-style-italic">
+<a class="xref" href="../Page/NICFCH-Allergens.html">Page &quot;NICFCH Allergens&quot;</a>  					</td>
+  			</tr>
+  			<tr>
+  					<td>DrillDownPageId</td>
+  					<td class="font-style-italic">
+<a class="xref" href="../Page/NICFCH-Allergens.html">Page &quot;NICFCH Allergens&quot;</a>  					</td>
+  			</tr>
+  			<tr>
+  					<td>TableType</td>
+  					<td class="font-style-italic">
+							Temporary
+  					</td>
+  			</tr>
+  		</tbody>
+  	</table>
+  	<h2 id="fields">Fields</h2>
+  	<table class="table">
+  		<thead>
+  			<tr>
+  				<th>Name</th>
+  				<th>Type</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  				<tr>
+  					<td>Code</td>
+  					<td class="font-style-italic">
+Code[20]						
+  					</td>
+  					<td><p>Specifies the unique identifier for the allergen.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>Description</td>
+  					<td class="font-style-italic">
+Text[80]						
+  					</td>
+  					<td><p>Specifies the description of the allergen.</p>
+</td>
+  				</tr>
+  				<tr>
+  					<td>SystemId</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemCreatedAt</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemCreatedBy</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemModifiedAt</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemModifiedBy</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemRowVersion</td>
+  					<td class="font-style-italic">
+BigInteger						
+  					</td>
+  					<td></td>
+  				</tr>
   		</tbody>
   	</table>
 
   	<h2 id="see-also">See also</h2>
   	<ul>
-  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-ext-object">Permission Set Extension</a></p>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object">Table</a></p>
 </li>
   	</ul>
 </article>
