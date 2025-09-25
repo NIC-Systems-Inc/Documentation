@@ -8414,6 +8414,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/lot-algorithms/PageExtension/NICALG-Item-Templ.-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/lot-algorithms/PageExtension/NICALG-Item-Templ.-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/lot-algorithms/PageExtension/NICALG-ItemCard.yml",
       "output": {
         ".html": {
@@ -8588,6 +8598,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/lot-algorithms/Table/NICALG-RESTStripeConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/lot-algorithms/TableExtension/NICALG-Item-Templ..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/lot-algorithms/TableExtension/NICALG-Item-Templ..html"
         }
       },
       "version": ""
@@ -9787,6 +9807,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Codeunit/NICMDC-Reclass-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Codeunit/NICMDC-Reclass-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/mobile-data-collection/Codeunit/NICMDC-Setup-Wizard-Handler.yml",
       "output": {
         ".html": {
@@ -10144,6 +10174,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/mobile-data-collection/Page/NICMDC-Item-Journal-Line-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Page/NICMDC-Item-Reclass-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Page/NICMDC-Item-Reclass-API.html"
         }
       },
       "version": ""

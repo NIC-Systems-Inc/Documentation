@@ -11179,8 +11179,23 @@ references:
 - uid: F:Table::nicmdcProfile.Bin_Content
   name: "\"Bin Content\""
   href: reference/mobile-data-collection/Table/nicmdcProfile.html
+- uid: F:Table::nicmdcProfile.Block_Edit_To_Bin
+  name: "\"Block Edit To Bin\""
+  href: reference/mobile-data-collection/Table/nicmdcProfile.html
+- uid: F:Table::nicmdcProfile.Block_Edit_To_Lot_No#
+  name: "\"Block Edit To Lot No.\""
+  href: reference/mobile-data-collection/Table/nicmdcProfile.html
+- uid: F:Table::nicmdcProfile.Block_Edit_To_Package_No#
+  name: "\"Block Edit To Package No.\""
+  href: reference/mobile-data-collection/Table/nicmdcProfile.html
+- uid: F:Table::nicmdcProfile.Default_From_Location[10]
+  name: "\"Default From Location\""
+  href: reference/mobile-data-collection/Table/nicmdcProfile.html
 - uid: F:Table::nicmdcProfile.Font_Size
   name: "\"Font Size\""
+  href: reference/mobile-data-collection/Table/nicmdcProfile.html
+- uid: F:Table::nicmdcProfile.Hide_Reclass_Location
+  name: "\"Hide Reclass Location\""
   href: reference/mobile-data-collection/Table/nicmdcProfile.html
 - uid: F:Table::nicmdcProfile.Inventory_Calculation
   name: "\"Inventory Calculation\""
@@ -12085,6 +12100,9 @@ references:
 - uid: F:TableExtension::NICALG_Item.NICALG_Lot_Algorithm_No#[20]
   name: "\"NICALG Lot Algorithm No.\""
   href: reference/lot-algorithms/TableExtension/NICALG-Item.html
+- uid: F:TableExtension::NICALG_Item_Templ#.NICALG_Lot_Algorithm_No#[20]
+  name: "\"NICALG Lot Algorithm No.\""
+  href: reference/lot-algorithms/TableExtension/NICALG-Item-Templ..html
 - uid: F:TableExtension::NICALG_Location.NICALG_Lot_ALG_Alternate_Value[20]
   name: "\"NICALG Lot ALG Alternate Value\""
   href: reference/lot-algorithms/TableExtension/NICALG-Location.html
@@ -15622,6 +15640,18 @@ references:
 - uid: M:Codeunit::NICMDC_Guided_Exp_Assist_Setup.OnAfterCheckFeatureEnabled(Boolean@)
   name: OnAfterCheckFeatureEnabled
   href: reference/mobile-data-collection/Codeunit/NICMDC-Guided-Exp-Assist-Setup.html
+- uid: M:Codeunit::NICMDC_Reclass_Handler.OnAfterGetToBin(Code[20],Code[20]@)
+  name: OnAfterGetToBin
+  href: reference/mobile-data-collection/Codeunit/NICMDC-Reclass-Handler.html
+- uid: M:Codeunit::NICMDC_Reclass_Handler.OnAfterGetToLocation(Code[10],Code[10]@)
+  name: OnAfterGetToLocation
+  href: reference/mobile-data-collection/Codeunit/NICMDC-Reclass-Handler.html
+- uid: M:Codeunit::NICMDC_Reclass_Handler.OnAfterGetToLot(Code[50],Code[50]@)
+  name: OnAfterGetToLot
+  href: reference/mobile-data-collection/Codeunit/NICMDC-Reclass-Handler.html
+- uid: M:Codeunit::NICMDC_Reclass_Handler.OnAfterGetToPackage(Code[50],Code[50]@)
+  name: OnAfterGetToPackage
+  href: reference/mobile-data-collection/Codeunit/NICMDC-Reclass-Handler.html
 - uid: M:Codeunit::NICOVS_OverShipMgt.OnGetDefaultOverShipCode(Sales_Line,Code[20]@,Boolean@)
   name: OnGetDefaultOverShipCode
   href: reference/over-shipping/Codeunit/NICOVS-OverShipMgt.html
@@ -18598,6 +18628,18 @@ references:
 - uid: M:Page::NICMDC_Inventory_Methods_API.nicgetBaseUoM(Code[20]):Code[10]
   name: nicgetBaseUoM
   href: reference/mobile-data-collection/Page/NICMDC-Inventory-Methods-API.html
+- uid: M:Page::NICMDC_Item_Reclass_API.getToBin(Code[20]):Code[20]
+  name: getToBin
+  href: reference/mobile-data-collection/Page/NICMDC-Item-Reclass-API.html
+- uid: M:Page::NICMDC_Item_Reclass_API.getToLocation(Code[10]):Code[10]
+  name: getToLocation
+  href: reference/mobile-data-collection/Page/NICMDC-Item-Reclass-API.html
+- uid: M:Page::NICMDC_Item_Reclass_API.getToLot(Code[50]):Code[50]
+  name: getToLot
+  href: reference/mobile-data-collection/Page/NICMDC-Item-Reclass-API.html
+- uid: M:Page::NICMDC_Item_Reclass_API.getToPackage(Code[50]):Code[50]
+  name: getToPackage
+  href: reference/mobile-data-collection/Page/NICMDC-Item-Reclass-API.html
 - uid: M:Page::NICMDC_Item_Tracking_Lines_API.CallItemTracking(Transfer_Line@,Enum::Microsoft#Foundation#Enums#Transfer_Direction,Boolean)
   name: CallItemTracking
   href: reference/mobile-data-collection/Page/NICMDC-Item-Tracking-Lines-API.html
@@ -21142,6 +21184,10 @@ references:
   name: "\"NICMDC Item Tracking Info\""
   fqName: Codeunit "NICMDC Item Tracking Info"
   href: reference/mobile-data-collection/Codeunit/NICMDC-Item-Tracking-Info.html
+- uid: O:Codeunit::NICMDC_Reclass_Handler
+  name: "\"NICMDC Reclass Handler\""
+  fqName: Codeunit "NICMDC Reclass Handler"
+  href: reference/mobile-data-collection/Codeunit/NICMDC-Reclass-Handler.html
 - uid: O:Codeunit::NICMDC_Setup_Wizard_Handler
   name: "\"NICMDC Setup Wizard Handler\""
   fqName: Codeunit "NICMDC Setup Wizard Handler"
@@ -23446,6 +23492,10 @@ references:
   name: "\"NICMDC Item Journal Line API\""
   fqName: Page "NICMDC Item Journal Line API"
   href: reference/mobile-data-collection/Page/NICMDC-Item-Journal-Line-API.html
+- uid: O:Page::NICMDC_Item_Reclass_API
+  name: "\"NICMDC Item Reclass API\""
+  fqName: Page "NICMDC Item Reclass API"
+  href: reference/mobile-data-collection/Page/NICMDC-Item-Reclass-API.html
 - uid: O:Page::NICMDC_Item_Tracking_Lines_API
   name: "\"NICMDC Item Tracking Lines API\""
   fqName: Page "NICMDC Item Tracking Lines API"
@@ -24356,6 +24406,10 @@ references:
   name: "\"NICALG ItemCard\""
   fqName: PageExtension "NICALG ItemCard"
   href: reference/lot-algorithms/PageExtension/NICALG-ItemCard.html
+- uid: O:PageExtension::NICALG_Item_Templ#_Card
+  name: "\"NICALG Item Templ. Card\""
+  fqName: PageExtension "NICALG Item Templ. Card"
+  href: reference/lot-algorithms/PageExtension/NICALG-Item-Templ.-Card.html
 - uid: O:PageExtension::NICALG_LocationCard
   name: "\"NICALG LocationCard\""
   fqName: PageExtension "NICALG LocationCard"
@@ -27702,6 +27756,10 @@ references:
   name: "\"NICALG Item\""
   fqName: TableExtension "NICALG Item"
   href: reference/lot-algorithms/TableExtension/NICALG-Item.html
+- uid: O:TableExtension::NICALG_Item_Templ#
+  name: "\"NICALG Item Templ.\""
+  fqName: TableExtension "NICALG Item Templ."
+  href: reference/lot-algorithms/TableExtension/NICALG-Item-Templ..html
 - uid: O:TableExtension::NICALG_Location
   name: "\"NICALG Location\""
   fqName: TableExtension "NICALG Location"
