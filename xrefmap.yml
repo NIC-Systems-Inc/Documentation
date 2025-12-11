@@ -745,6 +745,9 @@ references:
 - uid: E:Enum::NICALG_Date_Format.Ordinal_Day_No#_(DDD)
   name: "\"Ordinal Day No. (DDD)\""
   href: reference/lot-algorithms/Enum/NICALG-Date-Format.html
+- uid: E:Enum::NICALG_Date_Format.Y
+  name: Y
+  href: reference/lot-algorithms/Enum/NICALG-Date-Format.html
 - uid: E:Enum::NICALG_Date_Format.YY
   name: YY
   href: reference/lot-algorithms/Enum/NICALG-Date-Format.html
@@ -1384,6 +1387,30 @@ references:
 - uid: E:Enum::NICMAS_To_Production_State.Partial
   name: Partial
   href: reference/material-staging/Enum/NICMAS-To-Production-State.html
+- uid: E:Enum::NICMDC_Label_Source.Bin_Content
+  name: "\"Bin Content\""
+  href: reference/mobile-data-collection/Enum/NICMDC-Label-Source.html
+- uid: E:Enum::NICMDC_Label_Source.Container
+  name: Container
+  href: reference/mobile-data-collection/Enum/NICMDC-Label-Source.html
+- uid: E:Enum::NICMDC_Label_Source.Locate_Item
+  name: "\"Locate Item\""
+  href: reference/mobile-data-collection/Enum/NICMDC-Label-Source.html
+- uid: E:Enum::NICMDC_Label_Source.Prod#_Jnl#
+  name: "\"Prod. Jnl.\""
+  href: reference/mobile-data-collection/Enum/NICMDC-Label-Source.html
+- uid: E:Enum::NICMDC_Label_Source.Reclass_Jnl#
+  name: "\"Reclass Jnl.\""
+  href: reference/mobile-data-collection/Enum/NICMDC-Label-Source.html
+- uid: E:Enum::NICMDC_Label_Source.SSCC
+  name: SSCC
+  href: reference/mobile-data-collection/Enum/NICMDC-Label-Source.html
+- uid: E:Enum::NICMDC_Label_Source.Whse#_Receipt
+  name: "\"Whse. Receipt\""
+  href: reference/mobile-data-collection/Enum/NICMDC-Label-Source.html
+- uid: E:Enum::NICMDC_Label_Source.Whse#_Shipment
+  name: "\"Whse. Shipment\""
+  href: reference/mobile-data-collection/Enum/NICMDC-Label-Source.html
 - uid: E:Enum::NICPBA_BatchCalculationMethod.Equal
   name: Equal
   href: reference/production-batching/Enum/NICPBA-BatchCalculationMethod.html
@@ -5775,6 +5802,9 @@ references:
   href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
 - uid: F:Table::NICITF_ItemTrkFlush#_Buffer.SystemRowVersion
   name: SystemRowVersion
+  href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
+- uid: F:Table::NICITF_ItemTrkFlush#_Buffer.To_Priority
+  name: "\"To Priority\""
   href: reference/item-tracked-flushing/Table/NICITF-ItemTrkFlush.-Buffer.html
 - uid: F:Table::NICITF_ItemTrkFlush#_Buffer.Variant_Code[10]
   name: "\"Variant Code\""
@@ -13396,6 +13426,15 @@ references:
 - uid: M:Codeunit::NICALG_LotAlgorithmAPI.GetNewLotNoMDCAdv(Code[10],Code[10],Code[20],Integer,Integer,Date,Date,Date):Text
   name: GetNewLotNoMDCAdv
   href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmAPI.html
+- uid: M:Codeunit::NICALG_LotAlgorithmAPI.GetRequiredDates(Tracking_Specification@,Item@,Date@,Date@)
+  name: GetRequiredDates
+  href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmAPI.html
+- uid: M:Codeunit::NICALG_LotAlgorithmAPI.TryCalculateNewLotNo(Tracking_Specification,Code[20],Date,Date,Code[50]@,Boolean):Boolean
+  name: TryCalculateNewLotNo
+  href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmAPI.html
+- uid: M:Codeunit::NICALG_LotAlgorithmAPI.VerifyRequiredDates(Code[20],Date,Date)
+  name: VerifyRequiredDates
+  href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmAPI.html
 - uid: M:Codeunit::NICALG_LotAlgorithmCompCtrl.OnAfterSetLotAlgorithmComponentTypeDefaults(NICALG_LotAlgorithmComponent@)
   name: OnAfterSetLotAlgorithmComponentTypeDefaults
   href: reference/lot-algorithms/Codeunit/NICALG-LotAlgorithmCompCtrl.html
@@ -14536,6 +14575,15 @@ references:
 - uid: M:Codeunit::NICINF_Find_Entries.ShowRecords(Integer,Text,Text)
   name: ShowRecords
   href: reference/inventory-freshness/Codeunit/NICINF-Find-Entries.html
+- uid: M:Codeunit::NICINF_GetDefaultOutputDate.OnAfterGetProductionDate(NICINF_Default_Output_ProdDate@)
+  name: OnAfterGetProductionDate
+  href: reference/inventory-freshness/Codeunit/NICINF-GetDefaultOutputDate.html
+- uid: M:Codeunit::NICINF_GetDefaultOutputDate.OnAfterSetProductionDate(NICINF_Default_Output_ProdDate@)
+  name: OnAfterSetProductionDate
+  href: reference/inventory-freshness/Codeunit/NICINF-GetDefaultOutputDate.html
+- uid: M:Codeunit::NICINF_GetDefaultOutputDate.OnBeforeGetProductionDate(NICINF_Default_Output_ProdDate@,Boolean@)
+  name: OnBeforeGetProductionDate
+  href: reference/inventory-freshness/Codeunit/NICINF-GetDefaultOutputDate.html
 - uid: M:Codeunit::NICINF_GetDefaultOutputDate.OnBeforeValidateProductionDate(NICINF_Default_Output_ProdDate,Tracking_Specification,Date@)
   name: OnBeforeValidateProductionDate
   href: reference/inventory-freshness/Codeunit/NICINF-GetDefaultOutputDate.html
@@ -17101,6 +17149,9 @@ references:
 - uid: M:Codeunit::NICQIN_Transfer_Test_Values.OnBeforeTransferTestValuesToInspectTemplLine(NICQIN_Inspect_Templ_Line@,Boolean@)
   name: OnBeforeTransferTestValuesToInspectTemplLine
   href: reference/quality-inspections/Codeunit/NICQIN-Transfer-Test-Values.html
+- uid: M:Codeunit::NICSHC#ShippingContainers#NICSHC_Serial_Ship_Cont_Codes.CreateMultipleSSCC
+  name: CreateMultipleSSCC
+  href: reference/serial-shipping-container-codes/Codeunit/NICSHC.ShippingContainers.NICSHC-Serial-Ship-Cont-Codes.html
 - uid: M:Codeunit::NICSHC_Barcode_Management.GetBarcode_Code128(Text):Text
   name: GetBarcode_Code128
   href: reference/serial-shipping-container-codes/Codeunit/NICSHC-Barcode-Management.html
@@ -18352,7 +18403,16 @@ references:
 - uid: M:Codeunit::nicmdcLabelManagement.OnBeforePrintAsPDFReport(Integer)
   name: OnBeforePrintAsPDFReport
   href: reference/mobile-data-collection/Codeunit/nicmdcLabelManagement.html
-- uid: M:Codeunit::nicmdcLabelManagement.PrintAsPDFReport(Integer,Option):Text
+- uid: M:Codeunit::nicmdcLabelManagement.OnBeforePrintLabelAsPdf(Integer,Enum::NICMDC_Label_Source,Text@,Boolean@)
+  name: OnBeforePrintLabelAsPdf
+  href: reference/mobile-data-collection/Codeunit/nicmdcLabelManagement.html
+- uid: M:Codeunit::nicmdcLabelManagement.OnPrintAsPDFReport(Integer,Enum::NICMDC_Label_Source,OutStream,RecordRef)
+  name: OnPrintAsPDFReport
+  href: reference/mobile-data-collection/Codeunit/nicmdcLabelManagement.html
+- uid: M:Codeunit::nicmdcLabelManagement.OnPrintAsPdfReportOnBeforeGetSetup(nicmdcSetup@)
+  name: OnPrintAsPdfReportOnBeforeGetSetup
+  href: reference/mobile-data-collection/Codeunit/nicmdcLabelManagement.html
+- uid: M:Codeunit::nicmdcLabelManagement.PrintAsPDFReport(Integer,Enum::NICMDC_Label_Source):Text
   name: PrintAsPDFReport
   href: reference/mobile-data-collection/Codeunit/nicmdcLabelManagement.html
 - uid: M:Codeunit::nicmdcLabelManagement.PrintGeneralLabel(Code[50]):Text
@@ -19030,6 +19090,9 @@ references:
 - uid: M:Page::NICMDC_Item_Tracking_Lines_API.CallItemTracking(Transfer_Line@,Enum::Microsoft#Foundation#Enums#Transfer_Direction,Boolean)
   name: CallItemTracking
   href: reference/mobile-data-collection/Page/NICMDC-Item-Tracking-Lines-API.html
+- uid: M:Page::NICMDC_Label_Methods_API.OnAfterMapOptionToEnum(Option,Enum::NICMDC_Label_Source@)
+  name: OnAfterMapOptionToEnum
+  href: reference/mobile-data-collection/Page/NICMDC-Label-Methods-API.html
 - uid: M:Page::NICMDC_Label_Methods_API.PlaceHolder(WebServiceActionContext@)
   name: PlaceHolder
   href: reference/mobile-data-collection/Page/NICMDC-Label-Methods-API.html
@@ -20039,6 +20102,11 @@ references:
   href: reference/mobile-data-collection/Obsoletion/obsolete_by_25.3.html
 - uid: N:Module::Mobile_Data_Collection_obsolete_by_25.3#25.3
   href: reference/mobile-data-collection/Obsoletion/obsolete_by_25.3.html
+- uid: N:Module::Mobile_Data_Collection_obsolete_by_27.1
+  tag: "27.1"
+  href: reference/mobile-data-collection/Obsoletion/obsolete_by_27.1.html
+- uid: N:Module::Mobile_Data_Collection_obsolete_by_27.1#27.1
+  href: reference/mobile-data-collection/Obsoletion/obsolete_by_27.1.html
 - uid: N:Module::Over_Shipping
   name: Over Shipping
   href: reference/over-shipping/Module/Over-Shipping.html
@@ -20085,6 +20153,12 @@ references:
 - uid: N:Module::Serial_Shipping_Container_Codes
   name: Serial Shipping Container Codes
   href: reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.html
+- uid: N:Module::Serial_Shipping_Container_Codes::Namespace::NICSHC
+  name: NICSHC
+  href: reference/serial-shipping-container-codes/Namespace/NICSHC.html
+- uid: N:Module::Serial_Shipping_Container_Codes::Namespace::NICSHC.ShippingContainers
+  name: NICSHC.ShippingContainers
+  href: reference/serial-shipping-container-codes/Namespace/NICSHC.ShippingContainers.html
 - uid: N:Module::Serial_Shipping_Container_Codes_obsolete_by_22.2
   tag: "22.2"
   href: reference/serial-shipping-container-codes/Obsoletion/obsolete_by_22.2.html
@@ -22003,6 +22077,10 @@ references:
   name: "\"NICQIN Upgrade\""
   fqName: Codeunit "NICQIN Upgrade"
   href: reference/quality-inspections/Codeunit/NICQIN-Upgrade.html
+- uid: O:Codeunit::NICSHC#ShippingContainers#NICSHC_Serial_Ship_Cont_Codes
+  name: "\"NICSHC Serial Ship Cont Codes\""
+  fqName: Codeunit NICSHC.ShippingContainers."NICSHC Serial Ship Cont Codes"
+  href: reference/serial-shipping-container-codes/Codeunit/NICSHC.ShippingContainers.NICSHC-Serial-Ship-Cont-Codes.html
 - uid: O:Codeunit::NICSHC_Barcode_Management
   name: "\"NICSHC Barcode Management\""
   fqName: Codeunit "NICSHC Barcode Management"
@@ -22083,6 +22161,10 @@ references:
   name: "\"NICSHC Verify Limitations\""
   fqName: Codeunit "NICSHC Verify Limitations"
   href: reference/serial-shipping-container-codes/Codeunit/NICSHC-Verify-Limitations.html
+- uid: O:Codeunit::NICSHC_WhseActivityAPIHelper
+  name: "\"NICSHC WhseActivityAPIHelper\""
+  fqName: Codeunit "NICSHC WhseActivityAPIHelper"
+  href: reference/serial-shipping-container-codes/Codeunit/NICSHC-WhseActivityAPIHelper.html
 - uid: O:Codeunit::NICSLR_Batch_Management
   name: "\"NICSLR Batch Management\""
   fqName: Codeunit "NICSLR Batch Management"
@@ -22915,6 +22997,10 @@ references:
   name: "\"NICMAS To Production State\""
   fqName: Enum "NICMAS To Production State"
   href: reference/material-staging/Enum/NICMAS-To-Production-State.html
+- uid: O:Enum::NICMDC_Label_Source
+  name: "\"NICMDC Label Source\""
+  fqName: Enum "NICMDC Label Source"
+  href: reference/mobile-data-collection/Enum/NICMDC-Label-Source.html
 - uid: O:Enum::NICPBA_BatchCalculationMethod
   name: "\"NICPBA BatchCalculationMethod\""
   fqName: Enum "NICPBA BatchCalculationMethod"
@@ -23963,6 +24049,14 @@ references:
   name: "\"NICMDC Item Journal Line API\""
   fqName: Page "NICMDC Item Journal Line API"
   href: reference/mobile-data-collection/Page/NICMDC-Item-Journal-Line-API.html
+- uid: O:Page::NICMDC_Item_Jrnl_Batch_API
+  name: "\"NICMDC Item Jrnl Batch API\""
+  fqName: Page "NICMDC Item Jrnl Batch API"
+  href: reference/mobile-data-collection/Page/NICMDC-Item-Jrnl-Batch-API.html
+- uid: O:Page::NICMDC_Item_Jrnl_Template_API
+  name: "\"NICMDC Item Jrnl Template API\""
+  fqName: Page "NICMDC Item Jrnl Template API"
+  href: reference/mobile-data-collection/Page/NICMDC-Item-Jrnl-Template-API.html
 - uid: O:Page::NICMDC_Item_Reclass_API
   name: "\"NICMDC Item Reclass API\""
   fqName: Page "NICMDC Item Reclass API"

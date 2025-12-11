@@ -174,9 +174,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/allergens/Module/Allergens.yml",
       "output": {
@@ -667,9 +664,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/application-installer/Module/Application-Installer.yml",
       "output": {
@@ -800,9 +794,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/backorder-management/Module/Backorder-Management.yml",
       "output": {
@@ -1373,9 +1364,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/customer-insights/Module/Customer-Insights.yml",
       "output": {
@@ -2066,9 +2054,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/foodchain-id-connector/Module/FoodChain-ID-Connector.yml",
       "output": {
@@ -2509,9 +2494,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/forecastx-connector/Module/ForecastX-Connector.yml",
       "output": {
@@ -2912,9 +2894,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/inventory-freshness/Module/Inventory-Freshness.yml",
       "output": {
@@ -4135,9 +4114,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/inventory-restrictions/Module/Inventory-Restrictions.yml",
       "output": {
@@ -5338,9 +5314,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/inventory-shelf-life/Module/Inventory-Shelf-Life.yml",
       "output": {
@@ -6101,9 +6074,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/item-recalls/Module/Item-Recalls.yml",
       "output": {
@@ -6854,9 +6824,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/item-tracked-flushing/Module/Item-Tracked-Flushing.yml",
       "output": {
@@ -7237,9 +7204,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/item-tracking-status-indicator/Module/Item-Tracking-Status-Indicator.yml",
       "output": {
@@ -8330,9 +8294,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/lot-algorithms/Module/Lot-Algorithms.yml",
       "output": {
@@ -9073,9 +9034,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/material-staging/Module/Material-Staging.yml",
       "output": {
@@ -10017,6 +9975,16 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Enum/NICMDC-Label-Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Enum/NICMDC-Label-Source.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/mobile-data-collection/Enum/nicmdc-API-Category.yml",
       "output": {
         ".html": {
@@ -10116,9 +10084,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/mobile-data-collection/Module/Mobile-Data-Collection.yml",
       "output": {
@@ -10154,6 +10119,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/mobile-data-collection/Obsoletion/obsolete_by_25.3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/mobile-data-collection/Obsoletion/obsolete_by_27.1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Obsoletion/obsolete_by_27.1.html"
         }
       },
       "version": ""
@@ -10244,6 +10219,26 @@
       "output": {
         ".html": {
           "relative_path": "reference/mobile-data-collection/Page/NICMDC-Item-Journal-Line-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Page/NICMDC-Item-Jrnl-Batch-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Page/NICMDC-Item-Jrnl-Batch-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/mobile-data-collection/Page/NICMDC-Item-Jrnl-Template-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/mobile-data-collection/Page/NICMDC-Item-Jrnl-Template-API.html"
         }
       },
       "version": ""
@@ -11079,9 +11074,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/over-shipping/Module/Over-Shipping.yml",
       "output": {
@@ -11332,9 +11324,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/payment-signatures/Module/Payment-Signatures.yml",
       "output": {
@@ -11895,9 +11884,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/production-batching/Module/Production-Batching.yml",
       "output": {
@@ -12628,9 +12614,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/production-instructions/Module/Production-Instructions.yml",
       "output": {
@@ -12961,9 +12944,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/production-sequencing/Module/Production-Sequencing.yml",
       "output": {
@@ -13184,9 +13164,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/production-yield-metrics/Module/Production-Yield-Metrics.yml",
       "output": {
@@ -13487,9 +13464,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/purchasing-restrictions/Module/Purchasing-Restrictions.yml",
       "output": {
@@ -14460,9 +14434,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/quality-inspections/Module/Quality-Inspections.yml",
       "output": {
@@ -16213,9 +16184,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/sales-commissions/Module/Sales-Commissions.yml",
       "output": {
@@ -17626,9 +17594,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/sales-rebates/Module/Sales-Rebates.yml",
       "output": {
@@ -18519,9 +18484,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/sales-restrictions/Module/Sales-Restrictions.yml",
       "output": {
@@ -19053,6 +19015,26 @@
     },
     {
       "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/serial-shipping-container-codes/Codeunit/NICSHC-WhseActivityAPIHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/Codeunit/NICSHC-WhseActivityAPIHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/serial-shipping-container-codes/Codeunit/NICSHC.ShippingContainers.NICSHC-Serial-Ship-Cont-Codes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/Codeunit/NICSHC.ShippingContainers.NICSHC-Serial-Ship-Cont-Codes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
       "source_relative_path": "reference/serial-shipping-container-codes/Enum/NICSHC-Filter-Document-Type.yml",
       "output": {
         ".html": {
@@ -19082,14 +19064,31 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.yml",
       "output": {
         ".html": {
           "relative_path": "reference/serial-shipping-container-codes/Module/Serial-Shipping-Container-Codes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralNamespace",
+      "source_relative_path": "reference/serial-shipping-container-codes/Namespace/NICSHC.ShippingContainers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/Namespace/NICSHC.ShippingContainers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralNamespace",
+      "source_relative_path": "reference/serial-shipping-container-codes/Namespace/NICSHC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/serial-shipping-container-codes/Namespace/NICSHC.html"
         }
       },
       "version": ""
@@ -19835,9 +19834,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/teklynx-sentinel-connector/Module/TEKLYNX-SENTINEL-Connector.yml",
       "output": {
@@ -20888,9 +20884,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/treasury-management-suite/Module/Treasury-Management-Suite.yml",
       "output": {
@@ -21531,9 +21524,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/variable-capacity-cost/Module/Variable-Capacity-Cost.yml",
       "output": {
@@ -21904,9 +21894,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/vendor-insights/Module/Vendor-Insights.yml",
       "output": {
@@ -22287,9 +22274,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "ViolateSchema"
-      ],
       "type": "BusinessCentralNamespace",
       "source_relative_path": "reference/warehouse-license-plating/Module/Warehouse-License-Plating.yml",
       "output": {
